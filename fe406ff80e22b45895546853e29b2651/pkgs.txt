@@ -1,0 +1,11 @@
+Docker
+Excel Viewer
+Jupyter 
+Jupyter-QTConsole
+Material Icon Theme
+One Monokai Theme Italic
+R
+R LSP CLient
+Rust
+Rust (rls)
+VS Code Jupyter Notebook Previewer

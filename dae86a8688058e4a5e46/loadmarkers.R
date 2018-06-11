@@ -1,0 +1,6 @@
+library('httr')
+library('jsonlite')
+res <- GET("http://anasim.iet.unipi.it/moniqa/php/loadmarkers.php")
+res <- content(res, as = "text", encoding = "UTF-8")
+df <- jsonlite::fromJSON(res)
+write.csv(df, file="markers.csv", row.names= FALSE)

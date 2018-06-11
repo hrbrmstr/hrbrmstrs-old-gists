@@ -1,0 +1,138 @@
+from models import Req
+from django.core.cache import cache
+from django.conf import settings
+ 
+import json, datetime, base64, urllib2
+
+from emailverification.models import BouncedEmail
+
+import us
+
+# http://whois.arin.net/rest/org/ISUHR/nets
+HOUSE_NET_RANGES = (
+    ("143.231.0.0", "143.231.255.255"),
+    ("137.18.0.0", "137.18.255.255"),
+    ("143.228.0.0", "143.228.255.255"),
+    ("12.185.56.0", "12.185.56.7"),
+    ("12.147.170.144", "12.147.170.159"),
+    ("74.119.128.0", "74.119.131.255"),
+    )
+# http://whois.arin.net/rest/org/USSAA/nets
+SENATE_NET_RANGES = (
+    ("156.33.0.0", "156.33.255.255"),
+    )
+# http://whois.arin.net/rest/org/EXOP/nets
+EOP_NET_RANGES = (
+    ("165.119.0.0", "165.119.255.255"),
+    ("198.137.240.0", "198.137.241.255"),
+    ("204.68.207.0", "204.68.207.255"),
+	)
+
+trending_feeds = None
+
+base_context = {
+    "SITE_ROOT_URL": settings.SITE_ROOT_URL,
+    "GOOGLE_ANALYTICS_KEY": settings.GOOGLE_ANALYTICS_KEY,
+    "FACEBOOK_APP_ID": settings.FACEBOOK_APP_ID,
+}
+
+def template_context_processor(request):
+    # These are good to have in a context processor and not middleware
+    # because they won't be evaluated until template evaluation, which
+    # might have user-info blocked already for caching (a good thing).
+    
+    context = dict(base_context) # clone
+    
+    # Add top-tracked feeds.
+    from events.models import Feed
+    global trending_feeds
+    if settings.DEBUG and False:
+        trending_feeds = [None, []]
+    elif not trending_feeds or trending_feeds[0] < datetime.datetime.now()-datetime.timedelta(hours=2):
+        trf = cache.get("trending_feeds")
+        if not trf:
+            trf = Feed.get_trending_feeds()
+            cache.set("trending_feeds", trf, 60*60*2)
+        trending_feeds = (datetime.datetime.now(), [Feed.objects.get(id=f) for f in trf])
+    context["trending_feeds"] = trending_feeds[1]
+    context["trending_bill_feeds"] = [f for f in trending_feeds[1] if f.feedname.startswith("bill:")]
+
+    # Add site-wide tracked events.
+    all_tracked_events = cache.get("all_tracked_events")
+    if not all_tracked_events:
+        all_tracked_events = Feed.get_events_for([fn for fn in ("misc:activebills2", "misc:billsummaries", "misc:allvotes") if Feed.objects.filter(feedname=fn).exists()], 6)
+        cache.set("all_tracked_events", all_tracked_events, 60*15) # 15 minutes
+    context["all_tracked_events"] = all_tracked_events
+
+    # Get our latest Medium posts.
+    medium_posts = cache.get("medium_posts")
+    if not medium_posts:
+        from website.models import MediumPost
+        medium_posts = MediumPost.objects.order_by('-published')[0:6]
+        cache.set("medium_posts", medium_posts, 60*15) # 15 minutes
+    context["medium_posts"] = medium_posts
+
+    # Add context variables for whether the user is in the
+    # House or Senate netblocks.
+    
+    def ip_to_quad(ip):
+        return [int(s) for s in ip.split(".")]
+    def compare_ips(ip1, ip2):
+        return cmp(ip_to_quad(ip1), ip_to_quad(ip2))
+    def is_ip_in_range(ip, block):
+       return compare_ips(ip, block[0]) >= 0 and compare_ips(ip, block[1]) <= 0
+    def is_ip_in_any_range(ip, blocks):
+       for block in blocks:
+           if is_ip_in_range(ip, block):
+               return True
+       return False
+    
+    try:
+        ip = request.META["REMOTE_ADDR"]
+        ip = ip.replace("::ffff:", "") # ipv6 wrapping ipv4
+        
+        if is_ip_in_any_range(ip, HOUSE_NET_RANGES):
+            context["remote_net_house"] = True
+            request._track_this_user = True
+        if is_ip_in_any_range(ip, SENATE_NET_RANGES):
+            context["remote_net_senate"] = True
+            request._track_this_user = True
+        if is_ip_in_any_range(ip, EOP_NET_RANGES):
+            context["remote_net_eop"] = True
+            request._track_this_user = True
+    except:
+        pass
+    
+    return context
+  
+class GovTrackMiddleware:
+    def process_response(self, request, response):
+		# log some requets for processing later
+        if hasattr(request, "_track_this_user"):
+            uid = request.COOKIES.get("uuid")
+            if not uid:
+                import uuid
+                uid = base64.urlsafe_b64encode(uuid.uuid4().bytes).replace('=', '')
+            response.set_cookie("uuid", uid, max_age=60*60*24*365*10)
+            print "TRACK", uid, datetime.datetime.now().isoformat(), base64.b64encode(repr(request))
+
+        return response
+
+
+class DebugMiddleware:
+    def process_request(self, request):
+        r = Req(request=repr(request))
+        r.save()
+        request._debug_req = r
+        return None
+    def process_response(self, request, response):
+        if getattr(request, "_debug_req", None) != None:
+            request._debug_req.delete()
+            request._debug_req = None
+        return response
+    def process_exception(self, request, exception):
+        if getattr(request, "_debug_req", None) != None:
+            request._debug_req.delete()
+            request._debug_req = None
+        return None
+        

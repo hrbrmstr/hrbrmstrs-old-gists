@@ -1,0 +1,8 @@
+MAKE = make -j8
+F77 = /usr/local/gfortran/bin/gfortran
+FC = /usr/local/gfortran/bin/gfortran
+FLIBS = -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm
+CCACHE_CPP = yes
+CCACHE_CPP2 = yes
+CC = ccache clang -Qunused-arguments
+CXX = ccache clang++ -Qunused-arguments

@@ -1,0 +1,991 @@
+msp_module,port,name
+appletv_display_image.rb,7000,Apple TV Image Remote Control
+appletv_display_video.rb,7000,Apple TV Video Remote Control
+atg_client.rb,10001,Veeder-Root Automatic Tank Gauge (ATG) Administrative Client
+dump.rb,10000,Veritas Backup Exec Windows Remote File Access
+registry.rb,6106,Veritas Backup Exec Server Registry Access
+chromecast_reset.rb,8008,Chromecast Factory Reset DoS
+chromecast_youtube.rb,8008,Chromecast YouTube Remote Control
+cisco_secure_acs_bypass.rb,443,Cisco Secure ACS Unauthorized Password Change
+vpn_3000_ftp_bypass.rb,21,Cisco VPN Concentrator 3000 FTP Unauthorized Administrative Access
+edirectory_dhost_cookie.rb,8030,Novell eDirectory DHOST Predictable Session Cookie
+edirectory_edirutil.rb,8028,Novell eDirectory eMBox Unauthenticated File Access
+alphastor_devicemanager_exec.rb,3000,EMC AlphaStor Device Manager Arbitrary Command Execution
+alphastor_librarymanager_exec.rb,3500,EMC AlphaStor Library Manager Arbitrary Command Execution
+firetv_youtube.rb,8008,Amazon Fire TV YouTube Remote Control
+hp_data_protector_cmd.rb,5555,HP Data Protector 6.1 EXEC_CMD Command Execution
+hp_ilo_create_admin_account.rb,443,HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation
+hp_imc_som_create_account.rb,8080,HP Intelligent Management SOM Account Creation
+axigen_file_access.rb,9000,Axigen Arbitrary File Read and Delete
+cfme_manageiq_evm_pass_reset.rb,443,Red Hat CloudForms Management Engine 5.1 miq_policy/explorer SQL Injection
+cnpilot_r_cmd_exec.rb,80,"""Cambium cnPilot r200/r201 Command Execution as "
+cnpilot_r_fpt.rb,80,Cambium cnPilot r200/r201 File Path Traversal
+dlink_dir_300_600_exec_noauth.rb,80,D-Link DIR-600 / DIR-300 Unauthenticated Remote Command Execution
+foreman_openstack_satellite_priv_esc.rb,443,Foreman (Red Hat OpenStack/Satellite) users/create Mass Assignment
+hp_web_jetadmin_exec.rb,8000,HP Web JetAdmin 6.5 Server Arbitrary Command Execution
+jboss_bshdeployer.rb,8080,JBoss JMX Console Beanshell Deployer WAR Upload and Deployment
+jboss_deploymentfilerepository.rb,8080,JBoss JMX Console DeploymentFileRepository WAR Upload and Deployment
+jboss_seam_exec.rb,8080,JBoss Seam 2 Remote Command Execution
+katello_satellite_priv_esc.rb,443,Katello (Red Hat Satellite) users/update_roles Missing Authorization
+limesurvey_file_download.rb,80,"""Limesurvey Unauthenticated File Download"","
+linksys_wrt54gl_exec.rb,80,Linksys WRT54GL Remote Command Execution
+manageengine_dir_listing.rb,80,"""ManageEngine Multiple Products Arbitrary Directory Listing"","
+manageengine_file_download.rb,80,"""ManageEngine Multiple Products Arbitrary File Download"","
+manageengine_pmp_privesc.rb,7272,ManageEngine Password Manager SQLAdvancedALSearchResult.cc Pro SQL Injection
+mutiny_frontend_read_delete.rb,80,Mutiny 5 Arbitrary File Read and Delete
+netflow_file_download.rb,8080,ManageEngine NetFlow Analyzer Arbitrary File Download
+netgear_auth_download.rb,8080,NETGEAR ProSafe Network Management System 300 Authenticated File Download
+netgear_wnr2000_pass_recovery.rb,80,NETGEAR WNR2000v5 Administrator Password Recovery
+nexpose_xxe_file_read.rb,3780,Nexpose XXE Arbitrary File Read
+novell_file_reporter_filedelete.rb,3037,Novell File Reporter Agent Arbitrary File Delete
+nuuo_nvrmini_reset.rb,8081,NUUO NVRmini 2 / NETGEAR ReadyNAS Surveillance Default Configuration Load and Administrator Password Reset
+scadabr_credential_dump.rb,8080,ScadaBR Credentials Dumper
+sophos_wpa_traversal.rb,443,Sophos Web Protection Appliance patience.cgi Directory Traversal
+telpho10_credential_dump.rb,80,Telpho10 Backup Credentials Dumper
+tomcat_administration.rb,8180,Tomcat Administration Tool Default Access
+tomcat_utf8_traversal.rb,8080,Tomcat UTF-8 Directory Traversal Vulnerability
+trendmicro_dlp_traversal.rb,8443,TrendMicro Data Loss Prevention 5.5 Directory Traversal
+typo3_winstaller_default_enc_keys.rb,8503,TYPO3 Winstaller Default Encryption Keys
+ulterius_file_download.rb,22006,Ulterius Server File Download Vulnerability
+maxdb_cons_exec.rb,7210,SAP MaxDB cons.exe Remote Command Injection
+sercomm_dump_config.rb,32764,"""SerComm Device Configuration Dump"","
+wr850g_cred.rb,80,Motorola WR850G v4.03 Credentials
+ms08_059_his2006.rb,0,Microsoft Host Integration Server 2006 Command Execution Vulnerability
+netbios_spoof.rb,137,NetBIOS Response Brute Force Spoof (Direct)
+tmlisten_traversal.rb,26122,TrendMicro OfficeScanNT Listener Traversal Arbitrary File Access
+osb_execqr.rb,443,Oracle Secure Backup exec_qr() Command Injection Vulnerability
+osb_execqr2.rb,443,Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+osb_execqr3.rb,443,Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+sid_brute.rb,1521,Oracle TNS Listener SID Brute Forcer
+tnscmd.rb,1521,Oracle TNS Listener Command Issuer
+sap_configservlet_exec_noauth.rb,50000,SAP ConfigServlet OS Command Execution
+sap_mgmt_con_osexec.rb,50013,SAP Management Console OSExecute
+ge_proficy_substitute_traversal.rb,80,GE Proficy Cimplicity WebView substitute.bcl Directory Traversal
+modicon_command.rb,502,Schneider Modicon Remote START/STOP Command
+modicon_password_recovery.rb,21,Schneider Modicon Quantum Password Recovery
+modicon_stux_transfer.rb,502,Schneider Modicon Ladder Logic Upload/Download
+moxa_credentials_recovery.rb,4800,Moxa Device Credential Retrieval
+multi_cip_command.rb,44818,Allen-Bradley/Rockwell Automation EtherNet/IP CIP Commands
+yokogawa_bkbcopyd_client.rb,20111,Yokogawa BKBCopyD.exe Client
+file.rb,5168,TrendMicro ServerProtect File Access
+tftp_transfer_util.rb,69,TFTP File Transfer Utility
+poweroff_vm.rb,443,VMWare Power Off Virtual Machine
+poweron_vm.rb,443,VMWare Power On Virtual Machine
+tag_vm.rb,443,VMWare Tag Virtual Machine
+terminate_esx_sessions.rb,443,VMWare Terminate ESX Login Sessions
+edit_html_fileaccess.rb,10000,Webmin edit_html.cgi file Parameter Traversal Arbitrary File Access
+file_disclosure.rb,10000,Webmin File Disclosure
+java_bridge.rb,10001,Zend Server Java Bridge Design Flaw Remote Code Execution
+connect.rb,8080,Hardware Bridge Session Connector
+ios_http_percentpercent.rb,80,Cisco IOS HTTP GET /%% Request Denial of Service
+ios_telnet_rocem.rb,23,Cisco IOS Telnet Denial of Service
+bind_tkey.rb,53,BIND TKEY Query Denial of Service
+bind_tsig.rb,53,BIND TKEY Query Denial of Service
+nfsd_mount.rb,2049,FreeBSD Remote NFS RPC Request Denial of Service
+data_protector_rds.rb,1530,HP Data Protector Manager RDS DOS
+3com_superstack_switch.rb,80,3Com SuperStack Switch Denial of Service
+apache_commons_fileupload_dos.rb,8080,Apache Commons FileUpload and Apache Tomcat DoS
+apache_mod_isapi.rb,80,Apache mod_isapi Dangling Pointer
+apache_range_dos.rb,80,Apache Range Header DoS (Apache Killer)
+apache_tomcat_transfer_encoding.rb,8000,Apache Tomcat Transfer-Encoding Information Disclosure and DoS
+dell_openmanage_post.rb,1311,Dell OpenManage POST Request Heap Overflow (win32)
+monkey_headers.rb,2001,Monkey HTTPD Header Parsing Denial of Service (DoS)
+nodejs_pipelining.rb,80,Node.js HTTP Pipelining Denial of Service
+novell_file_reporter_heap_bof.rb,3037,NFR Agent Heap Overflow Vulnerability
+rails_action_view.rb,80,Ruby on Rails Action View MIME Memory Exhaustion
+sonicwall_ssl_format.rb,443,SonicWALL SSL-VPN Format String Vulnerability
+ua_parser_js_redos.rb,80,ua-parser-js npm module ReDoS
+ws_dos.rb,3000,ws - Denial of Service
+dopewars.rb,7902,Dopewars Denial of Service
+ibm_sametime_webplayer_dos.rb,5060,IBM Lotus Sametime WebPlayer DoS
+ibm_tsm_dos.rb,11460,"""IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service"","
+memcached.rb,11211,Memcached Remote Denial of Service
+ms02_063_pptp_dos.rb,1723,MS02-063 PPTP Malformed Control Data Kernel Denial of Service
+rpcbomb.rb,111,RPC DoS targeting *nix rpcbind/libtirpc
+sap_soap_rfc_eps_delete_file.rb,8000,SAP SOAP EPS_DELETE_FILE File Deletion
+beckhoff_twincat.rb,48899,Beckhoff TwinCAT SCADA PLC 2.11.0.2004 DoS
+d20_tftp_overflow.rb,69,General Electric D20ME TFTP Server Buffer Overflow DoS
+igss9_dataserver.rb,12401,7-Technologies IGSS 9 IGSSdataServer.exe DoS
+yokogawa_logsvr.rb,52302,Yokogawa CENTUM CS 3000 BKCLogSvr.exe Heap Buffer Overflow
+cascade_delete.rb,515,Solaris LPD Arbitrary File Delete
+dtls_fragment_overflow.rb,4433,OpenSSL DTLS Fragment Buffer Overflow DoS
+openssl_aesni.rb,443,OpenSSL TLS 1.1 and 1.2 AES-NI DoS
+rsyslog_long_tag.rb,514,rsyslog Long Tag Off-By-Two DoS
+synflood.rb,80,TCP SYN Flooder
+miniupnpd_dos.rb,1900,MiniUPnPd 1.4 Denial of Service (DoS) Exploit
+appian_bpm.rb,5400,Appian Enterprise Business Suite 5.6 SP1 DoS
+iis75_ftpd_iac_bof.rb,21,Microsoft IIS FTP Server Encoded Response Overflow Trigger
+solarftp_user.rb,21,Solar FTP Server Malformed USER Denial of Service
+kaillera.rb,27888,Kaillera 0.86 Server Denial of Service
+ms10_065_ii6_asp_dos.rb,80,Microsoft IIS 6.0 ASP Stack Exhaustion Denial of Service
+ms11_030_dnsapi.rb,5355,Microsoft Windows DNSAPI.dll LLMNR Buffer Underrun DoS
+nat_helper.rb,53,Microsoft Windows NAT Helper Denial of Service
+ms12_020_maxchannelids.rb,3389,MS12-020 Microsoft Remote Desktop Use-After-Free DoS
+ms09_050_smb2_negotiate_pidhigh.rb,445,Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference
+ms10_054_queryfs_pool_overflow.rb,445,Microsoft Windows SRV.SYS SrvSmbQueryFsInformation Pool Overflow DoS
+ms11_019_electbowser.rb,138,Microsoft Windows Browser Pool DoS
+vista_negotiate_stop.rb,445,Microsoft Vista SP0 SMB Negotiate Protocol DoS
+sysax_sshd_kexchange.rb,22,Sysax Multi-Server 6.10 SSHD Key Exchange Denial of Service
+pt360_write.rb,69,PacketTrap TFTP Server 2.2.5459.0 DoS
+solarwinds.rb,69,SolarWinds TFTP Server 10.4.0.10 Denial of Service
+capwap.rb,5247,Wireshark CAPWAP Dissector DoS
+dns_fuzzer.rb,53,DNS and DNSSEC Fuzzer
+ftp_pre_post.rb,21,Simple FTP Fuzzer
+http_get_uri_long.rb,80,HTTP GET Request URI Fuzzer (Incrementing Lengths)
+http_get_uri_strings.rb,80,HTTP GET Request URI Fuzzer (Fuzzer Strings)
+ntp_protocol_fuzzer.rb,123,NTP Protocol Fuzzer
+smb_negotiate_corrupt.rb,445,SMB Negotiate Dialect Corruption
+smb_ntlm1_login_corrupt.rb,445,SMB NTLMv1 Login Request Corruption
+smb2_negotiate_corrupt.rb,445,SMB Negotiate SMB2 Dialect Corruption
+smtp_fuzzer.rb,25,SMTP Simple Fuzzer
+ssh_kexinit_corrupt.rb,22,SSH Key Exchange Init Corruption
+ssh_version_15.rb,22,SSH 1.5 Version Fuzzer
+ssh_version_2.rb,22,SSH 2.0 Version Fuzzer
+ssh_version_corrupt.rb,22,SSH Version Corruption
+alienvault_iso27001_sqli.rb,443,"""AlienVault Authenticated SQL Injection Arbitrary File Read"","
+alienvault_newpolicyform_sqli.rb,443,"""AlienVault Authenticated SQL Injection Arbitrary File Read"","
+apache_rave_creds.rb,8080,Apache Rave User Information Disclosure
+asterisk_creds.rb,5038,Asterisk Gather Credentials
+checkpoint_hostname.rb,264,CheckPoint Firewall-1 SecuRemote Topology Service Hostname Disclosure
+citrix_published_applications.rb,1604,Citrix MetaFrame ICA Published Applications Scanner
+citrix_published_bruteforce.rb,1604,Citrix MetaFrame ICA Published Applications Bruteforcer
+coldfusion_pwd_props.rb,80,"""ColdFusion "
+d20pass.rb,69,General Electric D20 Password Recovery
+darkcomet_filedownloader.rb,1604,DarkComet Server Remote File Download Exploit
+eaton_nsm_creds.rb,4679,Network Shutdown Module sort_values Credential Dumper
+emc_cta_xxe.rb,443,EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read
+eventlog_cred_disclosure.rb,8400,ManageEngine Eventlog Analyzer Managed Hosts Administrator Credential Disclosure
+hp_enum_perfd.rb,5227,HP Operations Manager Perfd Environment Scanner
+hp_snac_domain_creds.rb,443,HP ProCurve SNAC Domain Controller Credential Dumper
+ibm_sametime_enumerate_users.rb,443,IBM Lotus Notes Sametime User Enumeration
+ibm_sametime_room_brute.rb,443,IBM Lotus Notes Sametime Room Name Bruteforce
+ibm_sametime_version.rb,443,IBM Lotus Sametime Version Enumeration
+impersonate_ssl.rb,443,HTTP SSL Certificate Impersonation
+java_rmi_registry.rb,1099,Java RMI Registry Interfaces Enumeration
+mcafee_epo_xxe.rb,8443,McAfee ePolicy Orchestrator Authenticated XXE Credentials Exposure
+memcached_extractor.rb,11211,Memcached Extractor
+opennms_xxe.rb,8980,OpenNMS Authenticated XXE
+qnap_backtrace_admin_hash.rb,443,QNAP NAS/NVR Administrator Hash Disclosure
+snare_registry.rb,6161,Snare Lite for Windows Registry Access
+solarwinds_orion_sqli.rb,8787,Solarwinds Orion AccountManagement.asmx GetAccounts Admin Creation
+teamtalk_creds.rb,10333,TeamTalk Gather Credentials
+windows_deployment_services_shares.rb,445,Microsoft Windows Deployment Services Unattend Gatherer
+xbmc_traversal.rb,8080,"""XBMC Web Server Directory Traversal"","
+energizer_duo_detect.rb,7777,Energizer DUO Trojan Scanner
+chargen_probe.rb,19,Chargen Probe Utility
+couchdb_enum.rb,5984,CouchDB Enum Utility
+couchdb_login.rb,5984,CouchDB Login Utility
+discovery.rb,523,DB2 Discovery Service Detection
+endpoint_mapper.rb,135,Endpoint Mapper Service Discovery
+management.rb,135,Remote Management Interface Discovery
+tcp_dcerpc_auditor.rb,135,DCERPC TCP Service Auditor
+windows_deployment_services.rb,5040,Microsoft Windows Deployment Services Unattend Retrieval
+dlsw_leak_capture.rb,2067,Cisco DLSw Information Disclosure Scanner
+dns_amp.rb,53,DNS Amplification Scanner
+indices_enum.rb,9200,ElasticSearch Indices Enumeration Utility
+alphastor_devicemanager.rb,3000,EMC AlphaStor Device Manager Service
+alphastor_librarymanager.rb,3500,EMC AlphaStor Library Manager Service
+finger_users.rb,79,Finger Service User Enumerator
+anonymous.rb,21,Anonymous FTP Access Detection
+ftp_login.rb,21,FTP Authentication Scanner
+ftp_version.rb,21,FTP Version Scanner
+titanftp_xcrc_traversal.rb,21,Titan FTP XCRC Directory Traversal Information Disclosure
+gopher_gophermap.rb,70,Gopher gophermap Scanner
+h323_version.rb,1720,H.323 Version Scanner
+accellion_fta_statecode_file_read.rb,443,"""Accellion FTA "
+adobe_xml_inject.rb,8400,Adobe XML External Entity Injection
+apache_activemq_source_disclosure.rb,8161,Apache ActiveMQ JSP Files Source Disclosure
+apache_activemq_traversal.rb,8161,Apache ActiveMQ Directory Traversal
+atlassian_crowd_fileaccess.rb,8095,Atlassian Crowd XML Entity Expansion Remote File Access
+axis_local_file_include.rb,8080,Apache Axis2 v1.4.1 Local File Inclusion
+axis_login.rb,8080,Apache Axis2 Brute Force Utility
+barracuda_directory_traversal.rb,8000,"Barracuda Multiple Product ""locale"" Directory Traversal"
+binom3_login_config_pass_dump.rb,80,"Binom3 Web Management Login Scanner, Config and Password File Dump"
+buffalo_login.rb,80,Buffalo NAS Login Utility
+buildmaster_login.rb,81,Inedo BuildMaster Login Scanner
+cert.rb,443,HTTP SSL Certificate Checker
+chef_webui_login.rb,443,Chef Web UI Brute Force Utility
+chromecast_webserver.rb,8008,Chromecast Web Server Scanner
+chromecast_wifi.rb,8008,Chromecast Wifi Enumeration
+cisco_asa_asdm.rb,443,Cisco ASA ASDM Bruteforce Login Utility
+cisco_ironport_enum.rb,443,Cisco Ironport Bruteforce Login Utility
+cisco_nac_manager_traversal.rb,443,Cisco Network Access Manager Directory Traversal Vulnerability
+cisco_ssl_vpn_priv_esc.rb,443,Cisco ASA SSL VPN Privilege Escalation Vulnerability
+cisco_ssl_vpn.rb,443,Cisco SSL VPN Bruteforce Login Utility
+cnpilot_r_web_login_loot.rb,80,Cambium cnPilot r200/r201 Login Scanner and Config Dump
+concrete5_member_list.rb,80,Concrete5 Member List Enumeration
+elasticsearch_traversal.rb,9200,ElasticSearch Snapshot API Directory Traversal
+epmp1000_cmd_exec.rb,80,Cambium ePMP 1000 (up to v2.5) Arbitrary Command Execution
+epmp1000_dump_config.rb,80,Cambium ePMP 1000 Dump Device Config
+epmp1000_dump_hashes.rb,80,"""Cambium ePMP 1000 "
+epmp1000_get_chart_cmd_exec.rb,80,"""Cambium ePMP 1000 "
+epmp1000_ping_cmd_exec.rb,80,"""Cambium ePMP 1000 "
+epmp1000_reset_pass.rb,80,Cambium ePMP 1000 Account Password Reset
+epmp1000_web_login.rb,80,Cambium ePMP 1000 Login Scanner
+gavazzi_em_login_loot.rb,80,"Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database"
+gitlab_login.rb,80,GitLab Login Utility
+glassfish_login.rb,4848,GlassFish Brute Force Utility
+goahead_traversal.rb,80,Embedthis GoAhead Embedded Web Server Directory Traversal
+groupwise_agents_http_traversal.rb,7181,Novell Groupwise Agents HTTP Directory Traversal
+hp_imc_bims_downloadservlet_traversal.rb,8080,HP Intelligent Management BIMS DownloadServlet Directory Traversal
+hp_imc_faultdownloadservlet_traversal.rb,8080,HP Intelligent Management FaultDownloadServlet Directory Traversal
+hp_imc_ictdownloadservlet_traversal.rb,8080,HP Intelligent Management IctDownloadServlet Directory Traversal
+hp_imc_reportimgservlt_traversal.rb,8080,HP Intelligent Management ReportImgServlt Directory Traversal
+hp_imc_som_file_download.rb,8080,HP Intelligent Management SOM FileDownloadServlet Arbitrary Download
+hp_sitescope_getfileinternal_fileaccess.rb,8080,HP SiteScope SOAP Call getFileInternal Remote File Access
+hp_sitescope_getsitescopeconfiguration.rb,8080,HP SiteScope SOAP Call getSiteScopeConfiguration Configuration Access
+hp_sitescope_loadfilecontent_fileaccess.rb,8080,HP SiteScope SOAP Call loadFileContent Remote File Access
+http_hsts.rb,443,HTTP Strict Transport Security (HSTS) Detection
+influxdb_enum.rb,8086,InfluxDB Enum Utility
+infovista_enum.rb,443,InfoVista VistaPortal Application Bruteforce Login Utility
+intel_amt_digest_bypass.rb,16992,Intel AMT Digest Authentication Bypass Scanner
+jboss_status.rb,8080,JBoss Status Servlet Information Gathering
+jenkins_login.rb,8080,Jenkins-CI Login Utility
+linknat_vos_traversal.rb,80,Linknat Vos Manager Traversal
+manageengine_deviceexpert_traversal.rb,6060,ManageEngine DeviceExpert 5.6 ScheduleResultViewer FileName Traversal
+manageengine_deviceexpert_user_creds.rb,6060,ManageEngine DeviceExpert User Credentials
+mediawiki_svg_fileaccess.rb,80,MediaWiki SVG XML Entity Expansion Remote File Access
+meteocontrol_weblog_extractadmin.rb,8080,Meteocontrol WEBlog Password Extractor
+mybook_live_login.rb,80,Western Digital MyBook Live Login Utility
+netdecision_traversal.rb,8087,NetDecision NOCVision Server Directory Traversal
+novell_file_reporter_fsfui_fileaccess.rb,3037,NFR Agent FSFUI Record Arbitrary Remote File Access
+novell_file_reporter_srs_fileaccess.rb,3037,NFR Agent SRS Record Arbitrary Remote File Access
+octopusdeploy_login.rb,80,Octopus Deploy Login Utility
+open_proxy.rb,8080,HTTP Open Proxy Detection
+openmind_messageos_login.rb,8888,OpenMind Message-OS Portal Login Brute Force Utility
+oracle_demantra_database_credentials_leak.rb,8080,Oracle Demantra Database Credentials Leak
+oracle_demantra_file_retrieval.rb,8080,Oracle Demantra Arbitrary File Retrieval with Authentication Bypass
+oracle_ilom_login.rb,443,Oracle ILO Manager Login Brute Force Utility
+owa_ews_login.rb,443,OWA Exchange Web Services (EWS) Login Scanner
+rips_traversal.rb,80,RIPS Scanner Directory Traversal
+s40_traversal.rb,80,S40 0.4.2 CMS Directory Traversal Vulnerability
+sap_businessobjects_user_brute_web.rb,6405,SAP BusinessObjects Web User Bruteforcer
+sap_businessobjects_user_brute.rb,8080,SAP BusinessObjects User Bruteforcer
+sap_businessobjects_user_enum.rb,8080,SAP BusinessObjects User Enumeration
+sap_businessobjects_version_enum.rb,8080,SAP BusinessObjects Version Detection
+servicedesk_plus_traversal.rb,8080,"""ManageEngine ServiceDesk Plus Path Traversal"","
+smt_ipmi_49152_exposure.rb,49152,Supermicro Onboard IPMI Port 49152 Sensitive File Exposure
+smt_ipmi_static_cert_scanner.rb,443,Supermicro Onboard IPMI Static SSL Certificate Scanner
+sockso_traversal.rb,4444,Sockso Music Host Server 1.5 Directory Traversal
+splunk_web_login.rb,8000,Splunk Web Interface Login Utility
+ssl.rb,443,HTTP SSL Certificate Information
+support_center_plus_directory_traversal.rb,8080,"""ManageEngine Support Center Plus Directory Traversal"","
+surgenews_user_creds.rb,9080,SurgeNews User Credentials
+sybase_easerver_traversal.rb,8000,Sybase Easerver 6.3 Directory Traversal
+symantec_brightmail_ldapcreds.rb,443,Symantec Messaging Gateway 10 Exposure of Stored AD Password Vulnerability
+symantec_brightmail_logfile.rb,41080,Symantec Messaging Gateway 9.5 Log File Download Vulnerability
+titan_ftp_admin_pwd.rb,31001,Titan FTP Administrative Password Disclosure
+tomcat_enum.rb,8080,Apache Tomcat User Enumeration
+tomcat_mgr_login.rb,8080,Tomcat Application Manager Login Utility
+wangkongbao_traversal.rb,85,WANGKONGBAO CNS-1000 and 1100 UTM Directory Traversal
+wildfly_traversal.rb,8080,WildFly Directory Traversal
+wordpress_xmlrpc_login.rb,80,Wordpress XML-RPC Username/Password Login Scanner
+yaws_traversal.rb,8080,"""Yaws Web Server Directory Traversal"","
+zabbix_login.rb,80,Zabbix Server Brute Force Utility
+zenworks_assetmanagement_fileaccess.rb,8080,Novell ZENworks Asset Management 7.5 Remote File Access
+zenworks_assetmanagement_getconfig.rb,8080,Novell ZENworks Asset Management 7.5 Configuration Access
+cisco_ike_benigncertain.rb,500,Cisco IKE Information Disclosure
+ipidseq.rb,80,IPID Sequence Scanner
+ipmi_cipher_zero.rb,623,IPMI 2.0 Cipher Zero Authentication Bypass Scanner
+ipmi_dumphashes.rb,623,IPMI 2.0 RAKP Remote SHA1 Password Hash Retrieval
+ipmi_version.rb,623,IPMI Information Discovery
+server_info.rb,4672,Gather Kademlia Server Information
+memcached_amp.rb,11211,Memcached Stats Amplification Scanner
+memcached_udp_version.rb,11211,Memcached UDP Version Scanner
+cctv_dvr_login.rb,5920,CCTV DVR Login Scanning Utility
+cisco_smart_install.rb,4786,Identify Cisco Smart Install endpoints
+clamav_control.rb,3310,ClamAV Remote Command Transmitter
+dahua_dvr_auth_bypass.rb,37777,"%q(Dahua DVR Auth Bypass Scanner),"
+easycafe_server_fileaccess.rb,831,EasyCafe Server Remote File Access
+ib_service_mgr_info.rb,3050,Borland InterBase Services Manager Information
+java_rmi_server.rb,1099,Java RMI Server Insecure Endpoint Code Execution Scanner
+raysharp_dvr_passwords.rb,9000,Ray Sharp DVR Password Retriever
+rosewill_rxs3211_passwords.rb,13364,Rosewill RXS-3211 IP Camera Password Retriever
+sercomm_backdoor_scanner.rb,32764,SerComm Network Device Backdoor Detection
+zenworks_preboot_fileaccess.rb,998,Novell ZENworks Configuration Management Preboot Service Remote File Access
+mongodb_login.rb,27017,MongoDB Login Utility
+timbuktu_udp.rb,407,Motorola Timbuktu Service Detection
+msf_rpc_login.rb,55553,Metasploit RPC Interface Login Utility
+msf_web_login.rb,3790,Metasploit Web Interface Login Utility
+mysql_version.rb,3306,MySQL Server Version Enumeration
+nessus_ntp_login.rb,1241,Nessus NTP Login Utility
+nessus_rest_login.rb,8834,Nessus RPC Interface Login Utility
+nessus_xmlrpc_login.rb,8834,Nessus XMLRPC Interface Login Utility
+nessus_xmlrpc_ping.rb,8834,Nessus XMLRPC Interface Ping Utility
+nbname.rb,137,NetBIOS Information Discovery
+nexpose_api_login.rb,3780,NeXpose API Interface Login Utility
+nntp_login.rb,119,NNTP Login Utility
+openvas_gsad_login.rb,443,OpenVAS gsad Web Interface Login Utility
+openvas_omp_login.rb,9390,OpenVAS OMP Login Utility
+openvas_otp_login.rb,9391,OpenVAS OTP Login Utility
+emc_sid.rb,1158,Oracle Enterprise Manager Control SID Discovery
+isqlplus_login.rb,5560,Oracle iSQL*Plus Login Utility
+isqlplus_sidbrute.rb,5560,Oracle iSQLPlus SID Check
+sid_brute.rb,1521,Oracle TNS Listener SID Bruteforce
+sid_enum.rb,1521,Oracle TNS Listener SID Enumeration
+spy_sid.rb,1158,Oracle Application Server Spy Servlet SID Enumeration
+tnslsnr_version.rb,1521,Oracle TNS Listener Service Version Query
+tnspoison_checker.rb,1521,Oracle TNS Listener Checker
+xdb_sid_brute.rb,8080,Oracle XML DB SID Discovery via Brute Force
+xdb_sid.rb,8080,Oracle XML DB SID Discovery
+pcanywhere_login.rb,5631,PcAnywhere Login Scanner
+pcanywhere_tcp.rb,5631,PcAnywhere TCP Service Discovery
+pcanywhere_udp.rb,5632,PcAnywhere UDP Service Discovery
+pop3_login.rb,110,POP3 Login Utility
+pop3_version.rb,110,POP3 Banner Grabber
+portmap_amp.rb,111,Portmapper Amplification Scanner
+postgres_dbname_flag_injection.rb,5432,PostgreSQL Database Name Command Line Flag Injection
+canon_iradv_pwd_extract.rb,8000,Canon IR-Adv Password Extractor
+server_info.rb,27960,Gather Quake Server Information
+rdp_scanner.rb,3389,Identify endpoints speaking the Remote Desktop Protocol (RDP)
+redis_server.rb,6379,Redis Command Execute Scanner
+rexec_login.rb,512,rexec Authentication Scanner
+rlogin_login.rb,513,rlogin Authentication Scanner
+rsh_login.rb,514,rsh Authentication Scanner
+modules_list.rb,873,List Rsync Modules
+sap_ctc_verb_tampering_user_mgmt.rb,50000,SAP CTC Service Verb Tampering User Management
+sap_hostctrl_getcomputersystem.rb,1128,SAP Host Agent Information Disclosure
+sap_icf_public_info.rb,8000,SAP ICF /sap/public/info Service Sensitive Information Gathering
+sap_mgmt_con_abaplog.rb,50013,SAP Management Console ABAP Syslog Disclosure
+sap_mgmt_con_brute_login.rb,50013,SAP Management Console Brute Force
+sap_mgmt_con_extractusers.rb,50013,SAP Management Console Extract Users
+sap_mgmt_con_getaccesspoints.rb,50013,SAP Management Console Get Access Points
+sap_mgmt_con_getenv.rb,50013,SAP Management Console getEnvironment
+sap_mgmt_con_getlogfiles.rb,50013,SAP Management Console Get Logfile
+sap_mgmt_con_getprocesslist.rb,50013,SAP Management Console GetProcessList
+sap_mgmt_con_getprocessparameter.rb,50013,SAP Management Console Get Process Parameters
+sap_mgmt_con_instanceproperties.rb,50013,SAP Management Console Instance Properties
+sap_mgmt_con_listlogfiles.rb,50013,SAP Management Console List Logfiles
+sap_mgmt_con_startprofile.rb,50013,SAP Management Console getStartProfile
+sap_mgmt_con_version.rb,50013,SAP Management Console Version Detection
+sap_router_info_request.rb,3299,SAPRouter Admin Request
+sap_smb_relay.rb,8000,SAP SMB Relay Abuse
+sap_soap_bapi_user_create1.rb,8000,SAP /sap/bc/soap/rfc SOAP Service BAPI_USER_CREATE1 Function User Creation
+sap_soap_rfc_brute_login.rb,8000,SAP SOAP Service RFC_PING Login Brute Forcer
+sap_soap_rfc_dbmcli_sxpg_command_exec.rb,8000,SAP /sap/bc/soap/rfc SOAP Service SXPG_COMMAND_EXEC Function Command Injection
+sap_soap_rfc_eps_get_directory_listing.rb,8000,SAP SOAP RFC EPS_GET_DIRECTORY_LISTING Directories Information Disclosure
+sap_soap_rfc_ping.rb,8000,SAP /sap/bc/soap/rfc SOAP Service RFC_PING Function Service Discovery
+sap_soap_rfc_read_table.rb,8000,SAP /sap/bc/soap/rfc SOAP Service RFC_READ_TABLE Function Dump Data
+sap_soap_rfc_susr_rfc_user_interface.rb,8000,SAP /sap/bc/soap/rfc SOAP Service SUSR_RFC_USER_INTERFACE Function User Creation
+sap_soap_rfc_sxpg_call_system_exec.rb,8000,SAP /sap/bc/soap/rfc SOAP Service SXPG_CALL_SYSTEM Function Command Execution
+sap_soap_rfc_sxpg_command_exec.rb,8000,SAP SOAP RFC SXPG_COMMAND_EXECUTE
+sap_soap_rfc_system_info.rb,8000,SAP /sap/bc/soap/rfc SOAP Service RFC_SYSTEM_INFO Function Sensitive Information Gathering
+sap_soap_th_saprel_disclosure.rb,8000,SAP /sap/bc/soap/rfc SOAP Service TH_SAPREL Function Information Disclosure
+sap_web_gui_brute_login.rb,8000,SAP Web GUI Login Brute Forcer
+digi_addp_reboot.rb,2362,Digi ADDP Remote Reboot Initiator
+digi_addp_version.rb,2362,Digi ADDP Information Discovery
+koyo_login.rb,28784,Koyo DirectLogic PLC Password Brute Force Utility
+modbus_findunitid.rb,502,Modbus Unit ID and Station ID Enumerator
+modbusclient.rb,502,Modbus Client Utility
+modbusdetect.rb,502,Modbus Version Scanner
+moxa_discover.rb,4800,Moxa UDP Device Discovery
+sielco_winlog_fileaccess.rb,46824,Sielco Sistemi Winlog Remote File Access
+enumerator_tcp.rb,5060,SIP Username Enumerator (TCP)
+enumerator.rb,5060,SIP Username Enumerator (UDP)
+options_tcp.rb,5060,SIP Endpoint Scanner (TCP)
+options.rb,5060,SIP Endpoint Scanner (UDP)
+smb1.rb,445,SMBv1 Protocol Detection
+smb2.rb,445,SMB 2.0 Protocol Detection
+smtp_enum.rb,25,SMTP User Enumeration Utility
+smtp_ntlm_domain.rb,25,SMTP NTLM Domain Extraction
+snmp_login.rb,161,SNMP Community Login Scanner
+apache_karaf_command_execution.rb,8101,"""Apache Karaf Default Credentials Command Execution"","
+cerberus_sftp_enumusers.rb,22,Cerberus FTP Server SFTP Username Enumeration
+detect_kippo.rb,22,Kippo SSH Honeypot Detector
+fortinet_backdoor.rb,22,Fortinet SSH Backdoor Scanner
+juniper_backdoor.rb,22,Juniper SSH Backdoor Scanner
+karaf_login.rb,8101,Apache Karaf Login Utility
+ssh_enumusers.rb,22,SSH Username Enumeration
+ssh_identify_pubkeys.rb,22,SSH Public Key Acceptance Scanner
+ssh_login_pubkey.rb,22,SSH Public Key Login Scanner
+ssh_login.rb,22,SSH Login Check Scanner
+ssh_version.rb,22,SSH Version Scanner
+openssl_ccs.rb,443,OpenSSL Server-Side ChangeCipherSpec Injection Scanner
+openssl_heartbleed.rb,443,OpenSSL Heartbeat (Heartbleed) Information Leak
+server_info.rb,27015,Gather Steam Server Information
+lantronix_telnet_password.rb,30718,Lantronix Telnet Password Recovery
+lantronix_telnet_version.rb,9999,Lantronix Telnet Service Banner Detection
+satel_cmd_exec.rb,5000,Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability
+telnet_encrypt_overflow.rb,23,Telnet Service Encryption Key ID Overflow Detection
+telnet_ruggedcom.rb,23,RuggedCom Telnet Password Generator
+telnet_version.rb,23,Telnet Service Banner Detection
+ipswitch_whatsupgold_tftp.rb,69,"""IpSwitch WhatsUp Gold TFTP Directory Traversal"","
+netdecision_tftp.rb,69,"""NetDecision 4.2 TFTP Directory Traversal"","
+tftpbrute.rb,69,TFTP Brute Forcer
+example.rb,12345,UDP Scanner Example
+ssdp_amp.rb,1900,SSDP ssdp:all M-SEARCH Amplification Scanner
+ssdp_msearch.rb,1900,UPnP SSDP M-SEARCH Information Discovery
+varnish_cli_login.rb,6082,Varnish Cache CLI Login Utility
+esx_fingerprint.rb,443,VMWare ESX/ESXi Fingerprint Scanner
+vmauthd_login.rb,902,VMWare Authentication Daemon Login Scanner
+vmauthd_version.rb,902,VMWare Authentication Daemon Version Scanner
+vmware_enum_permissions.rb,443,VMWare Enumerate Permissions
+vmware_enum_sessions.rb,443,VMWare Enumerate Active Sessions
+vmware_enum_users.rb,443,VMWare Enumerate User Accounts
+vmware_enum_vms.rb,443,VMWare Enumerate Virtual Machines
+vmware_host_details.rb,443,VMWare Enumerate Host Details
+vmware_http_login.rb,443,VMWare Web Login Scanner
+vmware_screenshot_stealer.rb,443,VMWare Screenshot Stealer
+vmware_server_dir_trav.rb,8222,VMware Server Directory Traversal Vulnerability
+vmware_update_manager_traversal.rb,9084,"""VMWare Update Manager 4 Directory Traversal"","
+ard_root_pw.rb,5900,Apple Remote Desktop Root Vulnerability
+vnc_login.rb,5900,VNC Authentication Scanner
+vnc_none_auth.rb,5900,VNC Authentication None Detection
+wdbrpc_bootline.rb,17185,VxWorks WDB Agent Boot Parameter Scanner
+wdbrpc_version.rb,17185,VxWorks WDB Agent Version Scanner
+wsdd_query.rb,3702,WS-Discovery Information Discovery
+open_x11.rb,6000,X11 No-Auth Scanner
+asterisk_login.rb,5038,Asterisk Manager Login Utility
+sip_deregister.rb,5060,SIP Deregister Extension
+sip_invite_spoof.rb,5060,SIP Invite Spoof
+adb_server_exec.rb,5555,Android ADB Debug Server Remote Payload Execution
+cydia_default_ssh.rb,22,"""Apple iOS Default SSH Password Vulnerability"","
+proftp_telnet_iac.rb,21,ProFTPD 1.3.2rc3 - 1.3.3b Telnet IAC Buffer Overflow (FreeBSD)
+watchguard_cmd_exec.rb,443,Watchguard XCS Remote Command Execution
+trans2open.rb,139,Samba trans2open Overflow (*BSD x86)
+xtacacsd_report.rb,49,XTACACSD report() Buffer Overflow
+cleanup_exec.rb,515,HP-UX LPD Command Execution
+tagprinter_exec.rb,515,Irix LPD tagprinter Command Execution
+escan_password_exec.rb,10080,"""eScan Web Management Console Command Injection"","
+proftp_telnet_iac.rb,21,ProFTPD 1.3.2rc3 - 1.3.3b Telnet IAC Buffer Overflow (Linux)
+ut2004_secure.rb,7787,"Unreal Tournament 2004 ""secure"" Overflow (Linux)"
+accellion_fta_getstatus_oauth.rb,443,Accellion FTA getStatus verify_oauth_token Command Execution
+advantech_switch_bash_env_exec.rb,80,Advantech Switch Bash Environment Variable Code Injection (Shellshock)
+alcatel_omnipcx_mastercgi_exec.rb,443,Alcatel-Lucent OmniPCX Enterprise masterCGI Arbitrary Command Execution
+alienvault_exec.rb,443,"""AlienVault OSSIM/USM Remote Code Execution"","
+alienvault_sqli_exec.rb,443,"""AlienVault OSSIM SQL Injection and Remote Code Execution"","
+apache_continuum_cmd_exec.rb,8080,Apache Continuum Arbitrary Command Execution
+asuswrt_lan_rce.rb,9999,AsusWRT LAN Unauthenticated Remote Code Execution
+centreon_useralias_exec.rb,80,Centreon Web Useralias Command Execution
+cfme_manageiq_evm_upload_exec.rb,443,Red Hat CloudForms Management Engine 5.1 agent/linuxpkgs Path Traversal
+crypttech_cryptolog_login_exec.rb,80,"""Crypttech CryptoLog Remote Code Execution"","
+dcos_marathon.rb,8080,DC/OS Marathon UI Docker Exploit
+dlink_hnap_login_bof.rb,80,Dlink DIR Routers Unauthenticated HNAP Login Stack Buffer Overflow
+dlink_upnp_exec_noauth.rb,49152,D-Link Devices UPnP SOAP Command Execution
+docker_daemon_tcp.rb,2375,Docker Daemon - Unprotected TCP Socket Exploit
+empire_skywalker.rb,8080,PowerShellEmpire Arbitrary File Upload (Skywalker)
+f5_icall_cmd.rb,443,"""F5 iControl iCall::Script Root Command Execution"","
+f5_icontrol_exec.rb,443,"""F5 iControl Remote Root Command Execution"","
+foreman_openstack_satellite_code_exec.rb,443,Foreman (Red Hat OpenStack/Satellite) bookmarks/create Code Injection
+gpsd_format_string.rb,2947,Berlios GPSD Format String Vulnerability
+hp_system_management.rb,2381,HP System Management Anonymous Access Code Execution
+ipfire_bashbug_exec.rb,444,IPFire Bash Environment Variable Injection (Shellshock)
+ipfire_oinkcode_exec.rb,444,IPFire proxy.cgi RCE
+ipfire_proxy_exec.rb,444,IPFire proxy.cgi RCE
+kloxo_sqli.rb,7778,Kloxo SQL Injection and Remote Code Execution
+lifesize_uvc_ping_rce.rb,443,"""LifeSize UVC Authenticated RCE via Ping"","
+mutiny_frontend_upload.rb,80,Mutiny 5 Arbitrary File Upload
+netgear_dnslookup_cmd_exec.rb,80,"""Netgear DGN2200 dnslookup.cgi Command Injection"","
+netgear_r7000_cgibin_exec.rb,80,"""Netgear R7000 and R6400 cgi-bin Command Injection"","
+netgear_readynas_exec.rb,443,NETGEAR ReadyNAS Perl Code Evaluation
+netgear_wnr2000_rce.rb,80,NETGEAR WNR2000v5 (Un)authenticated hidden_lang_avi Stack Overflow
+nuuo_nvrmini_auth_rce.rb,8081,NUUO NVRmini 2 / Crystal / NETGEAR ReadyNAS Surveillance Authenticated Remote Code Execution
+nuuo_nvrmini_unauth_rce.rb,8081,NUUO NVRmini 2 / NETGEAR ReadyNAS Surveillance Unauthenticated Remote Code Execution
+op5_config_exec.rb,443,op5 v7.1.9 Configuration Command Execution
+openfiler_networkcard_exec.rb,446,"""Openfiler v2.x NetworkCard Command Execution"","
+pandora_fms_exec.rb,8023,"""Pandora FMS Remote Code Execution"","
+panos_readsessionvars.rb,443,Palo Alto Networks readSessionVarsFromFile() Session Corruption
+peercast_url.rb,7144,PeerCast URL Handling Buffer Overflow
+pineapp_ldapsyncnow_exec.rb,7443,PineApp Mail-SeCure ldapsyncnow.php Arbitrary Command Execution
+pineapp_livelog_exec.rb,7443,PineApp Mail-SeCure livelog.html Arbitrary Command Execution
+pineapp_test_li_conn_exec.rb,7443,PineApp Mail-SeCure test_li_connection.php Arbitrary Command Execution
+pineapple_bypass_cmdinject.rb,1471,Hak5 WiFi Pineapple Preconfiguration Command Injection
+pineapple_preconfig_cmdinject.rb,1471,Hak5 WiFi Pineapple Preconfiguration Command Injection
+rancher_server.rb,8080,Rancher Server - Docker Exploit
+realtek_miniigd_upnp_exec_noauth.rb,52869,Realtek SDK Miniigd UPnP SOAP Command Execution
+riverbed_netprofiler_netexpress_exec.rb,443,"""Riverbed SteelCentral NetProfiler/NetExpress Remote Code Execution"","
+sophos_wpa_iface_exec.rb,443,Sophos Web Protection Appliance Interface Authenticated Arbitrary Command Execution
+sophos_wpa_sblistpack_exec.rb,443,Sophos Web Protection Appliance sblistpack Arbitrary Command Execution
+supervisor_xmlrpc_exec.rb,9001,"""Supervisor XML-RPC Authenticated Remote Code Execution"","
+symantec_messaging_gateway_exec.rb,443,"""Symantec Messaging Gateway Remote Code Execution"","
+synology_dsm_sliceupload_exec_noauth.rb,5000,"""Synology DiskStation Manager SLICEUPLOAD Remote Command Execution"","
+tiki_calendar_exec.rb,80,Tiki-Wiki CMS Calendar Command Execution
+tr064_ntpserver_cmdinject.rb,7547,Zyxel/Eir D1000 DSL Modem NewNTPServer Command Injection Over TR-064
+trend_micro_imsva_exec.rb,8445,Trend Micro InterScan Messaging Security (Virtual Appliance) Remote Code Execution
+trueonline_billion_5200w_rce.rb,80,TrueOnline / Billion 5200W-T Router Unauthenticated Command Injection
+trueonline_p660hn_v1_rce.rb,80,TrueOnline / ZyXEL P660HN-T v1 Router Unauthenticated Command Injection
+trueonline_p660hn_v2_rce.rb,80,TrueOnline / ZyXEL P660HN-T v2 Router Authenticated Command Injection
+ueb9_api_storage.rb,443,Unitrends UEB 9 http api/storage remote root
+zen_load_balancer_exec.rb,444,"""ZEN Load Balancer Filelog Command Execution"","
+zenoss_showdaemonxmlconfig_exec.rb,8080,Zenoss 3 showDaemonXMLConfig Command Execution
+alienvault_centerd_soap_exec.rb,40007,AlienVault OSSIM av-centerd Command Injection
+snortbopre.rb,9080,Snort Back Orifice Pre-Preprocessor Buffer Overflow
+accellion_fta_mpipe2.rb,8812,Accellion FTA MPIPE2 Command Execution
+asus_infosvr_auth_bypass_exec.rb,9999,ASUS infosvr Auth Bypass Command Execution
+drb_remote_codeexec.rb,8787,Distributed Ruby Remote Code Execution
+gld_postfix.rb,2525,GLD (Greylisting Daemon) Postfix Buffer Overflow
+hikvision_rtsp_bof.rb,554,Hikvision DVR RTSP Request Remote Code Execution
+hp_data_protector_cmd_exec.rb,5555,HP Data Protector 6 EXEC_CMD Remote Code Execution
+hp_nnmi_pmd_bof.rb,7426,HP Network Node Manager I PMD Buffer Overflow
+hplip_hpssd_exec.rb,2207,HPLIP hpssd.py From Address Arbitrary Command Execution
+ib_inet_connect.rb,3050,Borland InterBase INET_connect() Buffer Overflow
+ib_jrd8_create_database.rb,3050,Borland InterBase jrd8_create_database() Buffer Overflow
+ib_open_marker_file.rb,3050,Borland InterBase open_marker_file() Buffer Overflow
+ib_pwd_db_aliased.rb,3050,Borland InterBase PWD_db_aliased() Buffer Overflow
+lprng_format_string.rb,515,LPRng use_syslog Remote Format String Vulnerability
+mongod_native_helper.rb,27017,MongoDB nativeHelper.apply Remote Code Execution
+nagios_nrpe_arguments.rb,5666,Nagios Remote Plugin Executor Arbitrary Command Execution
+netcore_udp_53413_backdoor.rb,53413,Netcore Router Udp 53413 Backdoor
+netsupport_manager_agent.rb,5405,NetSupport Manager Agent Remote Buffer Overflow
+novell_edirectory_ncp_bof.rb,524,Novell eDirectory 8 Buffer Overflow
+opennms_java_serialize.rb,1099,OpenNMS Java Object Unserialization Remote Code Execution
+qnap_transcode_server.rb,9251,QNAP Transcode Server Command Execution
+quest_pmmasterd_bof.rb,12345,Quest Privilege Manager pmmasterd Buffer Overflow
+sercomm_exec.rb,32764,"""SerComm Device Remote Code Execution"","
+ueb9_bpserverd.rb,1743,Unitrends UEB bpserverd authentication bypass RCE
+zabbix_server_exec.rb,10051,Zabbix Server Arbitrary Command Execution
+mysql_yassl_getname.rb,3306,MySQL yaSSL CertDecoder::GetName Buffer Overflow
+mysql_yassl_hello.rb,3306,MySQL yaSSL SSL Hello Message Buffer Overflow
+cyrus_pop3d_popsubfolders.rb,110,Cyrus IMAPD pop3d popsubfolders USER Buffer Overflow
+poptop_negative_read.rb,1723,Poptop Negative Read Overflow
+chain_reply.rb,139,Samba chain_reply Memory Corruption (Linux x86)
+trans2open.rb,139,Samba trans2open Overflow (Linux x86)
+exim_gethostbyname_bof.rb,25,Exim GHOST (glibc gethostbyname) Buffer Overflow
+ceragon_fibeair_known_privkey.rb,22,Ceragon FibeAir IP-10 SSH Private Key Exposure
+exagrid_known_privkey.rb,22,ExaGrid Known SSH Key and Default Password
+f5_bigip_known_privkey.rb,22,F5 BIG-IP SSH Private Key Exposure
+loadbalancerorg_enterprise_known_privkey.rb,22,Loadbalancer.org Enterprise VA SSH Private Key Exposure
+mercurial_ssh_exec.rb,22,"""Mercurial Custom hg-ssh Wrapper Remote Code Exec"","
+quantum_dxi_known_privkey.rb,22,Quantum DXi V1000 SSH Private Key Exposure
+quantum_vmpro_backdoor.rb,22,"""Quantum vmPRO Backdoor Command"","
+solarwinds_lem_exec.rb,32022,"""SolarWind LEM Default SSH Password Remote Code Execution"","
+symantec_smg_ssh.rb,22,"""Symantec Messaging Gateway 9.5 Default SSH Password Vulnerability"","
+ubiquiti_airos_file_upload.rb,443,Ubiquiti airOS Arbitrary File Upload
+vmware_vdp_known_privkey.rb,22,VMware VDP Known SSH Key
+netgear_telnetenable.rb,23,NETGEAR TelnetEnable
+dlink_upnp_msearch_exec.rb,1900,D-Link Unauthenticated UPnP M-SEARCH Multicast Command Injection
+miniupnpd_soap_bof.rb,5555,MiniUPnPd 1.0 Stack Buffer Overflow Remote Code Execution
+ftp_jcl_creds.rb,21,FTP JCL Execution
+script_mvel_rce.rb,9200,ElasticSearch Dynamic Script Arbitrary Java Execution
+search_groovy_script.rb,9200,ElasticSearch Search Groovy Sandbox Bypass
+pureftpd_bash_env_exec.rb,21,Pure-FTPd External Authentication Bash Environment Variable Code Injection (Shellshock)
+wuftpd_site_exec_format.rb,21,WU-FTPD SITE EXEC/INDEX Format String Vulnerability
+apache_activemq_upload_jsp.rb,8161,ActiveMQ web shell upload
+apache_jetspeed_file_upload.rb,8080,Apache Jetspeed Arbitrary File Upload
+apache_roller_ognl_injection.rb,8080,Apache Roller OGNL Injection
+axis2_deployer.rb,8080,Axis2 / SAP BusinessObjects Authenticated Code Execution (via SOAP)
+bassmaster_js_injection.rb,8080,Bassmaster Batch Arbitrary JavaScript Injection Remote Code Execution
+cups_bash_env_exec.rb,631,CUPS Filter Bash Environment Variable Code Injection (Shellshock)
+eaton_nsm_code_exec.rb,4679,Network Shutdown Module (sort_values) Remote PHP Code Injection
+eventlog_file_upload.rb,8400,ManageEngine Eventlog Analyzer Arbitrary File Upload
+glassfish_deployer.rb,4848,"""Sun/Oracle GlassFish Server Authenticated Code Execution"","
+hp_sitescope_issuesiebelcmd.rb,8080,HP SiteScope issueSiebelCmd Remote Code Execution
+hp_sitescope_uploadfileshandler.rb,8080,HP SiteScope Remote Code Execution
+hp_sys_mgmt_exec.rb,2381,"""HP System Management Homepage JustGetSNMPQueue Command Injection"","
+hyperic_hq_script_console.rb,7443,VMware Hyperic HQ Groovy Script-Console Java Execution
+jboss_bshdeployer.rb,8080,JBoss JMX Console Beanshell Deployer WAR Upload and Deployment
+jboss_deploymentfilerepository.rb,8080,JBoss Java Class DeploymentFileRepository WAR Deployment
+jboss_invoke_deploy.rb,8080,JBoss DeploymentFileRepository WAR Deployment (via JMXInvokerServlet)
+jboss_maindeployer.rb,8080,JBoss JMX Console Deployer Upload and Execute
+jboss_seam_upload_exec.rb,8080,JBoss Seam 2 File Upload and Execute
+manageengine_auth_upload.rb,8080,ManageEngine Multiple Products Authenticated File Upload
+manageengine_sd_uploader.rb,8080,ManageEngine ServiceDesk Plus Arbitrary File Upload
+metasploit_static_secret_key_base.rb,3790,Metasploit Web UI Static secret_key_base Value
+netwin_surgeftp_exec.rb,7021,Netwin SurgeFTP Remote Command Execution
+op5_license.rb,443,OP5 license.php Remote Command Execution
+op5_welcome.rb,443,OP5 welcome Remote Command Execution
+openfire_auth_bypass.rb,9090,Openfire Admin Console Authentication Bypass
+opmanager_socialit_file_upload.rb,80,ManageEngine OpManager and Social IT Arbitrary File Upload
+oracle_ats_file_upload.rb,8088,Oracle ATS Arbitrary File Upload
+orientdb_exec.rb,2480,OrientDB 2.2.x Remote Code Execution
+plone_popen2.rb,8080,Plone and Zope XMLTools Remote Command Execution
+rails_actionpack_inline_exec.rb,80,Ruby on Rails ActionPack Inline ERB Code Execution
+rails_dynamic_render_code_exec.rb,3000,Ruby on Rails Dynamic Render File Upload Remote Code Execution
+rails_json_yaml_code_exec.rb,80,Ruby on Rails JSON Processor YAML Deserialization Code Execution
+rails_secret_deserialization.rb,80,Ruby on Rails Known Secret Session Cookie Remote Code Execution
+rails_web_console_v2_code_exec.rb,3000,Ruby on Rails Web Console (v2) Whitelist Bypass Code Execution
+rails_xml_yaml_code_exec.rb,80,Ruby on Rails XML Processor YAML Deserialization Code Execution
+rocket_servergraph_file_requestor_rce.rb,8888,Rocket Servergraph Admin Center fileRequestor Remote Code Execution
+solarwinds_store_manager_auth_filter.rb,9000,SolarWinds Storage Manager Authentication Bypass
+sonicwall_gms_upload.rb,80,SonicWALL GMS 6 Arbitrary File Upload
+splunk_mappy_exec.rb,8000,Splunk Search Remote Code Execution
+splunk_upload_app_exec.rb,8000,Splunk Custom App Remote Code Execution
+struts_code_exec_classloader.rb,8080,Apache Struts ClassLoader Manipulation Remote Code Execution
+struts_code_exec_exception_delegator.rb,8080,Apache Struts Remote Command Execution
+struts_code_exec_parameters.rb,8080,Apache Struts ParametersInterceptor Remote Code Execution
+struts_code_exec.rb,8080,Apache Struts Remote Command Execution
+struts_default_action_mapper.rb,8080,Apache Struts 2 DefaultActionMapper Prefixes OGNL Code Execution
+struts_dev_mode.rb,8080,Apache Struts 2 Developer Mode OGNL Execution
+struts_dmi_exec.rb,8080,Apache Struts Dynamic Method Invocation Remote Code Execution
+struts_dmi_rest_exec.rb,8080,Apache Struts REST Plugin With Dynamic Method Invocation Remote Code Execution
+struts_include_params.rb,8080,Apache Struts includeParams Remote Code Execution
+struts2_code_exec_showcase.rb,8080,Apache Struts 2 Struts 1 Plugin Showcase OGNL Code Execution
+struts2_content_type_ognl.rb,8080,Apache Struts Jakarta Multipart Parser OGNL Injection
+struts2_rest_xstream.rb,8080,Apache Struts 2 REST Plugin XStream RCE
+sysaid_rdslogs_file_upload.rb,8080,"""SysAid Help Desk "
+tomcat_jsp_upload_bypass.rb,8080,Tomcat RCE via JSP Upload Bypass
+trendmicro_threat_discovery_admin_sys_time_cmdi.rb,443,Trend Micro Threat Discovery Appliance admin_sys_time.cgi Remote Command Execution
+uptime_file_upload_1.rb,9999,Idera Up.Time Monitoring Station 7.0 post2file.php Arbitrary File Upload
+uptime_file_upload_2.rb,9999,Idera Up.Time Monitoring Station 7.4 post2file.php Arbitrary File Upload
+visual_mining_netcharts_upload.rb,8001,Visual Mining NetCharts Server Remote Code Execution
+webnms_file_upload.rb,9090,WebNMS Framework Server Arbitrary File Upload
+zenworks_configuration_management_upload.rb,443,Novell ZENworks Configuration Management Arbitrary File Upload
+zenworks_control_center_upload.rb,443,Novell ZENworks Configuration Management Remote Execution
+snort_dce_rpc.rb,139,Snort 2 DCE/RPC Preprocessor Buffer Overflow
+arkeia_agent_exec.rb,617,Western Digital Arkeia Remote Code Execution
+bmc_server_automation_rscd_nsh_rce.rb,4750,BMC Server Automation RSCD Agent NSH Remote 
+hp_data_protector_exec_integutil.rb,5555,HP Data Protector EXEC_INTEGUTIL Remote Code Execution
+indesign_server_soap.rb,12345,Adobe IndesignServer 5.5 SOAP Server Arbitrary Script Execution
+java_jdwp_debugger.rb,8000,Java Debug Wire Protocol Remote Code Execution
+java_rmi_server.rb,1099,Java RMI Server Insecure Default Configuration Java Code Execution
+legend_bot_exec.rb,6667,Legend Perl IRC Bot Remote Code Execution
+msf_rpc_console.rb,55552,Metasploit RPC Console Command Execution
+msfd_rce_remote.rb,55554,Metasploit msfd Remote Code Execution
+nodejs_v8_debugger.rb,5858,"""NodeJS Debugger Command Injection"","
+openview_omniback_exec.rb,5555,HP OpenView OmniBack II Command Execution
+pbot_exec.rb,6667,PHP IRC Bot pbot eval() Remote Code Execution
+persistent_hpca_radexec_exec.rb,3465,HP Client Automation Command Injection
+ra1nx_pubcall_exec.rb,6667,Ra1NX PHP Bot PubCall Authentication Bypass Remote Code Execution
+w3tw0rk_exec.rb,6667,w3tw0rk / Pitbul IRC Bot  Remote Code Execution
+wireshark_lwres_getaddrbyname_loop.rb,921,Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow (loop)
+wireshark_lwres_getaddrbyname.rb,921,Wireshark LWRES Dissector getaddrsbyname_request Buffer Overflow
+xdh_x_exec.rb,6667,Xdh / LinuxNet Perlbot / fBot IRC Bot Remote Code Execution
+zend_java_bridge.rb,10001,Zend Server Java Bridge Arbitrary Java Code Execution
+ntp_overflow.rb,123,NTP Daemon readvar Buffer Overflow
+postgres_createlang.rb,5432,PostgreSQL CREATE LANGUAGE Execution
+nttrans.rb,139,Samba 2.2.2 - 2.2.6 nttrans Buffer Overflow
+usermap_script.rb,139,"Samba ""username map script"" Command Execution"
+sap_mgmt_con_osexec_payload.rb,50013,SAP Management Console OSExecute Payload Execution
+sap_soap_rfc_sxpg_call_system_exec.rb,8000,SAP SOAP RFC SXPG_CALL_SYSTEM Remote Command Execution
+sap_soap_rfc_sxpg_command_exec.rb,8000,SAP SOAP RFC SXPG_COMMAND_EXECUTE Remote Command Execution
+sshexec.rb,22,SSH User Code Execution
+svnserve_date.rb,3690,Subversion Date Svnserve
+libupnp_ssdp_overflow.rb,1900,Portable UPnP SDK unique_service_name() Remote Code Execution
+vnc_keyboard_exec.rb,5900,VNC Keyboard Remote Code Execution
+hagent_untrusted_hsdata.rb,80,Wyse Rapport Hagent Fake Hserver Command Execution
+pkernel_callit.rb,111,NetWare 6.5 SunRPC Portmapper CALLIT Stack Buffer Overflow
+loginext.rb,548,AppleFileServer LoginExt PathName Overflow
+evocam_webserver.rb,8080,MacOS X EvoCam HTTP GET Buffer Overflow
+trans2open.rb,139,Samba trans2open Overflow (Mac OS X PPC)
+heap_noir.rb,6112,Solaris dtspcd Heap Overflow
+sendmail_exec.rb,515,Solaris LPD Command Execution
+trans2open.rb,139,Samba trans2open Overflow (Solaris SPARC)
+fuser.rb,23,Sun Solaris Telnet Remote Authentication Bypass Vulnerability
+ttyprompt.rb,23,Solaris in.telnetd TTYPROMPT Buffer Overflow
+vsftpd_234_backdoor.rb,21,VSFTPD v2.3.4 Backdoor Command Execution
+contentkeeperweb_mimencode.rb,80,ContentKeeper Web Remote Command Execution
+epmp1000_get_chart_cmd_shell.rb,80,"""Cambium ePMP1000 "
+epmp1000_ping_cmd_shell.rb,80,"""Cambium ePMP1000 "
+pfsense_graph_injection_exec.rb,443,pfSense authenticated graph status RCE
+pfsense_group_member_exec.rb,443,pfSense authenticated group member RCE
+xdebug_unauth_exec.rb,80,xdebug Unauthenticated OS Command Execution
+unreal_ircd_3281_backdoor.rb,6667,UnrealIRCD 3.2.8.1 Backdoor Command Execution
+distcc_exec.rb,3632,DistCC Daemon Command Execution
+polycom_hdx_traceroute_exec.rb,23,Polycom Shell HDX Series Traceroute Command Execution
+qnx_qconn_exec.rb,8000,QNX qconn Command Execution
+spamassassin_exec.rb,783,SpamAssassin spamd Remote Command Execution
+xerox_mfp.rb,9100,"Xerox Multifunction Printers (MFP) ""Patch"" DLM Vulnerability"
+zabbix_agent_exec.rb,10050,Zabbix Agent net.tcp.listen Command Injection
+polycom_hdx_auth_bypass.rb,23,Polycom Command Shell Authorization Bypass
+array_vxag_vapv_privkey_privesc.rb,22,"""Array Networks vAPV and vxAG Private Key Privilege Escalation Code Execution"","
+tectia_passwd_changereq.rb,22,"""Tectia SSH USERAUTH Change Request Password Reset Vulnerability"","
+citrix_access_gateway_exec.rb,443,Citrix Access Gateway Command Execution
+oracle_vm_agent_utl.rb,8899,Oracle VM Server Virtual Server Agent Command Injection
+qtss_parse_xml_exec.rb,1220,QuickTime Streaming Server parse_xml.cgi Remote Execution
+tuleap_rest_unserialize_exec.rb,443,Tuleap 9.6 Second-Order PHP Object Injection
+tuleap_unserialize_exec.rb,443,Tuleap PHP Unserialize Code Execution
+webmin_show_cgi_exec.rb,10000,Webmin /file/show.cgi Remote Command Execution
+zimbra_lfi.rb,7071,Zimbra Collaboration Server LFI
+x11_keyboard_exec.rb,6000,X11 Keyboard Command Injection
+ams_hndlrsvc.rb,38292,Symantec System Center Alert Management System (hndlrsvc.exe) Arbitrary Command Execution
+ams_xfr.rb,12174,Symantec System Center Alert Management System (xfr.exe) Arbitrary Command Execution
+symantec_endpoint_manager_rce.rb,9090,Symantec Endpoint Protection Manager /servlet/ConsoleServlet Remote Command Execution
+symantec_iao.rb,38292,Symantec Alert Management System Intel Alert Originator Service Buffer Overflow
+symantec_rtvscan.rb,2967,Symantec Remote Management Buffer Overflow
+symantec_workspace_streaming_exec.rb,9855,Symantec Workspace Streaming ManagementAgentServer.putFile XMLRPC Request Arbitrary File Upload
+trendmicro_serverprotect_createbinding.rb,5168,Trend Micro ServerProtect 5.58 CreateBinding() Buffer Overflow
+trendmicro_serverprotect_earthagent.rb,3628,Trend Micro ServerProtect 5.58 EarthAgent.EXE Buffer Overflow
+trendmicro_serverprotect.rb,5168,Trend Micro ServerProtect 5.58 Buffer Overflow
+energizer_duo_payload.rb,7777,Energizer DUO USB Battery Charger Arucer.dll Trojan Code Execution
+name_service.rb,6101,Veritas Backup Exec Name Service Overflow
+remote_agent.rb,10000,Veritas Backup Exec Windows Remote Agent Overflow
+ca_arcserve_342.rb,6504,Computer Associates ARCserve REPORTREMOTEEXECUTECML Buffer Overflow
+discovery_tcp.rb,41523,CA BrightStor Discovery Service TCP Overflow
+discovery_udp.rb,41524,CA BrightStor Discovery Service Stack Buffer Overflow
+hsmserver.rb,2000,CA BrightStor HSM Buffer Overflow
+lgserver_multi.rb,1900,CA BrightStor ARCserve for Laptops and Desktops LGServer Multiple Commands Buffer Overflow
+lgserver_rxrlogin.rb,1900,CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow
+lgserver_rxssetdatagrowthscheduleandfilter.rb,1900,CA BrightStor ARCserve for Laptops and Desktops LGServer rxsSetDataGrowthScheduleAndFilter Buffer Overflow
+lgserver_rxsuselicenseini.rb,1900,CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow
+lgserver.rb,1900,CA BrightStor ARCserve for Laptops and Desktops LGServer Buffer Overflow
+license_gcr.rb,10202,CA BrightStor ARCserve License Service GCR NETWORK Buffer Overflow
+message_engine_72.rb,6504,CA BrightStor ARCserve Message Engine 0x72 Buffer Overflow
+message_engine_heap.rb,6503,CA BrightStor ARCserve Message Engine Heap Overflow
+message_engine.rb,6503,CA BrightStor ARCserve Message Engine Buffer Overflow
+sql_agent.rb,6070,CA BrightStor Agent for Microsoft SQL Overflow
+tape_engine_0x8a.rb,6502,CA BrightStor ARCserve Tape Engine 0x8A Buffer Overflow
+tape_engine.rb,6502,CA BrightStor ARCserve Tape Engine Buffer Overflow
+universal_agent.rb,6050,CA BrightStor Universal Agent Overflow
+ms05_017_msmq.rb,2103,MS05-017 Microsoft Message Queueing Service Path Overflow
+ms07_029_msdns_zonename.rb,0,MS07-029 Microsoft DNS RPC Service extractQuotedChar() Overflow (TCP)
+ms07_065_msmq.rb,2103,MS07-065 Microsoft Message Queueing Service DNS Name Path Overflow
+alphastor_agent.rb,41025,EMC AlphaStor Agent Buffer Overflow
+alphastor_device_manager_exec.rb,3000,EMC AlphaStor Device Manager Opcode 0x75 Command Injection
+replication_manager_exec.rb,6542,EMC Replication Manager Command Execution
+blackice_pam_icq.rb,1,ISS PAM.dll ICQ Parser Buffer Overflow
+kerio_auth.rb,44334,Kerio Firewall 2.1.4 Authentication Packet Overflow
+ability_server_stor.rb,21,Ability Server 2.34 STOR Command Stack Buffer Overflow
+comsnd_ftpd_fmtstr.rb,21,ComSndFTP v1.3.7 Beta USER Format String (Write4) Vulnerability
+dreamftp_format.rb,21,BolinTech Dream FTP Server 1.02 Format String
+httpdx_tolog_format.rb,21,HTTPDX tolog() Function Format String Vulnerability
+ms09_053_ftpd_nlst.rb,21,MS09-053 Microsoft IIS FTP Server NLST Response Overflow
+oracle9i_xdb_ftp_pass.rb,2100,Oracle 9i XDB FTP PASS Overflow (win32)
+oracle9i_xdb_ftp_unlock.rb,2100,Oracle 9i XDB FTP UNLOCK Overflow (win32)
+sami_ftpd_user.rb,21,KarjaSoft Sami FTP Server v2.02 USER Overflow
+sasser_ftpd_port.rb,5554,Sasser Worm avserve FTP PORT Buffer Overflow
+vermillion_ftpd_port.rb,21,Vermillion FTP Daemon PORT Command Memory Corruption
+wing_ftp_admin_exec.rb,5466,Wing FTP Server Authenticated Command Execution
+mohaa_getinfo.rb,12203,Medal of Honor Allied Assault getinfo Stack Buffer Overflow
+racer_503beta5.rb,26000,Racer v0.5.3 Beta 5 Buffer Overflow
+ut2004_secure.rb,7787,"Unreal Tournament 2004 ""secure"" Overflow (Win32)"
+adobe_robohelper_authbypass.rb,8080,Adobe RoboHelp Server 8 Arbitrary File Upload and Execute
+altn_securitygateway.rb,4000,Alt-N SecurityGateway username Buffer Overflow
+altn_webadmin.rb,1000,Alt-N WebAdmin USER Buffer Overflow
+amlibweb_webquerydll_app.rb,80,Amlibweb NetOpacs webquery.dll Stack Buffer Overflow
+apache_modjk_overflow.rb,80,Apache mod_jk 1.2.20 Buffer Overflow
+bea_weblogic_jsessionid.rb,80,BEA WebLogic JSESSIONID Cookie Value Overflow
+ca_arcserve_rpc_authbypass.rb,8014,CA Arcserve D2D GWT RPC Credential Information Disclosure
+ca_igateway_debug.rb,5250,CA iTechnology iGateway Debug Mode Buffer Overflow
+ca_totaldefense_regeneratereports.rb,34443,CA Total Defense Suite reGenerateReports Stored Procedure SQL Injection
+desktopcentral_file_upload.rb,8020,ManageEngine Desktop Central AgentLogUpload Arbitrary File Upload
+desktopcentral_statusupdate_upload.rb,8020,ManageEngine Desktop Central StatusUpdate Arbitrary File Upload
+disk_pulse_enterprise_bof.rb,80,Disk Pulse Enterprise Login Buffer Overflow
+disk_pulse_enterprise_get.rb,80,Disk Pulse Enterprise GET Buffer Overflow
+dup_scout_enterprise_login_bof.rb,80,Dup Scout Enterprise Login Buffer Overflow
+easyftp_list.rb,8080,EasyFTP Server list.html path Stack Buffer Overflow
+edirectory_host.rb,8028,Novell eDirectory NDS Server Host Header Overflow
+edirectory_imonitor.rb,8008,eDirectory 8.7.3 iMonitor Remote Stack Buffer Overflow
+ericom_access_now_bof.rb,8080,Ericom AccessNow Server Buffer Overflow
+ezserver_http.rb,8000,EZHomeTech EzServer Stack Buffer Overflow Vulnerability
+geutebrueck_gcore_x64_rce_bo.rb,13003,Geutebrueck GCore - GCoreServer.exe Buffer Overflow RCE
+hp_autopass_license_traversal.rb,5814,HP AutoPass License Server File Upload
+hp_imc_bims_upload.rb,8080,HP Intelligent Management Center BIMS UploadServlet Directory Traversal
+hp_imc_mibfileupload.rb,8080,HP Intelligent Management Center Arbitrary File Upload
+hp_loadrunner_copyfiletoserver.rb,8080,HP LoadRunner EmulationAdmin Web Service Directory Traversal
+hp_nnm_openview5.rb,80,HP OpenView Network Node Manager OpenView5.exe CGI Buffer Overflow
+hp_nnm_ovas.rb,7510,"HP OpenView NNM 7.53, 7.51 OVAS.EXE Pre-Authentication Stack Buffer Overflow"
+hp_pcm_snac_update_certificates.rb,443,HP ProCurve Manager SNAC UpdateCertificatesServlet File Upload
+hp_pcm_snac_update_domain.rb,443,HP ProCurve Manager SNAC UpdateDomainControllerServlet File Upload
+hp_sitescope_dns_tool.rb,8080,HP SiteScope DNS Tool Command Injection
+hp_sitescope_runomagentcommand.rb,8080,HP SiteScope Remote Code Execution
+ibm_tivoli_endpoint_bof.rb,9495,IBM Tivoli Endpoint Manager POST Query Buffer Overflow
+ibm_tpmfosd_overflow.rb,443,IBM TPM for OS Deployment 5.1.0.x rembo.exe Buffer Overflow
+ibm_tsm_cad_header.rb,1581,IBM Tivoli Storage Manager Express CAD Service Buffer Overflow
+icecast_header.rb,8000,Icecast Header Overwrite
+integard_password_bof.rb,18881,Race River Integard Home/Pro LoginAdmin Password Stack Buffer Overflow
+intersystems_cache.rb,57772,InterSystems Cache UtilConfigHome.csp Argument Buffer Overflow
+jira_collector_traversal.rb,8080,JIRA Issues Collector Directory Traversal
+lexmark_markvision_gfd_upload.rb,9788,Lexmark MarkVision Enterprise Arbitrary File Upload
+manageengine_apps_mngr.rb,9090,ManageEngine Applications Manager Authenticated Code Execution
+manageengine_connectionid_write.rb,8020,"""ManageEngine Desktop Central 9 FileUploadServlet ConnectionId Vulnerability"","
+maxdb_webdbm_database.rb,9999,MaxDB WebDBM Database Parameter Overflow
+maxdb_webdbm_get_overflow.rb,9999,MaxDB WebDBM GET Buffer Overflow
+mcafee_epolicy_source.rb,81,McAfee ePolicy Orchestrator / ProtectionPilot Overflow
+mdaemon_worldclient_form2raw.rb,3000,MDaemon WorldClient form2raw.cgi Stack Buffer Overflow
+miniweb_upload_wbem.rb,8000,"""MiniWeb (Build 300) Arbitrary File Upload"","
+navicopa_get_overflow.rb,80,NaviCOPA 2.0.1 URL Handling Buffer Overflow
+netgear_nms_rce.rb,8080,NETGEAR ProSafe Network Management System 300 Arbitrary File Upload
+novell_imanager_upload.rb,8080,Novell iManager getMultiPartParameters Arbitrary File Upload
+novell_messenger_acceptlang.rb,8300,Novell Messenger Server 2.0 Accept-Language Overflow
+nowsms.rb,8800,Now SMS/MMS Gateway Buffer Overflow
+oracle_btm_writetofile.rb,7001,Oracle Business Transaction Management FlashTunnelService Remote Code Execution
+oracle_endeca_exec.rb,7770,Oracle Endeca Server Remote Command Execution
+oracle_event_processing_upload.rb,9002,Oracle Event Processing FileUploadServlet Arbitrary File Upload
+oracle9i_xdb_pass.rb,8080,Oracle 9i XDB HTTP PASS Overflow (win32)
+osb_uname_jlist.rb,443,Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+peercast_url.rb,7144,PeerCast URL Handling Buffer Overflow
+psoproxy91_overflow.rb,8080,PSO Proxy v0.91 Stack Buffer Overflow
+sambar6_search_results.rb,80,Sambar 6 Search Results Buffer Overflow
+sap_configservlet_exec_noauth.rb,50000,SAP ConfigServlet Remote Code Execution
+sap_host_control_cmd_exec.rb,1128,SAP NetWeaver HostControl Command Injection
+sapdb_webtools.rb,9999,SAP DB 7.4 WebTools Buffer Overflow
+sepm_auth_bypass_rce.rb,8443,Symantec Endpoint Protection Manager Authentication Bypass and Code Execution
+serviio_checkstreamurl_cmd_exec.rb,23423,Serviio Media Server checkStreamUrl Command Execution
+servu_session_cookie.rb,80,Rhinosoft Serv-U Session Cookie Buffer Overflow
+shoutcast_format.rb,8000,SHOUTcast DNAS/win32 1.9.4 File Request Format String Overflow
+shttpd_post.rb,80,SHTTPD URI-Encoded POST Request Overflow
+steamcast_useragent.rb,8000,Streamcast HTTP User-Agent Buffer Overflow
+sybase_easerver.rb,8080,Sybase EAServer 5.2 Remote Stack Buffer Overflow
+sysax_create_folder.rb,80,Sysax Multi Server 5.64 Create Folder Buffer Overflow
+trackercam_phparg_overflow.rb,8090,TrackerCam PHP Argument Buffer Overflow
+trendmicro_officescan.rb,8080,Trend Micro OfficeScan Remote Stack Buffer Overflow
+vmware_vcenter_chargeback_upload.rb,443,VMware vCenter Chargeback Manager ImageUploadServlet Arbitrary File Upload
+xitami_if_mod_since.rb,80,Xitami 2.5c2 Web Server If-Modified-Since Overflow
+zenworks_assetmgmt_uploadservlet.rb,8080,Novell ZENworks Asset Management Remote Execution
+ms01_023_printer.rb,80,MS01-023 Microsoft IIS 5.0 Printer Host Header Overflow
+ms01_026_dbldecode.rb,80,MS01-026 Microsoft IIS/PWS CGI Filename Double Decode Command Execution
+ms01_033_idq.rb,80,MS01-033 Microsoft IIS 5.0 IDQ Path Overflow
+ms02_018_htr.rb,80,MS02-018 Microsoft IIS 4.0 .HTR Path Overflow
+mailenable_login.rb,143,MailEnable IMAPD (2.34/2.35) Login Request Buffer Overflow
+mercur_login.rb,143,Mercur Messaging 2005 IMAP Login Buffer Overflow
+mercury_login.rb,143,Mercury/32 LOGIN Buffer Overflow
+novell_netmail_auth.rb,143,Novell NetMail IMAP AUTHENTICATE Buffer Overflow
+imail_thc.rb,389,IMail LDAP Service Buffer Overflow
+pgp_keyserver7.rb,389,Network Associates PGP KeyServer 7 LDAP Buffer Overflow
+calicclnt_getconfig.rb,10203,Computer Associates License Client GETCONFIG Overflow
+calicserv_getconfig.rb,10202,Computer Associates License Server GETCONFIG Overflow
+flexnet_lmgrd_bof.rb,27000,FlexNet License Server Manager lmgrd Buffer Overflow
+sentinel_lm7_udp.rb,5093,SentinelLM UDP Buffer Overflow
+domino_icalendar_organizer.rb,25,"""IBM Lotus Domino iCalendar MAILTO Buffer Overflow"","
+domino_sametime_stmux.rb,1533,IBM Lotus Domino Sametime STMux.exe Stack Buffer Overflow
+hummingbird_exceed.rb,515,Hummingbird Connectivity 10 SP5 LPD Buffer Overflow
+niprint.rb,515,NIPrint LPD Request Overflow
+saplpd.rb,515,SAP SAPLPD 6.28 Buffer Overflow
+wincomlpd_admin.rb,13500,WinComLPD Buffer Overflow
+achat_bof.rb,9256,Achat Unicode SEH Buffer Overflow
+agentxpp_receive_agentx.rb,705,AgentX++ Master AgentX::receive_agentx Stack Buffer Overflow
+allmediaserver_bof.rb,888,ALLMediaServer 0.8 Buffer Overflow
+altiris_ds_sqli.rb,402,Symantec Altiris DS SQL Injection
+asus_dpcproxy_overflow.rb,623,Asus Dpcproxy Buffer Overflow
+avaya_winpmd_unihostrouter.rb,3217,Avaya WinPMD UniteHostRouter Buffer Overflow
+avidphoneticindexer.rb,4659,"""Avid Media Composer 5.5 - Avid Phonetic Indexer Buffer Overflow"","
+bakbone_netvault_heap.rb,20031,BakBone NetVault Remote Heap Overflow
+bcaaa_bof.rb,16102,"""Blue Coat Authentication and Authorization Agent (BCAAA) 5 Buffer Overflow"","
+bigant_server_250.rb,6660,BigAnt Server 2.50 SP1 Buffer Overflow
+bigant_server_dupf_upload.rb,6661,BigAnt Server DUPF Command Arbitrary File Upload
+bigant_server_sch_dupf_bof.rb,6661,BigAnt Server 2 SCH And DUPF Buffer Overflow
+bigant_server_usv.rb,6660,BigAnt Server 2.52 USV Buffer Overflow
+bigant_server.rb,6080,BigAnt Server 2.2 Buffer Overflow
+bomberclone_overflow.rb,11000,Bomberclone 0.11.6 Buffer Overflow
+bopup_comm.rb,19810,Bopup Communications Server Buffer Overflow
+borland_interbase.rb,3050,Borland Interbase Create-Request Buffer Overflow
+borland_starteam.rb,3057,Borland CaliberRM StarTeam Multicast Service Buffer Overflow
+citrix_streamprocess_data_msg.rb,6905,Citrix Provisioning Services 5.6 SP1 Streamprocess Opcode 0x40020000 Buffer Overflow
+citrix_streamprocess_get_boot_record_request.rb,6905,Citrix Provisioning Services 5.6 SP1 Streamprocess Opcode 0x40020004 Buffer Overflow
+citrix_streamprocess_get_footer.rb,6905,Citrix Provisioning Services 5.6 SP1 Streamprocess Opcode 0x40020002 Buffer Overflow
+citrix_streamprocess_get_objects.rb,6905,Citrix Provisioning Services 5.6 SP1 Streamprocess Opcode 0x40020006 Buffer Overflow
+citrix_streamprocess.rb,6905,Citrix Provisioning Services 5.6 streamprocess.exe Buffer Overflow
+cloudme_sync.rb,8888,CloudMe Sync v1.10.9
+commvault_cmd_exec.rb,8400,Commvault Communications Service (cvd) Command Injection
+disk_savvy_adm.rb,9124,Disk Savvy Enterprise v10.4.18
+doubletake.rb,1100,DoubleTake/HP StorageWorks Storage Mirroring Service Authentication Overflow
+eiqnetworks_esa_topology.rb,10628,eIQNetworks ESA Topology DELETEDEVICE Overflow
+eiqnetworks_esa.rb,10616,eIQNetworks ESA License Manager LICMGR_ADDLICENSE Overflow
+enterasys_netsight_syslog_bof.rb,514,Enterasys NetSight nssyslogd.exe Buffer Overflow
+fb_cnct_group.rb,3050,Firebird Relational Database CNCT Group Number Buffer Overflow
+fb_isc_attach_database.rb,3050,Firebird Relational Database isc_attach_database() Buffer Overflow
+fb_isc_create_database.rb,3050,Firebird Relational Database isc_create_database() Buffer Overflow
+fb_svc_attach.rb,3050,Firebird Relational Database SVC_attach() Buffer Overflow
+gh0st.rb,80,Gh0st Client buffer Overflow
+gimp_script_fu.rb,10008,GIMP script-fu Server Buffer Overflow
+hp_dataprotector_cmd_exec.rb,5555,HP Data Protector 8.10 Remote Command Execution
+hp_dataprotector_dtbclslogin.rb,3817,HP Data Protector DtbClsLogin Buffer Overflow
+hp_dataprotector_exec_bar.rb,5555,HP Data Protector Backup Client Service Remote Code Execution
+hp_dataprotector_install_service.rb,5555,HP Data Protector 6.10/6.11/6.20 Install Service
+hp_dataprotector_new_folder.rb,3817,HP Data Protector Create New Folder Buffer Overflow
+hp_dataprotector_traversal.rb,5555,HP Data Protector Backup Client Service Directory Traversal
+hp_imc_dbman_restartdb_unauth_rce.rb,2810,HPE iMC dbman RestartDB Unauthenticated RCE
+hp_imc_dbman_restoredbase_unauth_rce.rb,2810,HPE iMC dbman RestoreDBase Unauthenticated RCE
+hp_imc_uam.rb,1811,HP Intelligent Management Center UAM Buffer Overflow
+hp_loadrunner_magentproc_cmdexec.rb,54345,"""HP Mercury LoadRunner Agent magentproc.exe Remote Command Execution"","
+hp_loadrunner_magentproc.rb,443,HP LoadRunner magentproc.exe Overflow
+hp_magentservice.rb,23472,HP Diagnostics Server magentservice.exe Overflow
+hp_omniinet_1.rb,5555,HP OmniInet.exe MSG_PROTOCOL Buffer Overflow
+hp_omniinet_2.rb,5555,HP OmniInet.exe MSG_PROTOCOL Buffer Overflow
+hp_omniinet_3.rb,5555,HP OmniInet.exe Opcode 27 Buffer Overflow
+hp_omniinet_4.rb,5555,"""HP OmniInet.exe Opcode 20 Buffer Overflow"","
+hp_ovtrace.rb,5051,HP OpenView Operations OVTrace Buffer Overflow
+ib_isc_attach_database.rb,3050,Borland InterBase isc_attach_database() Buffer Overflow
+ib_isc_create_database.rb,3050,Borland InterBase isc_create_database() Buffer Overflow
+ib_svc_attach.rb,3050,Borland InterBase SVC_attach() Buffer Overflow
+ibm_cognos_tm1admsd_bof.rb,5498,IBM Cognos tm1admsd.exe Overflow
+ibm_director_cim_dllinject.rb,6988,IBM System Director Agent DLL Injection
+ibm_tsm_cad_ping.rb,1582,IBM Tivoli Storage Manager Express CAD Service Buffer Overflow
+ibm_tsm_rca_dicugetidentify.rb,1582,IBM Tivoli Storage Manager Express RCA Service Buffer Overflow
+landesk_aolnsrvr.rb,65535,LANDesk Management Suite 8.7 Alert Service Buffer Overflow
+lianja_db_net.rb,8001,Lianja SQL 1.0.0RC5.1 db_netserver Stack Buffer Overflow
+manageengine_eventlog_analyzer_rce.rb,8400,ManageEngine EventLog Analyzer Remote Code Execution
+mercury_phonebook.rb,105,Mercury/32 PH Server Module Buffer Overflow
+ms10_104_sharepoint.rb,8082,MS10-104 Microsoft Office SharePoint Server 2007 Remote Code Execution
+nettransport.rb,22222,NetTransport Download Manager 2.90.510 Buffer Overflow
+nvidia_mental_ray.rb,7414,Nvidia Mental Ray Satellite Service Arbitrary DLL Injection
+plugx.rb,13579,PlugX Controller Stack Overflow
+poisonivy_21x_bof.rb,3460,Poison Ivy 2.1.x C2 Buffer Overflow
+poisonivy_bof.rb,3460,Poison Ivy Server Buffer Overflow
+sap_2005_license.rb,30000,SAP Business One License Manager 2005 Buffer Overflow
+sap_netweaver_dispatcher.rb,3200,SAP NetWeaver Dispatcher DiagTraceR3Info Buffer Overflow
+shixxnote_font.rb,2000,ShixxNOTE 6.net Font Field Overflow
+solidworks_workgroup_pdmwservice_file_write.rb,30000,SolidWorks Workgroup PDM 2014 pdmwService.exe Arbitrary File Write
+tiny_identd_overflow.rb,113,TinyIdentD 2.2 Stack Buffer Overflow
+trendmicro_cmdprocessor_addtask.rb,20101,"""TrendMicro Control Manger CmdProcessor.exe Stack Buffer Overflow"","
+windows_rsh.rb,514,Windows RSH Daemon Buffer Overflow
+ms10_025_wmss_connect_funnel.rb,1755,Windows Media Services ConnectFunnel Stack Buffer Overflow
+timbuktu_fileupload.rb,407,Timbuktu Pro Directory Traversal/File Upload
+ms02_039_slammer.rb,1434,MS02-039 Microsoft SQL Server Resolution Overflow
+mysql_yassl_hello.rb,3306,MySQL yaSSL SSL Hello Message Buffer Overflow
+xlink_nfsd.rb,2049,Omni-NFS Server Buffer Overflow
+file_reporter_fsfui_upload.rb,3037,NFR Agent FSFUI Record File Upload RCE
+netiq_pum_eval.rb,443,NetIQ Privileged User Manager 2.3.1 ldapagnt_eval() Remote Perl Code Execution
+nmap_stor.rb,689,Novell NetMail NMAP STOR Buffer Overflow
+zenworks_preboot_op21_bof.rb,998,Novell ZENworks Configuration Management Preboot Service 0x21 Buffer Overflow
+zenworks_preboot_op4c_bof.rb,998,Novell ZENworks Configuration Management Preboot Service 0x4c Buffer Overflow
+zenworks_preboot_op6_bof.rb,998,Novell ZENworks Configuration Management Preboot Service 0x06 Buffer Overflow
+zenworks_preboot_op6c_bof.rb,998,Novell ZENworks Configuration Management Preboot Service 0x6c Buffer Overflow
+client_system_analyzer_upload.rb,1158,Oracle Database Client System Analyzer Arbitrary File Upload
+osb_ndmp_auth.rb,10000,Oracle Secure Backup NDMP_CONNECT_CLIENT_AUTH Buffer Overflow
+tns_arguments.rb,1521,Oracle 8i TNS Listener (ARGUMENTS) Buffer Overflow
+tns_auth_sesskey.rb,1521,Oracle 10gR2 TNS Listener AUTH_SESSKEY Buffer Overflow
+tns_service_name.rb,1521,Oracle 8i TNS Listener SERVICE_NAME Buffer Overflow
+seattlelab_pass.rb,110,Seattle Lab Mail 5.5 POP3 Buffer Overflow
+bluecoat_winproxy_host.rb,80,Blue Coat WinProxy Host Header Overflow
+ccproxy_telnet_ping.rb,23,CCProxy Telnet Proxy Ping Overflow
+proxypro_http_get.rb,3128,Proxy-Pro Professional GateKeeper 4.7 GET Request Overflow
+qbik_wingate_wwwproxy.rb,80,Qbik WinGate WWW Proxy Server URL Processing Overflow
+abb_wserver_exec.rb,12221,ABB MicroSCADA wserver.exe Remote Code Execution
+advantech_webaccess_dashboard_file_upload.rb,80,"""Advantech WebAccess Dashboard Viewer uploadImageCommon Arbitrary File Upload"","
+advantech_webaccess_webvrpcs_bof.rb,4592,Advantech WebAccess Webvrpcs Service Opcode 80061 Stack Buffer Overflow
+citect_scada_odbc.rb,20222,CitectSCADA/CitectFacilities ODBC Buffer Overflow
+codesys_gateway_server_traversal.rb,1211,SCADA 3S CoDeSys Gateway Server Directory Traversal
+codesys_web_server.rb,8080,SCADA 3S CoDeSys CmpWebServer Stack Buffer Overflow
+daq_factory_bof.rb,20034,DaqFactory HMI NETB Request Overflow
+factorylink_csservice.rb,7580,"""Siemens FactoryLink 8 CSService Logging Path Param Buffer Overflow"","
+factorylink_vrn_09.rb,7579,Siemens FactoryLink vrn.exe Opcode 9 Buffer Overflow
+ge_proficy_cimplicity_gefebt.rb,80,GE Proficy CIMPLICITY gefebt.exe Remote Code Execution
+iconics_genbroker.rb,38080,"""Iconics GENESIS32 Integer Overflow Version 9.21.201.01"","
+igss_exec_17.rb,12397,Interactive Graphical SCADA System Remote Command Injection
+igss9_igssdataserver_listall.rb,12401,"""7-Technologies IGSS IGSSdataServer.exe Stack Buffer Overflow"","
+indusoft_webstudio_exec.rb,4322,InduSoft Web Studio Arbitrary Upload Remote Code Execution
+procyon_core_server.rb,23,"""Procyon Core Server HMI Coreservice.exe Stack Buffer Overflow"","
+realwin_on_fc_binfile_a.rb,910,DATAC RealWin SCADA Server 2 On_FC_CONNECT_FCS_a_FILE Buffer Overflow
+realwin_on_fcs_login.rb,910,RealWin SCADA Server DATAC Login Buffer Overflow
+realwin_scpc_initialize_rf.rb,912,DATAC RealWin SCADA Server SCPC_INITIALIZE_RF Buffer Overflow
+realwin_scpc_initialize.rb,912,DATAC RealWin SCADA Server SCPC_INITIALIZE Buffer Overflow
+realwin_scpc_txtevent.rb,912,DATAC RealWin SCADA Server SCPC_TXTEVENT Buffer Overflow
+realwin.rb,910,DATAC RealWin SCADA Server Buffer Overflow
+scadapro_cmdexe.rb,11234,Measuresoft ScadaPro Remote Command Execution
+sunway_force_control_netdbsrv.rb,2001,Sunway Forcecontrol SNMP NetDBServer.exe Opcode 0x57
+winlog_runtime_2.rb,46824,Sielco Sistemi Winlog Buffer Overflow 2.07.14 - 2.07.16
+winlog_runtime.rb,46823,Sielco Sistemi Winlog Buffer Overflow
+yokogawa_bkbcopyd_bof.rb,20111,Yokogawa CENTUM CS 3000 BKBCopyD.exe Buffer Overflow
+yokogawa_bkesimmgr_bof.rb,34205,Yokogawa CS3000 BKESimmgr.exe Buffer Overflow
+yokogawa_bkfsim_vhfd.rb,20010,Yokogawa CS3000 BKFSim_vhfd.exe Buffer Overflow
+yokogawa_bkhodeq_bof.rb,20171,Yokogawa CENTUM CS 3000 BKHOdeq.exe Buffer Overflow
+aim_triton_cseq.rb,5061,AIM Triton 1.0.4 CSeq Buffer Overflow
+sipxezphone_cseq.rb,5060,SIPfoundry sipXezPhone 0.35a CSeq Field Overflow
+sipxphone_cseq.rb,5060,SIPfoundry sipXphone 2.6.0.27 CSeq Buffer Overflow
+ms09_050_smb2_negotiate_func_index.rb,445,MS09-050 Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference
+ms17_010_eternalblue.rb,445,MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption
+mailcarrier_smtp_ehlo.rb,25,TABS MailCarrier v2.51 SMTP EHLO Overflow
+mercury_cram_md5.rb,25,Mercury Mail SMTP AUTH CRAM-MD5 Buffer Overflow
+ms03_046_exchange2000_xexch50.rb,25,MS03-046 Exchange 2000 XEXCH50 Heap Overflow
+njstar_smtp_bof.rb,25,NJStar Communicator 3.00 MiniSMTP Buffer Overflow
+wmailserver.rb,25,SoftiaCom WMailserver 1.0 Buffer Overflow
+freeftpd_key_exchange.rb,22,FreeFTPd 1.0.10 Key Exchange Algorithm String Buffer Overflow
+freesshd_authbypass.rb,22,"""Freesshd Authentication Bypass"","
+freesshd_key_exchange.rb,22,FreeSSHd 1.0.9 Key Exchange Algorithm String Buffer Overflow
+gamsoft_telsrv_username.rb,23,GAMSoft TelSrv 1.5 Username Buffer Overflow
+goodtech_telnet.rb,2380,GoodTech Telnet Server Buffer Overflow
+attftp_long_filename.rb,69,Allied Telesyn TFTP Server 1.9 Long Filename Overflow
+dlink_long_filename.rb,69,D-Link TFTP 1.0 Long Filename Buffer Overflow
+futuresoft_transfermode.rb,69,FutureSoft TFTP Server 2000 Transfer-Mode Overflow
+opentftp_error_code.rb,69,OpenTFTP SP 1.4 Error Packet Overflow
+quick_tftp_pro_mode.rb,69,Quick FTP Pro 2.1 Transfer-Mode Overflow
+tftpd32_long_filename.rb,69,TFTPD32 Long Filename Buffer Overflow
+tftpdwin_long_filename.rb,69,TFTPDWIN v0.4.2 Long Filename Buffer Overflow
+tftpserver_wrq_bof.rb,69,TFTP Server for Windows 1.4 ST WRQ Buffer Overflow
+threectftpsvc_long_mode.rb,69,3CTftpSvc TFTP Long Mode Buffer Overflow
+winvnc_http_get.rb,5800,WinVNC Web Server GET Overflow
+safenet_ike_11.rb,62514,SafeNet SoftRemote IKE Service Buffer Overflow
+ms04_045_wins.rb,42,MS04-045 Microsoft WINS Service Memory Overwrite
+apf_privesc_jcl.rb,21,JCL to Escalate Privileges
+metasploit_pcaplog.rb,2940,Multi Escalate Metasploit pcap_log Local Privilege Escalation

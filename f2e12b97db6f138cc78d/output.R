@@ -1,0 +1,7 @@
+##             category                                                                                                       text                                                                image_url
+## 2            Caution                                                       Life doesn't always want to be grabbed by the horns.          http://demotivators.despair.com/viewalldemotivators/caution.jpg
+## 3       Wishes (Cow) If wishes were horses then dreamers would ride.  But they're much more like cattle, so best grab a shovel.       http://demotivators.despair.com/viewalldemotivators/wishes-cow.jpg
+## 4 Self Esteem (pawn)               It takes genuine talent to see greatness in yourself despite your absence of genuine talent. http://demotivators.despair.com/viewalldemotivators/self-esteem-pawn.jpg
+## 5       Preservation               Action will be taken to prevent the next disaster as soon as possible after it has occurred.     http://demotivators.despair.com/viewalldemotivators/preservation.jpg
+## 6         Friendship                                                     A friend is just a stranger you haven't alienated yet.       http://demotivators.despair.com/viewalldemotivators/friendship.jpg
+## 7          Foresight                        Those who say it cannot be done should not interrupt those busy proving them right.        http://demotivators.despair.com/viewalldemotivators/foresight.jpg

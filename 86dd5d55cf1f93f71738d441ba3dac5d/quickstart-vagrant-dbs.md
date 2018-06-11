@@ -1,0 +1,5 @@
+- Vagrant PostgreSQL : https://github.com/scottmuc/vagrant-postgresql (then load data and `dplyr`)
+- Vagrant MySQL : https://github.com/AlexDisler/mysql-vagrant (then load data and `dplyr`)
+- SQLite : just import locally and `dplyr
+- Oracle… sigh
+- SQLServer… sigh

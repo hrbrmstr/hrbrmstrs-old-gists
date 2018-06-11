@@ -1,0 +1,108 @@
+---
+title: "Multi-language Machinations in [R] Markdown"
+author: "Bob Rudis (@hrbrmstr)"
+date: "October 22, 2015"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Premise
+
+A super-nice feature of R markdown files is the ability to run code chunks and use their output. BUT you are not limited to R in the code chunks. You can run a [wide variety](http://yihui.name/knitr/demo/engines/) of existing languages and can [add your own](https://github.com/hrbrmstr/knitrengines) pretty easily. 
+
+I posited that one could use a single knitr Rmd document to incorporate all the steps for a reproducible research product across multiple languages (say, if you need/want to use `perl` or `awk` for data munging and need to use something that's in `scikit-learn` that's not in R).
+
+This document is a small example of how to incorporate a multi-language/engine workflow into a single Rmd document. 
+
+### Starting the workflow
+
+I don't have a really ugly file to work with at the moment (at least that I can share) so here's a totally made up example of grabbing a file from the web (found at random), doing some munging and then reading it into R for some work and then using (ugh) `gnuplot` to visualize the results.
+
+Note that "state" is not maintained in anything but R code chunks in an Rmd so everything else relies on using files (or other techniques) to ensure that you have what's needed between processing steps.
+
+We'll need some setup code since I'm using `gnuplot`:
+
+```{r}
+library(knitrengines) # github.com/hrbrmstr/knitrengines
+```
+
+Let's fetch the data file we'll be working on (using `bash`).
+
+<pre>
+&#96;``{r "get data file", engine="bash"}
+curl --silent --output goodreads.csv "https://www.gwern.net/docs/personal/goodreads.csv"
+> goodreads_cleaned.csv
+&#96;``
+</pre>
+
+```{r "get data file", engine="bash", echo=FALSE}
+curl --silent --output goodreads.csv "https://www.gwern.net/docs/personal/goodreads.csv"
+> goodreads_cleaned.csv
+```
+
+That file has a field with HTML tags in it, so let's get rid of them. Note that we pass the input filename to `awk` in the `engine.opts` field.
+
+<pre>
+&#96;``{r "fix data file", engine="awk", engine.opts="goodreads.csv"}
+{
+  gsub(/<[^>]*>/,"")
+  print >> "goodreads_cleaned.csv"
+}
+&#96;``
+</pre>
+
+```{r "fix data file", engine="awk", engine.opts="goodreads.csv", echo=FALSE}
+{
+  gsub(/<[^>]*>/,"")
+  print >> "goodreads_cleaned.csv"
+}
+```
+
+Now use R to do some hardcore stats work:
+
+<pre>
+&#96;``{r "process file"}
+goodreads <- read.csv("goodreads_cleaned.csv", stringsAsFactors=FALSE)
+
+ratings_count <- table(goodreads$My.Rating)
+
+write.table(as.data.frame(ratings_count), "goodreads_ratings.dat", col.names=FALSE, sep=" ", quote=FALSE)
+&#96;``
+</pre>
+
+```{r "process file", echo=FALSE}
+goodreads <- read.csv("goodreads_cleaned.csv", stringsAsFactors=FALSE)
+
+ratings_count <- table(goodreads$My.Rating)
+
+write.table(as.data.frame(ratings_count), "goodreads_ratings.dat", col.names=FALSE, sep=" ", quote=FALSE)
+```
+
+And, then use gnuplot to generate some cutting edge visualizations:
+
+<pre>
+&#96;``{r "plot me", engine="gnuplot"}
+set terminal png 
+set output "goodreads.png"
+set style fill solid
+set boxwidth 0.5
+plot "goodreads_ratings.dat" using 1:3:xtic(2) with boxe
+&#96;``
+</pre>
+
+```{r "plot me", engine="gnuplot", echo=FALSE}
+set terminal png 
+set output "goodreads.png"
+set style fill solid
+set boxwidth 0.5
+plot "goodreads_ratings.dat" using 1:3:xtic(2) with boxes
+```
+
+![](goodreads.png)
+
+
+Note that we had to use `![](goodreads.png)` to get that image into the Rmd.
+

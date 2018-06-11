@@ -1,0 +1,16 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  { "key": "shift+cmd+m",
+    "command": "type",
+    "args" : {
+      "text" : "%>%"
+    }
+  },
+  { "key": "alt+-",
+    "command": "type",
+    "args" : {
+      "text" : "<-"
+    }
+  }
+
+]

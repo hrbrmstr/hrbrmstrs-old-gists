@@ -1,0 +1,14 @@
+
+snippet figs
+	#' \if{html}{
+	#' A sample of the output from \code{$1()}:
+	#'
+	#' \figure{$1.png}{options: width="100\%" alt="Figure: $1.png"}
+	#' }
+	#'
+	#' \if{latex}{
+	#' A sample of the output from \code{$1()}:
+	#'
+	#' \figure{$1.pdf}{options: width=10cm}
+	#' }
+	

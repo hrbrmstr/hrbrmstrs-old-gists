@@ -1,0 +1,71 @@
+library(ggplot2)
+library(grid)
+library(gridExtra)
+library(hrbrmisc)
+
+df <- read.table(header=TRUE, sep=",", text="year,total_grants_awarded,projects_funded
+2008,9100000,14
+2009,8900000,14
+2010,9600000,13
+2011,9600000,12
+2012,9600000,8
+2013,8700000,6
+2014,9600000,7
+2015,9600000,7
+2016,8900000,5", colClasses=c("character", "numeric", "integer"), stringsAsFactors=FALSE)
+
+df <- mutate(df, avg=total_grants_awarded/projects_funded)
+
+ggplot(df, aes(year, total_grants_awarded, group=1)) +
+  geom_line(color="#9e1d3b", size=1) +
+  scale_x_discrete(breaks=seq(2008, 2016, 2), labels=sprintf("'%02d", seq(8, 16, 2))) +
+  scale_y_continuous(limits=c(0, 10000000), label=scales::dollar) +
+  labs(x=NULL, y=NULL) +
+  theme_hrbrmstr(grid="Y") +
+  theme(plot.title=element_text(color="#2b2b2b", size=12)) +
+  theme(plot.subtitle=element_text(color="#2b2b2b", size=10)) -> tot_gr
+
+ggplot(df, aes(year, projects_funded, group=1)) +
+  geom_line(color="#9e1d3b", size=1) +
+  scale_x_discrete(breaks=seq(2008, 2016, 2), labels=sprintf("'%02d", seq(8, 16, 2))) +
+  scale_y_continuous(breaks=seq(0, 16, 4), limits=c(0, 16)) +
+  labs(x=NULL, y=NULL) +
+  theme_hrbrmstr(grid="Y") +
+  theme(plot.title=element_text(color="#2b2b2b", size=12)) +
+  theme(plot.subtitle=element_text(color="#2b2b2b", size=10)) -> proj_ct
+
+ggplot(df, aes(year, avg, group=1)) +
+  geom_line(color="#9e1d3b", size=1) +
+  scale_x_discrete(breaks=seq(2008, 2016, 2), labels=sprintf("'%02d", seq(8, 16, 2))) +
+  scale_y_continuous(limits=c(0, 2000000), label=scales::dollar) +
+  labs(x=NULL, y=NULL) +
+  theme_hrbrmstr(grid="Y") +
+  theme(plot.title=element_text(color="#2b2b2b", size=12)) +
+  theme(plot.subtitle=element_text(color="#2b2b2b", size=10)) -> proj_sz
+
+grid.arrange(grobs=list(
+  arrangeGrob(textGrob("Total Grants Awarded", x=unit(0.05, "npc"), hjust=0, gp=gpar(fontsize=12, fontfamily="Hind-Medium", col="#2b2b2b")),
+              textGrob("The agency consistently awards between\n$8.7 million and $9.6 million per year\nin funding— $82.8 million over eight years.",
+                       x=unit(0.05, "npc"), hjust=0, gp=gpar(fontsize=10, fontfamily="Hind", col="#2b2b2b")),
+              ggplotGrob(tot_gr),
+              ncol=1,
+              widths=unit(14, "lines"),
+              heights=unit(c(1, 3.5, 15), "lines")),
+  arrangeGrob(textGrob("Number of Projects", x=unit(0.05, "npc"), hjust=0, gp=gpar(fontsize=12, fontfamily="Hind-Medium", col="#2b2b2b")),
+              textGrob("The agency is funding fewer projcts each\nyear, from 14 projects in 2008 to five projects\nin 2016.", x=unit(0.05, "npc"),
+                       hjust=0, gp=gpar(fontsize=10, fontfamily="Hind", col="#2b2b2b")),
+              ggplotGrob(proj_ct),
+              ncol=1,
+              widths=unit(14, "lines"),
+              heights=unit(c(1, 3.5, 15), "lines")),
+  arrangeGrob(textGrob("Average Project Size", x=unit(0.05, "npc"), hjust=0, gp=gpar(fontsize=12, fontfamily="Hind-Medium", col="#2b2b2b")),
+              textGrob("Average project sizes have nearly tripled\nover the past eight years, from $658,013\nin 2008 to $1,781,362 in 2016.",
+                       x=unit(0.05, "npc"), hjust=0, gp=gpar(fontsize=10, fontfamily="Hind", col="#2b2b2b")),
+              ggplotGrob(proj_sz),
+              ncol=1,
+              widths=unit(14, "lines"),
+              heights=unit(c(1, 3.5, 15), "lines"))),
+  ncol=3,
+  top=textGrob("Grants Awarded between 2008 and 2016", x=unit(0.04, "npc"), hjust=0, gp=gpar(fontsize=14, fontfamily="Hind-Bold", col="#2b2b2b"))
+)
+

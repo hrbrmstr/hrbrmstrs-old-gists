@@ -1,0 +1,55 @@
+{
+  "description": "",
+  "data": {
+    "url": "http://rud.is/dl/crude.csv"
+  },
+  "mark": "tick",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "timeUnit": "month",
+      "axis": {
+        "labels": true,
+        "labelAngle": 45,
+        "labelAlign": "left",
+        "labelMaxLength": 25,
+        "title": "Min price for Crude Oil (WTI) by month/decade, 1986-present",
+        "characterWidth": 6
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "aggregate": "min",
+      "axis": {
+        "labels": true,
+        "labelMaxLength": 25,
+        "title": "",
+        "characterWidth": 6,
+        "format": "$3d"
+      }
+    },
+    "color": {
+      "field": "decade",
+      "type": "nominal",
+      "legend": {
+        "orient": "left",
+        "title": "Decade"
+      }
+    }
+  },
+  "config": {
+    "mark": {
+      "tickThickness": 3
+    }
+  },
+  "embed": {
+    "renderer": "svg",
+    "actions": {
+      "export": false,
+      "source": false,
+      "editor": false
+    }
+  }
+}

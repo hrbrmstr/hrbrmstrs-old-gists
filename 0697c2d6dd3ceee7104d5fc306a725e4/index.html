@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <style>
+      body { font-family: monospace; }
+      .axis line,
+      .axis path { fill: none; }
+      .y.axis line { stroke: black; }
+      .x.axis { 
+        font-size: 16px;
+        font-weight: bold; 
+      }
+    </style>
+  </head>
+  <body>
+     <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.1/lodash.min.js"></script>
+     <script src="force-chart.js"></script>
+     <script>
+       var margin = { top: 30, left: 50, bottom: 30, right: 10 },
+           width = 960 - margin.left - margin.right,
+           height = 500 - margin.top - margin.bottom;
+       
+       var chartTypes = ["Swarm", "Pile", "Histogram", "Boxplot"];
+       
+       var chartScale = d3.scale.ordinal()
+            .domain(chartTypes)
+            .rangeRoundBands([0, width], .3),
+           barScale = d3.scale.linear()
+            .range([0, chartScale.rangeBand()]),
+           yScale = d3.scale.linear().range([height, 0]).nice();
+       
+       var xAxis = d3.svg.axis().scale(chartScale).orient("top"),
+           yAxis = d3.svg.axis().scale(yScale).orient("left");
+       
+       var swarmChart = d3.forceChart()
+        .padding(1)
+        .x(0)
+        .y(function(d) { return yScale(d.yVal); })
+        .r(1.5)
+        .xGravity(1/5)
+        .yGravity(100)
+        .draggable(false);
+        
+       var pileChart = d3.forceChart()
+        .padding(1)
+        .x(0)
+        .y(function(d) { return yScale(d.yVal); })
+        .r(1.5)
+        .xGravity(function(d) { return d.x <= 0 ? 400 : 1/2; })
+        .yGravity(100)
+        .draggable(false);
+       
+       var svg = d3.select("body").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+       
+       var data = d3.range(700)
+          .map(function(i) { return { yVal: d3.random.logNormal(1, 0.5)() }; });
+       
+       yScale.domain(d3.extent(data, function(d) { return d.yVal; }));
+       
+       // Draw axes
+       svg.append("g").call(xAxis)
+        .attr("class", "x axis");
+       svg.append("g").call(yAxis)
+        .attr("class", "y axis");
+       
+       // Draw swarm chart
+       svg.append("g").call(swarmChart, _.cloneDeep(data))
+          .attr("class", "swarm")
+          .attr("transform", "translate(" + (chartScale("Swarm")  + chartScale.rangeBand()/2) + ",0)")
+        .selectAll(".node").append("circle")
+          .attr("r", function(d) { return d.r; });
+          
+       // Run for a bunch of ticks and freeze
+       swarmChart.force().stop().start();
+       for (var i = 0; i < 200; i++) { swarmChart.force().tick(); }
+       swarmChart.force().stop();
+       
+       // Draw pile chart
+       svg.append("g").call(pileChart, _.cloneDeep(data))
+          .attr("class", "pile")
+          .attr("transform", "translate(" + chartScale("Pile") + ",0)")
+        .selectAll(".node").append("circle")
+          .attr("r", function(d) { return d.r; });
+          
+       // Run for a bunch of ticks and freeze
+       pileChart.force().stop().start();
+       for (var i = 0; i < 500; i++) { pileChart.force().tick(); }
+       pileChart.force().stop();
+       
+       // Draw histogram
+       svg.append("g").call(histogram, data)
+        .attr("class", "histogram")
+        .attr("transform", "translate(" + chartScale("Histogram") + ",0)");
+       
+       // Draw boxplot
+       var boxWidth = 20;
+       svg.append("g").call(boxplot, data, boxWidth)
+        .attr("class", "boxplot")
+        .attr("transform", "translate(" + (chartScale("Boxplot") + chartScale.rangeBand()/2 - boxWidth/2) + ",0)");
+        
+      function histogram(selection, data) {
+        
+        var bins = yScale.ticks(25);
+        
+        var binnedData = d3.layout.histogram()
+          .bins(bins)
+          .value(function(d) { return d.yVal; })
+          (data);
+        
+        barScale.domain([0, d3.max(binnedData, function(d) { return d.y; })]);
+        
+        var barHeight = yScale(bins[0]) - yScale(bins[1]),
+            barPadding = 2;
+        
+        selection.selectAll(".bar").data(binnedData)
+          .enter().append("rect")
+            .attr("class", "bar")
+            .attr("transform", function(d) {
+              return "translate(0," + yScale(d.x) + ")"; 
+            })
+            .attr("y", barPadding - barHeight)
+            .attr("height", barHeight - barPadding)
+            .attr("width", function(d) { return barScale(d.y); });
+      }
+      
+      function boxplot(selection, data, boxWidth) {
+        
+        var quartiles = d3.scale.quantile()
+          .domain(data.map(function(d) { return d.yVal; }))
+          .range(d3.range(4))
+          .quantiles();
+        
+        var extent = d3.extent(data, function(d) { return d.yVal; });
+        
+        // Draw dashes
+        selection.append("path").datum([
+            [boxWidth/2, yScale(extent[1])],
+            [boxWidth/2, yScale(extent[0])]
+          ])
+          .attr("d", d3.svg.line())
+          .style("stroke", "black")
+          .style("stroke-dasharray", "4, 10");
+        
+        // Draw box
+        selection.append("rect")
+          .attr("y", yScale(quartiles[2]))
+          .attr("height", yScale(quartiles[0]) - yScale(quartiles[2]))
+          .attr("width", boxWidth)
+          .attr("fill", "white")
+          .attr("stroke", "black");
+        
+        // Draw lines
+        selection.selectAll("line").data([extent[1], quartiles[1], extent[0]])
+          .enter().append("line")
+            .attr("x2", boxWidth)
+            .attr("y1", function(d) { return yScale(d); })
+            .attr("y2", function(d) { return yScale(d); })
+            .attr("stroke", "black");
+        
+        
+      }
+     </script>
+  </body>
+</html>

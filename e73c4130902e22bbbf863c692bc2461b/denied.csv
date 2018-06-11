@@ -1,0 +1,38 @@
+"airline","voluntary_denied","involuntary_denied","enplaned_ct","involuntary_db_per_10k","year"
+"Hawaiian Airlines",326,49,10824495,0.05,2016
+"Delta Air Lines",129825,1238,129281098,0.1,2016
+"Virgin America",2375,94,7945329,0.12,2016
+"Alaska Airlines",6806,931,23390900,0.4,2016
+"United Airlines",62895,3765,86836527,0.43,2016
+"Spirit Airlines",10444,1117,19418650,0.58,2016
+"Frontier Airlines",2096,851,14666332,0.58,2016
+"American Airlines",54259,8312,130894653,0.64,2016
+"Jetblue Airways",1705,3176,34710003,0.92,2016
+"Skywest Airlines",41476,2935,29986918,0.98,2016
+"Southwest Airlines",88628,14979,150655354,0.99,2016
+"Expressjet Airlines",33590,3182,21139038,1.51,2016
+"Jetblue Airways",1841,73,31949251,0.02,2015
+"Hawaiian Airlines",358,29,10462344,0.03,2015
+"Virgin America",1722,80,6928805,0.12,2015
+"Delta Air Lines",145406,1938,125044855,0.16,2015
+"Spirit Airlines",6589,496,16010164,0.31,2015
+"Alaska Airlines",5412,740,22095126,0.33,2015
+"United Airlines",81390,6317,82081914,0.77,2015
+"American Airlines",50317,7504,97091951,0.77,2015
+"Frontier Airlines",2744,1232,12343540,1,2015
+"Southwest Airlines",96513,15608,143932752,1.08,2015
+"Skywest Airlines",51829,5079,28562760,1.78,2015
+"Expressjet Airlines",42933,4608,24736601,1.86,2015
+"Envoy Air",18125,2792,11901028,2.35,2015
+"Virgin America",910,57,6438023,0.09,2014
+"Hawaiian Airlines",366,116,10084811,0.12,2014
+"Jetblue Airways",2006,650,29264332,0.22,2014
+"Delta Air Lines",107706,4052,115737180,0.35,2014
+"American Airlines",60924,7471,135748581,0.55,2014
+"Alaska Airlines",4176,864,19838878,0.44,2014
+"Southwest Airlines",88921,13899,125381374,1.11,2014
+"United Airlines",64968,9078,77317281,1.17,2014
+"Frontier Airlines",3864,1616,11787602,1.37,2014
+"Envoy Air",18615,2501,15441723,1.62,2014
+"Expressjet Airlines",55525,7961,29344974,2.71,2014
+"Skywest Airlines",42446,7170,26420593,2.71,2014

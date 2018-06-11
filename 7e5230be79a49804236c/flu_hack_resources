@@ -1,0 +1,12 @@
+Data sources:
+CDC data on vaccine coverage: http://www.cdc.gov/flu/professionals/vaccination/reporti1112/reporti/index.htm
+CDC data on current influenza situation:  http://gis.cdc.gov/grasp/fluview/fluportaldashboard.html 
+Historical flu data: http://www.cdc.gov/flu/weekly/pastreports.htm
+Locations of hospitals in Boston: https://data.cityofboston.gov/Public-Health/Hospital-Locations/46f7-2snz
+NetLogo, a simple agent based model: http://ccl.northwestern.edu/netlogo/ 
+Nemsis, emergency medical services API (haven't used this one myself): http://www.nemsis.org/v3/downloads/v3Archive.html 
+Written for R, but useful for epi basics in any language: cran.r-project.org/doc/contrib/Epicalc_Book.pdf
+"Provides access to health statistics and information on hospital inpatient and emergency department utilization": http://hcupnet.ahrq.gov/
+Healthcare Research and Quality data directory: http://www.ahrq.gov/data/dataresources.htm
+
+Reach me on twitter @cmyeaton

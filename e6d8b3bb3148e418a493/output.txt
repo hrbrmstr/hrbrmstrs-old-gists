@@ -1,0 +1,96 @@
+    > alex("README.Rmd") # i had to actually make an inconsiderate reference as i cldn't find one
+
+    <stdin>
+      19:20-19:22  warning  `he` may be insensitive, use `they`, `it` instead
+
+    ⚠ 1 warning
+
+    > count_words("README.Rmd")
+    ## [1] 346
+
+    > spell_check("README.Rmd")
+       404'ing
+      README.Rmd:47:76
+
+    colnames
+      README.Rmd:26:211
+      README.Rmd:35:11
+
+    CRAN
+      README.Rmd:17:136
+      README.Rmd:21:152
+      README.Rmd:49:37
+
+    data3
+      README.Rmd:40:26
+
+    docx
+      README.Rmd:21:73
+      README.Rmd:23:16
+      README.Rmd:24:192
+      README.Rmd:30:9
+      README.Rmd:31:4
+      README.Rmd:32:4
+      README.Rmd:33:4
+      README.Rmd:34:4
+      README.Rmd:39:31
+      README.Rmd:39:67
+      README.Rmd:40:32
+      README.Rmd:40:68
+      README.Rmd:41:31
+      README.Rmd:41:67
+      README.Rmd:42:34
+      README.Rmd:42:70
+      README.Rmd:43:36
+      README.Rmd:43:87
+      README.Rmd:47:54
+
+    docxtractr
+      README.Rmd:17:238
+      README.Rmd:19:5
+      README.Rmd:21:1
+      README.Rmd:24:77
+      README.Rmd:26:165
+      README.Rmd:39:47
+      README.Rmd:40:48
+      README.Rmd:41:47
+      README.Rmd:42:50
+      README.Rmd:43:52
+
+    github
+      README.Rmd:4:23
+
+    md
+      README.Rmd:3:3
+      README.Rmd:7:13
+      README.Rmd:164:88
+
+    mdash
+      README.Rmd:26:197
+      README.Rmd:26:221
+
+    png
+      README.Rmd:19:21
+
+    pre
+      README.Rmd:49:33
+
+    README
+      README.Rmd:7:6
+      README.Rmd:7:34
+
+    realworld
+      README.Rmd:43:26
+
+    Rmd
+      README.Rmd:7:41
+
+    tbl
+      README.Rmd:32:17
+      README.Rmd:34:9
+
+    tbls
+      README.Rmd:31:18
+
+    url
+      README.Rmd:47:59

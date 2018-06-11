@@ -1,0 +1,2290 @@
+"county","sample","state","name","exceedances"
+"Mobile",20,"al","Dauphin Island Water & Sewer",1
+"Monroe",23,"al","Excel Water System",1
+"Washington",95,"al","Tate & Lyle Sucralose, Inc. Water System",1
+"Coosa",18.3,"al","Lake Mitchell Water, Incorporated",1
+"Juneau City and Borough",15.5,"ak","Thunder Mountain Mobile Park",1
+"Juneau City and Borough",31,"ak","Hecla Greens Creek Hawk Inlet",1
+"Ketchikan Gateway Borough",27.7,"ak","Boyer Towing",1
+"Ketchikan Gateway Borough",32.9,"ak","Thorne Bay, City Of",1
+"Ketchikan Gateway Borough",16.2,"ak","Clover Pass Christian School",2
+"Ketchikan Gateway Borough",42.8,"ak","Clover Pass Christian School",2
+"Ketchikan Gateway Borough",26.65,"ak","Wal-Mart",1
+"Wrangell City and Borough",24,"ak","Kake Municipal Water",3
+"Wrangell City and Borough",43.1,"ak","Kake Municipal Water",3
+"Sitka City and Borough",108.05,"ak","Port Alexander Pws",1
+"Anchorage Municipality",16.3,"ak","Greenbrook S/D",1
+"Anchorage Municipality",226.1,"ak","Troll Knoll S/D",1
+"Anchorage Municipality",72.7,"ak","Colonial Park S/D",1
+"Anchorage Municipality",16.628,"ak","Eaglecrest Condos Assn.",1
+"Matanuska-Susitna Borough",41,"ak","Nana Construction Llc",1
+"Matanuska-Susitna Borough",29.6,"ak","Msbsd Trapper Creek Elementary",1
+"Matanuska-Susitna Borough",142.5,"ak","Faith Bible Fellowship",1
+"Matanuska-Susitna Borough",17,"ak","Msbsd Houston Middle School",2
+"Matanuska-Susitna Borough",17.2,"ak","Msbsd Houston Middle School",2
+"Matanuska-Susitna Borough",34.5,"ak","Three Bears Store 80",1
+"Matanuska-Susitna Borough",22.9,"ak","Iris Circle Water Corporation",1
+"Kenai Peninsula Borough",20,"ak","Kpbsd Moose Pass School",5
+"Kenai Peninsula Borough",59.25,"ak","Kpbsd Moose Pass School",5
+"Kenai Peninsula Borough",22.1,"ak","Seldovia Water System",1
+"Kenai Peninsula Borough",15.9,"ak","Nikishka Bay",1
+"Kenai Peninsula Borough",42.7,"ak","Beachside Townhouse",1
+"Kenai Peninsula Borough",25.5,"ak","Voznesenka Village",1
+"Kenai Peninsula Borough",27.75,"ak","Alaska Village Mission",2
+"Kenai Peninsula Borough",31.8,"ak","Alaska Village Mission",2
+"Kenai Peninsula Borough",32.82,"ak","Alaska Christian College",1
+"Kodiak Island Borough",59.62,"ak","Port Lions",1
+"Bristol Bay Borough",65,"ak","Swsd Wm Nelson School Ekwok",1
+"Aleutians West Census Area",86.8,"ak","Usaf Eareckson",1
+"Aleutians West Census Area",20.1,"ak","Adak Utilities",1
+"Bethel Census Area",27.7,"ak","Kipnuk Water System",1
+"Bethel Census Area",52.9,"ak","Yukon Kuskokwim Correctional",1
+"Bethel Census Area",76.5,"ak","Native Village Of Sleetmute",1
+"Bethel Census Area",130.154,"ak","Lksd Newtok Ayaprun School",2
+"Bethel Census Area",161.3,"ak","Lksd Newtok Ayaprun School",2
+"Yukon-Koyukuk Census Area",27.7,"ak","Yksd - Allakaket School",2
+"Yukon-Koyukuk Census Area",40.2,"ak","Yksd - Allakaket School",2
+"North Slope Borough",715,"ak","Nabors Alaska Alyeska Camp",1
+"North Slope Borough",18.85,"ak","Afc / Nanuq Herc / Wolverine Camp",1
+"North Slope Borough",26,"ak","Eni Petro Oliktok/Opp & Nikaitchuq/Noc",1
+"Northwest Arctic Borough",483,"ak","Kotzebue Mun. Water System",1
+"Northwest Arctic Borough",24,"ak","Selawik Safewater Facility",2
+"Northwest Arctic Borough",35.47,"ak","Selawik Safewater Facility",2
+"Nome Census Area",15.575,"ak","Shishmaref Water System",2
+"Nome Census Area",17.9,"ak","Shishmaref Water System",2
+"Yukon-Koyukuk Census Area",45.5,"ak","Beaver Water System",1
+"Fairbanks North Star Borough",29.35,"ak","Moose Creek Apartments",1
+"Southeast Fairbanks Census Area",32.4,"ak","Pogo Permanent Camp",2
+"Southeast Fairbanks Census Area",52.5,"ak","Pogo Permanent Camp",2
+"Cochise",26,"az","Bisbee Douglas Intl Airport",1
+"Cochise",28,"az","Cochise Jr College",1
+"Maricopa",31.1,"az","Taliesin West",1
+"Navajo",70,"az","Porter Creek Dwid",1
+"Pima",17,"az","Marana Municipal - Picture Rocks",1
+"Pima",50,"az","Why Dwid",1
+"Pima",31.1,"az","Mt Lemmon Dwid",1
+"Pima",24,"az","Thim Utility Corporation - Vfw",1
+"Pima",48,"az","Thim Water Corp 2",1
+"Pinal",30,"az","Arizona Training Program",1
+"Pinal",71,"az","Adoc Eyman Unit",1
+"Santa Cruz",19.8,"az","Mountain View Campground",2
+"Santa Cruz",24,"az","Mountain View Campground",2
+"Yavapai",17,"az","Jackson Acres Water Co",1
+"Yavapai",27,"az","Hillside School",1
+"Yavapai",65.4,"az","Sedona Venture Water Company",1
+"Yavapai",20,"az","Windy Valley Plaza",1
+"Yuma",17,"az","Fishers Landing Water & Sewer",1
+"Yuma",22.1,"az","Sun Leisure Estates Utilities Company",1
+"Yuma",46,"az","Tierra Mesa Estates Water",1
+"Yuma",29.3,"az","Orange Grove Elementary School",2
+"Yuma",38,"az","Orange Grove Elementary School",2
+"Yuma",67,"az","Lucky Park Del Sur",1
+"Yuma",29,"az","El Prado Water Company",2
+"Yuma",31,"az","El Prado Water Company",2
+"Yuma",26.1,"az","Sunset Mhp",1
+"La Paz",71,"az","Desert Gardens Rv Park",1
+"La Paz",25,"az","Q Mountain Water Company",4
+"La Paz",109,"az","Q Mountain Water Company",4
+"La Paz",100,"az","Parker South",1
+"Pima",33,"az","North La Cholla Mhp",1
+"Pima",49,"az","Orchard Valley Mobile Home Park",1
+"Boone",17,"ar","Harrison Waterworks",1
+"Mississippi",24,"ar","Keiser Waterworks",2
+"Mississippi",47,"ar","Keiser Waterworks",2
+"Perry",40,"ar","Houston Waterworks",1
+"Pike",17,"ar","Delight Waterworks",3
+"Pike",45,"ar","Delight Waterworks",3
+"Pike",24,"ar","Murfreesboro Waterworks",1
+"Van Buren",19,"ar","Dennard Water Association",1
+"Howard",43,"ar","North Howard Rural Water Association",2
+"Howard",48,"ar","North Howard Rural Water Association",2
+"Columbia",26,"ar","Albemarle Corporation West",1
+"NA",17.65,"ca","Jack Norton School",1
+"Alameda",1600,"ca","Alameda Point",1
+"Butte",18,"ca","Big Bend Mobilehome Park",1
+"Butte",124,"ca","Nord Country School",1
+"Butte",410,"ca","Del Oro Water Co.-Lime Saddle Marina",1
+"Butte",17.4,"ca","Silver Dollar Fairgrounds",1
+"Fresno",310,"ca","Musick Creek Tract Association",1
+"Fresno",16.5,"ca","Musick Meadows #1",1
+"Fresno",16,"ca","Fairmont School",2
+"Fresno",24,"ca","Fairmont School",2
+"Fresno",40,"ca","Laton High School",1
+"Fresno",22,"ca","Orange Center School",4
+"Fresno",100,"ca","Orange Center School",4
+"Fresno",55,"ca","Clay Joint Elementary School",2
+"Fresno",94,"ca","Clay Joint Elementary School",2
+"Fresno",113,"ca","Batth Dehydrator",1
+"Fresno",27.5,"ca","Foster Farms - Cedar Hatchery",1
+"Fresno",40,"ca","Shaver Lake Heights Mwc",1
+"Fresno",29.65,"ca","Nps-Grant Grove",1
+"Glenn",26,"ca","Willows Mobile Home Community & Rv Park",1
+"Inyo",550,"ca","Brookside Mobile Home Park",1
+"Kern",22,"ca","West Tehachapi Mutual",1
+"Kern",45,"ca","Oak Knolls Mutual Water Company",1
+"Kern",17,"ca","Kranenburg Water System",1
+"Kern",22,"ca","Linns Valley School",2
+"Kern",102,"ca","Linns Valley School",2
+"Kern",27,"ca","Ge Wind Energy",1
+"Kern",58,"ca","Lehr Bros Water System",1
+"Kern",19,"ca","Brookfield Renewable Power Water System",1
+"Los Angeles",20.9,"ca","Los Angeles, City Of - Power Plant #2",1
+"Los Angeles",15.8,"ca","Los Angeles, City Of - Power Plant #1",1
+"Los Angeles",16,"ca","Kinneloa Irrigation Dist.",1
+"Los Angeles",16,"ca","La Verne, City Wd",1
+"Los Angeles",260,"ca","Monterey Park-City, Water Dept.",1
+"Los Angeles",590,"ca","Hungry Valley State Vehicular Rec Area",1
+"Marin",17,"ca","North Marin Wd - Pt. Reyes",1
+"Mendocino",21,"ca","Wildwood Campground",2
+"Mendocino",43,"ca","Wildwood Campground",2
+"Mendocino",24,"ca","Woodside Rv Park",1
+"Mendocino",17.5,"ca","Leggett Valley School",1
+"Mendocino",16,"ca","Csp-Russian Gulch State Park",3
+"Mendocino",53,"ca","Csp-Russian Gulch State Park",3
+"Merced",42,"ca","Mcswain Elementary School",1
+"Mono",19,"ca","Mammoth Cwd",1
+"Monterey",44,"ca","Normco Wc",1
+"Monterey",39,"ca","Rancho Borromeo Mws",1
+"Monterey",25,"ca","San Miguel Ws #01",1
+"Monterey",152,"ca","Cypress Community Church Ws",1
+"Monterey",16,"ca","Salinas Valley State Prison",1
+"Napa",490,"ca","Sterling Vineyards",1
+"Napa",16.5,"ca","R Ranch At The Lake",1
+"Napa",15000,"ca","Phelps Vineyards",1
+"Napa",75.5,"ca","Nvusd: Wooden Valley School",1
+"Napa",111.5,"ca","Milton Road Water Company",1
+"Napa",17.2,"ca","Howell Mountain Mutual Water Company",1
+"Orange",32,"ca","Rancho Mission Viejo",1
+"Orange",320,"ca","Eastside Water Association",1
+"Sacramento",55,"ca","Imperial Manor Mobilehome Community",1
+"San Benito",66,"ca","Aromas Hills Mutual Water Association",1
+"San Bernardino",38,"ca","Big Pine Tract",1
+"San Bernardino",850,"ca","Mitsubishi Cement Plant Cushenbury",1
+"San Bernardino",31,"ca","River Ranch Mhp",1
+"San Bernardino",65,"ca","Oak Glen Domestic Water",1
+"San Bernardino",211,"ca","Pali Overnight Adventures",1
+"San Bernardino",27,"ca","Sbdno County Service Area 70 Cedar Glen",1
+"San Bernardino",130,"ca","Cdf - Oak Glen Conservation Camp",1
+"San Bernardino",145,"ca","Cya-Youth Correctional Facility",2
+"San Bernardino",274,"ca","Cya-Youth Correctional Facility",2
+"San Diego",214,"ca","Julian Community Services District",1
+"San Diego",18.5,"ca","North Peak Mutual Water Company",1
+"San Diego",43,"ca","Dhs Border Patrol Hwy 94 Checkpoint",1
+"San Diego",19,"ca","Usn San Clemente Island",1
+"San Joaquin",19.4,"ca","O-G Packing Co",1
+"San Joaquin",69,"ca","Faith Community Church Of The Nazarene",1
+"San Joaquin",100,"ca","Deuel Vocational Institution",1
+"San Mateo",76.9,"ca","City Of Menlo Park",1
+"Santa Barbara",36,"ca","Imerys Minerals California Inc",1
+"Santa Clara",16,"ca","South County Retirement Home",1
+"Santa Clara",60,"ca","Cinnabar Hills Golf Club",1
+"Siskiyou",5300,"ca","Deadwood Conservation Camp",1
+"Sonoma",38,"ca","Cazadero Water Company, Inc.",1
+"Sonoma",44.5,"ca","South Cloverdale Water Company",1
+"Sonoma",18.7,"ca","Fort Ross School District",1
+"Sonoma",19.85,"ca","Blue Spruce Mobile Home Park",1
+"Sonoma",84,"ca","Santa Rosa Mobile Estates",1
+"Sonoma",48,"ca","Kenwood Vineyards And Winery",1
+"Stanislaus",18.65,"ca","Oasis Investments",1
+"Sutter",25.3,"ca","Dwr-Sutter Maintenance Yard",1
+"Trinity",13200,"ca","Rush Creek Mutual Water System",1
+"Tulare",23,"ca","Linnell Farm Labor Center",1
+"Tulare",16.5,"ca","Orosi High School",1
+"Tulare",90.5,"ca","Kaweah High School",1
+"Tulare",20.5,"ca","Sequoia Crest Water Co",1
+"Tulare",44,"ca","Waukena Elementary School",1
+"Tulare",30,"ca","Tulare County Road Yard #2 Pws",1
+"Tulare",19.2,"ca","Milk Specialties Global",1
+"Tulare",21,"ca","Pffj, Llc",3
+"Tulare",42,"ca","Pffj, Llc",3
+"Tuolumne",32,"ca","Sonora Estates Mobile Home Park",1
+"Tuolumne",44,"ca","Mono Vista Ranch Mhp",1
+"Tuolumne",25,"ca","Mi-Wuk Village Mut Wtr Co",1
+"Ventura",16.7,"ca","Camp Scheideck",1
+"Ventura",25.7,"ca","Evergreen Trailer Park",2
+"Ventura",32.6,"ca","Evergreen Trailer Park",2
+"Yuba",16.6,"ca","Mjusd Foothill Intermediate School",2
+"Yuba",22.6,"ca","Mjusd Foothill Intermediate School",2
+"Yuba",16.5,"ca","Mjusd Dobbins School",2
+"Yuba",97,"ca","Mjusd Dobbins School",2
+"Yuba",20.9,"ca","Mjusd Loma Rica School",2
+"Yuba",23,"ca","Mjusd Loma Rica School",2
+"Clear Creek",22,"co","Empire Town Of",1
+"Clear Creek",39,"co","St Marys Glacier Wsd",1
+"Montrose",16,"co","Fruitland Domestic Wc",2
+"Montrose",16.5,"co","Fruitland Domestic Wc",2
+"Denver",17,"co","Denver Water Board",1
+"Dolores",20.2,"co","Rico Town Of",1
+"Garfield",71.6,"co","Springridge Subd",1
+"Garfield",19.3,"co","Sunlight View Www Company",1
+"Garfield",110,"co","Westbank Mesa Hoa",1
+"Grand",17,"co","The Shores Of Shadow Mountain Hoa",1
+"La Plata",45,"co","Durango West Md No 2",1
+"Larimer",18,"co","Prospect Mountain Wc",4
+"Larimer",91,"co","Prospect Mountain Wc",4
+"Park",26.5,"co","Shawnee Wca",4
+"Park",52,"co","Shawnee Wca",4
+"Pitkin",16.9,"co","Pitkin Green Hoa",1
+"Prowers",43.5,"co","Hartman Town Of",1
+"Pueblo",16,"co","Rye Town Of",2
+"Pueblo",26,"co","Rye Town Of",2
+"Summit",21,"co","Dillon Town Of",3
+"Summit",32,"co","Dillon Town Of",3
+"Summit",18,"co","Tanglewood Ws",3
+"Summit",27,"co","Tanglewood Ws",3
+"Teller",24,"co","Rainbow Valley Wd",1
+"Teller",33,"co","Valley Maint Corp No 1",1
+"Weld",16.4,"co","Kersey Wd",2
+"Weld",17.4,"co","Kersey Wd",2
+"Weld",17.7,"co","Firestone Town Of",4
+"Weld",34.1,"co","Firestone Town Of",4
+"Weld",16,"co","Platteville Town Of",3
+"Weld",24,"co","Platteville Town Of",3
+"Arapahoe",23,"co","Arapahoe Cnty Wwwa",2
+"Arapahoe",25,"co","Arapahoe Cnty Wwwa",2
+"Clear Creek",22,"co","Cdot Eisenhower Johnson Tunnel",1
+"Clear Creek",19,"co","Mill Creek Wia",4
+"Clear Creek",76,"co","Mill Creek Wia",4
+"Jefferson",29.5,"co","Aspen Park Village Ctr",1
+"Jefferson",22,"co","Conifer Dental Medical Group",6
+"Jefferson",46.5,"co","Conifer Dental Medical Group",6
+"Larimer",117,"co","Covenant Heights Conference Center",1
+"Larimer",16,"co","Ravencrest Chalet",1
+"Logan",16,"co","Caliche School",4
+"Logan",84.5,"co","Caliche School",4
+"Pueblo",19.9,"co","Usdot  Trans Tech Cnt",2
+"Pueblo",61,"co","Usdot  Trans Tech Cnt",2
+"Routt",45,"co","North Routt Community Charter School",1
+"New Haven",40,"ct","Laticrete International",1
+"Fairfield",16,"ct","Aquarion Water Co Of Ct-Western Brookfld",1
+"Fairfield",20,"ct","Lake Lillinonah Shores Condos",1
+"Fairfield",19,"ct","Saint Joseph School",1
+"Middlesex",329,"ct","Roto Frank Of America",1
+"New London",19,"ct","Ctwc - Westchester Village",1
+"Litchfield",38,"ct","Camp Jewell-Sunrise",1
+"Tolland",18,"ct","Columbia Manufacturing - Well #1",1
+"Middlesex",100,"ct","Stonegate Springs",1
+"Windham",23,"ct","Whitcraft Corporation",3
+"Windham",211,"ct","Whitcraft Corporation",3
+"Middlesex",40,"ct","Ctwc - Westchester East Lp",1
+"Middlesex",17,"ct","East Hampton Wpca - Royal Oaks System",1
+"Tolland",49,"ct","Meadowbrook Apartments, Llc",1
+"New London",18,"ct","Franklin Commons",1
+"Hartford",47,"ct","Neipsic Woods Water Association",1
+"Fairfield",32,"ct","Parkway School",1
+"New London",17,"ct","Ctwc - Gallup Water -Country Mobile Div.",1
+"New London",42,"ct","Ctwc - Shoreline Reg-Bay Mountain",1
+"Middlesex",27,"ct","Burr District Elementary School",2
+"Middlesex",68,"ct","Burr District Elementary School",2
+"Middlesex",62,"ct","95 Bridge Road - Haddam",1
+"New Haven",130,"ct","The Carrot Patch",1
+"Hartford",18,"ct","Hartland Elem Sch & Town Bldgs",2
+"Hartford",30,"ct","Hartland Elem Sch & Town Bldgs",2
+"Litchfield",50,"ct","283 Litchfield Rd, Llc",1
+"Tolland",60,"ct","Ctwc - London Park Division",1
+"Middlesex",65,"ct","Killingworth Elementary School",1
+"New London",38,"ct","Christy Hill Condominiums",2
+"New London",53,"ct","Christy Hill Condominiums",2
+"New London",20,"ct","Ivy Cottage Children'S Center",1
+"Hartford",110,"ct","Birch Mountain Day School",2
+"Hartford",200,"ct","Birch Mountain Day School",2
+"Hartford",24,"ct","Marlborough Tavern Green",2
+"Hartford",31,"ct","Marlborough Tavern Green",2
+"New London",22,"ct","St. Bernard School",1
+"New London",20,"ct","Mountview Apartments",1
+"New London",17,"ct","St. Thomas More School-Main System",2
+"New London",31,"ct","St. Thomas More School-Main System",2
+"Hartford",73,"ct","Newington Va Medical Center-Building 1",1
+"Fairfield",17,"ct","Aquarion Water Co Of Ct-Owsc",1
+"Fairfield",17,"ct","Cedarhurst Association",1
+"New Haven",20,"ct","1011 Middletown Avenue Properties, Llc",1
+"Fairfield",28,"ct","Temple Shalom",2
+"Fairfield",46,"ct","Temple Shalom",2
+"New London",16,"ct","Deep Marine Headquarters",2
+"New London",153,"ct","Deep Marine Headquarters",2
+"New London",17,"ct","Eastport - West 2",2
+"New London",29,"ct","Eastport - West 2",2
+"Windham",336,"ct","Moosup Garden Apartments",1
+"Windham",16,"ct","Moosup Manor",1
+"Windham",58,"ct","Country Manor",1
+"Windham",37,"ct","The Rectory School",1
+"Fairfield",17,"ct","Georgetown Business Condo Association",6
+"Fairfield",190,"ct","Georgetown Business Condo Association",6
+"Hartford",78,"ct","Wapping Shopping Center",1
+"New London",37,"ct","Ctwc - Shoreline Region-Masons Island",1
+"Windham",19,"ct","Thompson Hill Water Co - Paula Lane Div",3
+"Windham",87,"ct","Thompson Hill Water Co - Paula Lane Div",3
+"Tolland",250,"ct","Baxter Farms Community Water Assoc",1
+"Tolland",19,"ct","70 Merrow Road",2
+"Tolland",21,"ct","70 Merrow Road",2
+"New London",22,"ct","Voluntown Housing Authority",1
+"New London",122,"ct","Waterford Country School, Inc.",1
+"Fairfield",70,"ct","First Church Of Christian Science",1
+"Fairfield",18,"ct","The Grumman Hill Montessori Association",1
+"New Haven",110,"ct","Arrowhead By The Lake Association, Inc.",2
+"New Haven",140,"ct","Arrowhead By The Lake Association, Inc.",2
+"New Haven",18,"ct","Wolcott Police Dept",2
+"New Haven",36,"ct","Wolcott Police Dept",2
+"Windham",650,"ct","Pinecrest Condominiums",1
+"Sussex",67.4,"de","Sand Hill Acres",1
+"Sussex",16,"de","Enchanted Acres Mhc Llc",1
+"Sussex",15.9,"de","Pyle Service Center",1
+"Sussex",22.8,"de","Sussex Manor Mobile Home Park",1
+"Sussex",21.4,"de","Sussex County Industrial Airpark",2
+"Sussex",22,"de","Sussex County Industrial Airpark",2
+"Kent",26.6,"de","Woods Edge Mobile Home Park",1
+"Sussex",16,"de","Donovan/Smith Mobile Home Park",3
+"Sussex",31,"de","Donovan/Smith Mobile Home Park",3
+"Sussex",20.7,"de","Cherry Creek Valley",1
+"Sussex",24.7,"de","Bethany Crest Llc",1
+"New Castle",23.9,"de","New Castle Water Department",1
+"Kent",47.8,"de","White Oak Subdivision",1
+"Sussex",16.4,"de","Hidden Hills Mhp",2
+"Sussex",19,"de","Hidden Hills Mhp",2
+"Sussex",24.5,"de","Tall Pines Resort Community Sys1",1
+"Sussex",18.4,"de","Good Beginnings",1
+"Sussex",23,"de","Slaughter Neck Community Action Agency",1
+"Sussex",51.7,"de","Point Farm",1
+"Sussex",18,"de","Little Einsteins Preschool",1
+"Sussex",20,"de","Country Club Village",1
+"Sussex",21.3,"de","Beach Babies Day Care",1
+"New Castle",21.3,"de","Smyrna Christian School & Church",1
+"NA",20,"fl","Miccosukee Tribe Of Indians",2
+"NA",31,"fl","Miccosukee Tribe Of Indians",2
+"NA",17,"fl","Miccosukee Service Plaza",1
+"Jackson",19,"fl","Quiet Haven Trailer Park",1
+"Alachua",21.2,"fl","Santa Fe Hills Subdivision",1
+"Bradford",20.1,"fl","Olin'S Mobile Home Park",1
+"Duval",16,"fl","Bailey'S Mhp (North)",1
+"Duval",140,"fl","Beard Equipment",1
+"Levy",17,"fl","Imagination Station I",1
+"Putnam",47,"fl","Rpuma",1
+"Putnam",24,"fl","Silver Lake Oaks Mhv",1
+"Putnam",143.1,"fl","Alf Of Pomona Park Inc",1
+"Marion",18.5,"fl","Golden Palms Inn ; Suites",2
+"Marion",48.5,"fl","Golden Palms Inn ; Suites",2
+"Marion",23.2,"fl","Edgewood Mhp",1
+"Marion",22.5,"fl","Mid-Florida Mining",1
+"Marion",95.5,"fl","Pilot Oil",1
+"Osceola",17.4,"fl","Hyatt Farms",1
+"Seminole",47,"fl","Mullet Lake Water Association",1
+"Volusia",21.5,"fl","Meadowlea Estates",1
+"Volusia",16,"fl","Orangewood Mobile Home Park",2
+"Volusia",56.8,"fl","Orangewood Mobile Home Park",2
+"Broward",41,"fl","Everglades Holiday Park",1
+"Okeechobee",22.7,"fl","East Okeechobee Mhp",1
+"Palm Beach",23,"fl","Faith Farms Ministries",1
+"Palm Beach",47.6,"fl","Sunshine Meadows",1
+"Palm Beach",15.5,"fl","First Park South Florida",2
+"Palm Beach",17,"fl","First Park South Florida",2
+"Palm Beach",44,"fl","All Star Kids Early Learn.Ctr.",1
+"Palm Beach",44,"fl","Pbcwud - Lake Region Wtp - System 11",1
+"St. Lucie",22.2,"fl","Ocean Towers / Island Village",1
+"St. Lucie",23.5,"fl","Orange Avenue Baptist Church",2
+"St. Lucie",31.8,"fl","Orange Avenue Baptist Church",2
+"Collier",28,"fl","Big Cypress  Park Headquarters",1
+"Hendry",21,"fl","Riverbend Motorcoach Resort",4
+"Hendry",48.1,"fl","Riverbend Motorcoach Resort",4
+"Highlands",33,"fl","Brighton Ranch Office Wtp",1
+"Lee",16.2,"fl","Sunseeker'S  R.V. Park",2
+"Lee",47,"fl","Sunseeker'S  R.V. Park",2
+"Lee",98,"fl","Youngquist Brothers Rock Mine",1
+"Charlotte",22.9,"fl","Sun River Utilities, Inc",1
+"Citrus",28,"fl","Progress Energy Florida (S)",1
+"Citrus",26,"fl","Constate Utl/Hills Of Avalon",1
+"Hardee",17,"fl","F.I.N.R.",1
+"Hernando",21,"fl","Wesleyan Village",1
+"Hillsborough",22.1,"fl","Hcprd/Bealsville County Park",1
+"Hillsborough",140,"fl","Chalet Village Mhp",1
+"Hillsborough",51,"fl","G ; F Mcgee Farm Worker Housing",1
+"Hillsborough",22,"fl","Sunrise Mhp",1
+"Hillsborough",18,"fl","Sun City Mobile Home Park",2
+"Hillsborough",22.6,"fl","Sun City Mobile Home Park",2
+"Hillsborough",51.2,"fl","La Casa Mia",1
+"Hillsborough",51,"fl","Springtree Apts",1
+"Hillsborough",39,"fl","Mosaic Plant City",1
+"Hillsborough",35.2,"fl","Hcprd/Sterling Heights Park",1
+"Hillsborough",19,"fl","Tim'S Memorial Presbyterian Church",1
+"Hillsborough",41,"fl","Southern Aire Rvp",2
+"Hillsborough",340,"fl","Southern Aire Rvp",2
+"Hillsborough",22.5,"fl","Country Kids Preschool",1
+"Hillsborough",32,"fl","Jay Mar Villas",1
+"Hillsborough",28,"fl","Fairview Mhp",2
+"Hillsborough",46,"fl","Fairview Mhp",2
+"Hillsborough",17,"fl","Cpm Properties",2
+"Hillsborough",24.5,"fl","Cpm Properties",2
+"Marion",31.5,"fl","Palm Lake Apts",1
+"Marion",17,"fl","Fairfield Village",1
+"Pasco",20,"fl","Lakeside Oaks Mhp",1
+"Pasco",54,"fl","Chelsea Meadows / Waters Edge",1
+"Polk",21,"fl","Florida'S Natural Growers, Inc.",3
+"Polk",35,"fl","Florida'S Natural Growers, Inc.",3
+"Polk",25,"fl","Highland Park",1
+"Polk",49,"fl","Saddlebag Lake Resort",1
+"Polk",20,"fl","Whispering Pines Mhp",1
+"Polk",20,"fl","Ctl Distribution, Inc.",3
+"Polk",39,"fl","Ctl Distribution, Inc.",3
+"Polk",17,"fl","Lomas Del Sol",1
+"Atkinson",16,"ga","Pearson",2
+"Atkinson",16,"ga","Pearson",2
+"Bleckley",16,"ga","Middle Georgia College",3
+"Bleckley",17,"ga","Middle Georgia College",3
+"Brantley",35.5,"ga","Hawks Landing",1
+"Bryan",28.3,"ga","So Atl-Black Creek Farms Subdivision",1
+"Bryan",17,"ga","Anderson S/D",1
+"Burke",19,"ga","Girard",1
+"Burke",95,"ga","Boggs Academy",1
+"Camden",75.5,"ga","Camden Co.-Flea Hill Recreation, Inc.",1
+"Carroll",22,"ga","Roopville",1
+"Charlton",19,"ga","Suwanee Canal Recreation Ctr.",1
+"Chatham",20.5,"ga","Alpha & Omega Ministries",2
+"Chatham",25,"ga","Alpha & Omega Ministries",2
+"Clarke",29.5,"ga","Beaver Dam Estates M. H. P.",1
+"Colquitt",15.5,"ga","Thornridge Subdivision",1
+"Columbia",38,"ga","Columbia County",1
+"Crisp",185.6,"ga","Crisp Academy School",1
+"Decatur",22,"ga","Bainbridge High School",1
+"Effingham",29,"ga","Marlow Elementary School",1
+"Effingham",66.3,"ga","Lee Village Subdivision",1
+"Fayette",20,"ga","Four Seasons Mobile Home Park",3
+"Fayette",44,"ga","Four Seasons Mobile Home Park",3
+"Glascock",83.6,"ga","Edgehill",1
+"Glynn",17.6,"ga","Georgia Power-Plant Mcmanus",1
+"Glynn",20.5,"ga","Pittman`S Circle",1
+"Greene",17.5,"ga","Woodville",1
+"Habersham",20,"ga","Georgia Power-Tugalo Village",2
+"Habersham",23,"ga","Georgia Power-Tugalo Village",2
+"Habersham",23.8,"ga","Village Mobile Home Park",1
+"Hancock",20.3,"ga","Georgia Power-Wallace Dam",2
+"Hancock",20.3,"ga","Georgia Power-Wallace Dam",2
+"Harris",263.8,"ga","Sky Meadows Subdivision",1
+"Harris",36.8,"ga","Kings Gap Water System #2",1
+"Harris",17.5,"ga","Royal Lodge Estates Hoa",3
+"Harris",42.2,"ga","Royal Lodge Estates Hoa",3
+"Hart",18.5,"ga","York Shores",1
+"Hart",47.9,"ga","Tucker - Massey Subdivision",1
+"Hart",17,"ga","Chandler`S Ferry Subdivision",2
+"Hart",18,"ga","Chandler`S Ferry Subdivision",2
+"Irwin",16,"ga","Mystic",3
+"Irwin",25,"ga","Mystic",3
+"Jefferson",86,"ga","Stapleton",1
+"Lowndes",18.1,"ga","Lowndes Co.-Alapaha Plantation S/D",1
+"Lowndes",24.9,"ga","Quarterman Crossing Subdivision",1
+"Lowndes",42.8,"ga","Lauren Estates Subdivision",1
+"Lumpkin",21.1,"ga","Lumpkin Co.- Sherwood Forest Subdivision",1
+"Madison",17,"ga","Westbrook Trailer Park",1
+"Marion",18,"ga","Buena Vista",1
+"Meriwether",22.9,"ga","Whippoorwill Ridge",1
+"Mitchell",30.5,"ga","Pelham-Waco Community",3
+"Mitchell",62.5,"ga","Pelham-Waco Community",3
+"Mitchell",18.8,"ga","Southwest Georgia Ethanol Ws",2
+"Mitchell",26.2,"ga","Southwest Georgia Ethanol Ws",2
+"Newton",19.4,"ga","Meadowbrook Trailer Park",1
+"Oconee",19.5,"ga","Pinehill Subdivision",1
+"Oglethorpe",17,"ga","Pinewood Hills Subdivision",1
+"Pickens",25,"ga","Big Canoe Subdivision",1
+"Pierce",41,"ga","Okefenokee Golf Club S/D",1
+"Putnam",15.5,"ga","Water Oaks Subdivision",1
+"Rabun",25.2,"ga","Rabun Gap Community School",1
+"Rabun",16,"ga","Sylvan Lake Falls",2
+"Rabun",16,"ga","Sylvan Lake Falls",2
+"Rabun",18,"ga","Heatherstone At Ford Mountain Hoa",1
+"Seminole",17,"ga","Riverside Acres Subdivision",1
+"Tattnall",17,"ga","Rogers State Prison",1
+"Twiggs",17,"ga","Twiggs Co.-Kaolin Heights S/D",4
+"Twiggs",31.5,"ga","Twiggs Co.-Kaolin Heights S/D",4
+"Twiggs",16,"ga","Twiggs Co.-Blackbottom Ws",2
+"Twiggs",18,"ga","Twiggs Co.-Blackbottom Ws",2
+"Washington",16,"ga","Harrison",1
+"White",20.5,"ga","White Creek Christian Academy",1
+"White",23,"ga","Mossy Acres",1
+"Wilkinson",22,"ga","Ivey",1
+"Kauai",21.6,"hi","Kahili Mountain Park",1
+"Benewah",990,"id","Evergreen Terrace Water Association",1
+"Bonner",64,"id","Sunnyside Water Assn",1
+"Bonner",384,"id","Marvin Lakes Estates",1
+"Kootenai",45,"id","Kootenai County Water Dist 1",1
+"Kootenai",17.1,"id","Arundel By The River A Mobile Home Comm",2
+"Kootenai",34,"id","Arundel By The River A Mobile Home Comm",2
+"Clearwater",43.18,"id","Corps Dworshak Pwr Hse View Pt",1
+"Clearwater",35.04,"id","Elk River City Of",1
+"Idaho",24.8,"id","Usfs Slate Creek Ranger Station",1
+"Latah",20.35,"id","Deary City Of",1
+"Latah",31.25,"id","Y Trailer Court",1
+"Lewis",24.2,"id","Kamiah City Of",3
+"Lewis",38.3,"id","Kamiah City Of",3
+"Nez Perce",37.7,"id","Schwabs Inc.",1
+"Gem",25,"id","Cherry Ridge Rehab",1
+"Gem",31.5,"id","Emmett Head Start",1
+"Payette",20,"id","Partners Produce",1
+"Washington",25,"id","Greenstar Building Systems",1
+"Ada",90,"id","Flying H Trailer Ranch Inc",1
+"Ada",361,"id","Star Sewer And Water Dist Water System",1
+"Boise",15.5,"id","Castle Mountain Creeks Owners Assn",1
+"Boise",50,"id","Ranch Subd",1
+"Boise",23,"id","Scenic Properties Water Assn Inc",2
+"Boise",80,"id","Scenic Properties Water Assn Inc",2
+"Boise",22,"id","Mountain Shadows Llc",1
+"Boise",81.5,"id","River At Pine Tree",1
+"Elmore",17.5,"id","Comunidad Casimiro Dimas",1
+"Valley",17,"id","Tamarack Resort Association Inc",3
+"Valley",170,"id","Tamarack Resort Association Inc",3
+"Valley",20,"id","Ymca Horsethief Camp",1
+"Valley",27.5,"id","Alzar School Inc",1
+"Blaine",19.225,"id","Usfs Snra Head Quarters Bldg",1
+"Gooding",26.165,"id","Glanbia Foods Inc",1
+"Bannock",446.8,"id","Valley View Estates",1
+"Bear Lake",72.5,"id","Sams Hollow Water Company",1
+"Bingham",17.5,"id","Moreland Water And Sewer District",1
+"Butte",40,"id","Inl Atr Complex",1
+"Caribou",39,"id","Bancroft City Of",1
+"Franklin",15.5,"id","Birch Creek Culinary",1
+"Power",16.5,"id","Simplot Research Center",1
+"Clark",22.5,"id","Usda, Agricultural Research Service",1
+"Jefferson",59.5,"id","Jefferson Alternative School",2
+"Jefferson",433.5,"id","Jefferson Alternative School",2
+"Jefferson",16,"id","Fedex Distribution Center Rigby",1
+"Jefferson",223,"id","Ibex Incorporated",1
+"Madison",28.5,"id","Meadowlark Trailer Court",1
+"Madison",25.5,"id","Cedar Butte Subdivision",1
+"Teton",35,"id","Teton Springs Water And Sewer Company",1
+"Champaign",17.6,"il","Sidney",2
+"Champaign",24.8,"il","Sidney",2
+"Cook",21.6,"il","Berwyn",1
+"Cook",24.6,"il","Broadview",1
+"Cook",15.7,"il","Calumet City",2
+"Cook",16.3,"il","Calumet City",2
+"Cook",15.5,"il","Golf",1
+"Cook",16.6,"il","Northfield",1
+"Cook",32.1,"il","Western Springs",1
+"Douglas",23.3,"il","Newman",1
+"Fulton",20.44,"il","Vermont",3
+"Fulton",40.3,"il","Vermont",3
+"Henderson",49.8,"il","Biggsville",1
+"Henry",86.5,"il","Timber Brook Estates",1
+"Kane",127,"il","East Dundee",1
+"Knox",22,"il","Galesburg",1
+"Lake",19.7,"il","North Chicago",1
+"Lawrence",51.1,"il","Bridgeport",1
+"McHenry",19.7,"il","Crystal Lake",1
+"McHenry",18.1,"il","Royal Oaks Mhp",1
+"Richland",70,"il","Calhoun",1
+"Sangamon",16.2,"il","Bissell Village Mhc",1
+"Tazewell",44,"il","Morton Mobile Home Park",1
+"Winnebago",19.7,"il","Legend Lakes Water Association",1
+"Ogle",20.8,"il","Monroe Center School",4
+"Ogle",44.8,"il","Monroe Center School",4
+"DeKalb",18,"il","Commonwealth Edison Company",1
+"Lake",23.2,"il","Kildeer Countryside School",1
+"Lake",29.8,"il","Congregation Beth Judea",1
+"Will",118,"il","Wheatland School",1
+"Warren",60,"il","United School District 304",1
+"DuPage",28.8,"il","Carmel Montessori Academy",1
+"Winnebago",90,"il","Wifr Tv",1
+"Marshall",16.4,"il","Midland High School",2
+"Marshall",43.5,"il","Midland High School",2
+"Marshall",44,"il","United Suppliers",1
+"Will",15.6,"il","Stepan Company",2
+"Will",19.6,"il","Stepan Company",2
+"Will",16,"il","Bernard Division",1
+"Lake",15.8,"il","Rockland Office Plaza",2
+"Lake",17.3,"il","Rockland Office Plaza",2
+"Boone",22.3,"il","Kiskwaukee School",1
+"Tazewell",20,"il","Ameren-Cilco-Eastern Serv Ctr",5
+"Tazewell",100,"il","Ameren-Cilco-Eastern Serv Ctr",5
+"Lake",15.5,"il","St Marks Day School",1
+"Putnam",42,"il","Mid American Growers",1
+"Lake",105,"il","Waste Management North",1
+"Lake",22,"il","Grove Medical Center",1
+"Douglas",17,"il","Dte Tuscola, Llc",2
+"Douglas",18,"il","Dte Tuscola, Llc",2
+"Will",54.6,"il","Styrolution American Llc",2
+"Will",59.6,"il","Styrolution American Llc",2
+"Will",19,"il","Mary Sears Child Care",1
+"Kendall",36,"il","Helmar Lutheran Church",1
+"Grundy",21,"il","Forbo Adhesives",3
+"Grundy",32.6,"il","Forbo Adhesives",3
+"Jo Daviess",25.4,"il","Kolb Lena Cheese Company",1
+"LaSalle",18.1,"il","Pcs Phosphate",1
+"Lake",23.6,"il","Countryside Center Handicapped Wl 2",1
+"Allen",29.9,"in","Cedar Creek Church Of Christ/Day Care",1
+"Cass",52.6,"in","Andersons Clymers Terminal",1
+"Elkhart",28,"in","Baugo Comm. Ed. Service Ctr-Maintenance",1
+"Elkhart",152,"in","Indiana Rotomolding, Inc.",1
+"Hamilton",23.5,"in","Emmanuel United Methodist Church",1
+"Hamilton",40.4,"in","Perfecto Manufacturing Inc (Building #4)",1
+"Kosciusko",17.6,"in","J.C. Manufacturing, Inc.",1
+"Kosciusko",98,"in","Kralis Bros. Foods Llc",1
+"Kosciusko",17,"in","Pauls Welding, Inc.",1
+"Kosciusko",66.7,"in","Grace Health Care Village",1
+"Lake",43.7,"in","Flying J #653",1
+"Marion",24.5,"in","Abf Freight System, Inc.",1
+"Porter",17,"in","Westside Properties Llc",1
+"St. Joseph",17,"in","Starz Academy #1, Inc-Little Starz",1
+"Tippecanoe",27,"in","Evonik Corporation",1
+"Tippecanoe",51,"in","Miracle Bethel Church",1
+"Tipton",129,"in","Pioneer Hi-Bred International Inc-Office",1
+"Vermillion",16.8,"in","North Vermillion High School",1
+"Vermillion",22.9,"in","Duke Energy Inc., Cayuga Station",2
+"Vermillion",25.5,"in","Duke Energy Inc., Cayuga Station",2
+"Warren",27,"in","Flex-N-Gate Covington",2
+"Warren",27.1,"in","Flex-N-Gate Covington",2
+"Adams",60,"in","Oakwood Community Association, Inc",1
+"Allen",45.3,"in","Honeysuckle (Fort Wayne Utilities)",1
+"Cass",19.4,"in","Maple Lane Village Mobile Home Park",1
+"Dearborn",24.3,"in","Dillsboro Water Works",1
+"Fountain",20,"in","Kingman Water Works",1
+"Gibson",16.1,"in","Fort Branch Water Department",2
+"Gibson",31,"in","Fort Branch Water Department",2
+"Hamilton",20,"in","Harris Hills Mobile Home Park",1
+"Hancock",23.7,"in","Arrowhead Mobile Home Park",1
+"Hendricks",45.1,"in","Memory Book Apartments",1
+"Howard",110,"in","Greentown Municipal Water",1
+"Jasper",29.8,"in","Heritage Park Apartments",1
+"Jay",17.3,"in","Redkey Water Plant",1
+"Kosciusko",21.6,"in","Pierceton Water Works",1
+"LaPorte",23.3,"in","Indian Springs Town Homes",1
+"Noble",50,"in","Kendallville Water Department",1
+"Parke",131,"in","Marshall Water Works",1
+"Porter",22,"in","Kouts Water Works",1
+"Shelby",18.1,"in","Morristown Water Department",1
+"Starke",25,"in","Hamlet Water Works",1
+"Steuben",170,"in","Linda Ann Mobile Home Park",1
+"Tipton",23,"in","Windfall Water Department",1
+"Vermillion",29.6,"in","Newport Chemical Depot",1
+"Vigo",23,"in","Pine Forest Estates",1
+"Wabash",36,"in","Lagro Municipal Water Department",1
+"Washington",18,"in","Campbellsburg Water Works",1
+"White",83.5,"in","Royal Oaks Homeowners Assn., Inc.",1
+"Allamakee",49.8,"ia","Luster Heights Camp",1
+"Boone",125,"ia","Logansport Water District #1",1
+"Bremer",22.2,"ia","Bremer Utilities",1
+"Bremer",25,"ia","Wapsie Valley Com Sch-Fairbank",1
+"Butler",23,"ia","Bristow Muni Water Supply",1
+"Cerro Gordo",26,"ia","Long Beach Mobile Park",2
+"Cerro Gordo",84,"ia","Long Beach Mobile Park",2
+"Cerro Gordo",32,"ia","Bell Harbor",1
+"Chickasaw",20,"ia","Homeland Energy Solution Llc",1
+"Dallas",20,"ia","Tyson Fresh Meats Inc (Perry Plant)",1
+"Hancock",27.9,"ia","Michael Foods - Britt",1
+"Humboldt",43,"ia","Livermore Water Supply",2
+"Humboldt",59,"ia","Livermore Water Supply",2
+"Iowa",16.5,"ia","Ladora Water Supply",2
+"Iowa",17,"ia","Ladora Water Supply",2
+"Jackson",50.6,"ia","Preston Muni Water Supply",1
+"Johnson",16,"ia","Cottage Reserve Corporation",1
+"Johnson",18,"ia","Woodland Heights Homeowners Assoc.",2
+"Johnson",60,"ia","Woodland Heights Homeowners Assoc.",2
+"Jones",38.2,"ia","Wyoming Water System",1
+"Kossuth",176,"ia","Woodlyn Hills",1
+"Linn",18,"ia","Central Iowa Power Cooperative",1
+"Linn",20,"ia","Us Nameplate Company Inc",1
+"Muscatine",22,"ia","Monsanto Company",1
+"Plymouth",25,"ia","Brunsville Municipal Water Supply",1
+"Pottawattamie",19,"ia","Green Hills Aea",1
+"Scott",20,"ia","Revelle 1St & 2Nd Subdivision",1
+"Scott",16,"ia","Rolling Green Estates Hoa Inc",1
+"Story",17,"ia","Roland Water Supply",1
+"Story",38,"ia","Story City Water Dept",1
+"Barton",170.4,"ks","Barton Hills Addition",1
+"Brown",22,"ks","Hiawatha, City Of",1
+"Brown",16.6,"ks","Morrill, City Of",1
+"Dickinson",17.4,"ks","M And M Mobile Home Court 2",1
+"Douglas",16,"ks","Douglas Co Rwd 5",1
+"Ellis",17,"ks","Schoenchen, City Of",1
+"Ellis",20,"ks","Country View Mobile Home Park",1
+"Ellsworth",24.8,"ks","Holyrood, City Of",1
+"Ellsworth",18.3,"ks","Ellsworth Co Rwd 1",1
+"Ford",19.9,"ks","Ford, City Of",1
+"Geary",38,"ks","Geary Co Water District 2",1
+"Jackson",25,"ks","Soldier, City Of",1
+"Kiowa",19,"ks","Haviland, City Of",1
+"Norton",15.6,"ks","Norton Co Rwd 1",1
+"Osborne",30,"ks","Downs, City Of",1
+"Phillips",20.6,"ks","Speed, City Of",1
+"Reno",20.7,"ks","South Hutchinson, City Of",2
+"Reno",44.9,"ks","South Hutchinson, City Of",2
+"Reno",15.6,"ks","Reno Co Rwd 3",1
+"Riley",23,"ks","Ogden, City Of",1
+"Saline",17,"ks","Sundowner West Mobile Home Park",2
+"Saline",647.2,"ks","Sundowner West Mobile Home Park",2
+"Sedgwick",19,"ks","Sedgwick Co Rwd 3",1
+"Sedgwick",19,"ks","Valley Center, City Of",1
+"Wallace",37.5,"ks","Wallace, City Of",1
+"Gove",18,"ks","Wheatland High School",1
+"Lincoln",16,"ky","Stanford Water Works",1
+"De Soto Parish",17,"la","Highway 513 Water Supply",2
+"De Soto Parish",20,"la","Highway 513 Water Supply",2
+"Grant Parish",48,"la","Central Grant Water System",1
+"Lafayette Parish",19,"la","Cajun Country Mhp Water System",1
+"Lincoln Parish",43,"la","Grambling State Univ West",1
+"Livingston Parish",31,"la","Diversion Water - Chinquapin",1
+"Washington Parish",24,"la","Utilities Inc - North Folsom Hills",2
+"Washington Parish",30,"la","Utilities Inc - North Folsom Hills",2
+"Ascension Parish",24,"la","Lions Copolymer Geismar",2
+"Ascension Parish",43,"la","Lions Copolymer Geismar",2
+"Ascension Parish",17,"la","Air Liquide Geismar Utility Services",7
+"Ascension Parish",31,"la","Air Liquide Geismar Utility Services",7
+"East Baton Rouge Parish",19,"la","Formosa Plastics Corporation",2
+"East Baton Rouge Parish",20,"la","Formosa Plastics Corporation",2
+"Lafayette Parish",18,"la","Schlumberger Drilling & Measurements Ws",1
+"Rapides Parish",26,"la","Lsu At Alexandria",1
+"St. Tammany Parish",42,"la","State Police Troop L",1
+"Washington Parish",18,"la","Lil Angels Daycare",1
+"Kennebec",337,"me","Msad 49 Albion Elem School",1
+"York",16,"me","Msad 60 Noble Middle School",1
+"Hancock",21.6,"me","Dedham Elementary School",2
+"Hancock",42.5,"me","Dedham Elementary School",2
+"Penobscot",77,"me","Msad 63 Holden School",2
+"Penobscot",120,"me","Msad 63 Holden School",2
+"Waldo",27.6,"me","Rsu 03 Walker Memorial School",1
+"Washington",23,"me","Aos 96 Fort Obrien School",3
+"Washington",140,"me","Aos 96 Fort Obrien School",3
+"Penobscot",38,"me","Msad 22 Newburgh Elementary School",1
+"Somerset",32,"me","Palmyra Community Center",1
+"York",51,"me","Msad 57 Shapleigh Mem School",3
+"York",80,"me","Msad 57 Shapleigh Mem School",3
+"Lincoln",19,"me","Rsu 12 Somerville Elementary School",2
+"Lincoln",47,"me","Rsu 12 Somerville Elementary School",2
+"Knox",50,"me","Rsu 13 Gilford Butler School",2
+"Knox",100,"me","Rsu 13 Gilford Butler School",2
+"Lincoln",30,"me","Aos 98 Southport Central School",2
+"Lincoln",43.8,"me","Aos 98 Southport Central School",2
+"York",40,"me","Charter Oak Mobile Home Village",1
+"Sagadahoc",18,"me","Happy Trails Mhp",4
+"Sagadahoc",35,"me","Happy Trails Mhp",4
+"York",21,"me","Msad 57 Lyman Elem School",2
+"York",65,"me","Msad 57 Lyman Elem School",2
+"Washington",29,"me","Msu 102 Jonesboro Elem School",2
+"Washington",30,"me","Msu 102 Jonesboro Elem School",2
+"York",17,"me","Msad 57 Line Elementary School",1
+"Androscoggin",20.3,"me","Auburn Water District",1
+"Penobscot",22.5,"me","Bangor Water District",3
+"Penobscot",36,"me","Bangor Water District",3
+"Cumberland",23,"me","Dingley Spring Estates",1
+"Penobscot",20,"me","Sunny Gables- Glenburn Housing",1
+"York",16,"me","Kennebunk,  Kennebunkport & Wells Wd",1
+"Aroostook",20,"me","Loring Development Authority",4
+"Aroostook",109,"me","Loring Development Authority",4
+"Penobscot",16,"me","Towne Center-Ridgewood Apartments",1
+"Aroostook",22,"me","St Francis Water District",1
+"Washington",19.7,"me","Us Cg Jonesport - Station",2
+"Washington",79,"me","Us Cg Jonesport - Station",2
+"Hancock",23,"me","Blue Hill Terrace",3
+"Hancock",46,"me","Blue Hill Terrace",3
+"Cumberland",17,"me","Casco Inn Residential Care",1
+"Cumberland",20,"me","Standish Baptist Church",2
+"Cumberland",26,"me","Standish Baptist Church",2
+"Washington",18,"me","Princeton Water District",1
+"Cumberland",25.5,"me","New Gloucester Water District",1
+"Knox",18,"me","Ledgewood Professional Building",3
+"Knox",22,"me","Ledgewood Professional Building",3
+"York",100,"me","Childrens Challenge Childcare",1
+"Aroostook",41,"me","Scovil Building-North Street",1
+"Lincoln",18,"me","Juniper Hill School",2
+"Lincoln",19,"me","Juniper Hill School",2
+"Kennebec",17,"me","First United Pentecostal Church-Augusta",2
+"Kennebec",90,"me","First United Pentecostal Church-Augusta",2
+"Cumberland",27.1,"me","Little Tykes Ii Child Care",1
+"Hancock",28,"me","Msu 92 Beech Hill School",1
+"Aroostook",20,"me","Msad 70 Hodgdon High School",1
+"Franklin",18,"me","Carrabassett Valley Academy",2
+"Franklin",33,"me","Carrabassett Valley Academy",2
+"Somerset",16.6,"me","Sappi Fine Paper N A",4
+"Somerset",59.6,"me","Sappi Fine Paper N A",4
+"Lincoln",17,"me","Coastal Christian School",2
+"Lincoln",30,"me","Coastal Christian School",2
+"Kennebec",35,"me","Tex Tech Industries",1
+"Aroostook",38,"me","Hodgdon Homestead",2
+"Aroostook",60,"me","Hodgdon Homestead",2
+"Aroostook",20,"me","Us Border Patrol Station-Hodgdon",2
+"Aroostook",23,"me","Us Border Patrol Station-Hodgdon",2
+"Penobscot",17,"me","Danforths Downhome Supermarket",8
+"Penobscot",37,"me","Danforths Downhome Supermarket",8
+"Oxford",20,"me","Bearhaven Crossing",1
+"Penobscot",100,"me","Maple Ridge Mobile Home Park",1
+"York",28,"me","Blueberry Ridge Mobile Home Village",1
+"York",81,"me","Msad 57 Waterboro Elem School",3
+"York",635,"me","Msad 57 Waterboro Elem School",3
+"York",17,"me","P W Plummer Shopping Center",1
+"Baltimore",25,"md","Glen Meadows Retirement Community",1
+"Carroll",16,"md","Ashleys Trailer Park",2
+"Carroll",25,"md","Ashleys Trailer Park",2
+"Carroll",24,"md","Todd Village Mobile Home Park",1
+"Cecil",24,"md","Whispering Pines Mobile Home Park",1
+"Kent",20,"md","Town Of Betterton",1
+"Washington",18,"md","Conococheague Apartments",1
+"Anne Arundel",25,"md","Indian Creek Lower/Middle School",1
+"Anne Arundel",24,"md","Millersville Elementary",1
+"Anne Arundel",26,"md","Baldwin Memorial U.M. Church / Day Care",1
+"Anne Arundel",29,"md","Tender Years Child Care",1
+"Anne Arundel",126,"md","Long Point Mall",1
+"Baltimore",210,"md","Manor Shopping Center",1
+"Baltimore",339,"md","Camp Fretterd Military Reservation",1
+"Baltimore",16,"md","Hillendale Country Club",1
+"Baltimore",17,"md","Monkton Country Day Care & Preschool",1
+"Baltimore",18,"md","Free-State Montessori School",1
+"Baltimore",81,"md","Edrich Lumber Company",1
+"Baltimore",16,"md","Grauls Superthrift Market",1
+"Baltimore",19,"md","Pine Grove Early Learning Center",1
+"Calvert",38,"md","Dunkirk Village Shopping Center",1
+"Carroll",16,"md","Performance Foodservice- Carroll County",1
+"Carroll",50,"md","Shiloh Stepping Stones",1
+"Cecil",18,"md","Greenhurst Daycare And Early Learning",1
+"Frederick",16,"md","Hyatt Park #1",1
+"Frederick",17,"md","Long Fence Company",2
+"Frederick",23,"md","Long Fence Company",2
+"Frederick",25,"md","Hyatt Center",1
+"Frederick",97,"md","The Jefferson School",1
+"Frederick",40,"md","Green Valley Plaza",1
+"Harford",36,"md","Harford Center Inc.",1
+"Harford",51,"md","Jacob'S Well Assisted Living Home",2
+"Harford",54,"md","Jacob'S Well Assisted Living Home",2
+"Harford",77,"md","Highland Community Asc./Child. Cntr. N.",2
+"Harford",110,"md","Highland Community Asc./Child. Cntr. N.",2
+"Harford",110,"md","Youths Benefit Intermediate",2
+"Harford",110,"md","Youths Benefit Intermediate",2
+"Howard",16,"md","West Friendship Shopping Center",1
+"Howard",16,"md","Glenelg Um Church & Nursery School",1
+"Howard",34,"md","Mt. Zion Um Church And Preschool",1
+"Montgomery",19,"md","Laytonsville Elementary School",3
+"Montgomery",60,"md","Laytonsville Elementary School",3
+"Somerset",16,"md","Deal Island School",1
+"Talbot",15.7,"md","Calhoon M.E.B.A. School",1
+"Washington",93,"md","Fountain Rock Elementary",1
+"Wicomico",34.2,"md","Perdue Farms Inc. - Main Office",1
+"Worcester",24,"md","Assateague Island National Seashore - Hq",1
+"Worcester",40,"md","Isle Of Wight County Office Building",1
+"Worcester",19,"md","Most Blessed Sacrament School",1
+"Worcester",17,"md","Braemar Condos Distribution",2
+"Worcester",25,"md","Braemar Condos Distribution",2
+"Hampshire",63,"ma","Quabbin Administration Building",1
+"Hampden",490,"ma","Meadowbrook Acres Mobile Home Park",1
+"Berkshire",130,"ma","Jiminy Peak Resort",1
+"Worcester",15.5,"ma","Village School",1
+"Hampden",33,"ma","Wales Elementary School",1
+"Berkshire",450,"ma","Waubeeka Springs",1
+"Middlesex",16,"ma","Ayer Dpw  Water Division",1
+"Worcester",16.5,"ma","Heritage Professional Bldg.",6
+"Worcester",31.5,"ma","Heritage Professional Bldg.",6
+"Middlesex",26,"ma","Holiday Inn Boxborough",1
+"Middlesex",20,"ma","Cisco Systems Inc. Site 1",1
+"Middlesex",138,"ma","159 Swanson Rd    Setra Systems Inc",1
+"Middlesex",16,"ma","Boxboro Executive Center",2
+"Middlesex",25,"ma","Boxboro Executive Center",2
+"Middlesex",20,"ma","1300 Mass Ave",1
+"Worcester",23,"ma","L And P Converters, Inc.",3
+"Worcester",371,"ma","L And P Converters, Inc.",3
+"Worcester",19,"ma","Growing Footprints Education Center",3
+"Worcester",190,"ma","Growing Footprints Education Center",3
+"Middlesex",18,"ma","Deerfield Estates",2
+"Middlesex",30,"ma","Deerfield Estates",2
+"Worcester",28,"ma","Hubbardston House Apartments",2
+"Worcester",53,"ma","Hubbardston House Apartments",2
+"Middlesex",18,"ma","Marlborough Dpw  Water Div.",1
+"Worcester",16,"ma","Sterling Water Department",4
+"Worcester",34,"ma","Sterling Water Department",4
+"Middlesex",33,"ma","Juniper Hill Water Company",3
+"Middlesex",151,"ma","Juniper Hill Water Company",3
+"Middlesex",65,"ma","Cpi Radant Technologies, Inc",4
+"Middlesex",134.6,"ma","Cpi Radant Technologies, Inc",4
+"Worcester",18.5,"ma","Sturbridge Retirement Coop. Corp.",1
+"Worcester",19,"ma","Pilot Travel Center",1
+"Worcester",19,"ma","First Congregational Church Of Sutton",2
+"Worcester",21,"ma","First Congregational Church Of Sutton",2
+"Worcester",27,"ma","Riverside Community Care",1
+"Worcester",22.45,"ma","Madden Estates",3
+"Worcester",131,"ma","Madden Estates",3
+"Middlesex",43,"ma","Assurance Technology Corp.",1
+"Suffolk",26.5,"ma","Chelsea Water Dept. (Mwra)",1
+"Essex",17,"ma","Ipswich Dpu  Water Dept",1
+"Middlesex",19.7,"ma","Malden Water Division (Mwra)",1
+"Essex",19,"ma","Manchester Water Department",1
+"Middlesex",23.6,"ma","Medford Water Dept. (Mwra)",1
+"Middlesex",16,"ma","Melrose Water Dept. (Mwra)",1
+"Middlesex",25,"ma","Nardone Property (45 Power Rd)",1
+"Middlesex",45.7,"ma","Weston Water Dept.",1
+"Suffolk",17.4,"ma","Winthrop Water Division, (Mwra)",1
+"Plymouth",21,"ma","Carver High School And Middle School",1
+"Bristol",20,"ma","New Bedford Dept. Of Pub. Infrastructure",2
+"Bristol",31,"ma","New Bedford Dept. Of Pub. Infrastructure",2
+"Plymouth",93,"ma","The Home For Little Wanderers",1
+"Plymouth",17,"ma","Litecontrol Corporation",2
+"Plymouth",47,"ma","Litecontrol Corporation",2
+"Plymouth",26,"ma","Dennett Elementary School",1
+"Plymouth",16,"ma","Sysco Boston, Llc",1
+"Barnstable",20,"ma","Southpoint Condominium Trust",1
+"Norfolk",35,"ma","Copperwood Ii Condominiums",1
+"Norfolk",19,"ma","Copperwood I Condominiums",2
+"Norfolk",72,"ma","Copperwood I Condominiums",2
+"Bristol",42,"ma","Westport Legion Llc",1
+"Bristol",21,"ma","M.A.M.O. Llc",2
+"Bristol",25,"ma","M.A.M.O. Llc",2
+"NA",23,"mi","Pine Creek Reservation",1
+"Oscoda",17,"mi","Ausable Valley Community",2
+"Oscoda",67.6,"mi","Ausable Valley Community",2
+"Lenawee",26,"mi","Boysville",1
+"Antrim",310,"mi","Central Lake, Village Of",1
+"Genesee",25,"mi","Chateaux Du Lac Condominiums",4
+"Genesee",79,"mi","Chateaux Du Lac Condominiums",4
+"Osceola",18.8,"mi","Eagle Village",1
+"Charlevoix",21.5,"mi","Hemingway Pointe Club Owners Association",1
+"Oakland",20,"mi","Knorrwood Knolls Subdivision",1
+"Emmet",34,"mi","L'Arbre Croche Club",1
+"Van Buren",2900,"mi","Lawrence",1
+"Van Buren",4700,"mi","Mattawan",1
+"Luce",17,"mi","Newberry Correctional Facility",2
+"Luce",20,"mi","Newberry Correctional Facility",2
+"Emmet",16.3,"mi","Spring Lake Club Condominiums",3
+"Emmet",42,"mi","Spring Lake Club Condominiums",3
+"Cheboygan",117,"mi","Uaw Family Education Center",1
+"Calhoun",16,"mi","Twin Pines Mobile Home Park",1
+"Isabella",17,"mi","Mapleview Estates",1
+"Livingston",40,"mi","Alan'S Park - Fowlerville",1
+"Sanilac",1000,"mi","Pine Terrace Estates",1
+"Calhoun",155,"mi","Doris Klaussen Devel Center",1
+"Cheboygan",17,"mi","Cheboygan Area Schools Admin. Bldg.",1
+"Clare",20,"mi","Farwell Alternative Education",1
+"Eaton",22.8,"mi","Dimondale Elementary School",1
+"Ingham",74.9,"mi","Vlahakis Management Company",1
+"Ingham",21.8,"mi","Colt'S And Filly'S Childcare",1
+"Ionia",17,"mi","Eight Cap Ionia Co. Outreach",1
+"Ionia",17,"mi","Faith Community Christian Sch.",1
+"Kent",20,"mi","Magna Donnelly",1
+"Leelanau",32.5,"mi","Bluebird Restuarant & Bar",1
+"Leelanau",19.6,"mi","Leelanau Fruit Company",1
+"Monroe",16.1,"mi","Big Daddy'S Truck Stop",1
+"Montmorency",21,"mi","Lewiston School",1
+"Oakland",29.6,"mi","Andersonville Elem/Ccs",1
+"Ogemaw",17,"mi","Ogemaw Heights High School",1
+"Van Buren",19,"mi","Coca Cola Refreshments",2
+"Van Buren",86.4,"mi","Coca Cola Refreshments",2
+"NA",294,"mn","Northern Lights Casino",1
+"NA",39,"mn","Bug School - Gymnasium",2
+"NA",42,"mn","Bug School - Gymnasium",2
+"Morrison",74,"mn","Buckman",1
+"Nobles",22,"mn","Reading",1
+"Olmsted",32,"mn","Olmsted County Waste-To-Energy",4
+"Olmsted",58,"mn","Olmsted County Waste-To-Energy",4
+"Polk",32,"mn","Crossroads Apartments",1
+"Rice",16,"mn","Nerstrand",1
+"Sherburne",57,"mn","Windsor Oaks Development",1
+"Aitkin",30,"mn","Mille Lacs Energy Co-Op",1
+"Blue Earth",16,"mn","Norsoft",2
+"Blue Earth",23,"mn","Norsoft",2
+"Carver",23,"mn","East Union Elementary School",1
+"Dakota",28,"mn","Stinar Corporation",1
+"Hennepin",24,"mn","Vinland National Center",1
+"Hennepin",17,"mn","Corcoran Pet Care Shopping Center",1
+"McLeod",29,"mn","Crown Court",1
+"Meeker",30,"mn","Lakeview Ranch - Darwin",1
+"Mille Lacs",44,"mn","Princeton Evangelical Lutheran School",1
+"Washington",30,"mn","Salem Evangelical Lutheran Church",1
+"Amite",15.7,"ms","Wilk-Amite W/A #2-Northwest",1
+"Calhoun",184.5,"ms","Mt Comfort W/A",1
+"Hancock",18.2,"ms","Hancock County Water & Sewer",1
+"Hinds",28.4,"ms","City Of Jackson",1
+"Humphreys",32.5,"ms","Humphreys Co. W/A #2-Brooklyn",1
+"Jackson",26.6,"ms","Helena Utility District",2
+"Jackson",2413,"ms","Helena Utility District",2
+"Montgomery",17.7,"ms","North District 1 Water Assn.",1
+"Montgomery",22,"ms","Hays Creek W/A-Legion Lake Rd",1
+"Panola",47,"ms","Enon-Locke-Curtis Water Assn",1
+"Panola",16,"ms","Hide-A-Way Hills Water Company",3
+"Panola",30.7,"ms","Hide-A-Way Hills Water Company",3
+"Panola",17.4,"ms","Plum Point Water System",1
+"Perry",16.4,"ms","Leaf River Cellulose, Llc",2
+"Perry",26.8,"ms","Leaf River Cellulose, Llc",2
+"Pike",16.2,"ms","Friendship Community W/A",1
+"Pike",33.8,"ms","St Mary Of The Pines",1
+"Quitman",19,"ms","Darling Water Association",1
+"Quitman",20.7,"ms","City Of Marks",1
+"Tate",20.8,"ms","Senatobia Lakes Estates, Inc",1
+"Tate",16.9,"ms","Delta Rain Inc-The Highlands",4
+"Tate",20,"ms","Delta Rain Inc-The Highlands",4
+"Tate",16,"ms","Hidden Valley Light Assn",1
+"Winston",17.9,"ms","Nanih-Waiya Water Association",1
+"Jackson",700,"mo","Independence",1
+"Lafayette",16.2,"mo","Waverly",3
+"Lafayette",71.5,"mo","Waverly",3
+"Callaway",22.7,"mo","Riverview Nursing Center",1
+"Cole",17.3,"mo","Missouri State Capitol",1
+"Miller",18.2,"mo","Spinnaker Point",4
+"Miller",47.5,"mo","Spinnaker Point",4
+"Camden",22.2,"mo","Hawks Nest Condo Assn",2
+"Camden",28.7,"mo","Hawks Nest Condo Assn",2
+"Camden",37.6,"mo","Pelican Bay Condominiums",1
+"Camden",67.5,"mo","Wood Crest Condominiums",1
+"Camden",16.7,"mo","Lakepointe Condominiums",1
+"Ste. Genevieve",16.2,"mo","St Mary",1
+"Cape Girardeau",18.6,"mo","Royal Lake Estates",2
+"Cape Girardeau",31.8,"mo","Royal Lake Estates",2
+"Washington",25.4,"mo","Little Learners Academy",1
+"Camden",44.3,"mo","Red Oak Subdivision",2
+"Camden",44.6,"mo","Red Oak Subdivision",2
+"Greene",22.2,"mo","Eastbourough Subd",1
+"Barry",20.9,"mo","Berean Christian Academy",1
+"Douglas",18.1,"mo","Ava Head Start",5
+"Douglas",308.1,"mo","Ava Head Start",5
+"Barry",15.7,"mo","True Care Assisted Living Llc",2
+"Barry",23.6,"mo","True Care Assisted Living Llc",2
+"Franklin",35.1,"mo","Riverview Mhp",1
+"Franklin",19.7,"mo","Franklin Co Special School Dist",1
+"Franklin",15.6,"mo","Coleman Elem School",2
+"Franklin",16.2,"mo","Coleman Elem School",2
+"NA",24,"mt","Pretty Eagle School",1
+"NA",28,"mt","Northern Cheyenne Tribal School",1
+"Musselshell",17,"mt","Roundup Water Department",1
+"Big Horn",97,"mt","Absaloka Mine",1
+"Wheatland",28,"mt","Two Dot Water Users Company",1
+"Missoula",22,"mt","Clinton School",1
+"Ravalli",31,"mt","Farmers State Bank  Victor",1
+"Yellowstone",97,"mt","Golden Eagle Water Users Assn",1
+"Silver Bow",405,"mt","Rocker Water And Sewer District",1
+"Big Horn",494,"mt","Spring Creek Coal  Domestic",1
+"Gallatin",99,"mt","Antler Ridge Homeowners Association",1
+"Missoula",31,"mt","University Of Montana - Missoula",1
+"Flathead",110,"mt","Ashley Hill Subdivision",1
+"Park",16,"mt","Crazy Mountain Ranch Employee Housing",2
+"Park",18,"mt","Crazy Mountain Ranch Employee Housing",2
+"Lewis and Clark",21,"mt","Drumlummon Exploration Support Facility",1
+"Park",60,"mt","Avalon Subdivision",1
+"Yellowstone",23,"mt","Pacific Steel & Recycling",1
+"Buffalo",19,"ne","Gibbon, City Of",1
+"Burt",15.9,"ne","Tekamah, City Of",1
+"Butler",45.43,"ne","Dwight, Village Of",1
+"Clay",35,"ne","Glenvil, Village Of",1
+"Dakota",17,"ne","Dakota City, City Of",2
+"Dakota",19,"ne","Dakota City, City Of",2
+"Lancaster",54.5,"ne","Hickman, City Of",1
+"Seward",35.6,"ne","Goehner, Village Of",1
+"Douglas",23.5,"ne","Mount Michael High School",1
+"Hamilton",53.6,"ne","The Iams Company - Aurora Plant",1
+"Saunders",26.7,"ne","Army National Guard Cats - Mead",1
+"Saunders",65.18,"ne","Lake Allure Subdivision - Ashland",2
+"Saunders",79.32,"ne","Lake Allure Subdivision - Ashland",2
+"Seward",20.1,"ne","Bayer Crop-Science Wheat Breed'G Station",1
+"Jefferson",15.9,"ne","Jefferson Co Dist 300 - Tri-County",1
+"Washoe",100,"nv","Mount Rose Bowl Homeowners Association",1
+"Clark",42,"nv","Kapex Water System City Of Nlv",2
+"Clark",71,"nv","Kapex Water System City Of Nlv",2
+"Elko",17,"nv","Elko Rv Park At Ryndon",1
+"Hillsborough",22,"nh","Amherst Professional Bldg",1
+"Rockingham",16,"nh","Dearborn Ridge",1
+"Carroll",35,"nh","Top Notch Condos",2
+"Carroll",73,"nh","Top Notch Condos",2
+"Carroll",29,"nh","Bartlett Place",1
+"Carroll",16,"nh","Stillings Grant",1
+"Hillsborough",36,"nh","288 Route 101",1
+"Hillsborough",16,"nh","Family Medical Center",2
+"Hillsborough",17,"nh","Family Medical Center",2
+"Merrimack",33,"nh","Bow Memorial School",1
+"Grafton",28,"nh","Waterville Estate Vlg Dist/W",2
+"Grafton",63,"nh","Waterville Estate Vlg Dist/W",2
+"Grafton",39,"nh","Beebe River",1
+"Grafton",17,"nh","Red Sleigh Condos",1
+"Grafton",27,"nh","Canaan Water Dept",1
+"Carroll",126,"nh","Northern Human Svcs",1
+"Carroll",24,"nh","Conway Town Hall",1
+"Rockingham",44,"nh","Cotton Farms Mhp",1
+"Rockingham",21,"nh","George B White Bldg",2
+"Rockingham",77,"nh","George B White Bldg",2
+"Strafford",23,"nh","Unh/Durham Water Sys",1
+"Merrimack",25,"nh","Colby Brook Estates",1
+"Rockingham",17,"nh","Icey Hill Cooperative",1
+"Grafton",18,"nh","Franconia Village Water",1
+"Grafton",282,"nh","Mittersill Water Dept",1
+"Carroll",137,"nh","Freedom Village Condos",3
+"Carroll",1660,"nh","Freedom Village Condos",3
+"Hillsborough",30,"nh","Mt Laurel Estates",1
+"Grafton",32,"nh","Mountain Lakes Water Dept",1
+"Merrimack",19,"nh","Hill Water Works",1
+"Merrimack",17,"nh","Mclane Northeast",1
+"Sullivan",19,"nh","Sarah Porter Sch",1
+"Sullivan",24,"nh","Goshen Lempster Coop Sch",1
+"Hillsborough",26,"nh","Gingerbread House",1
+"Rockingham",127,"nh","28 Buttrick Rd Property",1
+"Carroll",45,"nh","Far Echo Harbor",1
+"Hillsborough",19,"nh","Strong Beginnings",1
+"Rockingham",24,"nh","Sanborn Regional Middle Sch",2
+"Rockingham",30,"nh","Sanborn Regional Middle Sch",2
+"Carroll",33,"nh","Deer Cove Water",1
+"Carroll",28,"nh","Hannaford Ossipee 8159",2
+"Carroll",42,"nh","Hannaford Ossipee 8159",2
+"Hillsborough",19,"nh","Paradise Estates Condominium",1
+"Hillsborough",26,"nh","Hannaford Pelham 8015",1
+"Cheshire",20,"nh","Rindge Memorial Sch",1
+"Strafford",17,"nh","Inn At Secretariat Estates",1
+"Rockingham",17,"nh","North Salem Village",1
+"Rockingham",18,"nh","Main Street Friends",1
+"Rockingham",20,"nh","Barnard Sch",1
+"Merrimack",36,"nh","Tilton Northfield Water Dist",1
+"Carroll",30,"nh","Sanbornville Water Dept",2
+"Carroll",39,"nh","Sanbornville Water Dept",2
+"Grafton",69,"nh","Waterville Valley Water Dist",1
+"Hillsborough",16,"nh","Kuncanowet Hills Mobile Home",1
+"Atlantic",600,"nj","Ballys Park Place Casino",1
+"Atlantic",21.4,"nj","Buena Regional High Scho",1
+"Atlantic",15.5,"nj","Collings Lake Elementary School",1
+"Atlantic",19.5,"nj","One Love Daycare And Preschool",2
+"Atlantic",35.2,"nj","One Love Daycare And Preschool",2
+"Atlantic",22,"nj","Tilton Terrace Mh",1
+"Atlantic",26.6,"nj","Homestead Residential Health Care",2
+"Atlantic",37.08,"nj","Homestead Residential Health Care",2
+"Bergen",20,"nj","High Mountain Road Schoo",1
+"Bergen",21.6,"nj","Ridgewood Water",1
+"Burlington",27.1,"nj","Fountain Of Life Center",2
+"Burlington",37.6,"nj","Fountain Of Life Center",2
+"Burlington",79,"nj","Ironstone Shopping Ctr",1
+"Burlington",43,"nj","Hilltop Mobile Village",1
+"Burlington",23.6,"nj","Newcomb Middle School",1
+"Burlington",19.5,"nj","Newcomb Middle School",1
+"Burlington",21,"nj","Deborah Heart & Lung Center",1
+"Burlington",16.7,"nj","United State Post Office - Vincentown",1
+"Burlington",190,"nj","New Lisbon Development Ctr",1
+"Burlington",44.36,"nj","Wagner Boot Camp",1
+"Camden",36,"nj","Pine Valley Golf Club",1
+"Camden",17.2,"nj","Atco Post Office",1
+"Cape May",27.8,"nj","Delsea Woods Community Llc",1
+"Cape May",17.2,"nj","Upper Twp Middle School",2
+"Cape May",20.6,"nj","Upper Twp Middle School",2
+"Cumberland",31.3,"nj","Cumberland Cnty Technical Ed",1
+"Cumberland",17.9,"nj","Bayshore Mobile Home Park",3
+"Cumberland",19,"nj","Bayshore Mobile Home Park",3
+"Essex",21,"nj","Mountain Ridge Country Club",2
+"Essex",110,"nj","Mountain Ridge Country Club",2
+"Gloucester",15.5,"nj","Ferro Corporation",4
+"Gloucester",62.6,"nj","Ferro Corporation",4
+"Gloucester",25.7,"nj","Tlc Daycare Center Inc",1
+"Hunterdon",113,"nj","Delaware Valley Regional",1
+"Hunterdon",28.7,"nj","Conley Elementary School",5
+"Hunterdon",160,"nj","Conley Elementary School",5
+"Hunterdon",18.5,"nj","Albert Elias Residential Group",2
+"Hunterdon",29.4,"nj","Albert Elias Residential Group",2
+"Hunterdon",36.7,"nj","East Amwell School",1
+"Hunterdon",105,"nj","Route 12 Business Park",1
+"Hunterdon",29.4,"nj","Phillips Barber Health Center",4
+"Hunterdon",232,"nj","Phillips Barber Health Center",4
+"Hunterdon",18.6,"nj","Stockton Water Department",1
+"Hunterdon",18,"nj","Am Best Co",1
+"Mercer",19.8,"nj","Faridy Veisz Fraytak Pc",1
+"Mercer",18.1,"nj","Princeton Technology Ctr",2
+"Mercer",110,"nj","Princeton Technology Ctr",2
+"Mercer",23,"nj","Pennington Partnership",1
+"Mercer",124,"nj","Lawrenceville School",1
+"Mercer",81,"nj","Princeton Friends School",1
+"Middlesex",41,"nj","Middlesex Presbyterian Church",1
+"Monmouth",30,"nj","Coltstown Group/Shopping Ctr",1
+"Monmouth",26.3,"nj","Bais Leah",1
+"Morris",18,"nj","Msm/Shamrock Tic Well # 3",2
+"Morris",60,"nj","Msm/Shamrock Tic Well # 3",2
+"Morris",15.9,"nj","6 Mill Ridge Lane",1
+"Morris",43,"nj","Black River Middle School",4
+"Morris",74,"nj","Black River Middle School",4
+"Morris",87,"nj","360 Route 24",2
+"Morris",276,"nj","360 Route 24",2
+"Morris",16.6,"nj","Chester Woods Professional Park",1
+"Morris",23.6,"nj","Jefferson Twp High School",1
+"Morris",38.3,"nj","Our Lady Of The Magnific",2
+"Morris",61.7,"nj","Our Lady Of The Magnific",2
+"Morris",88.7,"nj","Morristown Memorial Hosp",1
+"Morris",21,"nj","Wdiftk  Inc",1
+"Morris",16.9,"nj","Njdot @ Roxbury Corp Center",1
+"Ocean",54.3,"nj","Crystal Lake Health Care",1
+"Ocean",17,"nj","Public Works Bldg",2
+"Ocean",19,"nj","Public Works Bldg",2
+"Ocean",19,"nj","Air Park Emergency Services",1
+"Ocean",100.8,"nj","Brick Township Mua",1
+"Passaic",16.6,"nj","North Haledon First Presb. Church & Nurs",1
+"Passaic",16.4,"nj","Passaic Valley Water Commission",3
+"Passaic",20.8,"nj","Passaic Valley Water Commission",3
+"Passaic",19.27,"nj","N.J.D.W.S.C. - Wanaque North",3
+"Passaic",45.34,"nj","N.J.D.W.S.C. - Wanaque North",3
+"Passaic",24,"nj","Reflection Lakes Garden Apartments Inc",1
+"Passaic",16.8,"nj","Upper Greenwood Lk Elem School",1
+"Passaic",32,"nj","Christain Life-Day Care/Agape",1
+"Passaic",21,"nj","Hillcrest Community Ctr",2
+"Passaic",24,"nj","Hillcrest Community Ctr",2
+"Passaic",36,"nj","Milford Manor",1
+"Salem",19.2,"nj","Alloway Twp Elementary School",1
+"Salem",32,"nj","Leisure Arms Complex",1
+"Salem",17.4,"nj","Harding Woods Mhp",1
+"Salem",30,"nj","Bancroft Neuro Health Center",1
+"Somerset",28.1,"nj","Somerville Lumber Co",1
+"Somerset",61,"nj","Little Gem Academy",1
+"Sussex",16.4,"nj","Manor Plaza Condo Association Complex",1
+"Sussex",21.7,"nj","Sterling Plaza Office",1
+"Sussex",21.4,"nj","Green Apple Academy",1
+"Sussex",51.4,"nj","Hopatcong Head Start",1
+"Sussex",21.7,"nj","350 Complex Well A",2
+"Sussex",35.8,"nj","350 Complex Well A",2
+"Sussex",22,"nj","U W V H Dc System",1
+"Warren",150,"nj","Ise Farms Inc",1
+"Warren",18,"nj","James Alexander Corp",1
+"Warren",77,"nj","Washington Shopping Center, Inc",1
+"NA",25.9,"nm","Tesuque Camel Rock Casino",1
+"NA",21.9,"nm","Ldc Laguna Route 66 Casino",1
+"NA",15.9,"nm","Sandia Resort & Casino",1
+"NA",18,"nm","Wingate Elementary School (New) - Bia",1
+"Bernalillo",28,"nm","Bearcat Homeowners Association",1
+"Catron",280,"nm","Datil Elementary School",1
+"Rio Arriba",23,"nm","Canjilon Water System",1
+"Santa Fe",30,"nm","Santa Fe County West Sector",2
+"Santa Fe",37,"nm","Santa Fe County West Sector",2
+"Taos",20,"nm","La Lama Mdwca",2
+"Taos",130,"nm","La Lama Mdwca",2
+"Colfax",23,"nm","Uu Bar",1
+"Santa Fe",33,"nm","Santa Fe Girls School",1
+"Santa Fe",19,"nm","Agua Fria Water Association",1
+"Sierra",26,"nm","Hillsboro Mdwca",1
+"Chaves",70,"nm","Roswell Correctional Center",1
+"Santa Fe",16,"nm","St. Vincent Regional Medical  Center",3
+"Santa Fe",34,"nm","St. Vincent Regional Medical  Center",3
+"Socorro",18,"nm","Stallion Range Center",1
+"Rio Arriba",160,"nm","Chimayo Elementary School",1
+"Allegany",51.65,"ny","Northern Lights Candles",1
+"Broome",38.4,"ny","Ridgewood Mhp",1
+"Cattaraugus",371,"ny","West Valley Central School",1
+"Chautauqua",15.6,"ny","Heritage Village Retirement Campus",4
+"Chautauqua",31,"ny","Heritage Village Retirement Campus",4
+"Chautauqua",68,"ny","High Acres Mobile Home Park",1
+"Chautauqua",28.5,"ny","Maple Grove Jr Sr High School",2
+"Chautauqua",87,"ny","Maple Grove Jr Sr High School",2
+"Chautauqua",82,"ny","Pomfret North End Water District",1
+"Chenango",68.5,"ny","Meads Pond Mobile Home Park",1
+"Clinton",18,"ny","Morrisonville Water District",1
+"Clinton",26,"ny","Saranac Elementary School",1
+"Clinton",200,"ny","Ausable Valley Middle/High School",1
+"Clinton",611.5,"ny","Keeseville Country Gardens",2
+"Clinton",1400,"ny","Keeseville Country Gardens",2
+"Clinton",150,"ny","A N Deringer - Main Office",1
+"Columbia",2000,"ny","Valatie Village",1
+"Cortland",21,"ny","Appleby Elementary School",2
+"Cortland",28,"ny","Appleby Elementary School",2
+"Cortland",154.4,"ny","Northeast Transformer Services",1
+"Delaware",44,"ny","Roxbury Water District",1
+"Delaware",24,"ny","Phoenix House",1
+"Dutchess",25,"ny","Haviland Mhp #1- Andrea & Debra Ct.",2
+"Dutchess",30,"ny","Haviland Mhp #1- Andrea & Debra Ct.",2
+"Dutchess",84.7,"ny","Hopewell Services Inc",1
+"Dutchess",780,"ny","Wappingers Falls Village",1
+"Dutchess",20.8,"ny","Revere Park (East Fishkill W D#2)",1
+"Dutchess",81,"ny","Little Switzerland",1
+"Dutchess",20,"ny","Quaker Hill Manor",1
+"Dutchess",28,"ny","Beekman Elementary School",1
+"Dutchess",715,"ny","Dover Middle/High School",1
+"Dutchess",23,"ny","Roosevelt High School",1
+"Dutchess",27,"ny","Arlington Central Administration Office",1
+"Dutchess",27,"ny","Executive Square",1
+"Erie",20,"ny","Springwood Mobile Village",1
+"Erie",150,"ny","Wales Elementary School",2
+"Erie",920,"ny","Wales Elementary School",2
+"Erie",15.5,"ny","Craneridge Water Supply",1
+"Erie",17,"ny","Chaffee Landfill",1
+"Franklin",34,"ny","Saranac Lake V",1
+"Franklin",27,"ny","Adirondack Leadership Expeditions",1
+"Genesee",21,"ny","Alabama Water District One",1
+"Hamilton",17.5,"ny","Inlet Public School",1
+"Herkimer",17,"ny","Holiday Shores Estates",1
+"Herkimer",29.5,"ny","Higby Club Water System",1
+"Montgomery",41.5,"ny","Driscoll Foods",1
+"Oneida",46.5,"ny","Yerkies Mobile Manor",1
+"Onondaga",34.15,"ny","Mobile Manor Mobile Home Park",2
+"Onondaga",41.5,"ny","Mobile Manor Mobile Home Park",2
+"Orange",19.7,"ny","Lamplight Village",1
+"Orange",16,"ny","Greenwood Lake Village",1
+"Orange",17.3,"ny","Scotchtown Park",3
+"Orange",24.2,"ny","Scotchtown Park",3
+"Orange",29,"ny","Highlands Water District",1
+"Orange",15.85,"ny","Yeshiva Toras Chemed",1
+"Orange",20.8,"ny","Linden Homes",1
+"Orange",18.9,"ny","U.S.M.A. - Tmp Area ""V"" - Camp Buckner",1
+"Orange",17.65,"ny","Sheri Torah Temporary Girls School",1
+"Orleans",29.6,"ny","Clarendon Town Wds",2
+"Orleans",29.6,"ny","Clarendon Town Wds",2
+"Otsego",253,"ny","Springbrook At St. Marys",2
+"Otsego",429.5,"ny","Springbrook At St. Marys",2
+"Putnam",260,"ny","Fox Run Condominiums",1
+"Putnam",146,"ny","Patterson Village Condominiums",1
+"Putnam",37.5,"ny","Putnam Nursing & Rehab.Center",1
+"Putnam",121,"ny","Brewster Woods Condominium",1
+"Putnam",155,"ny","Society Hill Condominiums W.S.",1
+"Rensselaer",720,"ny","Hoosick Falls (V) Pws",1
+"Rensselaer",24,"ny","Troy City Pws",1
+"Rensselaer",17,"ny","Schodack Ceo",1
+"St. Lawrence",76,"ny","Boyden Brook Mobil Home Community",1
+"St. Lawrence",23.4,"ny","Reynolds Metals Company-Alcoa East",2
+"St. Lawrence",25.8,"ny","Reynolds Metals Company-Alcoa East",2
+"St. Lawrence",16.5,"ny","Snell Complex",1
+"Saratoga",17,"ny","Stillwater Village",4
+"Saratoga",72,"ny","Stillwater Village",4
+"Saratoga",49.5,"ny","Milton Knolls Mobile Home Park",1
+"Saratoga",34,"ny","Burnt Hills-Ballston Lk Wd",1
+"Saratoga",21.5,"ny","Creek & Pines Mobile Home Park",1
+"Saratoga",63.5,"ny","Terrel Hills Subdivision",1
+"Saratoga",19.5,"ny","North Creek Mobile Village",1
+"Saratoga",22,"ny","Stillwater Wd #1 (Stillwater Vlg)",4
+"Saratoga",530,"ny","Stillwater Wd #1 (Stillwater Vlg)",4
+"Saratoga",16.5,"ny","Peebles Island State Park",2
+"Saratoga",24,"ny","Peebles Island State Park",2
+"Saratoga",41,"ny","Cpwa Route 146A Ballston Wd",2
+"Saratoga",53,"ny","Cpwa Route 146A Ballston Wd",2
+"Schoharie",319,"ny","Warnerville Water District # 1",1
+"Steuben",2300,"ny","Troupsburg Water District",1
+"Sullivan",28,"ny","Emerald Green Lake Louise Marie Ws",1
+"Sullivan",23.5,"ny","Dillon Farms",1
+"Sullivan",18,"ny","Melody Lake Acres",2
+"Sullivan",37.4,"ny","Melody Lake Acres",2
+"Sullivan",37.5,"ny","Cold Spring Rd - Thompson",1
+"Sullivan",28,"ny","Sdtc-The Center For Discovery",1
+"Tioga",20.6,"ny","Spencer-Vanetten High School",1
+"Ulster",24,"ny","Pine Garden Apartments",1
+"Ulster",20,"ny","Woodstock Day School",1
+"Ulster",275,"ny","Palmer Center Ugarc",1
+"Ulster",41,"ny","Wawarsing Day Hab",1
+"Warren",57,"ny","Arcady Bay Estates",1
+"Warren",15.5,"ny","Evergreen Homeowners Assoc.",3
+"Warren",31,"ny","Evergreen Homeowners Assoc.",3
+"Westchester",15.5,"ny","Yeshiva Farm Settlement",2
+"Westchester",26.5,"ny","Yeshiva Farm Settlement",2
+"Westchester",19,"ny","Bedford Consolidated W.D.",1
+"Westchester",17.8,"ny","Pleasantville Water District",1
+"Westchester",15.7,"ny","Tarrytown Water Supply",1
+"Westchester",27.5,"ny","Lake Katonah Club Inc",1
+"Westchester",16,"ny","Barnwell Building",2
+"Westchester",20.5,"ny","Barnwell Building",2
+"Westchester",16,"ny","Northern Westch Prof. Pk.101",5
+"Westchester",68,"ny","Northern Westch Prof. Pk.101",5
+"Westchester",22,"ny","Ramleh Water Works Corp. Inc.",2
+"Westchester",28,"ny","Ramleh Water Works Corp. Inc.",2
+"Westchester",26,"ny","Cross River Place",2
+"Westchester",81,"ny","Cross River Place",2
+"Wyoming",44,"ny","Warsaw Village",1
+"Ashe",35,"nc","Buffalo Meadows S/D",1
+"Ashe",32,"nc","Blue Ridge Mnr Ashe Lake Beaver Crk Sec",1
+"Buncombe",123,"nc","Kirk Glen S/D",1
+"Cherokee",60,"nc","J C Campbell Folk School",1
+"Graham",17,"nc","Town Of Fontana Dam",1
+"Henderson",29,"nc","Lake Sheila Water System",1
+"Henderson",50,"nc","Mountain View Assisted Living",1
+"Jackson",19,"nc","High Hampton Inn/Country Club",1
+"Jackson",18,"nc","Mountain Meadows Apartments",2
+"Jackson",40,"nc","Mountain Meadows Apartments",2
+"Jackson",21,"nc","Trillium Links & Village",1
+"Jackson",25,"nc","Chestnut Square",2
+"Jackson",27,"nc","Chestnut Square",2
+"Macon",19,"nc","Cullasaja Club",1
+"Mecklenburg",19,"nc","Reedy Creek Mhp",1
+"Polk",25.37,"nc","The Brow Condominiums",1
+"Swain",17,"nc","Nantahala Village",2
+"Swain",42,"nc","Nantahala Village",2
+"Transylvania",17,"nc","Toxaway Point",1
+"Watauga",23,"nc","Pebble Creek Apartments",1
+"Watauga",21,"nc","Dot-Boone Maint Yard",3
+"Watauga",100,"nc","Dot-Boone Maint Yard",3
+"Caswell",18,"nc","Stoney Creek Elem School",1
+"Forsyth",16,"nc","Somerset Mhp",1
+"Forsyth",39,"nc","Mcbride`S Mhp",1
+"Randolph",22,"nc","Level Cross Christian School",1
+"Randolph",17,"nc","Northeastern Randolph Mid Sch",1
+"Rockingham",85,"nc","Gideon Grove Tp  No 1",1
+"Vance",27.3,"nc","White Rock Mhp",1
+"Yadkin",74,"nc","Forbush High School",1
+"Chatham",16,"nc","Cedar Lake Condo",5
+"Chatham",210,"nc","Cedar Lake Condo",5
+"Moore",25,"nc","Whispering Pines Development",5
+"Moore",59,"nc","Whispering Pines Development",5
+"Sampson",31.65,"nc","Smithfield Packing Co Clinton Plant",1
+"Scotland",25,"nc","Wagram, Town Of",1
+"Wake",18,"nc","Burnette`S Mhp",1
+"Wake",16,"nc","Knightdale Estates Mhp",1
+"Wake",17,"nc","Amber Acres",4
+"Wake",26,"nc","Amber Acres",4
+"Nash",220,"nc","Red Oak Elementary School",1
+"Onslow",17.09,"nc","Lauradale S/D",1
+"Buncombe",16,"nc","Poplar Acres Mhp",1
+"Buncombe",17,"nc","Stone Mountain School Cabins",1
+"Henderson",18,"nc","Clear Creek Meadows S/D",2
+"Henderson",24,"nc","Clear Creek Meadows S/D",2
+"Henderson",18,"nc","Oleta Falls S/D",1
+"Henderson",16,"nc","Jeter Mountain Mhp",1
+"Jackson",18,"nc","Dillsboro Water & Sewer Inc",1
+"Jackson",25,"nc","Summit Charter School",1
+"Macon",16,"nc","Highgate S/D",1
+"Rowan",23.4,"nc","Carolina Stalite Co",2
+"Rowan",41,"nc","Carolina Stalite Co",2
+"Guilford",17.1,"nc","Gunter`S Crossing",1
+"Watauga",21,"nc","Appalcart Transit Facility",1
+"Nash",45.8,"nc","Freedom Industries",2
+"Nash",240,"nc","Freedom Industries",2
+"Orange",16.4,"nc","Our Playhouse Preschool",2
+"Orange",20,"nc","Our Playhouse Preschool",2
+"Wake",16.6,"nc","Old Milburnie Crossing S/D",1
+"Cumberland",46.9179,"nc","South Point Sd",1
+"Craven",19,"nc","Mcas Nbc School",2
+"Craven",23,"nc","Mcas Nbc School",2
+"Pasquotank",25,"nc","Pasquotank Co Ro Water System",5
+"Pasquotank",168,"nc","Pasquotank Co Ro Water System",5
+"New Hanover",19.05,"nc","Specialty Engraving",1
+"Pender",17.13,"nc","Hampstead Pines",1
+"Divide",15.8,"nd","Noonan City Of",1
+"Dunn",16,"nd","Killdeer Lodge",1
+"McKenzie",101,"nd","Ridgeview Park",1
+"McKenzie",31.9,"nd","Virtucon Properties-Phase 2",1
+"McKenzie",18.2,"nd","Fertile Fields",1
+"Ransom",24.1,"nd","Lisbon City Of",1
+"Walsh",18.4,"nd","Fordville Public School",1
+"Ward",16.3,"nd","Makoti City Of",1
+"Auglaize",24.8,"oh","New Bremen Village",1
+"Columbiana",20.1,"oh","Premier Park Estates Llc",1
+"Columbiana",18,"oh","Buckeye Transfer Inc",1
+"Columbiana",16.1,"oh","Columbiana County-County Home Rd Pws",1
+"Coshocton",25,"oh","Millers Acres Home Owner Association",1
+"Darke",16.9,"oh","Northtowne Communities Llc",1
+"Franklin",20.5,"oh","Darbydale Elementary School",1
+"Franklin",141,"oh","Buckeye Landscape Pws",1
+"Geauga",17,"oh","Gurney Elementary School",1
+"Geauga",17,"oh","Bainbridge Center Bldg.",1
+"Geauga",27,"oh","Aco Polymer Products",3
+"Geauga",34,"oh","Aco Polymer Products",3
+"Geauga",39,"oh","Peace Lutheran Church & Preschool Pws",1
+"Hancock",19,"oh","Mt Blanchard Village",1
+"Hancock",19,"oh","Village Of Vanlue",1
+"Henry",20,"oh","The Ridge Project Mcclure",2
+"Henry",56,"oh","The Ridge Project Mcclure",2
+"Highland",25.3,"oh","Leesburg Village",2
+"Highland",28.9,"oh","Leesburg Village",2
+"Hocking",85,"oh","Skyline Trailer Court",1
+"Jefferson",162,"oh","Apostolate For Family Consecration",1
+"Knox",33.9,"oh","Grandview Mhp A Pws",1
+"Lake",19,"oh","Holden Arboretum",1
+"Licking",27.5,"oh","Gratiot Improvement Association",1
+"Mahoning",21,"oh","Sebring Village Pws",2
+"Mahoning",24,"oh","Sebring Village Pws",2
+"Mahoning",40.6,"oh","Linde Hydraulics, Corp.",1
+"Mahoning",17.4,"oh","South Range Local Schools K-12 Pws",1
+"Medina",18.7,"oh","Echo Lake Community Association",1
+"Mercer",53.3,"oh","Grand Lake Estates",1
+"Mercer",18.2,"oh","Rockford Village Pws",1
+"Miami",16.4,"oh","Robinson Warehouse",1
+"Morgan",17.2,"oh","West Malta Rural Water Pws",1
+"Morgan",92,"oh","Aep-Muskingum River U1-4",1
+"Putnam",18,"oh","Columbus Grove Village",2
+"Putnam",21,"oh","Columbus Grove Village",2
+"Richland",21.6,"oh","Hillside Mhp",1
+"Richland",20,"oh","Aqua Ohio - Mansfield System 8",1
+"Stark",25,"oh","Marlington Middle School",1
+"Summit",25.1,"oh","Kriegers Market Pws",1
+"Summit",30.8,"oh","Lorantffy Care Center",1
+"Summit",17.3,"oh","Pebble Creek Convalescent Center",2
+"Summit",25.8,"oh","Pebble Creek Convalescent Center",2
+"Summit",17.7,"oh","Wendys-Canton Road Pws",2
+"Summit",22.2,"oh","Wendys-Canton Road Pws",2
+"Summit",18.1,"oh","Manchester Umc / Here For You Child Dev",2
+"Summit",22.8,"oh","Manchester Umc / Here For You Child Dev",2
+"Summit",19.2,"oh","Schrop Junior High School",1
+"Summit",34,"oh","Oig Limited Pws",1
+"Trumbull",48,"oh","Concord Care Ctr-Hartford",1
+"Trumbull",29,"oh","Trumbull County - Braceville Twp Pws",1
+"Trumbull",16.5,"oh","Wheatley Apartment Building",1
+"Van Wert",16.3,"oh","Lincolnview Bible Board",1
+"Washington",25.3,"oh","Putnam Community Water Association Pws",1
+"Washington",19.1,"oh","Waterford Water/Sewer Association",1
+"Wayne",26,"oh","Tricor Metals",1
+"Wayne",17,"oh","Ohio Farms Packing Co. Pws",2
+"Wayne",24,"oh","Ohio Farms Packing Co. Pws",2
+"Wood",21,"oh","Northwestern W And Sd-Fostoria North",1
+"Wood",20.4,"oh","Northwestern W And Sd -Toledo Svce Area",1
+"McCurtain",18.42,"ok","Mccurtain Co Rwd #8 (Mt. Fork Water)",2
+"McCurtain",31.2,"ok","Mccurtain Co Rwd #8 (Mt. Fork Water)",2
+"Pottawatomie",15.6,"ok","Shawnee Municipal Authority",1
+"Hughes",27.5,"ok","Dustin Pws",2
+"Hughes",28.3,"ok","Dustin Pws",2
+"Pittsburg",43.2,"ok","Pittsburg",1
+"Pittsburg",15.5,"ok","Pittsburg Co Rwd # 4 (Canadian)",1
+"Mayes",21.4,"ok","Okla Ordnance Works Authority",1
+"Cherokee",17.5,"ok","Lred (Woodhaven)",1
+"Adair",15.5,"ok","Skelly School",4
+"Adair",27,"ok","Skelly School",4
+"Alfalfa",63.5,"ok","Cherokee",1
+"Alfalfa",17,"ok","Helena",1
+"Beaver",49.7,"ok","Beaver Co Rwd #2 (Gate)",1
+"Beaver",32.7,"ok","Seaboard Foods Beaver Co #47",1
+"Carter",26.6,"ok","Mary Jackson Tp",1
+"Cleveland",40,"ok","Moore",1
+"Cleveland",46.6,"ok","Noble Estates Mhp",1
+"Comanche",34,"ok","Indiahoma",1
+"Grant",16.3,"ok","Medford",1
+"Harper",31.1,"ok","Buffalo",1
+"Kay",186,"ok","Kaw City Water Authority",1
+"Kingfisher",25.3,"ok","Loyal",1
+"Marshall",16.2,"ok","Oakview Water Corp",1
+"Marshall",16,"ok","Texoma Hills",1
+"Canadian",15.8,"ok","Northwest Expressway Mhp",1
+"Coal",31.8,"ok","Tupelo Pwa",1
+"Garfield",39.4,"ok","Douglas",2
+"Garfield",378,"ok","Douglas",2
+"Latimer",18.5,"ok","Latimer Co Rwd #2",7
+"Latimer",43.3,"ok","Latimer Co Rwd #2",7
+"Latimer",97.4,"ok","Oklahoma Veterans Center",1
+"McIntosh",18.6,"ok","Cannon Mhp",1
+"Oklahoma",24.5,"ok","Shady Oaks Mhp Oklahoma County",1
+"Okmulgee",22.1,"ok","Morris",2
+"Okmulgee",26.1,"ok","Morris",2
+"Okmulgee",40.2,"ok","Mission Lane Mhp",1
+"Okmulgee",73,"ok","Osu Institute Of Technology",1
+"Pushmataha",16.5,"ok","Clayton Public Works Authority",2
+"Pushmataha",29.1,"ok","Clayton Public Works Authority",2
+"Seminole",74,"ok","Seminole Co Rw&Swmd #3",1
+"Stephens",16.5,"ok","Halliburton",1
+"Woods",182,"ok","Charles E. Johnson Correctional Center",2
+"Woods",279,"ok","Charles E. Johnson Correctional Center",2
+"Grady",34.4,"ok","Verden",1
+"Grady",30.2,"ok","Bridge Creek High School",1
+"Oklahoma",595,"ok","Timberland Mhc",2
+"Oklahoma",1190,"ok","Timberland Mhc",2
+"Linn",33,"or","Periwinkle Mobile Home Park",1
+"Clatsop",35,"or","Fernhill Community Wtr System",1
+"Douglas",22.4,"or","Drain, City Of",1
+"Multnomah",15.9,"or","Gresham Pwo-Water Section",1
+"Multnomah",15.9,"or","Pleasant Home Water District",1
+"Linn",16.9,"or","Harrisburg, City Of",1
+"Clackamas",15.9,"or","Lake Grove Water District",1
+"Umatilla",99,"or","Locust Mobile Village",1
+"Benton",17.3,"or","Monroe, City Of",1
+"Lincoln",17.5,"or","Westwood Village",1
+"Clackamas",17,"or","Clackamas River Water - Clairmont",1
+"Tillamook",26,"or","Pacific City Joint Water - San Auth",1
+"Tillamook",25,"or","Tierra Del Mar Water Co",1
+"Multnomah",15.9,"or","Burlington Water District",1
+"Multnomah",15.9,"or","Palatine Hill Water District",1
+"Multnomah",15.9,"or","Portland Water Bureau",1
+"Washington",15.9,"or","West Slope Water District",1
+"Multnomah",15.9,"or","Valley View Water District",1
+"Multnomah",15.9,"or","Lorna Portland Water Llc",1
+"Washington",15.9,"or","Tualatin Valley Water District",1
+"Washington",15.9,"or","Raleigh Water District",1
+"Multnomah",15.9,"or","Rockwood Pud",1
+"Clackamas",15.9,"or","Skyview Acres Water Co-Op",1
+"Washington",15.9,"or","Tigard, City Of",1
+"Washington",15.9,"or","Tualatin, City Of",1
+"Douglas",18,"or","Usfs Tiller Ranger Station",1
+"Tillamook",23,"or","Watseco-Barview Water District",1
+"Lincoln",16.1,"or","Lower Siletz Water System",1
+"Lane",20,"or","Row River Valley Water Dist",3
+"Lane",27.2,"or","Row River Valley Water Dist",3
+"Washington",16,"or","Cold Springs Water Co",1
+"Clackamas",16,"or","Molalla River Sd - Rural Dell Elem",2
+"Clackamas",48,"or","Molalla River Sd - Rural Dell Elem",2
+"Jackson",20.23,"or","Rogue River Campground",1
+"Linn",85,"or","Kidco Head Start-Sunnyside",3
+"Linn",158,"or","Kidco Head Start-Sunnyside",3
+"Lane",27.4,"or","Pisgah Public Market",1
+"Lincoln",19.1,"or","Eddyville Charter School",3
+"Lincoln",31.4,"or","Eddyville Charter School",3
+"Lincoln",110,"or","Salmon River Rv Park",1
+"Douglas",18,"or","Diamond Lake Lodge/Resort",1
+"Benton",26.2,"or","Fairplay Elementary Sd 509J",5
+"Benton",95,"or","Fairplay Elementary Sd 509J",5
+"Malheur",15.9,"or","Willowcreek Elem Sd #84",3
+"Malheur",30.6,"or","Willowcreek Elem Sd #84",3
+"Marion",25.7,"or","Valley Inquiry Charter School",1
+"Clackamas",37.2,"or","West Linn/Wilsonville",1
+"Linn",19.5,"or","Lebanon Union High-Land Lab",1
+"Linn",19,"or","Wayne Buck Water System",1
+"Lane",27,"or","Emerald Christian Academy",1
+"Columbia",21,"or","Scappoose Adventist School",1
+"Multnomah",17,"or","Hall Of Fame Test System",1
+"Bucks",29.7,"pa","Delaware Valley College",1
+"Bucks",20.7,"pa","Doylestown Hosp T/A Pine Run",1
+"Bucks",61.6,"pa","Grandview Hospital",3
+"Bucks",230.33,"pa","Grandview Hospital",3
+"Bucks",17,"pa","Bedminster Elem School",1
+"Bucks",33,"pa","John Grasse Elementary School",1
+"Bucks",165.5,"pa","Durham Nock Elem School",1
+"Bucks",55.5,"pa","Quakertown Christian School",2
+"Bucks",215.05,"pa","Quakertown Christian School",2
+"Chester",44.6,"pa","Taylors Mobile Home Park",1
+"Chester",20,"pa","Maplewood Mobile Home Park",2
+"Chester",45,"pa","Maplewood Mobile Home Park",2
+"Chester",23,"pa","Lazy Acres Mobile Home Park",1
+"Chester",44.2,"pa","Echo Valley Mhp",1
+"Chester",21,"pa","Cochranville Mhp",1
+"Chester",29,"pa","Spring Run Estates Wtp",1
+"Chester",17.5,"pa","Montessori School",1
+"Chester",80,"pa","Curiosity Corner Day Care Ctr",1
+"Chester",17,"pa","Wagontown Country Day School",1
+"Chester",20,"pa","Pikeland Village Square",3
+"Chester",39,"pa","Pikeland Village Square",3
+"Chester",17.5,"pa","Creative Kids Of Downingtown",1
+"Chester",22,"pa","Sandy Hill Preschool",1
+"Chester",18.5,"pa","East Fallowfield Elem School",1
+"Chester",120,"pa","Chadds Ford Elementary School",1
+"Delaware",271,"pa","Brinton Manor",1
+"Montgomery",49,"pa","St Pauls Luth Ch",1
+"Montgomery",21,"pa","Exelon Nuclear Power Plant",1
+"Bradford",18.8,"pa","Wysox Twp Municipal Authority",1
+"Bradford",20.8,"pa","Ulster Municipal Authority",1
+"Bradford",31.08,"pa","Animal Care Sanctuary",2
+"Bradford",35.9,"pa","Animal Care Sanctuary",2
+"Bradford",22.55,"pa","Cummings Lumber Company Inc",1
+"Bradford",27,"pa","Sru Middle School",1
+"Bradford",16.45,"pa","Bradford Tioga Head Start",2
+"Bradford",30.45,"pa","Bradford Tioga Head Start",2
+"Bradford",87.5,"pa","Oak Hill Veneer",1
+"Lackawanna",16,"pa","St Marys Villa Nursing Home",1
+"Lackawanna",64.9,"pa","Scott Technology Park",1
+"Monroe",27.5,"pa","Barton Court",2
+"Monroe",29,"pa","Barton Court",2
+"Monroe",88.95,"pa","White Rock Mobile Home Park",1
+"Monroe",24,"pa","Hillcrest Retirement Community",1
+"Monroe",16.3,"pa","Dwgnra Headquarters",1
+"Monroe",41,"pa","Liberty Mall",1
+"Monroe",16,"pa","Pennsylvania 940 Station",1
+"Monroe",46,"pa","Lakewood Retreat",1
+"Monroe",20,"pa","Blakeslee Plaza",1
+"Wayne",31,"pa","Aqua Pa Gouldsboro",1
+"Wayne",21,"pa","Saber Health Care Group",1
+"Wayne",22,"pa","Preston Elementary School",1
+"Wayne",18,"pa","Loveshaw Incorporated",1
+"Wyoming",83,"pa","Keystone College",1
+"Berks",152,"pa","Lazy K Campground",1
+"Berks",26,"pa","Materion Brush Inc",2
+"Berks",36,"pa","Materion Brush Inc",2
+"Berks",28,"pa","Blue Mtn Coop Tilden Ind Park",1
+"Berks",76.5,"pa","Mountain View Apartments",1
+"Berks",105,"pa","Zwicky Recycling",1
+"Carbon",23.35,"pa","Springdale Gardens",1
+"Carbon",27,"pa","Youth Forestry Camp #2",1
+"Lehigh",26.4,"pa","Mount Trexler Manor",2
+"Lehigh",46.05,"pa","Mount Trexler Manor",2
+"Northampton",19,"pa","Hickory Hills Mhc",1
+"Schuylkill",32.9,"pa","Mountain Water Authority",1
+"Schuylkill",40.8,"pa","Deer Lake Citizens Assoc",2
+"Schuylkill",57.4,"pa","Deer Lake Citizens Assoc",2
+"Schuylkill",32.5,"pa","Pine Terrace Mobile Home Park",2
+"Schuylkill",168,"pa","Pine Terrace Mobile Home Park",2
+"Schuylkill",15.5,"pa","Northeastern Power Company",1
+"Schuylkill",18,"pa","John B Rich Mem Power Station",1
+"Schuylkill",16.2,"pa","Fabcon East Corporation Llc",1
+"Schuylkill",38.25,"pa","Corsicana Bedding Inc",1
+"Bedford",23.2,"pa","Osterburg Water Co",1
+"Bedford",42.9,"pa","Snake Spring Township Ma",1
+"Blair",15.96,"pa","A P Green Refractories",1
+"Cambria",15.6,"pa","Barr Area Municipal Authority",1
+"Centre",24,"pa","Monument Water Assoc",1
+"Juniata",16.45,"pa","Locust Grove Retirement Home",2
+"Juniata",100,"pa","Locust Grove Retirement Home",2
+"Lycoming",21.9,"pa","Bimbo Bakeries Usa Inc",1
+"Montour",18.75,"pa","Us Gypsum Company",3
+"Montour",81.63,"pa","Us Gypsum Company",3
+"Somerset",48.2,"pa","North Star East Mid Sch",1
+"Union",15.8,"pa","Hillside Christian Academy",2
+"Union",21,"pa","Hillside Christian Academy",2
+"Armstrong",18.4,"pa","Buffalo Twp Mun Auth Freeport",1
+"Butler",26,"pa","Beacon Lite Mobile Estates",1
+"Butler",15.7,"pa","Bernies Mobile Home Park",1
+"Butler",17,"pa","Evans City Borough",1
+"Butler",28,"pa","Marion Twp Wtp",1
+"Butler",16,"pa","Summit Academy",2
+"Butler",90,"pa","Summit Academy",2
+"Butler",31.7,"pa","Iron Mountain",1
+"Butler",37,"pa","Calvary Baptist School",1
+"Butler",21.8,"pa","Holy Sepulcher School",1
+"Butler",29,"pa","Rowan Towers",1
+"Butler",23,"pa","Adams Mfg Corp",1
+"Indiana",24,"pa","Marion Center High Sch",1
+"Clarion",1273,"pa","Paint Township Mun Water Auth",1
+"Crawford",16,"pa","Mitchell Lake Mobile Home Park",1
+"Crawford",15.6,"pa","Highpoint Majr Development",1
+"Crawford",16.5,"pa","Us Bronze Foundry And Machine",1
+"Crawford",23.3,"pa","Moody Buildings 1 And 2",1
+"Crawford",17,"pa","Pittsburgh Glass Works",1
+"Crawford",39,"pa","Spartansburg Elementary School",1
+"Crawford",16.5,"pa","Vision Quest Lee Prep Academy",1
+"Erie",16.5,"pa","Conelway Elementary School",1
+"Jefferson",16.2,"pa","Soldier Water System",1
+"Lawrence",17.1,"pa","Villa Maria Community Center",1
+"Lawrence",42.1,"pa","Castle Cheese",1
+"McKean",20.6,"pa","Port Allegany Water Department",1
+"Venango",27.5,"pa","Oakland Elementary School",1
+"Venango",18.6,"pa","Wrought Products",1
+"Warren",19.5,"pa","Sugar Grove Elementary School",1
+"Adams",20.5,"pa","Cavalry Heights Mhp",1
+"Adams",54,"pa","Specialty Granules Inc",1
+"Dauphin",24,"pa","Harrisburg Intl Airport",1
+"Franklin",31,"pa","Mercersburg Muni Water Auth",1
+"Lancaster",69.5,"pa","Log Cabin Court",1
+"Lancaster",21.5,"pa","Spring Lake Park",1
+"Lancaster",60.5,"pa","Jubilee Mhp",1
+"Lancaster",30.5,"pa","Villas At Georgetown",5
+"Lancaster",200.5,"pa","Villas At Georgetown",5
+"Lancaster",41.9,"pa","Manheim Auto Auction",1
+"Lancaster",33,"pa","Circle M Campground",1
+"Lancaster",17,"pa","Lancaster Mennonite High Sch",1
+"Lancaster",16,"pa","Blue Rock Mennonite Sch",1
+"Lancaster",16,"pa","Linville Hill Mennonite Sch",1
+"Lancaster",17,"pa","Paradise Elementary School",2
+"Lancaster",25,"pa","Paradise Elementary School",2
+"Lancaster",17,"pa","Farmersville Mennonite School",1
+"Lancaster",153.5,"pa","Valco Headquarters",1
+"Lancaster",18,"pa","Morgan Truck Body Llc",1
+"Lancaster",16,"pa","Brecknock Elementary School",2
+"Lancaster",16,"pa","Brecknock Elementary School",2
+"Lancaster",18,"pa","Fairhaven Christian School",1
+"Lancaster",19,"pa","B J Baldwin Electric Inc",4
+"Lancaster",37,"pa","B J Baldwin Electric Inc",4
+"Lancaster",39,"pa","Wesley United Methodist Church",1
+"Lebanon",16,"pa","Countryside Christian Comm",1
+"Lebanon",16.05,"pa","Ridgeview Mhp & Apts",3
+"Lebanon",30,"pa","Ridgeview Mhp & Apts",3
+"Lebanon",46.5,"pa","Yellow Breeches School",2
+"Lebanon",257.5,"pa","Yellow Breeches School",2
+"Lebanon",22,"pa","Philhaven",1
+"York",37.8,"pa","Dover Bethany United Meth Ch",1
+"York",32,"pa","Fairview Twp Bldg",1
+"Providence",18,"ri","Fogarty Memorial School",3
+"Providence",21,"ri","Fogarty Memorial School",3
+"Washington",29.6,"ri","Lindhbrook Water Company",1
+"Kent",39,"ri","Mildred E Lineham School",1
+"Washington",17,"ri","Metcalf Elementary School",1
+"Providence",16,"ri","Providence-City Of",3
+"Providence",30,"ri","Providence-City Of",3
+"Providence",21,"ri","North Scituate Elementary",2
+"Providence",47,"ri","North Scituate Elementary",2
+"Washington",71,"ri","Charlestown Elementary School",2
+"Washington",97,"ri","Charlestown Elementary School",2
+"Newport",25,"ri","Jamestown Water Department",1
+"Kent",67,"ri","Coventry National Guard Station",1
+"Providence",29.5,"ri","North Smithfield 282 Combat Communicatio",2
+"Providence",31,"ri","North Smithfield 282 Combat Communicatio",2
+"Providence",17,"ri","Burrillville Middle School",1
+"Providence",20,"ri","West Glocester Elem. School (Formerly Gl",1
+"Providence",22,"ri","Chopmist Hill Community Center",2
+"Providence",28,"ri","Chopmist Hill Community Center",2
+"Washington",53,"ri","Sstar Of Rhode Island",1
+"Providence",65,"ri","Pied Piper Nursery School, Inc.",1
+"Kent",19,"ri","Arcadia Childrens Home",1
+"Providence",18,"ri","Bruin Plastics Company, Inc.",1
+"Washington",41,"ri","Rochs Fresh Foods Facility",1
+"Providence",43,"ri","East Smithfield Wd - Whipple",1
+"Abbeville",21.5,"sc","Pinehurst S/D (0150003)",1
+"Abbeville",29,"sc","Cold Springs School (0170104)",1
+"Charleston",22.5,"sc","Oyster Park (1070256)",1
+"Chester",55,"sc","Edgemoor Headstart (1270103)",1
+"Lexington",29,"sc","Aaa - Hilton Sound (3250024)",1
+"Lexington",18,"sc","Aaa - Ridge Point S/D (3250105)",1
+"Lexington",24,"sc","Triple Acres Mhp 1 (3260049)",1
+"Lexington",460,"sc","Pine Ridge Mhp (3260157)",1
+"Lexington",15.5,"sc","Sand Mountain Mhp (3260183)",2
+"Lexington",16,"sc","Sand Mountain Mhp (3260183)",2
+"Orangeburg",38,"sc","Bowman Town Of (3810004)",1
+"Orangeburg",90,"sc","Branchville Town Of (3810005)",1
+"York",29,"sc","Supermetal Holdings Usa (4630003)",2
+"York",53,"sc","Supermetal Holdings Usa (4630003)",2
+"York",96,"sc","Cm Steel Inc (4630061)",1
+"York",114,"sc","Cws Foxwood (4650008)",1
+"York",24,"sc","Mountain View Mhp (4660064)",1
+"York",25,"sc","Blessed Hope School (4670106)",1
+"York",29,"sc","Shield Of Faith (4670957)",1
+"Spink",33,"sd","Doland",1
+"Dickson",22,"tn","Water Auth. Of Dickson County",1
+"Carter",28,"tn","Elizabethton Water Dept",1
+"Carter",16,"tn","North Elizabethton Water Co-Op",2
+"Carter",28,"tn","North Elizabethton Water Co-Op",2
+"Carter",16,"tn","Siam Utility District",2
+"Carter",28,"tn","Siam Utility District",2
+"Carter",16,"tn","South Elizabethton Utility Dis",2
+"Carter",28,"tn","South Elizabethton Utility Dis",2
+"Weakley",25,"tn","K-T Clay Company",1
+"Carter",16,"tn","Watauga River Regional Water Auathority",2
+"Carter",28,"tn","Watauga River Regional Water Auathority",2
+"Austin",28.1,"tx","Coushatte Campground",1
+"Bailey",36,"tx","Minsa Corporation",1
+"Bandera",17.4,"tx","Bandera Isd Bandera High School",1
+"Bastrop",16,"tx","Acme Brick Elgin Plant",1
+"Bastrop",24,"tx","Md Anderson Cancer Research Smithville",5
+"Bastrop",86,"tx","Md Anderson Cancer Research Smithville",5
+"Bee",27.3,"tx","Tdcj Chase Field",1
+"Bexar",31.8,"tx","Alamo 1",1
+"Bexar",25,"tx","Camp Stanley Storage Activity",1
+"Bexar",22,"tx","Surlean Meat Co",1
+"Bosque",210,"tx","Shuler Point",1
+"Brazoria",23,"tx","Commodore Cove Improvement District",1
+"Brazoria",42.3,"tx","Village Of Surfside Beach",1
+"Brazoria",122,"tx","Snug Harbor Subdivision",1
+"Brazoria",21,"tx","Las Playas",1
+"Brazoria",20,"tx","Key Largo Utilities",1
+"Brazoria",19,"tx","Basf Freeport Site",1
+"Brazoria",16,"tx","Dow Texas Freeport Salt Dome 3",1
+"Brazoria",100,"tx","Shintech Freeport Plant",1
+"Brazoria",17,"tx","6711 Highway 332",1
+"Brazoria",321,"tx","Manvel Bible Chapel",1
+"Brewster",24,"tx","Marathon Water Supply & Sewer Service Co",1
+"Burleson",19,"tx","Clara Hills Water System",1
+"Burnet",20,"tx","City Of Granite Shoals Sherwood Iii",1
+"Burnet",20,"tx","Cassie Water System",1
+"Burnet",22,"tx","Capstone Subdivision",1
+"Calhoun",40.7,"tx","La Salle Wcid 1",2
+"Calhoun",110,"tx","La Salle Wcid 1",2
+"Collin",17.1,"tx","Seis Lagos Utility District",1
+"Colorado",25.6,"tx","Columbus Livestock Co",1
+"Comal",15.7,"tx","Oak Village North",1
+"Comal",38.7,"tx","Clear Water Estates",1
+"Dawson",42,"tx","Klondike Isd",2
+"Dawson",110,"tx","Klondike Isd",2
+"Denton",28.7,"tx","East Ponder Estates",1
+"DeWitt",16,"tx","Meyersville School",1
+"Eastland",29,"tx","City Of Ranger",1
+"Ector",29,"tx","Cemex Odessa Plant",3
+"Ector",90,"tx","Cemex Odessa Plant",3
+"El Paso",24,"tx","Phelps Dodge Refining",1
+"El Paso",110,"tx","Fort Bliss Site Monitor",1
+"Erath",23,"tx","Schreiber Foods",1
+"Erath",20,"tx","Horsemans Ranch Ws",1
+"Fort Bend",19,"tx","Nrg W A Parish Electric Generating Stati",1
+"Fort Bend",19,"tx","Kingsbridge Mud",2
+"Fort Bend",21,"tx","Kingsbridge Mud",2
+"Fort Bend",18,"tx","George Ranch The",1
+"Fort Bend",21,"tx","Faith United Methodist Church",1
+"Fort Bend",16,"tx","Grand Lakes Mud 4",1
+"Fort Bend",20,"tx","Akzo Nobel Surface Chemistry",1
+"Freestone",26,"tx","Willowcreek Farms",1
+"Galveston",23.5,"tx","Texas City Bayou Golf Club",1
+"Galveston",24.1,"tx","Ut Medical Branch Galveston",1
+"Gillespie",22.3,"tx","Doss Community Improvement Center",1
+"Harris",21,"tx","Aldine Community Care Center",1
+"Harris",34,"tx","Bergville Addition",1
+"Harris",39.6,"tx","Cedar Bayou Park",1
+"Harris",61.3,"tx","Harris County Wcid Fondren Road",1
+"Harris",16.3,"tx","Memorial Hills Utility District",1
+"Harris",20,"tx","Meadowlake Estates",1
+"Harris",46.6,"tx","Sunbelt Fwsd High Meadows Subdivision",1
+"Harris",24.4,"tx","United Salt Corporation",1
+"Harris",16.2,"tx","El Dorado Mobile Home Community",1
+"Harris",16,"tx","Harris County Fwsd 1B",1
+"Harris",22,"tx","Dow Chemical Co Laporte Plant",6
+"Harris",94,"tx","Dow Chemical Co Laporte Plant",6
+"Harris",71.8,"tx","Smith International",1
+"Harris",26,"tx","T H Wharton Electric Generating Station",1
+"Harris",71,"tx","Houston First Church Of God",1
+"Harris",20.6,"tx","Intercontinental Terminals Deer Park Ter",1
+"Harris",26,"tx","Basf Corporation Pasadena Plant",3
+"Harris",65,"tx","Basf Corporation Pasadena Plant",3
+"Harris",24,"tx","Clear Lake Chemicals Plant",2
+"Harris",27.2,"tx","Clear Lake Chemicals Plant",2
+"Harris",55,"tx","City Of Pasadena El Cary Estates",1
+"Harris",22,"tx","Nottingham Country Mud",1
+"Harris",20.5,"tx","Harris County Mud 155",1
+"Harris",250,"tx","G E Preco Turbine & Compressor Svc",1
+"Harris",25,"tx","Vine Apostolic Church",1
+"Harris",21.6,"tx","City Of Hilshire Village",1
+"Harris",18,"tx","National Speciality Alloys",1
+"Harris",43.2,"tx","American Acryl Bayport Plant",1
+"Harris",19.2,"tx","Turk Brothers Building",1
+"Harris",41,"tx","Barbours Cut Terminal",1
+"Harris",18.6,"tx","Harris County Mud 500",1
+"Harris",48.5,"tx","Harris County Mud 406",1
+"Harris",16,"tx","Allied Concrete Plant No Three",1
+"Harris",18,"tx","529 Industrial Development",1
+"Harris",52.2,"tx","Barefoot Rv Park",1
+"Harris",28,"tx","Barely Lane Business Park",2
+"Harris",45,"tx","Barely Lane Business Park",2
+"Henderson",24,"tx","Lollipop Water Works Inc",1
+"Hood",29.1,"tx","Cresson Crossroads",1
+"Hunt",16.2,"tx","City Of West Tawakoni",1
+"Hutchinson",33,"tx","Chevron Phillips Chemical Borger Plant",1
+"Jack",20,"tx","City Of Jacksboro",1
+"Jasper",17.3,"tx","Harrisburg Wsc",1
+"Jefferson",22.1,"tx","City Of Bevil Oaks",1
+"Jefferson",24.5,"tx","Basf Beaumont Agro Plant",2
+"Jefferson",27.2,"tx","Basf Beaumont Agro Plant",2
+"Jones",20,"tx","City Of Anson",1
+"Jones",17.9,"tx","City Of Stamford",3
+"Jones",20,"tx","City Of Stamford",3
+"Kerr",24.2,"tx","Starlite Recovery Center",1
+"Lamar",43.5,"tx","City Of Blossom",1
+"Lavaca",25,"tx","Sweet Home Isd",1
+"Liberty",27,"tx","Webb Way Subdivision",1
+"Liberty",16,"tx","Splendora Woods",1
+"Limestone",40.1,"tx","Dads Mexia State Supported Living Center",1
+"Limestone",20.1,"tx","City Of Tehuacana",1
+"Lubbock",77.5,"tx","Reese Technology Center",1
+"McCulloch",600,"tx","Lakeland Services",1
+"McCulloch",59.9,"tx","Voca Sand Processing Facility",1
+"McLennan",19.2,"tx","Texas State Technical College - Waco",1
+"Matagorda",24,"tx","Valerus Compression Services",1
+"Mitchell",63,"tx","City Of Colorado City",1
+"Montgomery",23,"tx","Cape Malibu Wsc",1
+"Montgomery",19,"tx","Montgomery Place Water System",1
+"Montgomery",20,"tx","Pioneer Trails Subdivision",1
+"Montgomery",40,"tx","River Club Water Co",1
+"Montgomery",20,"tx","Caney Creek Utility",1
+"Montgomery",109.1,"tx","Westmont Mobile Home Community",1
+"Montgomery",24,"tx","White Oak Hills",1
+"Montgomery",23,"tx","Western Hills Crystal Springs Water",1
+"Montgomery",34.3,"tx","Shady Oaks Estates",1
+"Montgomery",16.6,"tx","Pine Knob Subdivision",1
+"Montgomery",17,"tx","Highline Oaks Water Utility",2
+"Montgomery",32,"tx","Highline Oaks Water Utility",2
+"Montgomery",16,"tx","Westland Building",3
+"Montgomery",24.7,"tx","Westland Building",3
+"Montgomery",23.5,"tx","Montgomery County Mud 88",1
+"Montgomery",20,"tx","New Danville Community",2
+"Montgomery",22.7,"tx","New Danville Community",2
+"Montgomery",16,"tx","Commercial Coating Services",2
+"Montgomery",22.5,"tx","Commercial Coating Services",2
+"Nueces",36,"tx","Golden Acres Water Co",1
+"Nueces",18,"tx","Elementis Chromium Corpus Christi Site",1
+"Orange",20,"tx","Firestone Polymers Orange Plant",2
+"Orange",20,"tx","Firestone Polymers Orange Plant",2
+"Orange",15.7,"tx","Longford Place Water System",1
+"Orange",16.8,"tx","Honeywell",1
+"Parker",17,"tx","Ashcreek Addition",1
+"Parker",66.75,"tx","New Progress Wsc Highland Lakes",1
+"Polk",24,"tx","Cedar Point",1
+"Tarrant",25,"tx","Twin Lakes Water",1
+"Taylor",19.7,"tx","Potosi Wsc",1
+"Taylor",16.2,"tx","Dyess Air Force Base",1
+"Tom Green",32,"tx","Red Creek Mud",1
+"Travis",17,"tx","St Stephens Episcopal School",1
+"Travis",21,"tx","Windermere Community",1
+"Travis",170,"tx","Nameless Hollow Condominiums",1
+"Travis",35.5,"tx","West Travis County Regional Ws",1
+"Travis",16,"tx","Barton Creek Lakeside",1
+"Tyler",26,"tx","Lakeside Water Supply 1",2
+"Tyler",27,"tx","Lakeside Water Supply 1",2
+"Tyler",23.5,"tx","Lakeside Water Supply 4",2
+"Tyler",26,"tx","Lakeside Water Supply 4",2
+"Tyler",20,"tx","Lakeside Water Supply 5",1
+"Upton",17,"tx","Crane Gas Plant",1
+"Uvalde",32.4,"tx","Fort Inge Mobile Home Park",1
+"Val Verde",20,"tx","Laughlin Air Force Base",1
+"Victoria",26,"tx","Devereux Foundation",1
+"Victoria",20.6,"tx","Invista Sarl Victoria",1
+"Victoria",45,"tx","Mission Valley Elementary School",1
+"Victoria",50,"tx","William Wood Elementary School",1
+"Victoria",15.5,"tx","Pnr Victoria Facility",1
+"Walker",25.3,"tx","Green Rich Shores And Sterling Island Su",1
+"Waller",28.4,"tx","Sky Lakes Wsc",1
+"Waller",20,"tx","Leaning Oak Mobile Home Park",1
+"Waller",18,"tx","Pavestone Company Katy",1
+"Washington",16.1,"tx","Holiday Oaks Subdivision",1
+"Wharton",30,"tx","Greenleaf Nursery Shipping & Receiving",1
+"Box Elder",16.1,"ut","Garland City Water System",1
+"Box Elder",21,"ut","Lakeside Range",2
+"Box Elder",30.8,"ut","Lakeside Range",2
+"Juab",15.9,"ut","Ash Grove Cement Company",2
+"Juab",28.5,"ut","Ash Grove Cement Company",2
+"Morgan",60,"ut","Cottonwood Mutual",1
+"San Juan",19.7,"ut","La Sal School",1
+"Tooele",100,"ut","Dugway - Carr Facility",1
+"Utah",19.3,"ut","Vivian Park Homeowners",1
+"Weber",23.7,"ut","Roy City Water System",1
+"Weber",20.088,"ut","Little Mountain Test Facility",1
+"Bennington",20,"vt","Readsboro Town Of",1
+"Orange",17,"vt","Bradford Village Water System",1
+"Orange",31,"vt","Newbury Village Inc",1
+"Orleans",39,"vt","Derby Center Water System",1
+"Rutland",24,"vt","Pico Village Water Corp",1
+"Washington",18,"vt","Mountain Water Company",1
+"Windham",28,"vt","Mount Snow Village Association",1
+"Windsor",18,"vt","Okemo Trailside Condominium",2
+"Windsor",53,"vt","Okemo Trailside Condominium",2
+"Windsor",19,"vt","Woodstock Aqueduct Co",1
+"Rutland",16,"vt","Edgemont Condominiums",1
+"Windham",19,"vt","Kurn Hattin Boys School",1
+"Washington",23,"vt","Fiddlehead Condominiums",3
+"Washington",43,"vt","Fiddlehead Condominiums",3
+"Bennington",22,"vt","Pownal Fire District 3",1
+"Rutland",110,"vt","Mountain Green Condominium",2
+"Rutland",140,"vt","Mountain Green Condominium",2
+"Windham",17,"vt","Suntec Forest Condominium",3
+"Windham",30,"vt","Suntec Forest Condominium",3
+"Windham",19,"vt","Tara Townhouses",3
+"Windham",89,"vt","Tara Townhouses",3
+"Caledonia",97,"vt","West Burke Housing",1
+"Rutland",50,"vt","Best Western Hogge Penny Inn",1
+"Rutland",21,"vt","Telemark Village",1
+"Windham",16,"vt","Smith Haven Center",1
+"Rutland",74,"vt","Parson Hill Partnership",1
+"Bennington",26,"vt","Winhall Acres",3
+"Bennington",426,"vt","Winhall Acres",3
+"Windham",16,"vt","Greensprings",4
+"Windham",45,"vt","Greensprings",4
+"Windsor",200,"vt","Winterplace Water System",1
+"Chittenden",49,"vt","Country Club Condominium",1
+"Windsor",54,"vt","Reading Elementary School",1
+"Rutland",25,"vt","Roots And Wings Academy",1
+"Windsor",50,"vt","Bridgewater Village School",1
+"Windham",19,"vt","Halifax West School",2
+"Windham",24,"vt","Halifax West School",2
+"Windham",24,"vt","Mountain Marketplace",3
+"Windham",60,"vt","Mountain Marketplace",3
+"Windsor",16,"vt","Ledgewood",2
+"Windsor",18,"vt","Ledgewood",2
+"Windsor",18,"vt","Little School",1
+"Windham",17,"vt","Mary Meyer Corp",1
+"Caledonia",102,"vt","Walden School",1
+"Orleans",17,"vt","Derby Boys Llc",1
+"Grand Isle",24,"vt","Isle Lamotte School",1
+"Windham",58,"vt","Early Education Services",1
+"Windsor",27,"vt","Birch Landing Condominium",1
+"Orange",115,"vt","Vermont Castings Foundry Water System",1
+"Windsor",17,"vt","Imerys Talc Vermont",1
+"Grand Isle",19,"vt","Alburgh Fire District 2",1
+"Franklin",90,"vt","New Horizons Children Center",1
+"Windham",29,"vt","Outlook At Mt Snow",1
+"Windsor",20,"vt","Ne Waste Services",2
+"Windsor",40,"vt","Ne Waste Services",2
+"Washington",25,"vt","Waitsfield And Champlain Valley Telecom",1
+"Windham",91,"vt","Vermont Country Store - Rockingham",1
+"Bennington",476,"vt","William E Dailey Precastllc",1
+"Windham",16,"vt","Brattleboro Professional Center",1
+"Franklin",20,"vt","Highgate Springs Poe",2
+"Franklin",23,"vt","Highgate Springs Poe",2
+"Caledonia",19,"vt","Nvrh Water System",4
+"Caledonia",60,"vt","Nvrh Water System",4
+"Franklin",34,"vt","Border Patrol Station Swanton",1
+"Washington",26,"vt","Parker Office Building",1
+"Giles",33,"va","Route 100 Area",1
+"Grayson",28,"va","Fries, Town Of",1
+"Montgomery",38,"va","Walton Farms Subdivision",1
+"Pulaski",1000,"va","Pulaski Country Club",1
+"Albemarle",1100,"va","Bright Eyes Community Child Care",1
+"Albemarle",18.5,"va","Free Union Country School",2
+"Albemarle",41,"va","Free Union Country School",2
+"Albemarle",90.2,"va","Oak Hill Trailer Park",1
+"Augusta",265,"va","Dsc Logistics",1
+"Bath",19,"va","Bath County Power Station",1
+"Fluvanna",22,"va","Kloeckner Metals Corporation",1
+"Louisa",20,"va","Zion Christian Children'S Center",1
+"Nelson",17.7,"va","Ncsa - Wintergreen",3
+"Nelson",92,"va","Ncsa - Wintergreen",3
+"Page",17.6,"va","Mount Carmel Christian Academy",1
+"Roanoke",17,"va","Masons Cove Elementary School",1
+"Rockingham",17,"va","Mount Crawford-Rcpw",1
+"Shenandoah",53,"va","Bowman Apple Products Co Inc",1
+"Accomack",29,"va","Arcadia Schools",1
+"Accomack",17.7,"va","Parksley Migrant Head Start",1
+"Dinwiddie",17,"va","Dinwiddie County Courthouse (New)",1
+"Northampton",4100,"va","Eastern Shore Physicians & Surgeons",1
+"Prince George",21,"va","Melvin Manning Mhp",1
+"Southampton",16,"va","Vdot-Franklin Residency Complex",1
+"Sussex",29,"va","Iluka Concord Mine",3
+"Sussex",40.9,"va","Iluka Concord Mine",3
+"Sussex",22.6,"va","Sussex County Courthouse",1
+"Sussex",257,"va","Waverly, Town Of",1
+"Gloucester",220,"va","Majesty Christian Academy",1
+"Goochland",21,"va","Patterson West Business Center",1
+"Hanover",19,"va","Rhapsody",1
+"King William",700,"va","Cedar Crest",1
+"New Kent",66,"va","New Kent Business Center",1
+"Northumberland",90,"va","Indian Creek Estates",1
+"Northumberland",19,"va","Potomac Bay Estates",1
+"Bedford",67,"va","Smith Mt. Lake Central Water System",1
+"Bedford",800,"va","Mountain View Shores",1
+"Bedford",74,"va","Otter River Elementary School",1
+"Bedford",18,"va","Thaxton Elementary School",1
+"Brunswick",56,"va","Nottoway Acres Subdivision",1
+"Brunswick",20,"va","Pleasant Grove Subdivision",1
+"Buckingham",35,"va","Kyanite Mine-East Ridge",1
+"Campbell",48,"va","Eastbrook Mobile Home Court",1
+"Campbell",32,"va","Suburban Trailer Town",1
+"Cumberland",28,"va","New Life Schools",1
+"Franklin",113,"va","Callaway Elementary School",1
+"Franklin",23,"va","Staroverlake",1
+"Franklin",21,"va","Timberlake Crossing",1
+"Halifax",56,"va","Clover, Community Of",1
+"Mecklenburg",18,"va","Long Branch Shores",2
+"Mecklenburg",24,"va","Long Branch Shores",2
+"Mecklenburg",24,"va","Mecklenburg Power Station",1
+"Mecklenburg",18,"va","Tanglewood Section A",2
+"Mecklenburg",38,"va","Tanglewood Section A",2
+"Mecklenburg",32,"va","Timbuctu Subdivision",1
+"Patrick",95,"va","Capewell Aerial Systems, Llc",1
+"Caroline",180,"va","Peumansend Creek Regional Jail",1
+"Culpeper",30,"va","Overlook Heights Combined",1
+"Culpeper",26,"va","Overlook Heights Ii",1
+"Fairfax",36,"va","Fort Belvoir North Area",1
+"Fairfax",145,"va","Fairfax Yacht Club",1
+"Loudoun",484,"va","Round Hill, Town Of",1
+"Rappahannock",21.5,"va","Hearthstone School",1
+"NA",16,"wa","Tulalip Bay Water Dist #1",1
+"NA",25,"wa","Angel Of The Winds",1
+"Mason",17,"wa","Washington State Patrol Academy",2
+"Mason",91.6,"wa","Washington State Patrol Academy",2
+"Island",53,"wa","Bayview Beach Water District",1
+"Island",16,"wa","Woodglen Prd Water System",1
+"Jefferson",17.5,"wa","Moa Tel",1
+"Kitsap",18,"wa","Brookhaven",1
+"Thurston",27.6,"wa","Bucoda Water Dept",1
+"Pierce",31,"wa","Carbonado Water Dept",1
+"Thurston",27.5,"wa","Cedar Park",1
+"Jefferson",20,"wa","Naval Magazine Indian Island",2
+"Jefferson",25,"wa","Naval Magazine Indian Island",2
+"Franklin",20.2,"wa","Sunrise Estates Water System",1
+"Pierce",163,"wa","Country Green Estates",1
+"Thurston",23,"wa","Driftwood Valley Assoc (Dva)",1
+"Island",29.5,"wa","Goss Lakeridge Acres Association",1
+"San Juan",18,"wa","Eastsound Water Users Association",1
+"Grays Harbor",17.7,"wa","Elma, City Of",1
+"Spokane",17.6,"wa","Eloika Pines Estates Mhp",1
+"Kitsap",27.5,"wa","Emerald Heights",1
+"Thurston",53.3,"wa","Olympia Forestry Sciences Lab",1
+"Thurston",18.5,"wa","Griffin School",1
+"Garfield",16,"wa","Lower Granite Dam Op Housing Area",1
+"Island",16.3,"wa","Mahoneyville Water Association",1
+"King",19.8,"wa","Rainier Christian School",3
+"King",29.5,"wa","Rainier Christian School",3
+"Franklin",270,"wa","Lamb-Weston Pasco",1
+"Whitman",73,"wa","St John, Town Of",1
+"Mason",22.4,"wa","Seventh Day Adventist School",1
+"Skamania",39,"wa","Skamania Elementary School",1
+"King",19.5,"wa","Skykomish Water Dept",1
+"Mason",17.5,"wa","Spencer Glen",2
+"Mason",49.7,"wa","Spencer Glen",2
+"San Juan",79.5,"wa","Spring Point Homeowners Association",1
+"Thurston",17,"wa","Tenino, City Of",2
+"Thurston",22,"wa","Tenino, City Of",2
+"Jefferson",29.5,"wa","Quilcene",1
+"Okanogan",27.1,"wa","Buckhorn Mountain Water System",1
+"Hardy",26.6,"wv","Hardy County Psd Baker",2
+"Hardy",28.3,"wv","Hardy County Psd Baker",2
+"Harrison",15.8,"wv","Salem Water Board",1
+"Marion",34,"wv","Tri County Water Assoc - Shinnston",2
+"Marion",41,"wv","Tri County Water Assoc - Shinnston",2
+"Mineral",18.6,"wv","Frankfort Psd Wiley Ford",1
+"Tucker",16,"wv","Timberline Four Season Resort Management",1
+"Calhoun",18.5,"wv","Calhoun-Gilmer Career Center",3
+"Calhoun",29.4,"wv","Calhoun-Gilmer Career Center",3
+"Fayette",25.1,"wv","Kingston Mining Inc Glen Alum 1 Mine",2
+"Fayette",72,"wv","Kingston Mining Inc Glen Alum 1 Mine",2
+"Fayette",25.4,"wv","Kingston Mining 2 Bathhouse",2
+"Fayette",28.7,"wv","Kingston Mining 2 Bathhouse",2
+"Jefferson",17.6,"wv","Usda Appalachian Fruit Research Station",1
+"Kanawha",489,"wv","Morton Plaza-Wv Parkways",1
+"Marshall",20.5,"wv","Mitchell Plant",1
+"Preston",17,"wv","Aurora Elementary And Jr High",1
+"Summers",22.3,"wv","Wvdot Summers County",1
+"Columbia",15.9,"wi","Columbus Water & Light Department",2
+"Columbia",18.5,"wi","Columbus Water & Light Department",2
+"Dane",19,"wi","Stoughton Waterworks",1
+"Dane",17.2,"wi","Dons Mobile Manor",1
+"Dane",98.8,"wi","West Towne Office Center",1
+"Dodge",20,"wi","Waupun Correctional Inst",1
+"Dodge",17.5,"wi","Fox Lake Correctional Institution",2
+"Dodge",43,"wi","Fox Lake Correctional Institution",2
+"Dodge",18.875,"wi","South Beaver Dam Elementary",1
+"Dodge",23.3,"wi","Bethesda Day Services Of Waupun",1
+"Green",17,"wi","New Glarus Waterworks",1
+"Jefferson",40,"wi","Lake Mills Waterworks",3
+"Jefferson",75,"wi","Lake Mills Waterworks",3
+"Jefferson",56.5,"wi","First Congreg United Church Of Christ",1
+"Rock",29.5,"wi","Rock County Christian School",1
+"Rock",56.6,"wi","Durst Div Regal Beloit Corp",1
+"Sauk",16.85,"wi","Loganville Waterworks",1
+"Kenosha",125,"wi","Van Woods Estates",1
+"Kenosha",19.99,"wi","Bella Villa Apts",1
+"Kenosha",18.7,"wi","Trevor Wilmot Consolidated School Addition",1
+"Milwaukee",28,"wi","Briggs And Stratton Corp",1
+"Ozaukee",50.6,"wi","River Garden Apts",1
+"Ozaukee",17,"wi","Oriole Lane School",1
+"Ozaukee",90,"wi","Wilson School",1
+"Ozaukee",18.5,"wi","Five Corners Dodge",1
+"Racine",19,"wi","Racine Waterworks",1
+"Racine",52.5,"wi","Lakeview School",1
+"Racine",24.455,"wi","Trinity Lutheran Parsonage & Old School",1
+"Racine",37,"wi","American Champion Aircraft",1
+"Walworth",17,"wi","Ludwell Estates Mhp 1",1
+"Walworth",49,"wi","Sharon Waterworks",1
+"Walworth",33.95,"wi","Wood School Dist 4",1
+"Washington",18.6,"wi","Schreiber Foods Inc",2
+"Washington",22,"wi","Schreiber Foods Inc",2
+"Waukesha",27.6,"wi","Schoenstatt Sisters Of Mary",1
+"Waukesha",16.5,"wi","Cushing Elementary",1
+"Waukesha",24.2,"wi","Lannon Elementary School",1
+"Waukesha",15.95,"wi","Chemrite Copac",1
+"Waukesha",23,"wi","Elm Grove Luth Ch & Schl",2
+"Waukesha",40,"wi","Elm Grove Luth Ch & Schl",2
+"Brown",27,"wi","Green Bay Waterworks",1
+"Calumet",32,"wi","Hilbert Waterworks",1
+"Calumet",16.2,"wi","D & D Equipment Inc",1
+"Door",103.6,"wi","Oaks The",1
+"Florence",19,"wi","Nwtc Woodland Kitchen And Business Incubator",2
+"Florence",22,"wi","Nwtc Woodland Kitchen And Business Incubator",2
+"Fond du Lac",39.85,"wi","Graymont Eden Kiln And Whse",1
+"Fond du Lac",17.5,"wi","St John The Baptist Ch & Sch",1
+"Manitowoc",19,"wi","Kiel Waterworks",1
+"Manitowoc",18.7,"wi","Reedsville Waterworks",2
+"Manitowoc",20,"wi","Reedsville Waterworks",2
+"Oconto",151.5,"wi","Nicolet Plastics Inc",1
+"Sheboygan",23.4,"wi","Cedar Grove Waterworks",1
+"Sheboygan",17.5,"wi","Plymouth Utilities",1
+"Sheboygan",17,"wi","Howards Grove Childrens Center",1
+"Waupaca",34,"wi","Wisconsin Veterans Home",1
+"Waushara",15.55,"wi","Front Porch Pets Inc",2
+"Waushara",22.95,"wi","Front Porch Pets Inc",2
+"Winnebago",18,"wi","Neenah Waterworks",1
+"Barron",16.85,"wi","Canoe Villa Trailer Ct",1
+"Barron",22,"wi","Source Energy Services Scale House",1
+"Buffalo",15.75,"wi","Alma Public School",1
+"Buffalo",12465,"wi","Cochrane Fountain City School",1
+"Buffalo",15.7,"wi","Foremost Farms Usa Cooperative",1
+"Chippewa",16.4,"wi","Alliance Plastics Corp",1
+"Clark",35,"wi","Grassland Dairy Prod Inc",1
+"Clark",23.9,"wi","Granton Waterworks",1
+"Dunn",102.5,"wi","Nedland Industries",1
+"Eau Claire",72,"wi","Anthony Elementary School",1
+"Eau Claire",15.85,"wi","Wildlands School Beaver Creek Reserve",1
+"Eau Claire",15.5,"wi","Hi-Crush Augusta",2
+"Eau Claire",18,"wi","Hi-Crush Augusta",2
+"Jackson",26,"wi","Brockway Sanitary Dist 1",1
+"Jackson",62.5,"wi","Badger Mining Taylor Office",1
+"La Crosse",22.06,"wi","Xcel Energy French Is Rdf Plant",2
+"La Crosse",26.18,"wi","Xcel Energy French Is Rdf Plant",2
+"St. Croix",27.5,"wi","Smith Farm Bldg",1
+"Forest",28.55,"wi","Nu Roc Community Healthcare",2
+"Forest",29,"wi","Nu Roc Community Healthcare",2
+"Juneau",51.5,"wi","Pearces Mobile Home Estates",1
+"Juneau",18.3,"wi","New Lisbon Waterworks",1
+"Lincoln",707,"wi","Pine River School For Young Learners",1
+"Marathon",16,"wi","Wausau Waterworks",1
+"Marathon",28,"wi","Mosinee Waterworks",1
+"Marathon",16.5,"wi","Veritas Steel 1",1
+"Marathon",41.5,"wi","Veritas Steel 2",1
+"Oneida",26.75,"wi","Lindgren Rf Enclosure Inc",1
+"Wood",19,"wi","Rudolph Elementary School",4
+"Wood",85,"wi","Rudolph Elementary School",4
+"Douglas",63.5,"wi","Maranatha Academy Inc",1
+"Douglas",160,"wi","Wisconsin Central Railway",1
+"Rusk",19.4,"wi","Youth With A Mission Northwoods",1
+"Taylor",16.2,"wi","Medford Countryside Estates",1
+"Big Horn",16,"wy","Basin, Town Of",1
+"Johnson",37,"wy","Buffalo, City Of",1
+"Park",77,"wy","Meeteetse, Town Of",1
+"Sublette",35,"wy","Pinedale Municipal Ws",1
+"Carbon",23,"wy","Encampment, Town Of",1
+"Campbell",25,"wy","Eagle Ridge Mhp, Llc",1
+"Lincoln",18,"wy","Alpine, Town Of",1
+"Fremont",215,"wy","Dubois Water System, Town Of",1
+"Johnson",18,"wy","Kaycee, Town Of",1
+"Albany",60,"wy","Wyoming Technical Institute",1
+"Lincoln",17,"wy","Williams Field Services-Opal",1
+"Campbell",25,"wy","Black Thunder East, Llc Admin",1
+"Laramie",27,"wy","Sapp Brothers Truck Stop",1
+"Campbell",19,"wy","Recluse School #2",1
+"Campbell",23,"wy","Green Valley Estates Imp. Dis.",2
+"Campbell",27,"wy","Green Valley Estates Imp. Dis.",2
+"Albany",16,"wy","Breazeale'S Mobile Home Park",1
+"Laramie",18,"wy","Cimmaron Village",1
+"Campbell",17,"wy","Bennor Estates & Improvement District",1
+"Campbell",33,"wy","Dry Fork Station",1
+"Converse",55,"wy","Sundance Meadows Special Imp Dist (Smsid",1
+"Hot Springs",25,"wy","Owl Creek Water District",1
+"Sheridan",23,"wy","Vet Adm Medical Center",1
+"Teton",170,"wy","Grand Teton Np Jackson Lk Ldge",1
+"Sublette",25.6,"wy","Bridger-Teton Nf Big Piney Admin Site",1
+"Cleburne, Faulkner, Van Buren",25,"ar","Community Water System",1
+"NA",21.5,"ok","Og&E Sooner Station",1
+"NA",26.7,"ok","Morrison Public Works Auth.",1

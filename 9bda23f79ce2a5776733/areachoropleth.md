@@ -1,0 +1,1 @@
+![img](http://rud.is/dl/areachoropleth.svg)

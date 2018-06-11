@@ -1,0 +1,100 @@
+---
+title: "twee demo"
+author: "Jenny Bryan"
+date: "17 August, 2014"
+output:
+  html_document:
+    toc: TRUE
+    keep_md: TRUE
+---
+
+The Linux [`tree` command](http://mama.indstate.edu/users/ice/tree/) spits out a plain text listing of a directory.
+
+I've often wanted this in R markdown documents, especially for exposition. While I realize the full-fledged `tree` command is just a `brew install tree` away for *me* ... I want these documents to be easy for my *students* to compile. I wanted a plain R solution.
+
+The `twee()` function is a first attempt at this. It's got a whopping two arguments:
+
+  * `path` the directory to list; defaults to working directory
+  * `level` how deep to list; defaults to `Inf`, i.e. as deep as it goes
+  
+#### Basic `twee()` demo
+
+I create some files, tucked down in subdirectories.
+
+```{r collapse = TRUE}
+jfile <- "example"
+writeLines(c("line 1", "line 2"), jfile)
+dir.create("foo/this/is/an", recursive = TRUE)
+file.copy(jfile, "foo/this/is/an")
+dir.create("foo/this/is/another/super/nested", recursive = TRUE)
+file.copy(jfile, "foo/this/is/another/super/nested")
+```
+
+Source the `twee()` function! (*Source given below and in [this Gist file](https://gist.github.com/jennybc/2bf1dbe6eb1f261dfe60#file-twee-r).*)
+
+```{r}
+source("twee.R")
+```
+
+List the directory `foo`:
+
+```{r comment = NA}
+twee("foo")
+```
+
+Note: the call `twee()`, with no arguments at all, will just list current working directory.
+
+Let's clean up.
+
+```{r}
+unlink(c("foo", "example"), recursive = TRUE)
+```
+
+#### Demo the `level` argument
+
+Create some more files:
+
+```{r collapse = TRUE}
+jfile <- "file"
+writeLines(c("line 1", "line 2"), jfile)
+dir.create("foo/level-01-dir/level-02-dir", recursive = TRUE)
+file.copy(jfile, "foo/level-01-file")
+file.copy(jfile, "foo/level-01-dir/level-02-file")
+file.copy(jfile, "foo/level-01-dir/level-02-dir/level-03-file")
+```
+
+List the directory `foo` with default `level = Inf` to see all the things:
+
+```{r comment = NA}
+twee("foo")
+```
+
+And again, listing only down to `level = 2`:
+
+```{r comment = NA}
+twee("foo", level = 2)
+```
+
+Clean up.
+
+```{r}
+unlink(c("foo", "file"), recursive = TRUE)
+```
+
+#### Things I could do
+
+  * validity check of args
+  * refactor it? the one-line inspiration suggests there are much more clever regexp-y ways to do this ... but that's so hard to read :(
+  * implement other [options of `tree`](http://mama.indstate.edu/users/ice/tree/tree.1.html), especially
+    - `-F` to distinguish, e.g. directories
+    - `-P` and `-I` for including/excluding based on pattern
+    - `--filelimit #` to cope with directories populated with tons of files
+  * make my display more similar to that of `tree` and friends
+  * output valid Markdown? (I note that `tree` can output XML and HTML ... so maybe that's a sign it's time to use `tree` itself!)
+
+#### `twee()` source
+
+```{r comment = NA, echo = FALSE}
+cat(readLines("twee.R"), sep = "\n")
+```
+

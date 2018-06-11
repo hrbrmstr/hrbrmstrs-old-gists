@@ -1,0 +1,603 @@
+date,state,city,county,age,sex,vehicle_related,circumstance,location,activity,comments
+2014-09-28,UT,Cisco,Mesa,57,F,NA,"Victim was a passenger in a Jeep that was crossing Bittercreek
+  Wash about 2.5mi west of the CO state line. Vehicle overturned, leaving
+  victim trapped inside.",Road,Driving,NA
+2014-09-27,UT,Springdale,Washington,34,M,NA,"Man was hiking at Zion National Park when he and his partner
+  became stranded due to flash flooding.",River,Hking,NA
+2014-09-22,NM,Santa Fe,Santa Fe,58,M,NA,"Local news station reporting that the body of a 58 year old man
+  was found in the Santa Fe River after heavy rainfall and flash flooding.
+  Reports say that he may have been sleeping in or near the river and drowned
+  when he was swept away from rushing waters.",Road,Driving,NA
+2014-09-22,TX,El Paso,El Paso,64,F,NA,"Woman drove straight into a ditch, which was not visable because
+  it had filled with rain water, making it difficult to distinguish where the
+  road ended.",Road,Driving,NA
+2014-09-19,NM,Loving,Eddy,39,M,NA,"Crew finished working in an oilfield around 2am and began
+  heading home. Due to flooding in the area, the vehicle he was driving was
+  unable to cross an intersection in high water.",Road,Driving,NA
+2014-09-18,TX,Austin,Travis,35,F,NA,"Sheriff's deputy was checking low-water crossings during the
+  storms. She radioed to say her patrol car was being washed away.",Road,Driving,NA
+2014-09-16,CA,Joshua Tree,San Bernadino,66,M,NA,Man drove around stopped traffic and through a flooded wash.,Road,Driving,NA
+2014-09-08,AZ,Tucson,Pima,53,F,NA,"Car submerged in a residential area, then swept away about two
+  blocks.",Road,Driving,NA
+2014-09-08,AZ,Oracle Junction,Pinal,76,F,NA,"Victim and her husband attempted to cross a flooded wash and she
+  was swept away.",Road,Driving,NA
+2014-08-12,OR,Chododendron,Clackamas,34,M,NA,"Hiker was swept into the Sandy River when heavy rain caused a
+  flash flood that took out a bridge he was standing along.",Hiking,On Bridge,NA
+2014-08-11,MI,Warren,Macomb,100,F,NA,"Woman was found in her flooded condo basement. May have been
+  trying to clean it up.",Home,In Basement,NA
+2014-08-11,MI,Oak Park,Oakland,68,M,NA,"Victim suffered heart attack while pushing his car out of flood
+  waters.",Road,Driving,NA
+2014-08-09,SC,Greenvile,Greenville,39,M,NA,"Witness saw a couple get out of their car in rising flood waters
+  near Haywood Mal, and were pulled off their feet into a storm pipe.",Road,Driving,NA
+2014-08-09,SC,Greenvile,Greenville,36,F,NA,"""",Road,Driving,NA
+2014-08-03,CA,Mount Baldy,Los Angeles,48,M,NA,Car was swept into a flooded creek.,Creek,Driving,NA
+2014-06-30,IA,Cedar Rapids,Linn,17,M,NA,"Victim and friends were playing frisbee by an elementary school
+  when he was pulled into a drain.",Drain,Playing,NA
+2014-06-23,TX,Canadian,Hemphill,6,F,NA,Drowned while horseback riding.,River,Horseback,NA
+2014-06-23,TX,Can,Hemphill,24,F,NA,"""",River,Horseback,NA
+2014-06-20,NE,Bellevue,Sarpy,29,M,NA,"Victim drove his car into a flooded drainage ditch and was swept
+  away in fast moving water.",Ditch,Driving,NA
+2014-06-17,SD,Belle Fourche,Butte,24,F,NA,"Victim and a friend were driving on Hwy 85 and hit flash flood
+  waters. Friend was found, but driver drowned.",Road,Driving,NA
+2014-06-13,TX,Waco,McLennan,18,M,NA,"Car was swept off Mars Drive near the Midway High School soccer
+  fields.",Field,Driving,NA
+2014-06-07,MO,Revere,Clark,68,M,NA,"A 68 year old male drowned in Dumas Creek near Revere, Missouri
+  when the pick-up truck he was driving was swept into the creek.",Creek,Driving,NA
+2014-06-05,TN,Summertown,Lawrence,72,M,NA,"Was going to get groceries when he drove his car into standing
+  water. Tried to swim to safety but the pressure on his door was too much.",Road,Driving,NA
+2014-06-05,TN,Centerville,Hickman,6,M,NA,"Family had been without power for two days, so the mother,
+  grandmother and children went out to get something to eat. Mom tried to drive
+  through flood waters and car was swept away.",Road,Driving,NA
+2014-05-28,LA,Duplessis,Ascension,56,M,NA,"Business let people go home early because of flood waters in the
+  parking lot. Supervisor found person under their car trapped in flood waters.",Parking Lot,Fell in,NA
+2014-05-27,TX,Lockhart,Caldwell,3,F,NA,"Her and a friend were playing near a creek and fell in. Dad was
+  in jail.",Creek,Fell in,NA
+2014-05-16,VA,Winchester,Frederick,23,M,NA,"Victim on way home from work. Believed to have tried to cross a
+  bridge before falling victim to the rising waters.",Creek,Driving,NA
+2014-05-02,AL,Lillian,Baldwin,91,M,NA,"Person drove through a barrier and ran into a ravine created by
+  the road failure.",Road,Driving,NA
+2014-04-30,AL,Foley,Baldwin,67,M,NA,"Victim left his house and drove into some flooding near the
+  airport.",Road,Driving,NA
+2014-04-29,FL,Cantonment,Escambia,67,F,NA,"Driving southbound on Hwy 29 and entered water across the
+  roadway. Entered the western shoulder of the roadway and became submerged in
+  deeper water.",Road,Driving,NA
+2014-04-15,ME,Caswell,Aroostook,74,M,NA,"Victim tried to drive truck through a flooded portion of Oliver
+  Rd in Caswell.",Road,Driving,NA
+2014-04-08,IN,Bloomfield,Greene,62,M,NA,"Victim may have been walking along the creek and simply fell
+  into the water.",Creek,Fell in,NA
+2014-04-07,LA,Winn,Winnfield,3,M,NA,"A mother and
+  her young son was fishing beside the flooded ditch on April 7th.  The boy slipped and fell into the ditch
+  with a fast current flowing through the ditch at the time.  The boy drowned in the ditch.",Ditch,Fishing,NA
+2014-04-07,MS,Yazoo City,Yazoo,9,F,NA,"Body discovered in a drainage canal not far from where she lived
+  and was last seen playing in the flood waters.",Creek,Playing,NA
+2014-04-05,IN,Powell Preserve,Monroe,24,F,NA,"Driver attempted to drive through high water on an infrequently
+  travelled road.",Creek,Driving,NA
+2014-04-05,IN,Powell Preserve,Monroe,5,M,NA,"""",Creek,Driving,NA
+2014-02-21,KY,Williamsburg,Whitley,39,M,NA,"Family drowned after high waters swept their car off the road,
+  flipped it over, and carried the vehicle to a creek. Water was rushing 5ft
+  over the the road.",Creek,Driving,NA
+2014-02-21,KY,Williamsburg,Whitley,29,F,NA,"""",Creek,Driving,NA
+2014-02-21,KY,Williamsburg,Whitley,2,M,NA,"""",Creek,Driving,NA
+2014-01-10,FL,Delray Beach,Palm Beach,90,M,NA,Fell into a canal while out for a walk,Canal,Walking,NA
+2014-01-10,FL,Delray Beach,Palm Beach,56,F,NA,Accidentally drove her car into a canal.,Canal,Driving,NA
+2013-12-29,IN,Otwell,Pike,31,F,NA,NA,River,Driving,"Husband drove around a barricade and drove into flood
+  waters.  Vehicle stalled and then was
+  swept off the roadway.  They got out of
+  their car and tried to swim back to shore, but they got separated."
+2013-12-27,IL,Fairfield,Wayne,42,F,NA,NA,River,Driving,Drove her car into the backwaters of the Little Wabash River.
+2013-12-24,OH,Tiffin,Seneca,58,M,NA,NA,River,Moving Items,"Believe he was moving things when he tripped and fell into flood
+  waters.  Had suffered from health
+  issues in the past, but was well lately."
+2013-12-24,IN,Spencer,Owen,86,F,NA,NA,Road,Driving,"Car crashed along a flooded roadway as she was heading to a
+  family gathering on Christmas eve."
+2013-12-22,KY,New Hope,Nelson,36,F,NA,NA,River,Driving,"Vehicle tried to drive through flood waters at the Rolling Fork
+  River.  Wind may have blown over a road
+  closed sign."
+2013-12-22,KY,New Hope,Nelson,51,M,NA,NA,River,Driving,"Vehicle tried to drive through flood waters at the Rolling Fork
+  River.  Wind may have blown over a road
+  closed sign."
+2013-12-22,KY,New Hope,Nelson,61,M,NA,NA,River,Driving,"Vehicle tried to drive through flood waters at the Rolling Fork
+  River.  Wind may have blown over a road
+  closed sign."
+2013-12-21,KY,Carrollton,Carroll,48,M,NA,NA,Creek,Driving ATV,"Person
+  drowned after a four-wheeler attempted to cross a flooded waterway and
+  overturned, trapping the victim."
+2013-12-21,KY,Wicklife,Ballard,54,M,NA,NA,Creek,Driving,"Body found near a car that had been abandoned in a flooded
+  ditch."
+2013-11-22,TX,Austin,Hays,57,M,NA,NA,Creek,Walking,Fell into a flood control channel and drowned.
+2013-10-31,TX,Austin,Hays,72,M,NA,NA,Creek,Driving,"Victim and his wife were trying to escape the flood waters by
+  driving separate vehicles.  His stalled
+  and he was swept away by the flood waters."
+2013-10-31,TX,Dale,Caldwell,51,M,NA,NA,Creek,Driving,"Man drove on a low-lying portion of a road overtaken by
+  flooding.  Victim was swept out of his
+  car."
+2013-10-31,TX,Austin,Hays,31,F,NA,NA,Creek,Driving,"Vehicle swept away from a road by rising waters in the Onion
+  Creek."
+2013-10-31,TX,Austin,Hays,0,M,NA,NA,Creek,Driving,"Vehicle swept away from a road by rising waters in the Onion
+  Creek."
+2013-10-31,TX,Canyon Lake,Comal,26,M,NA,NA,River,Walking,"Fell into the rain-swollen Guadalupe river when trying to save
+  some equipment."
+2013-10-31,TX,Austin,Hays,51,M,NA,NA,Creek,Living,Another homeless man living down by river.
+2013-10-31,TX,Dale,Caldwell,57,F,NA,NA,Creek,Driving,Woman was a passenger in a car that was stuck in a creek.  Woman's body hasn't been found.
+2013-10-13,TX,Austin,Travis,50,M,NA,NA,Creek,Living,"Homeless victim was discovered along Williamson Creek near
+  Heartwood drive."
+2013-09-15,CO,Colorado Springs,El Paso,47,M,NA,NA,Creek,Unknown,Man was found in West Fork of Sand Creek.
+2013-09-14,NM,Alma,Catron,83,M,NA,NA,River,Driving,"Missing man's truck found wrapped in mud and flood debris in
+  Silver Creek."
+2013-09-13,CO,Cedar Cove,Larimer,61,F,NA,NA,River,In House,"Woman's house was ripped apart from flooding on Big Thompson
+  River.  Witnesses saw her in the river
+  around 230am."
+2013-09-13,CO,Loveland,Larimer,79,F,NA,NA,River,In House,"House was washed away by floodwaters.  Woman was injured and couldn't get out of
+  her house."
+2013-09-13,NM,"Truth or
+  Consequences",Sierra,53,M,NA,NA,Road,Driving,Drove through flood waters.
+2013-09-12,CO,Colorado Springs,El Paso,54,M,NA,NA,Creek,In House,"Storms produced heavy rain across western Pueblo County and
+  western El Paso County and the Waldo Canyon burn scar. Rural roads"
+2013-09-12,CO,Lyons,Boulder,80,M,NA,NA,Creek,Driving,Drove through flood waters.
+2013-09-11,CO,Jamestown,Boulder,72,M,NA,NA,Home,In House,NA
+2013-09-11,CO,Boulder,Boulder,19,F,NA,NA,Creek,Driving,NA
+2013-09-11,CO,Boulder,Boulder,19,M,NA,NA,Creek,Driving,"Couple was driving and had 'some type of interation' with water
+  near Linden Avenue.  She got out and he
+  tried to save her."
+2013-08-29,AZ,Prescott,Yavapai,47,F,NA,NA,Creek,Washing,"Homeless lady was swept away by floodwaters while either bathing
+  or playing in a local creek."
+2013-08-25,CA,Needles,San Bernardino,77,F,NA,NA,Wash,Driving,"Found seatbelted in her car about a quarter of a mile north of
+  the railroad bridge crossing Sacramento Wash and US 95."
+2013-08-12,CO,Colorado Springs,El Paso,17,F,NA,NA,Bridge,Walking,"Daughter called parents to say she was caught in a storm after
+  going for a walk and was trapped under a bridge."
+2013-08-09,OK,Oklahoma City,Cleveland,60,M,NA,NA,Road,Driving,"Drowned while trying to rescue a relative that was stranded by
+  flood waters.  He was swept into a
+  drainage canal and drowned."
+2013-08-09,CO,Manitou Springs,El Paso,53,M,NA,NA,Road,Driving,"Was returning home from work when his car was caught in the
+  raging flood."
+2013-08-08,MO,Jane,McDonald,69,F,NA,NA,Road,Driving,"Brush Creek overwhelmed highway 90 and flooded the road up to
+  6ft high."
+2013-08-07,SC,Central,Pickens,23,M,NA,NA,Road,Driving,"Man driving down the road when his car went into a ravine due to
+  high waters."
+2013-08-06,MO,Waynesville,Pulaski,4,M,NA,NA,Road,Driving,"Car swept
+  off of a roadway.  Had made a distress
+  call to 911 saying she was in trouble with flood waters."
+2013-08-06,MO,Waynesville,Pulaski,23,F,NA,NA,Road,Driving,""""
+2013-07-10,OH,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2013-07-08,NM,Santa Fe,Santa Fe,51,F,NA,NA,Arroyo,Walking,"Lived in a neighborhood a mile and a half north of where she was
+  found.  Not sure why she was in the dry
+  creek bed."
+2013-07-04,VA,Springwood,Botetourt,42,M,NA,NA,Creek,Checking Culvert,"Victim tried to clear debris from the culvert when the hand rake
+  he was using broke and he fell into the water."
+2013-07-04,VA,Salem,Salem,54,M,NA,NA,Creek,Behind home,"Last seen in his yard behind his house and apparently was swept
+  away in a swollen stream."
+2013-06-28,NY,Fort Plain,Montgomery,87,F,NA,NA,Home,Stuck in House,"Mobile home was washed away off of its foundation while she was
+  inside.  Police had asked her to
+  evacuate, but she said it wasn't going to be that bad and didn't want to
+  leave."
+2013-06-27,PA,Beech Creek,Clinton,86,M,NA,NA,Road,Retrieving ATV,"Man was swept into a rain-swollen creek while trying to retrieve
+  an ATV."
+2013-06-20,ND,Gwinner,Sargent,48,M,NA,NA,Road,Driving,"Drove into the flooded road. 
+  Strong current carried his pickup several ards before it went
+  under.  He was trapped and couldn't
+  kick out the windows."
+2013-06-15,IL,Mount Sterling,Brown,2,M,NA,NA,Road,Driving,"Dad drove
+  over a bridge, but rising water swept the car into the creek.  Father tried to save son, but couldn't find
+  him."
+2013-06-01,OK,Clearview,NA,69,F,NA,NA,Road,Driving,"Victim drowned inside her
+  vehicle after driving into floodwaters along Alabama Creek south of
+  Clearview. A 14 year old passenger escaped through the sunroof."
+2013-05-31,OK,Oklahoma City,Cleveland,33,M,NA,NA,Drain,"Sheltering from
+  Tornado in Drain","Extended family, including 4 children, were swept away by rains
+  after hiding in a storm drain.  Family
+  was panicked when they saw reports of tornadoes and sought shelter in the
+  storm drain, a 7-ft drop from their property, which, in the end, was not hit
+  by the winds.  Water in the drain rose
+  quickly and hurled them through the dark, concrete tunnel."
+2013-05-31,OK,Oklahoma City,Cleveland,34,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,4,M,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,34,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,7,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,4,M,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,8,M,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",""""
+2013-05-31,OK,Oklahoma City,Cleveland,21,M,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",Family sought shelter from the tornado in a drainage ditch.
+2013-05-31,OK,Oklahoma City,Cleveland,4,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",Family sought shelter from the tornado in a drainage ditch.
+2013-05-31,OK,Oklahoma City,Cleveland,3,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",Family sought shelter from the tornado in a drainage ditch.
+2013-05-31,OK,Oklahoma City,Cleveland,0,F,NA,NA,Drain,"Sheltering from
+  Tornado in Drain",Family sought shelter from the tornado in a drainage ditch.
+2013-05-31,OK,Harrah,Oklahoma,65,M,NA,NA,Road,Driving,Drove his car off of a bridge amid heavy flooding.  Was on his way to work.
+2013-05-31,MO,Mount Vernon,Lawrence,72,M,NA,NA,Road,Driving,"Drowned after the vehicle he was riding in was swept off the
+  road at a low water crossing."
+2013-05-31,MO,Eldon,Miller,17,M,NA,NA,Culvert,Walking,"Was last seen playing in several feet of water when the quickly
+  rising waters pulled him into a nearby culvert that drains into Saline Creek."
+2013-05-30,AR,Y City,Scott,41,M,NA,NA,River,Walking,"Sheriff was checking on reports that residents of a home might
+  be in danger.  Got out of the boat and
+  went inside a home to help two female victims."
+2013-05-30,AR,Y City,Scott,32,M,NA,NA,River,Walking,""""
+2013-05-30,AR,Y City,Scott,60,F,NA,NA,River,Stuck in House,"Stuck in a house and were attempted to be rescued by
+  sheriff/wildlife officer. House collapsed due to flood waters."
+2013-05-30,AR,Y City,Scott,65,F,NA,NA,River,Stuck in House,"Stuck in a house and were attempted to be rescued by
+  sheriff/wildlife officer. House collapsed due to flood waters."
+2013-05-30,AR,Y City,Scott,41,F,NA,NA,Road,Driving,Flood waters trapped her under her car on US 71.
+2013-05-30,AR,Little Rock,Pulaski,18,M,NA,NA,Creek,Walking,Body found in Coleman Creek on campus of U of A-Little Rock.
+2013-05-27,IA,Parkersburg,Butler,71,M,NA,NA,Road,Driving,"Drove his SUV over rapidly moving water with the vehicle getting
+  swept into a creek."
+2013-05-25,TX,San Antonio,Bexar,30,F,NA,NA,Road,Driving,Drove through flood waters.
+2013-05-25,TX,San Antonio,Bexar,81,F,NA,NA,Road,Driving,"Car was trapped in a creek. 
+  Rescuers managed to reach her car and broke a window to reach her,
+  then the currents changed and the car flipped over."
+2013-05-25,TX,Schertz,Guadalupe,18,M,NA,NA,Creek,Walking,Attempted to cross Cibolo Creek.
+2013-05-07,GA,Plainville,Floyd,51,M,NA,NA,Road,Driving,"A car drove into high waters after a high speed chase with the
+  cops.  The driver got out and tried to
+  swim away.  Found body a few days
+  later."
+2013-05-04,IL,Peoria,Peoria,33,M,NA,NA,River,Driving,Drove through flood waters.
+2013-04-29,ND,Minto,Walsh,55,M,NA,NA,Road,Driving,"A 55 year old Walsh County man is believed to have died after
+  his pickup was swept away from a water-covered gravel road Monday evening,
+  April 29th,
+    about 3 miles southwest of Minto, N.D.. The pickup was recovered but the
+  man's body has yet to be found."
+2013-04-19,IN,Arcadia,Hamilton,64,M,NA,NA,Road,Driving,"Man tried to drive through the flooded area of a street when his
+  car was swept away by the forceful current off of the road and about 100
+  yards downstream.  Car became
+  completely submerged with running water. Road had been barricaded off due to
+  the flooding."
+2013-04-19,IN,Arcadia,Hamilton,42,M,NA,NA,Road,Driving,"Same spot as previous report with person doing the same
+  thing.  Truck swept away by water near
+  Cicero Creek. Road had been barricaded off due to the flooding.  Man was visiting sister and driving back to
+  dad's house.  Supposedly drowned trying
+  to save dog from drowning."
+2013-04-18,MO,De Soto,Jefferson,80,F,NA,NA,Road,Driving,Drove through flood waters.
+2013-03-22,KY,Henderson,Henderson,70,M,NA,NA,Road,Driving,"Appears victim tried to drive through high water on a road, but
+  stalled.  Got out to try and walk
+  through it and likely drowned that way."
+2013-03-08,AZ,Scottsdale,Maricopa,38,F,NA,NA,In Wash,Unknown,Woman went missing in wash.
+2013-02-21,HI,Hanakapiai Beach,Kauai,NA,F,NA,NA,NA,NA,"One of the approximately 50 hikers stranded on the Na Pali Coast
+  on Kauai was swept into the swollen Hanakapiai Stream near Hanakapiai
+  Beach."
+2013-01-31,MD,Maryland Park,Anne Arundel,26,F,NA,NA,River,Homeless,"Flood waters washed away a homeless camp before dams were opened
+  on the Patuxent River."
+2012-11-30,CA,Soquel,Santa Cruz,47,M,NA,"Victim drowned in the waters of Soquel Creek in
+  Capitola during a heavy rainstorm that produced minor flooding of the creek.
+  He drowned in a section of the creek in Perry Park at the rear of a grocery
+  store on 809 Bay Avenue in Capitola.",NA,NA,NA
+2012-10-26,PR,Juana Diaz,Juana Diaz,51,M,NA,"Outer bands of Hurricane Sandy, one person was
+  swept away by flooding of Rio Jacaguas.",NA,NA,NA
+2012-10-13,OK,Tulsa,Tulsa,14,M,NA,"AST identified the hunter as 51-year-old Bart
+  Barnes, of Wasilla, Tuesday morning, and said he tried to cross high water on
+  an ATV and had been swept downstream and disappeared.",NA,NA,NA
+2012-09-30,TX,Chireno,Nacogdoches,35,F,Yes,"A couple driving in a car hydroplaned and landed in
+  a flooded creek on FM95, 3 miles south of Chireno, Texas. While abandoning
+  the flooded car, the female passenger was swept away by the waters and
+  drowned.",NA,NA,NA
+2012-09-24,AK,Susistna River,Susistna Valley,51,M,NA,"Man presumably drowned after being stranded with a
+  group of hunters in a remote area near off the Denali Highway near Butte
+  Creek.",NA,NA,NA
+2012-09-15,PR,Guayanilla,Guayanilla,NA,M,NA,"Two young men were swept away by a sharp rise in
+  the Guayanilla river in Barrio Jaguapasto.",NA,NA,NA
+2012-09-15,PR,Guayanilla,Guayanilla,NA,M,NA,"""",NA,NA,NA
+2012-09-11,NV,Las Vegas,Clark,38,M,NA,"Man was working at Desert Rose Golf Course doing
+  landscaping.  Found backhoe tractor
+  that he was using stuck in the mud.",NA,NA,NA
+2012-09-07,AZ,Tuscon,Pima,52,F,Yes,"Runoff from the Sierrita Mountains reached the west
+  side of Tucson many hours after rain ended, causing Brawley Wash to overflow
+  its banks. During the overnight hours, five vehicles drove into the flood
+  waters and became stranded along Manville Road just west of Sandario Road.
+  Around 2 am, one man escaped his vehicle before it was washed downstream only
+  to be swept several yards away himself. He suffered a leg injury. His vehicle
+  was found  200 yards downstream, upside
+  down. The man's wife was found in the vehicle, drowned.",NA,NA,NA
+2012-08-22,NV,Henderson,Clark,17,M,NA,"Victim died when he fell into the Pittman Wash and
+  was swept downstream.",NA,NA,NA
+2012-08-18,TX,Dallas,Dallas,38,M,NA,"Fisherman ignored warnings and was seen trying to
+  cross White Rock Creek when he fell into the water, floated downstream and
+  disappeared",NA,NA,NA
+2012-08-18,TX,Fort Worth,Tarrant,33,M,NA,"Victim drowned in a swift moving creek near Trammel
+  Davis Road and South Norwood Drive in Fort Worth. The man stepped into the
+  creek to cool off and was swept off his feet.",NA,NA,NA
+2012-08-01,UT,La Verken,Washington,2,F,NA,"Victim was noticed missing from her home in the
+  city of La Verkin, which was close to the creek. The girl passed away when
+  she drowned in the Creek, and her body was found a couple hours after she had
+  been reported missing.",NA,NA,NA
+2012-07-29,AZ,San Tan Valley,Pinal,2,M,NA,"Victim died after he was swept down a flooded wash
+  that ran behind his San Tan Valley home. A citizen on an ATV found the child
+  and brought him to emergency crews, who performed CPR on the boy before
+  taking him to Banner Ironwood Hospital. He died later that evening.",NA,NA,NA
+2012-07-14,AZ,Wickenburg,Maricopa,65,M,Yes,"Victim died as he attempted to drive across the
+  Hassayampa wash near Wickenburg. The swiftly flowing water carried his
+  vehicle about one quarter of a mile downstream and into some brush, causing
+  him to drown.",NA,NA,NA
+2012-07-13,AZ,Lake Havasu City,Yuma,38,M,Yes,Victim drowned when his car was swept down a wash.,NA,NA,NA
+2012-06-27,FL,Elfers,Pasco,46,M,NA,"Body washed up in a flooded area along the Anclote
+  River.  Man drowned, but cardiovascular
+  issues were an additional factor.",NA,NA,NA
+2012-05-06,SD,Madison,Lake,29,M,NA,"Victim drowned when attempting to cross the flooded
+  creek.",NA,NA,NA
+2012-05-06,PR,Utuado,Utuado,73,M,NA,"Fisherman was swept away by a rapid surge of water
+  in the Jayuya River.",NA,NA,NA
+2012-05-05,OH,Nelsonville,Athens,74,F,NA,"A couple decided to stop their vehicle and wait out
+  some high water. The vehicle became surrounded by rising water, forcing the
+  passengers to make an attempt to walk to nearby higher ground. The wife was
+  swept away and drowned, her body was found about a half mile downstream. The
+  husband was helped to safety by neighbors using a garden hose.",NA,NA,NA
+2012-04-29,KS,Independence,Montgomery,43,F,Yes,"Truck hydroplaned into the flooded Coal Creek
+  during a night of heavy rain.",NA,NA,NA
+2012-03-24,AR,French,Fulton,4,M,NA,"Victim was helping clean up flood damage along the
+  South Fork of the Spring River. According to news reports, a group of older
+  boys left the clean-up site to return to their camping area. Sometime
+  thereafter, the younger boy asked if he could catch up with the other boys.
+  At some point, the boy ended up drowning in the river, which was described as
+  high and rolling. His body was recovered on the 28th.",NA,NA,NA
+2012-03-24,VA,Buckingham,Buckingham,61,F,Yes,"Victim was found deceased inside a pickup truck
+  several days after she was reported missing. The truck was found on its side
+  and wedged against a tree, about 300 yards from a dirt driveway that crossed
+  Grease Creek. The sheriff's office said a preliminary investigation indicated
+  that flood waters disabled the truck and carried it downstream when the
+  driver tried to drive across the flooded low-water crossing.",NA,NA,NA
+2012-03-21,TX,Bridge City,Orange,75,M,Yes,"A car was found in a ditch in Orange near the Lake
+  Cypress-Mauriceville High School the next day. The driver had driven into the
+  ditch after the rain had stopped during the night and drowned.",NA,NA,NA
+2012-03-21,AR,Little Rock,Pulaski,46,F,NA,"Victim was found in Rock Creek near the low-water
+  bridge on the evening of the 21st. She had apparently been in the water since
+  earlier in the day. The circumstances of how she ended up in the creek were
+  unknown, but she had apparently been on foot. The state medical examiner
+  ruled that drowning was the cause of death.",NA,NA,NA
+2012-03-20,TX,Fedor,Lee,45,F,Yes,Vehicle swept away while crossing West Yegua Creek.,NA,NA,NA
+2012-01-18,OR,Albany,Linn,18,F,Yes,"A car carrying a family of four was swept from a
+  parking lot into Periwinkle Creek. The father and one son were rescued, but
+  the mother and 20-month old child drowned.",NA,NA,NA
+2012-01-18,OR,Albany,Linn,1,M,Yes,"""",NA,NA,NA
+2011-12-25,CA,Chino,San Bernadino,67,F,NA,NA,NA,NA,NA
+2011-12-22,CA,Sun City,Riverside,39,F,NA,NA,NA,NA,NA
+2011-11-30,KY,"New
+  Haven",Nelson,71,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,30,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,42,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,40,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,34,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,21,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,24,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,30,M,Yes,NA,NA,NA,NA
+2011-11-07,PR,Arecibo,Arecibo,NA,M,Yes,NA,NA,NA,NA
+2011-09-26,WI,"Ives
+  Grove",Racine,76,M,NA,NA,NA,NA,NA
+2011-09-15,AZ,Tuscon,Pima,NA,M,NA,NA,NA,NA,NA
+2011-09-10,PA,"Swatara
+  Township",Lebanon,55,M,NA,NA,NA,NA,NA
+2011-09-09,PA,"Swatara
+  Township",Dauphin,54,F,NA,NA,NA,NA,NA
+2011-09-09,PA,"Middle
+  Paxton Township",Dauphin,81,M,Yes,NA,NA,NA,NA
+2011-09-09,VA,Sebrell,Southampton,48,F,Yes,NA,NA,NA,NA
+2011-09-08,PA,"Swatara
+  Township",Dauphin,87,M,Yes,NA,NA,NA,NA
+2011-09-08,PA,Brickerville,Lancaster,62,F,Yes,NA,NA,NA,NA
+2011-09-08,PA,Wysox,Bradford,92,F,NA,NA,NA,NA,NA
+2011-09-08,PA,"Penn
+  Township",Lancaster,53,M,NA,NA,NA,NA,NA
+2011-09-08,PA,"East
+  Cocalico Township",Lancaster,8,M,NA,NA,NA,NA,NA
+2011-09-08,VA,"Great
+  Falls",Fairfax,67,M,Yes,NA,NA,NA,NA
+2011-09-08,VA,Lorton,Fairfax,25,M,Yes,NA,NA,NA,NA
+2011-09-08,VA,Vienna,Fairfax,12,M,NA,NA,NA,NA,NA
+2011-09-07,MD,Pasadena,"Anne
+  Arundel",49,M,NA,NA,NA,NA,NA
+2011-09-07,PA,"Derry
+  Township",Dauphin,70,M,NA,NA,NA,NA,NA
+2011-09-07,PA,"East
+  Germantown",Philadelphia,27,F,NA,NA,NA,NA,NA
+2011-09-05,MS,Short,Tishmingo,57,M,Yes,NA,NA,NA,NA
+2011-08-30,NJ,Lawrence,Mercer,47,M,NA,NA,NA,NA,NA
+2011-08-29,NY,Glen,Montgomery,72,M,Yes,NA,NA,NA,NA
+2011-08-29,VT,Wilmington,Windham,21,F,Yes,NA,NA,NA,NA
+2011-08-28,CT,Bristol,Hartford,46,M,NA,NA,NA,NA,NA
+2011-08-28,DE,Milford,"New
+  Castle",25,M,NA,NA,NA,NA,NA
+2011-08-28,DE,Milford,"New
+  Castle",25,M,NA,NA,NA,NA,NA
+2011-08-28,NJ,Pilesgrove,Salem,20,F,Yes,NA,NA,NA,NA
+2011-08-28,NJ,Kearny,Hudson,47,M,NA,NA,NA,NA,NA
+2011-08-28,NJ,Princeton,Mercer,39,M,NA,NA,NA,NA,NA
+2011-08-28,NJ,"Dover
+  Township",Morris,NA,M,NA,NA,NA,NA,NA
+2011-08-28,NY,Tuxedo,Orange,52,M,Yes,NA,NA,NA,NA
+2011-08-28,NY,Clarksville,Albany,68,F,NA,NA,NA,NA,NA
+2011-08-28,NY,Windham,Greene,79,F,NA,NA,NA,NA,NA
+2011-08-28,NY,Lanesville,Greene,70,M,NA,NA,NA,NA,NA
+2011-08-28,NY,Fleischmanns,Delaware,82,F,NA,NA,NA,NA,NA
+2011-08-28,NY,Altona,Clinton,23,M,Yes,NA,NA,NA,NA
+2011-08-28,NY,Altona,Clinton,24,F,Yes,NA,NA,NA,NA
+2011-08-28,NY,Croton,Westchester,53,M,NA,NA,NA,NA,NA
+2011-08-28,PA,"Fort
+  Washington",Montgomery,65,F,Yes,NA,NA,NA,NA
+2011-08-28,VT,Mendon,Rutland,55,M,NA,NA,NA,NA,NA
+2011-08-28,VT,Mendon,Rutland,25,M,NA,NA,NA,NA,NA
+2011-08-23,PR,Cohitre,Carolina,62,F,Yes,NA,NA,NA,NA
+2011-08-19,PA,Pittsburgh,Allegheny,45,F,Yes,NA,NA,NA,NA
+2011-08-19,PA,Pittsburgh,Allegheny,12,F,Yes,NA,NA,NA,NA
+2011-08-19,PA,Pittsburgh,Allegheny,8,F,Yes,NA,NA,NA,NA
+2011-08-19,PA,Pittsburgh,Allegheny,72,F,Yes,NA,NA,NA,NA
+2011-08-15,NJ,"East
+  Greenwich",Gloucester,55,F,Yes,NA,NA,NA,NA
+2011-08-05,NC,Charlotte,Mecklenburg,43,F,NA,NA,NA,NA,NA
+2011-08-05,NC,Charlotte,Mecklenburg,16,F,NA,NA,NA,NA,NA
+2011-07-27,IL,Galena,"Jo
+  Daviess",75,M,Yes,NA,NA,NA,NA
+2011-07-27,IL,Galena,"Jo
+  Daviess",70,F,Yes,NA,NA,NA,NA
+2011-07-27,IL,Galena,"Jo
+  Daviess",NA,M,NA,NA,NA,NA,NA
+2011-07-19,WY,Saratoga,Carbon,39,F,Yes,NA,NA,NA,NA
+2011-07-19,WY,Saratoga,Carbon,8,F,Yes,NA,NA,NA,NA
+2011-07-19,WY,Saratoga,Carbon,5,F,Yes,NA,NA,NA,NA
+2011-07-19,WY,Saratoga,Carbon,2,F,Yes,NA,NA,NA,NA
+2011-07-13,UT,Duchesne,Duchesne,15,F,Yes,NA,NA,NA,NA
+2011-07-10,HI,Hilo,Hawaii,43,M,NA,NA,NA,NA,NA
+2011-07-05,MO,Bartlett,Shannon,63,M,Yes,NA,NA,NA,NA
+2011-07-05,MO,Bartlett,Shannon,63,M,Yes,NA,NA,NA,NA
+2011-07-05,MO,Bartlett,Shannon,63,M,Yes,NA,NA,NA,NA
+2011-06-21,SD,Reliance,Lyman,56,F,Yes,NA,NA,NA,NA
+2011-06-21,SD,Reliance,Lyman,61,F,Yes,NA,NA,NA,NA
+2011-06-20,KY,Kayjay,Knox,55,M,NA,NA,NA,NA,NA
+2011-06-20,TN,Harrogate,Claiborne,54,M,NA,NA,NA,NA,NA
+2011-06-18,IL,Chatham,Sangamon,75,M,Yes,NA,NA,NA,NA
+2011-05-25,AR,George,Newton,21,M,NA,NA,NA,NA,NA
+2011-05-24,MT,Hardin,"Big
+  Horn",62,M,NA,NA,NA,NA,NA
+2011-05-23,AR,Gallatin,Benton,25,F,Yes,NA,NA,NA,NA
+2011-05-23,AR,Gallatin,Benton,30,F,Yes,NA,NA,NA,NA
+2011-05-23,AR,Gallatin,Benton,5,NA,Yes,NA,NA,NA,NA
+2011-05-23,AR,Gallatin,Benton,0,NA,Yes,NA,NA,NA,NA
+2011-05-22,MT,Pryor,Yellowstone,47,M,NA,NA,NA,NA,NA
+2011-05-21,MT,Boyd,Carbon,84,F,NA,NA,NA,NA,NA
+2011-05-14,AR,Delaplaine,Greene,65,M,Yes,NA,NA,NA,NA
+2011-05-12,OH,"Franklin
+  Furnace",Scioto,47,M,NA,NA,NA,NA,NA
+2011-05-11,AR,"Cherry
+  Valley",Cross,57,M,Yes,NA,NA,NA,NA
+2011-05-07,AR,Pocahontas,Randolph,31,F,Yes,NA,NA,NA,NA
+2011-05-04,AR,"Des
+  Arc",Prairie,53,M,NA,NA,NA,NA,NA
+2011-05-03,AR,Ward,Lonoke,55,M,Yes,NA,NA,NA,NA
+2011-05-01,AR,Mayflower,Faulkner,57,M,Yes,NA,NA,NA,NA
+2011-04-30,NY,Dexter,Jefferson,68,M,NA,NA,NA,NA,NA
+2011-04-27,LA,Monroe,Ouachita,70,F,Yes,NA,NA,NA,NA
+2011-04-27,LA,Monroe,Ouachita,45,M,Yes,NA,NA,NA,NA
+2011-04-27,MS,"Holly
+  Springs",Marshall,66,M,Yes,NA,NA,NA,NA
+2011-04-27,TN,Dunlap,Sequatchie,NA,Unkn,NA,NA,NA,NA,NA
+2011-04-25,AR,Bentonville,Benton,56,M,Yes,NA,NA,NA,NA
+2011-04-25,AR,Bentonville,Benton,50,M,Yes,NA,NA,NA,NA
+2011-04-25,AR,Witter,Madison,75,F,Yes,NA,NA,NA,NA
+2011-04-25,AR,Witter,Madison,75,M,Yes,NA,NA,NA,NA
+2011-04-25,AR,"West
+  Fork",Washington,38,F,Yes,NA,NA,NA,NA
+2011-04-25,AR,Perryville,Perry,53,M,NA,NA,NA,NA,NA
+2011-04-25,MO,"West
+  Plains",Howell,65,M,Yes,NA,NA,NA,NA
+2011-04-23,MO,Hardenville,Ozark,54,M,Yes,NA,NA,NA,NA
+2011-04-16,VA,Waynesboro,Waynesboro,41,F,NA,NA,NA,NA,NA
+2011-04-16,VA,Waynesboro,Waynesboro,8,F,NA,NA,NA,NA,NA
+2011-04-16,WV,Sandyville,Jackson,79,M,Yes,NA,NA,NA,NA
+2011-04-12,VT,Milton,Chittenden,26,M,NA,NA,NA,NA,NA
+2011-03-22,MN,"St.
+  Peter",Nicollet,39,M,NA,NA,NA,NA,NA
+2011-03-20,AR,Luxora,Mississippi,77,F,Yes,NA,NA,NA,NA
+2011-03-20,KY,"NW
+  Paducah",McCracken,90,M,Yes,NA,NA,NA,NA
+2011-03-10,PA,"Pine
+  Grove",Schuylkill,74,M,Yes,NA,NA,NA,NA
+2011-02-28,OH,Norwalk,Huron,51,F,Yes,NA,NA,NA,NA
+2011-02-25,CA,Gilroy,"Santa
+  Clara",43,M,NA,NA,NA,NA,NA
+2011-02-24,KY,Dublin,Graves,0.5,F,Yes,NA,NA,NA,NA
+2011-02-24,KY,Dublin,Graves,5,F,Yes,NA,NA,NA,NA
+2011-02-24,KY,Dublin,Graves,8,M,Yes,NA,NA,NA,NA
+2011-02-24,KY,Dublin,Graves,11,F,Yes,NA,NA,NA,NA
+2010-10-01,PA,Collegeville,Montgomery,55,F,NA,NA,NA,NA,NA
+2010-10-01,NY,Bradley,Sullivan,55,F,NA,NA,NA,NA,NA
+2010-09-30,NC,Creswell,Washington,25,M,NA,NA,NA,NA,NA
+2010-09-30,NC,Creswell,Washington,26,F,NA,NA,NA,NA,NA
+2010-09-30,NC,Creswell,Washington,3,M,NA,NA,NA,NA,NA
+2010-09-30,NC,Creswell,Washington,3,M,NA,NA,NA,NA,NA
+2010-09-30,NC,Creswell,Washington,1,F,NA,NA,NA,NA,NA
+2010-09-22,NM,Albuquerque,Bernardillo,27,M,NA,NA,NA,NA,NA
+2010-09-20,TX,Corpus Christi,Nueces,35,M,NA,NA,NA,NA,NA
+2010-09-09,OK,Stilwell,Adair,19,M,NA,NA,NA,NA,NA
+2010-09-08,TX,Bulverde,Bexar,57,M,NA,NA,NA,NA,NA
+2010-09-08,TX,Alvarado,Johnson,49,M,NA,NA,NA,NA,NA
+2010-09-08,TX,Austin,Travis,51,F,NA,NA,NA,NA,NA
+2010-09-08,TX,Georgetown,Williamson,42,M,NA,NA,NA,NA,NA
+2010-09-07,TX,Killeen,Bell,19,F,NA,NA,NA,NA,NA
+2010-08-20,IL,Springfield,Sangamon,23,F,NA,NA,NA,NA,NA
+2010-08-17,VA,Weber City,Scott,16,M,NA,NA,NA,NA,NA
+2010-08-11,IA,Altoona,Polk,16,F,NA,NA,NA,NA,NA
+2010-08-10,PR,NA,Ceiba,21,M,NA,NA,NA,NA,NA
+2010-08-01,TX,Pharr,Hidalgo,22,M,NA,NA,NA,NA,NA
+2010-07-25,WV,Julian,Boone,41,M,NA,NA,NA,NA,NA
+2010-07-22,WI,Milwaukee,Milwaukee,19,M,NA,NA,NA,NA,NA
+2010-07-21,OH,Franklin Furnace,Scioto,53,F,NA,NA,NA,NA,NA
+2010-07-20,AZ,Sunset Crater,Coconino,12,F,NA,NA,NA,NA,NA
+2010-07-20,KY,Soldier,Carter,72,F,NA,NA,NA,NA,NA
+2010-07-20,MO,Louisiana,Pike,48,F,NA,NA,NA,NA,NA
+2010-07-17,KY,Pikeville,Pike,59,F,NA,NA,NA,NA,NA
+2010-07-13,NC,Lexington,Davidson,1,M,NA,NA,NA,NA,NA
+2010-07-13,PA,Fox Chase,Philadelphia,20,M,NA,NA,NA,NA,NA
+2010-07-06,OK,Oklahoma City,Oklahoma,13,M,NA,NA,NA,NA,NA
+2010-07-02,TX,St. Paul,San Patricio,83,M,NA,NA,NA,NA,NA
+2010-07-02,TX,St. Paul,San Patricio,84,F,NA,NA,NA,NA,NA
+2010-06-15,NE,Norfolk,Madison,38,M,NA,NA,NA,NA,NA
+2010-06-14,OK,Lawton,Comanche,50,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,6,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,34,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,53,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,23,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,34,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,51,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,52,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,69,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,38,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,8,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,68,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,30,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,5,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,2,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,7,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,46,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,43,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,3,M,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,67,F,NA,NA,NA,NA,NA
+2010-06-11,AR,Montgomery,Montgomery,8,F,NA,NA,NA,NA,NA
+2010-06-09,OH,Cedron,Clermont,8,M,NA,NA,NA,NA,NA
+2010-06-09,OH,Cedron,Clermont,11,M,NA,NA,NA,NA,NA
+2010-06-09,TX,New Braunfels,Comal,65,M,NA,NA,NA,NA,NA
+2010-05-28,PR,Barranquitas,Barranquitas,58,M,NA,NA,NA,NA,NA
+2010-05-28,PR,Barranquitas,Barranquitas,54,F,NA,NA,NA,NA,NA
+2010-05-15,MO,Monticello,Lewis,25,F,NA,NA,NA,NA,NA
+2010-05-15,TX,Little York,Harris,47,F,NA,NA,NA,NA,NA
+2010-05-15,TX,Midland,Midland,46,F,NA,NA,NA,NA,NA
+2010-05-12,MO,Lancaster,Schuyler,32,M,NA,NA,NA,NA,NA
+2010-05-03,TN,Palmyra,Montgomery,63,F,NA,NA,NA,NA,NA
+2010-05-02,TN,Nashville,Davidson,18,M,NA,NA,NA,NA,NA
+2010-05-02,KY,Stanford,Lincoln,47,M,NA,NA,NA,NA,NA
+2010-05-02,KY,Dry Fork,Barren,27,F,NA,NA,NA,NA,NA
+2010-05-02,KY,Redhouse,Madison,65,M,NA,NA,NA,NA,NA
+2010-05-02,MS,Lone Pine,Alcorn,66,M,NA,NA,NA,NA,NA
+2010-05-02,OH,Bishopville,Morgan,35,M,NA,NA,NA,NA,NA
+2010-05-02,OH,Bishopville,Morgan,30,M,NA,NA,NA,NA,NA
+2010-05-02,TN,Lobelville,Perry,44,M,NA,NA,NA,NA,NA
+2010-05-02,TN,Lobelville,Perry,15,F,NA,NA,NA,NA,NA
+2010-05-02,TN,Centerville,Hickman,70,F,NA,NA,NA,NA,NA
+2010-05-02,TN,Nashville,Davidson,74,M,NA,NA,NA,NA,NA
+2010-05-02,TN,Nashville,Davidson,70,M,NA,NA,NA,NA,NA
+2010-05-02,TN,Nashville,Davidson,65,F,NA,NA,NA,NA,NA
+2010-05-01,AR,Bryant,Saline,45,M,NA,NA,NA,NA,NA
+2010-05-01,KY,Forest Springs,Allen,34,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Nashville,Davidson,21,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Nashville,Davidson,80,F,NA,NA,NA,NA,NA
+2010-05-01,TN,Nashville,Davidson,75,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Nashville,Davidson,88,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Nashville,Davidson,78,F,NA,NA,NA,NA,NA
+2010-05-01,TN,Bellvue,Davidson,86,F,NA,NA,NA,NA,NA
+2010-05-01,TN,Bellvue,Davidson,39,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Yuma,Carroll,81,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Raleigh,Shelby,32,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Humboldt,Gibson,30,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Mason,Tipton,55,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Tennessee Ridge,Stewart,62,F,NA,NA,NA,NA,NA
+2010-05-01,TN,Tennessee Ridge,Stewart,64,M,NA,NA,NA,NA,NA
+2010-05-01,TN,Leiper's Fork,Williamson,70,M,NA,NA,NA,NA,NA
+2010-04-30,AR,Union Hall,Scott,63,M,NA,NA,NA,NA,NA
+2010-04-23,PR,Yauco,Yauco,68,M,NA,NA,NA,NA,NA
+2010-04-15,TX,Hunt,Kerr,73,M,NA,NA,NA,NA,NA
+2010-03-13,WV,Bradley,Raleigh,59,F,NA,NA,NA,NA,NA
+2010-03-13,WV,Beaver,Raleigh,32,M,NA,NA,NA,NA,NA
+2010-02-04,TX,Leon Springs,Bexar,55,M,NA,NA,NA,NA,NA
+2010-01-21,AZ,Mayer,Yavapai,6,M,NA,NA,NA,NA,NA
+2010-01-20,CA,Campbell,Santa Clara,NA,M,NA,NA,NA,NA,NA
+2010-01-20,CA,Thousand Oaks,Ventura,40,M,NA,NA,NA,NA,NA

@@ -1,0 +1,1 @@
+The FBI Unified Crime Reporting folks have released a treaure trove of data but stuck it behind either an API or a ReactJS interactive bulk download selection process. The links here were generated from the obfuscated js data elements. This shld make it easier for folks to download the entire data set in bulk.

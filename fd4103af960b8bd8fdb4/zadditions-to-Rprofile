@@ -1,0 +1,3 @@
+options(devtools.name = "Bob Rudis",
+        devtools.desc.author = 'c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))', 
+        devtools.desc.license = "MIT + file LICENSE")

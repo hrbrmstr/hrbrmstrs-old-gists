@@ -1,0 +1,72 @@
+---
+title: "FanDuel Salary vs FPPG"
+author: "hrbrmstr & juliogarcia"
+date: "February 14, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(svglite)
+opts_chunk$set(echo=TRUE,
+               dev=c("svglite", "png"),
+               fig.retina=2,
+               message=FALSE,
+               warning=FALSE)
+```
+
+```{r}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+library(viridis)
+library(ggalt)
+```
+
+Get the data:
+
+```{r}
+URL <- "https://juliogarcia.github.io/fanduel_upload.csv"
+fil <- basename(URL)
+if (!file.exists(fil)) download.file(URL, fil)
+
+dat <- tbl_df(fread(fil))
+```
+
+Get the local density of each point in the scatterplot pairs. Use Viridis as the color palette. Add this new color value as a column in the data frame.
+
+```{r}
+dat$dens_col <- densCols(dat$CombinedSalary, dat$FPPG, colramp=viridis_pal())
+```
+
+Make the scatterplot:
+
+```{r fig.width=9, fig.height=9}
+gg <- ggplot()
+gg <- gg + geom_point(data=dat, 
+                      aes(x=CombinedSalary, y=FPPG, color=dens_col),
+                      size=0.6, alpha=1/4)
+gg <- gg + scale_color_identity()
+gg <- gg + theme_tufte(base_family="Helvetica")
+gg <- gg + labs(x='Salary', y='Lineup Total Fantasy Points Per Game',
+                title=sprintf("%s Ramdomly Created FanDuel Lineups", comma(nrow(dat))))
+gg
+```
+
+Alternate way of showing the densities:
+
+```{r fig.width=9, fig.height=9}
+gg <- ggplot()
+gg <- gg + stat_bkde2d(data=dat, 
+                       aes(x=CombinedSalary, y=FPPG, fill=..level..), 
+                       geom="polygon")
+gg <- gg + scale_fill_viridis()
+gg <- gg + theme_tufte(base_family="Helvetica")
+gg <- gg + labs(x='Salary', y='Lineup Total Fantasy Points Per Game',
+                title=sprintf("%s Ramdomly Created FanDuel Lineups", comma(nrow(dat))))
+gg
+```
+
+Rmd source available [in this gist](https://gist.github.com/hrbrmstr/3c0200feb8aca04ae767)

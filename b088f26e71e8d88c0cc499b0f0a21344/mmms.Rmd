@@ -1,0 +1,136 @@
+---
+title: "Mmmmmmm"
+author: "Bob Rudis"
+date: "3/3/2017"
+output: 
+  html_document:
+    code_download: true
+    theme: flatly
+    highlight: zenburn
+    toc: true
+    toc_float: true
+---
+
+See <http://blogs.sas.com/content/iml/2017/02/20/proportion-of-colors-mandms.html> for full expository. Any text here is a riff from that. Rick did the hard work.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.retina=2)
+```
+
+```{r libraries, message=FALSE}
+library(knitr)
+library(kableExtra)
+library(scimple) # devtools::install_github("hrbrmstr/scimple")
+library(hrbrthemes)
+library(ggimage)
+library(tidyverse)
+
+options(knitr.table.format = "html") 
+```
+
+```{r data}
+data_frame(
+  color_name = c("Red", "Orange", "Yellow", "Green", "Blue", "Brown"),
+  official_color = c("#cb1634", "#eb6624", "#fff10a", "#37b252", "#009edd", "#562f14"), 
+  count = c(108, 133, 103, 139, 133, 96),
+  prop_2008 = c(0.13, 0.20, 0.14, 0.16, 0.24, 0.13),
+  imgs=c("im-red-lentil.png", "im-orange-lentil.png", "im-yellow-lentil.png",
+         "im-green-lentil.png", "im-blue-lentil.png", "im-brown-lentil.png")
+) %>% 
+  mutate(prop = count / sum(count),
+         color_name = factor(color_name, levels=color_name)) ->  mms
+
+cap_src <- "Source: Riffed from The DO Loop <http://blogs.sas.com/content/iml/2017/02/20/proportion-of-colors-mandms.html>"
+```
+
+### SAS M&M's Measurements
+
+The breakroom containers at SAS are filled from two-pound bags. So as to not steal all the M&M's in the breakroom, [Rick] conducted this experiment over many weeks in late 2016 and early 2017, taking one scoop of M&M's each week. The following data set contains the cumulative counts for each of the six colors in a sample of size N = `r sum(mms$count)`:
+
+```{r bars}
+ggplot(mms, aes(color_name, prop, fill=official_color)) +
+  geom_col(width=0.65) +
+  scale_y_percent(limits=c(0, 0.21)) +
+  scale_fill_identity(guide = FALSE) +
+  labs(x=NULL, y=NULL, title=sprintf("Sample distribution of colors for M&Ms [n=%d]", sum(mms$count)),
+       caption=cap_src) +
+  theme_ipsum_rc(grid="Y", axis="x")
+```
+
+### Data overview
+
+The data set includes the most recent published distribution is from 2008:
+
+```{r table1}
+mms %>% 
+  mutate(prop=scales::percent(prop), 
+         prop_2008=scales::percent(prop_2008)) %>% 
+  select(Color=color_name, Frequency=count, Percent=prop, `Test Percent`=prop_2008) %>% 
+  kable(align="lrrr") %>% 
+  kable_styling(bootstrap_options=c("hover", "condensed", "responsive"), full_width = FALSE)
+```
+
+### Chi-Square Test Results
+
+Let's test these proportions:
+
+```{r chisq}
+chisq.test(mms$count, p=mms$prop_2008) %>% 
+  broom::tidy() %>% 
+  kable(align = "rrrl") %>% 
+  kable_styling(bootstrap_options=c("hover", "condensed", "responsive"), full_width = FALSE)
+```
+
+The chi-square test rejects the test hypothesis at the α = 0.05 significance level (95% confidence). In other words, the distribution of colors for M&M's in this 2017 sample does NOT appear to be the same as the color distribution from 2008! You can see this visually from the bar chart: the red and green bars are too tall and the blue bar is too short compared with the expected values.
+
+You need a large sample to be confident that this empirical deviation is real. After collecting data for a few weeks, [Rick] did a preliminary analysis that analyzed about 300 candies. With that smaller sample, the difference between the observed and expected proportions could be attributed to sampling variability and so the chi-square test did not reject the null hypothesis. However, while running that test [Rick] noticed that the green and blue colors accounted for the majority of the difference between the observed and theoretical proportions, so [Rick] decided to collect more data.
+
+### Simultaneous confidence intervals for the M&M proportions
+
+Rick used some SAS scripts he had written for a previous blog post. We've got a few packages for computing simultaneous confidence intervals in R but one of the "better" ones does the computation and prints out the results (literally with `print()`) vs return data, so I [made a new package](https://github.com/hrbrmstr/scimple) that does the same computations and returns tidy data frames for the confidence intervals. The original version of this document had the computation in a hidden code block but a package is much better and it includes a function that can compute multiple SCIs and return them in a single data frame, similar to what `binom::binom.confint()` does.
+
+```{r confint}
+mms <- bind_cols(mms, scimp_goodman(mms$count, alpha=0.05))
+
+mms %>% 
+  select(Color=color_name, Count=count, Proportion=prop, 
+                `95% Lower`=lower_limit, `95% Upper`=upper_limit) %>% 
+  kable(align=c("lrrrr"), caption="Simultaneous confidence Intervals (Goodman method)") %>% 
+  kable_styling(bootstrap_options=c("hover", "condensed", "responsive"), full_width = FALSE)
+```
+
+The table indicates that the published 2008 proportion for blue (0.24) is far outside the 95% confidence interval, and the proportion for green (0.16) is just barely inside its interval. That by itself does not prove that the 2008 proportion are no longer valid (we might have gotten unlucky during sampling), but combined with the earlier chi-square test, it seems unlikely that the 2008 proportions are applicable to these data.
+
+### Cleveland Comparison
+
+We incorporate the Cleveland M&M plant official color distribution values into our data frame and show where their expected distributions fall compared to the sample and where both fall within our computed confidence intervals:
+
+NOTE: Uncomment the commented bits and comment out the `geom_image()` if you want "normal" points.
+
+```{r cleveland, fig.width=9.5, fig.height=10}
+url_base <- "http://www.mms.com/Resources/img/"
+
+mms %>% 
+  mutate(imgs=sprintf("%s%s", url_base, imgs)) %>% 
+  mutate(cleveland_prop=c(0.131, 0.205, 0.135, 0.198, 0.207, 0.124)) %>% 
+  ggplot() +
+  geom_segment(aes(x=lower_limit, xend=upper_limit, y=color_name, 
+                   yend=color_name, color=official_color), size=2) +
+  # geom_point(aes(prop, color_name, fill=official_color), 
+  #            size=8, shape=21, color="white") +
+  geom_image(aes(prop, color_name, image=imgs)) +
+  # geom_text(aes(prop, color_name, label="m"), 
+  #           color="white", family="Times", fontface="bold") +
+  geom_point(aes(cleveland_prop, color_name, color=official_color),
+             shape="|", size=6) +
+  scale_x_percent(limits=c(0.095, 0.25)) +
+  scale_color_identity(guide = FALSE) +
+  scale_fill_identity(guide = FALSE) +
+  labs(x="Proportion", y=NULL, 
+       title="Observed vs 2017 Proportions for M&   M Candies",
+       subtitle=sprintf("95%% Simultaneous Confidence Intervals, [N=%d]",
+                        sum(mms$count)), caption=cap_src) +
+  theme_ipsum_rc(grid="X") +
+  theme(panel.background=element_rect(color="#5b5b5b", fill="#5b5b5b")) +
+  theme(axis.text.x=element_text(hjust=c(0, 0.5, 0.5, 1)))
+```

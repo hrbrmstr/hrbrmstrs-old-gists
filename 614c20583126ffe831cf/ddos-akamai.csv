@@ -1,0 +1,23 @@
+layer,Vector,1/1/2014,10/1/2014,1/1/2015
+Infrastructure,ACK,3.24,2.77,1.99
+Infrastructure,CHARGEN,3.45,5.2,5.78
+Infrastructure,DNS,8.95,10.51,5.93
+Infrastructure,FIN FLOODS,0.86,0.27,0.75
+Infrastructure,FIN PUSH,0.43,0.13,0.15
+Application,HEAD,0.43,0.2,0.25
+Application,HTTP GET,9.28,8.42,7.47
+Application,HTTP POST,2.37,1.15,0.7
+Infrastructure,ICMP,9.82,4.18,3.59
+Infrastructure,NTP,16.61,8.15,6.7
+Application,PUSH,0.32,0.54,0.9
+Infrastructure,RESET,1.19,0.94,0.65
+Infrastructure,RIP,0.22,NA,NA
+Infrastructure,RP,0.32,0.4,0.45
+Infrastructure,SNMP,0.67,1.15,NA
+Infrastructure,SSDP,NA,14.62,20.87
+Infrastructure,SYN,17.69,16.91,15.79
+Infrastructure,SYN PUSH,0.32,0.07,0.35
+Infrastructure,TCP FRAGMENT,0.11,0.07,0.05
+Infrastructure,UDP FLOODS,10.36,10.58,13.25
+Infrastructure,UDP FRAGMENT,13.8,13.95,12
+Infrastructure,XMAS-DDoS,NA,0.27,1.15

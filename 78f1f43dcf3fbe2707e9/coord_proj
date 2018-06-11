@@ -1,0 +1,12 @@
+library(ggplot2)
+library(maps)
+library(ggthemes)
+
+state <- map_data("state")
+
+gg <- ggplot()
+gg <- gg + geom_map(data=state, map=state,
+                    aes(x=long, y=lat, map_id=region))
+gg <- gg + coord_proj("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs")
+gg <- gg + theme_map()
+gg

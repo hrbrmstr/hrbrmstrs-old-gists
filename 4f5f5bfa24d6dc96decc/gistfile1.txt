@@ -1,0 +1,28 @@
+library(sp)
+library(ggplot2)
+
+devtools::source_gist("https://gist.github.com/hrbrmstr/33baa3a79c5cfef0f6df")
+
+download.file("http://biogeo.ucdavis.edu/data/gadm2/R/DOM_adm1.RData", "DOM_adm1.RData")
+load("DOM_adm1.RData")
+
+dr_map <- fortify(gadm)
+
+set.seed(1492)
+choro <- data.frame(id=gadm@data$ID_1,
+                    place=gadm@data$NAME_1,
+                    value=sample(100, nrow(gadm@data)))
+
+head(choro)
+
+gg <- ggplot()
+gg <- gg + geom_map(data=dr_map, map=dr_map,
+                    aes(x=long, y=lat, map_id=id),
+                    fill="white", color="#7f7f7f", size=0.25)
+gg <- gg + geom_map(data=choro, map=dr_map, 
+                    aes(fill=value, map_id=id), 
+                    color="#7f7f7f", size=0.25)
+gg <- gg + coord_map("lambert", lat0=17.5, lat1=20)
+gg <- gg + theme_map()
+gg <- gg + theme(legend.position="right")
+gg

@@ -1,0 +1,487 @@
+hrbrmstr's gists
+
+- [No description provided](86fb5284178f1a87248929bb719a2bd4) @ 2018-06-09T22:08:22Z
+- [No description provided](725342cf2bcb83a03427df3cd0e8ad53) @ 2018-06-07T15:26:09Z
+- [No description provided](d07b18ff928a875152d3911e3ea37d20) @ 2018-06-06T10:25:46Z
+- [No description provided](c07ddf290369d954a54443b6b09faae3) @ 2018-06-01T17:48:27Z
+- [No description provided](9a3233cc96ee4334821fc76b28f4d33c) @ 2018-05-31T01:45:54Z
+- [No description provided](58b827dea95a7adf0f0e751b44b75b0c) @ 2018-05-29T11:55:28Z
+- [No description provided](4d16528700312cd25cc1f79bb1aa2fc6) @ 2018-05-28T11:36:01Z
+- [Ref: https://twitter.com/omespino/status/1000524541829971968](4232f38b5ff172dd06acc093ccfe98eb) @ 2018-05-27T13:48:52Z
+- [A JSON file of sources, headlines and (where existing) intro snippets for the "Amazon Alexa 'Scandal'"](1423cba2aa1bdb9361066a7af21f9a1e) @ 2018-05-25T11:16:53Z
+- [No description provided](0be255289531061e5ef01553c4409324) @ 2018-05-19T11:34:19Z
+- [No description provided](85f4fb237f05c659c64713f4f1242562) @ 2018-05-15T19:29:23Z
+- [No description provided](ae671ff9668dbf64ca85f33a72450a25) @ 2018-05-13T11:59:42Z
+- [No description provided](5b7d9eac47f24c33ca8c3c1f8ea7134b) @ 2018-05-09T16:13:36Z
+- [https://twitter.com/_odddie_/status/993880501197864960 thread capture](c0b2bc6e7a90b401f46f39f2f34d41c7) @ 2018-05-08T16:19:54Z
+- [No description provided](62d2346371e6cfca4bb7f48deb87bc62) @ 2018-05-03T15:50:06Z
+- [No description provided](b5ac4d64c19ea26cb18df743241ad96c) @ 2018-04-30T18:41:06Z
+- [No description provided](9a323a7fdbc96dae3b3f7b26a481bbc1) @ 2018-04-30T01:29:44Z
+- [No description provided](09a255ddc403d0234e018d4698693cfe) @ 2018-04-28T12:29:38Z
+- [No description provided](ff76bc29134e45b8b8b960c278d89aa1) @ 2018-04-27T17:21:06Z
+- [Text of Jessica Payne's Twitter thread: https://twitter.com/jepayneMSFT/status/988895496381984770](c31fded255c85672cbeb804bb3131b3b) @ 2018-04-25T11:35:56Z
+- [No description provided](4ada681bd4ddfcc707b2824c7026070e) @ 2018-04-23T22:20:54Z
+- [No description provided](92c982751c9cb60a5ed358e3f554cd2c) @ 2018-04-23T13:26:33Z
+- [No description provided](ce2c49c7d4b7027437728192e278781c) @ 2018-04-20T18:15:10Z
+- [No description provided](f244a72633435484f3f0017855c1cc60) @ 2018-04-18T16:07:16Z
+- [No description provided](715a18e14ae926e1776ae74f33517e13) @ 2018-04-15T20:05:47Z
+- [No description provided](bf034913027f3447325713223c4d5f79) @ 2018-04-13T15:21:38Z
+- [No description provided](e54415b033bb194f4eb3e639b3d8d76c) @ 2018-04-10T20:44:41Z
+- [No description provided](33d29bb39eaa7f2f1e95308038f85b59) @ 2018-04-08T12:26:42Z
+- [Boyer-Moore Implementations for @coolbutuseless' comparisons](05c6b05efab799eb4522aa1ff7d80a37) @ 2018-04-04T13:24:29Z
+- [No description provided](276072b0a83ee25328aaa1c046880ce8) @ 2018-04-04T01:08:01Z
+- [user-settings.js](fe406ff80e22b45895546853e29b2651) @ 2018-03-13T19:40:12Z
+- [No description provided](42aff98aca45d29f4cda5e731bacdd8d) @ 2018-03-13T15:18:38Z
+- [Self-executing single-file Java programs...](9232c8f5b191c6601b04298b5399b96f) @ 2018-03-02T22:12:34Z
+- [No description provided](a3b9a00d4cfb3aae2aad8d8f9d325dbe) @ 2018-02-26T17:15:48Z
+- [Getting rpy2 to work on macOS 10.12 / 10.13 with pip3 and gcc](0631d9a651f4a40378ddb9ea691a1356) @ 2018-02-26T12:37:24Z
+- [No description provided](7dd469e8ed69945e3f7f0c53cc1bdd14) @ 2018-02-10T22:40:09Z
+- [No description provided](f54605c27c7b102c40e2a1412fa98502) @ 2018-02-10T19:26:44Z
+- [No description provided](c1be4e9f424a77c80595174678ab74e1) @ 2018-02-04T18:16:49Z
+- [faster IPv4 Hilbert curves in R + ggplot2](a244a4fdd65f7c987f3de2d08e0ceb9a) @ 2018-02-04T02:58:26Z
+- [No description provided](9542742fb6183462428894c66836f50d) @ 2018-01-25T18:55:08Z
+- [databot firehose](8a49b78f6567cb3de0d074a82a9b3327) @ 2018-01-24T02:54:13Z
+- [No description provided](157d2e526fa509f1593b182c5b054bf0) @ 2018-01-22T17:40:30Z
+- [No description provided](82eae64f0fdd9e4eae7d7b9443d6b3f8) @ 2018-01-21T13:51:38Z
+- [https://rud.is/b/2018/01/18/bitcoin-world-map-bubbles/](0303ba204e3f56def4daa261db340135) @ 2018-01-18T14:18:48Z
+- [No description provided](bb93a8f2b378c6112fedbe581690bf21) @ 2018-01-16T13:48:51Z
+- [This function will walk you through the creation of a remote repository on github without wasting your precious time going to the website :)](699f225cce4f37dcd1a78b3ecec3b6fe) @ 2018-01-16T04:59:28Z
+- [No description provided](8025f9c18a0fb75279083747fab5d3f3) @ 2018-01-12T15:30:26Z
+- [non-selenium alternative to http://www.masalmon.eu/2018/01/07/rainbowing/](4cabe4af87bd2c5fe664b0b44a574366) @ 2018-01-07T14:43:59Z
+- [Connect R (#rstats) to heroku PostgreSQL — https://www.heroku.com/postgres](45c67103a9728f59212cd13262adca74) @ 2018-01-06T09:21:02Z
+- [No description provided](122e9a3b91711cea1e222b321416043b) @ 2018-01-05T12:04:24Z
+- [No description provided](34964dc9320ca3cb30063be95b992128) @ 2018-01-04T21:02:42Z
+- [No description provided](a47e74ef707d7ed3735ed59a92a01125) @ 2018-01-02T13:43:43Z
+- [No description provided](ac802de3b98299a73027a79ed91bfe4d) @ 2018-01-02T01:32:02Z
+- [No description provided](6c4330efad178a572655800f4f713764) @ 2018-01-02T01:20:47Z
+- [No description provided](27cf4e6d3fc34da84b4006a6d209ba9e) @ 2017-12-31T16:21:49Z
+- [No description provided](d033831a257d8dd4edfde7a06f14e573) @ 2017-12-30T13:06:36Z
+- [No description provided](247f4353f10f2acc9d0ef417a479a442) @ 2017-12-28T12:55:00Z
+- [No description provided](28d4a79ca778e019b7c6ae8d16980dd5) @ 2017-12-27T18:53:54Z
+- [No description provided](470890ad2e0319f5d226eb2b5b4ef2c5) @ 2017-12-27T16:10:46Z
+- [No description provided](cf726437951068992ea4ef14f6c2d892) @ 2017-12-22T15:57:11Z
+- [No description provided](5ae822585ab16e7b2b08394b4151d8d0) @ 2017-12-14T14:24:26Z
+- [No description provided](0eeaa7b00067c130c4e32b7a642b439e) @ 2017-12-14T02:35:25Z
+- [ DNS Performance Comparison: Google, Quad9, OpenDNS, Norton, CleanBrowsing, and Yandex https://medium.com/@nykolas.z/dns-performance-comparison-google-quad9-opendns-norton-cleanbrowsing-and-yandex-d62d24e38f98](0464d84536f1d97e322c3994cb5ea6e8) @ 2017-12-13T03:00:32Z
+- [No description provided](1896eed3d1a3b28b85ce702535bd28bb) @ 2017-12-07T12:38:33Z
+- [No description provided](6c38b8d1259de3c422c5f9e882761494) @ 2017-12-04T11:50:17Z
+- [Take a nested list and yank out all of the data frames into a single depth=1 list.](4bda5de2888e02d3b7b053b202fcf02f) @ 2017-12-03T13:19:35Z
+- [No description provided](ee6d72448b1df2e6d9223f901e922b4a) @ 2017-12-03T00:30:19Z
+- [No description provided](a0487030f4f35ce4d075688e9d474ddb) @ 2017-11-29T10:57:22Z
+- [No description provided](54e92c1233c260c611e33790b15d3d39) @ 2017-11-15T17:04:27Z
+- [No description provided](6872c82e22cf5369639534388ea2599c) @ 2017-11-13T20:08:20Z
+- [No description provided](92824182f41a8b841eab4480abc5a1d7) @ 2017-11-13T17:58:54Z
+- [No description provided](3c2d9b31b5a7988f96145de9022f769e) @ 2017-10-30T10:15:52Z
+- [No description provided](0c55e256f1873633e0b737b717722b38) @ 2017-10-25T19:10:41Z
+- [find and extract emoji in R](e89eb173ae0333f50f94fe5086fedf8b) @ 2017-10-24T11:34:12Z
+- [No description provided](f273131f8d2fe80237ac91f2f1909e97) @ 2017-10-23T20:26:12Z
+- [use the magick device to make ggplots conform to twitter card or in-stream image optimal sizes, with or without "retina" resolution](0ce866666f124c23e3b42ac7f16f3d3b) @ 2017-10-21T14:39:04Z
+- [composite a footer onto a ggplot plot – highly recommend doubling h & w, res = 144 and more customizing. this was a quick hack for someone.](6e353b8da97a1a1098ec053781b7bdac) @ 2017-10-20T12:57:21Z
+- [ndjson record output sample for masscan](50f00ed7a6e627f0a897505ddd5a54d7) @ 2017-10-19T03:04:16Z
+- [No description provided](31a1b4d36573d755cfbbd23d1d7093a7) @ 2017-10-18T14:16:03Z
+- [No description provided](9e7125ae58a11a035b8330f497a6d98b) @ 2017-10-09T18:39:24Z
+- [Rghaïf (North African flatbread)](5267f9e7479d21c16b1bbf1f05d23072) @ 2017-10-09T15:05:39Z
+- [No description provided](f462277971b139a855651c99d26ac19e) @ 2017-09-27T14:08:14Z
+- [No description provided](0ca210e2115665b7acbcc3d93187c21e) @ 2017-09-16T15:58:15Z
+- [No description provided](944f9f5162ab40a9ed964ceb8992b93f) @ 2017-09-14T02:15:40Z
+- [No description provided](1b380442c08dd3e36b8d71cc2a6a8b80) @ 2017-09-09T00:20:04Z
+- [cost of hurricane harvey vis data — TSV here: https://static01.nyt.com/newsgraphics/2017/08/29/expensive-storms/79088630ae1af934d7840e104a0e3f1e8a6c7bf1/data-2.tsv](968f1df4ae5afa793141ce0290bdcfd9) @ 2017-09-05T13:57:15Z
+- [Data from https://www.washingtonpost.com/graphics/world/nuclear-tests/ (you'll need to reverse the projected points)](52fb5fe1e818baa27b26ccf224464cf7) @ 2017-09-03T20:00:55Z
+- [No description provided](5e069f20b8cbaf72b85ac839e2098d47) @ 2017-09-01T12:54:04Z
+- [No description provided](42f3727544fe80e87785cf6eb06f1d2e) @ 2017-09-01T12:52:43Z
+- [No description provided](60ef30f1f3821ed65e13d5214636d2e1) @ 2017-08-31T17:14:01Z
+- [for #d3Makeover challenge #2 — it's not perfect, but you don't have to scrape, now. they changed fields and formats after 2011, so there's more detail in the later years. Not all fields had valid values. Earlier years had no expository.](0be6d4f71f7caff4830dffabed50082a) @ 2017-08-31T11:02:32Z
+- [No description provided](b475def1e5a111dbabe3a903c06c76a4) @ 2017-08-28T14:13:33Z
+- [get video playback time in Shiny](3c6ddebcc614b3099043404964ca0db0) @ 2017-08-28T13:25:23Z
+- [No description provided](818a3a1b94d75abf95e88a7c9cb2d51b) @ 2017-08-25T00:43:10Z
+- [No description provided](638e5651c380522abaeadf763e1fda6e) @ 2017-08-24T19:39:51Z
+- [No description provided](8b6ccae02e13d5e19119d111a1508084) @ 2017-08-21T15:20:36Z
+- [No description provided](96b0c86aa7e123db688f281b2702ac61) @ 2017-08-02T18:45:46Z
+- [No description provided](bc46955e6254d98413d8bdd7725d5e66) @ 2017-08-01T02:50:51Z
+- [robots.txt user agent strings from June 2017 robots.txt Common Crawl](7bfbc4a3b4cadb3a32d2e1b72440bf6a) @ 2017-08-01T02:37:27Z
+- [No description provided](f8f2a60ec81621ed4233037edb63de0f) @ 2017-07-25T19:03:18Z
+- [No description provided](c9eddb30e6fb5038085eb30b7d94f556) @ 2017-07-25T16:13:24Z
+- [No description provided](82a3f74b0b353a63a09061207e9f2725) @ 2017-07-23T15:06:48Z
+- [No description provided](dad2219d7a7659a6519c253365a34c43) @ 2017-07-23T13:36:56Z
+- [No description provided](e177a8486599aba266a4fbe21ecdb853) @ 2017-07-16T02:12:29Z
+- [30-45m weeknight recipes; these are simplified versions of more involved ones I have but these are go-to ones when I forget what time it is ("OH IT IS 7PM ALREADY?!") or schedules are really bad. they can all be adjusted for food allergies, too.](3abdfd489dd03e4ab89ec9c8e8a67c2e) @ 2017-07-13T19:01:24Z
+- [No description provided](fa1f646bfecdff8e9d66c2cf537c8e92) @ 2017-07-11T21:41:33Z
+- [No description provided](e22a82d1fb499e47e6187590a7e6cf77) @ 2017-07-11T15:05:25Z
+- [No description provided](c55a1f3d267a7279e95b402e4be41069) @ 2017-07-02T13:36:05Z
+- [Rapid7 Country-level results for SMB 445 scan that include protocol interaction (i.e. guaranteed/confirmed running SMB and on a Windows box). Data cross-referenced with National Exposure 2017 scan results to get total in-use IPv4 count to derive overall % of exposed Windows SMB](c790b975713705fa9c676bc1557e20af) @ 2017-06-29T17:25:47Z
+- [Rapid7 Project Sonar - Full SMB Scan - Windows only results - counts by country - 2017-06-21](bc268f2ba91972a39a5794127a426195) @ 2017-06-27T17:26:11Z
+- [trump & obama's approval ratings from day 1 in office](a7310e1b64d0797401d01d0c6195bd8b) @ 2017-06-18T14:16:21Z
+- [No description provided](97eab930e2cf0846a42a76be37ae735c) @ 2017-06-14T19:37:28Z
+- [No description provided](ec971ab031966b7148adc3dc2301b0f9) @ 2017-05-26T22:57:59Z
+- [No description provided](ef7ea127e6244655a1782e6c3697ce64) @ 2017-05-26T22:52:30Z
+- [No description provided](8c5cc3522670a80c5f63beb630854a4e) @ 2017-05-23T19:43:30Z
+- [ggplot python](f848892299cbb29bb08f8e1a45650499) @ 2017-05-22T21:26:50Z
+- [R palette for http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network](1082a9b28120a22f6a7cf9e8ecae2eef) @ 2017-05-21T12:45:11Z
+- [No description provided](5aa67459155e92225b23884cf60d3271) @ 2017-05-13T11:40:22Z
+- [No description provided](ce0ccb2b0b38b37193154eb549ba9629) @ 2017-05-03T19:35:34Z
+- [No description provided](e03deb479aae8e8b276f2be484823eed) @ 2017-04-30T16:11:47Z
+- [No description provided](e6882569659e015de631e0cee7eb1f96) @ 2017-04-27T03:50:28Z
+- [No description provided](6f228eead691e72bd0272a25319ea9ee) @ 2017-04-25T02:26:40Z
+- [No description provided](a2169a38c5d99180f048de7723fcee99) @ 2017-04-24T11:07:08Z
+- [No description provided](a7abae85fdd35e0bfdbab40c019e5078) @ 2017-04-21T16:17:33Z
+- [No description provided](fa13f8b746ad4b00abbb45ede499f6bc) @ 2017-04-21T15:07:02Z
+- [No description provided](8998143f299e9d59b826b01225dfb594) @ 2017-04-20T09:54:01Z
+- [No description provided](b91752d32a07ee8595db33babe735b6b) @ 2017-04-13T19:33:05Z
+- [No description provided](e73c4130902e22bbbf863c692bc2461b) @ 2017-04-13T11:21:52Z
+- [No description provided](53d5cfc51f0fad9f0853c839029ef597) @ 2017-04-08T15:35:09Z
+- [No description provided](1927e57e56749c09b75c4ab9f744ab46) @ 2017-04-02T16:09:30Z
+- [No description provided](1b7f72aaac8b1bb0c4c99b549eb4a467) @ 2017-04-02T13:48:35Z
+- [No description provided](49185cd3234eac5a9386f82a393f041f) @ 2017-03-28T14:46:09Z
+- [No description provided](e8f3d531c4aa53e1019f6ff446bab88a) @ 2017-03-24T17:13:17Z
+- [No description provided](33fa4154866cb6f257f1d52f7bc1e795) @ 2017-03-21T17:14:17Z
+- [No description provided](880f609aa084b56c7f0326a6ee1c4c59) @ 2017-03-19T17:36:59Z
+- [No description provided](61b15e8d039c883d431950facf411866) @ 2017-03-06T13:50:30Z
+- [No description provided](8c7862092681d06e6535ab38d03074bf) @ 2017-03-04T11:49:34Z
+- [No description provided](b088f26e71e8d88c0cc499b0f0a21344) @ 2017-03-03T20:17:37Z
+- [Still needs finishing work for but this is def better than https://twitter.com/thosjleeper/status/836957509546098690](8579c9a5df8becbddfdaabdee7cd3543) @ 2017-03-01T18:08:02Z
+- [No description provided](3116dfb8ba73f6307e2c42a0d6fcbf23) @ 2017-02-26T12:32:21Z
+- [No description provided](3486db6f19c36c8a6bd3b1078f3841ba) @ 2017-02-22T18:52:02Z
+- [No description provided](ebbb1b500c12e899504c33a262d41586) @ 2017-02-21T23:03:37Z
+- [No description provided](00421bf0ce13410ea2044d61b0ffccf7) @ 2017-02-19T14:20:26Z
+- [No description provided](453db36d1d3fc01c0a72bcc6f6312845) @ 2017-02-16T03:02:39Z
+- [Riff of https://www.chezvoila.com/blog/parallel in R (where it's equally as 'ugh' to do)](18f80032277611be4f7375ba9c70099b) @ 2017-02-15T15:52:51Z
+- [No description provided](664dabf73182fdcbc059f1c3c1675674) @ 2017-02-10T17:00:25Z
+- [No description provided](323c195d840bd585f2aade450ad81631) @ 2017-02-10T05:16:17Z
+- [No description provided](8dcefcaca8f86e6f65bec1cbe72ac5af) @ 2017-02-01T16:08:49Z
+- [No description provided](108260491d615c37b938f047f80f5aa0) @ 2017-01-27T14:54:09Z
+- [igraph layout editing with mapedit](6ca8308923bf8029285ace82e27bca6f) @ 2017-01-26T11:50:28Z
+- [No description provided](95d795bf2e65fbb946450e1046ed6752) @ 2017-01-26T04:43:45Z
+- [No description provided](8d90c883abdff66bc349a02a81e71457) @ 2017-01-24T17:11:00Z
+- [Use custom local image files as icons in a Shiny Dashboard value box](605e62c5bf6deadf304d80cf4b1f0239) @ 2017-01-23T20:06:42Z
+- [No description provided](f5d8c01f19f0f544a91a582486faf66a) @ 2017-01-22T15:29:49Z
+- [No description provided](333206d2eef8b39fbf1080d583430e29) @ 2017-01-19T21:00:04Z
+- [No description provided](b86780fde8799d2cb90b8428aba7fe45) @ 2017-01-09T15:54:13Z
+- [No description provided](41212850a167da234637d677cc0c8fa8) @ 2017-01-05T23:03:34Z
+- [No description provided](5c5db47e379f54768d9ccfe13ba0eb6d) @ 2017-01-03T18:23:30Z
+- [R JRI](ec02bdd32523f8e176f4bd4f62ec0541) @ 2016-12-30T13:00:36Z
+- [decoding a polyline in Rcpp/C++11](01dfdd6f32e151330a8cc6f772574b9f) @ 2016-12-20T18:25:08Z
+- [No description provided](9bd23ec850c66f4b48811315079fadef) @ 2016-12-09T16:55:04Z
+- [R version of http://stephanieevergreen.com/two-alternatives-to-using-a-second-y-axis/](859018befbfb8de25328fffba8b27ef9) @ 2016-12-07T17:30:47Z
+- [No description provided](6e9cbfdffcce7b3b0e5d5fcf373660f5) @ 2016-12-03T22:59:43Z
+- [No description provided](3a4d920ae45ca15d2eae190f457a6806) @ 2016-11-29T15:02:20Z
+- [No description provided](ce5fe39695a99424eeea1fbab9282d74) @ 2016-11-19T14:05:30Z
+- [No description provided](bcdee1bc9bebab5bf521b995ebd68b16) @ 2016-11-16T04:56:38Z
+- [No description provided](bbbacd13b043ca16257208a1357994dc) @ 2016-10-20T02:40:04Z
+- [How to re-create Ann K Emery's "Double Y axis" fix @ http://annkemery.com/doubley/ in R + ggplot2](ff60ef4106a2676cc91a40cb40c6e288) @ 2016-10-19T19:04:42Z
+- [No description provided](3cf8e0db622a7ea21f7f79eea285798d) @ 2016-09-28T00:47:38Z
+- [No description provided](929f6b8ebf8e878ce5a323e6a4bfce64) @ 2016-09-26T17:19:18Z
+- [No description provided](900c1ae5ac1741422af4e03e6678abc5) @ 2016-09-19T14:35:44Z
+- [No description provided](324a1e263904c3c43f48c62744fa3643) @ 2016-09-18T18:18:31Z
+- [No description provided](d0f635fe94ce25b5653906297e60d787) @ 2016-09-15T15:21:27Z
+- [No description provided](cada8c70e6027294f06fe9a9afee4fc0) @ 2016-09-12T19:18:50Z
+- [No description provided](2e64547e7a0e5ee13d62389fb7e61282) @ 2016-09-07T21:48:06Z
+- [No description provided](586ceec0f72ee9a6a932a759b744c6a8) @ 2016-07-28T15:02:39Z
+- [Context: https://rud.is/b/2016/07/27/u-s-drought-animations-with-the-witchs-brew-purrr-broom-magick/](c8e001168e1ed7369c637be0589ed768) @ 2016-07-28T14:35:53Z
+- [No description provided](5d461857b40e2ad5558d769f2de00174) @ 2016-07-20T13:04:33Z
+- [No description provided](8bb810fb33646717ff4a1091a8c9fe91) @ 2016-07-19T16:20:22Z
+- [No description provided](1d81926d90e378a6ef55ab33faae196a) @ 2016-07-16T10:58:35Z
+- [No description provided](85979722178dde91b2680dad6a487963) @ 2016-07-11T20:02:35Z
+- [No description provided](afe37dc84fcaf784522b443c0693ee23) @ 2016-07-06T14:00:46Z
+- [smaller shapfiles](539d02f25b8f33d80edf7bbead627b05) @ 2016-07-05T01:05:39Z
+- [No description provided](f388bdc27b5ba987d82fcf45f2080bf9) @ 2016-06-29T01:29:12Z
+- [No description provided](162aebd36a8d76a563ef8a1ecda4414a) @ 2016-06-24T15:22:08Z
+- [Overlapping bars in ggplot2 : ref http://stephanieevergreen.com/overlapping-bars/](035f998517de2384e9962cff7df874bd) @ 2016-06-23T13:27:44Z
+- [No description provided](470a42a35df7eb5277f2f5088fad9835) @ 2016-06-22T17:29:30Z
+- [CRAN pkgs with github `URL:`s](3468316797719c67edb453380aa53a00) @ 2016-06-21T15:02:01Z
+- [priestly timeline for FT blog post](f12101f8ef1657f9e1457e0dde1602f8) @ 2016-06-16T13:49:31Z
+- [No description provided](a1e35d04d93be1496e246633701c54e1) @ 2016-06-12T17:12:43Z
+- [parallel, parameterized knitr reports](17bc21af55392f23f012f57bb2fda51c) @ 2016-06-04T17:50:25Z
+- [No description provided](b382d30e07083746c69854343b54e670) @ 2016-06-03T13:10:29Z
+- [Commutes 2012 - Oldskool style](301f0c9732205a3dd4670f8e3d112df8) @ 2016-05-31T02:11:47Z
+- [No description provided](f11429b746b838fd382e1132492232c7) @ 2016-05-24T11:32:09Z
+- [Visualizing Distributions](0697c2d6dd3ceee7104d5fc306a725e4) @ 2016-05-21T10:53:20Z
+- [species radar](a91dfc85fc5838892d4a50786de54710) @ 2016-05-17T11:36:23Z
+- [R code to reproduce the awesome visualization of global temperature change from Ed Hawkins at http://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/ using R and ggplot2 (with the animations package)](1849717a390142a7bf76aa5d6ea80577) @ 2016-05-14T11:47:55Z
+- [No description provided](f9c3bbc561e824219954ab5eecc12f2b) @ 2016-05-13T22:55:37Z
+- [No description provided](ec35ebb32c3cf0aba95f7bad28df1e98) @ 2016-05-10T20:09:43Z
+- [Reproduction of the scatterplot on: http://www.nytimes.com/2016/05/10/upshot/where-democrats-like-hillary-clinton-the-least-besides-vermont.html?_r=0](4632dc9cefc7566b412ec9945a6c4922) @ 2016-05-09T16:48:38Z
+- [No description provided](57596ef68695d34e422c2e8167322cdb) @ 2016-05-07T23:06:02Z
+- [No description provided](e60f24ada36f6c58d69c3f3d7cb2f143) @ 2016-05-05T00:40:23Z
+- [No description provided](dbb3bbf8f5750c26ef38ec22e47c3686) @ 2016-05-03T01:29:46Z
+- [No description provided](658140e9b7e6928c9db931b6be91257b) @ 2016-05-03T01:15:12Z
+- [No description provided](f9e55fd50ac058b6ad20c01594f2ee9e) @ 2016-05-03T00:35:56Z
+- [No description provided](910af8ddc6371572aa4414b77ae86c6a) @ 2016-05-02T00:57:17Z
+- [No description provided](65db545f5fa32b7916e189e430df2aaf) @ 2016-04-29T10:30:58Z
+- [French towns, surnames and suffixes](0fd37cf3825fc8e3eddf042a4443d1dc) @ 2016-04-29T10:03:24Z
+- [No description provided](ba8bee6275e91698e679e7e61665493b) @ 2016-04-26T01:02:02Z
+- [No description provided](a73e88de97d41149decb75b1f72cf268) @ 2016-04-23T12:15:11Z
+- [No description provided](596636d59d9bc6301a239fb8b13bd305) @ 2016-04-21T00:43:01Z
+- [Logistic regression tutorial code. Full article available at http://datascienceplus.com/perform-logistic-regression-in-r/](4c21c5ddad2867f6a00867cd72ad95a5) @ 2016-04-17T16:59:18Z
+- [No description provided](07bd552711ad699e437448c4b069ba88) @ 2016-04-12T12:41:10Z
+- [No description provided](993f739d984b445fbdc785e675053234) @ 2016-04-12T00:45:47Z
+- [quickstart SQL db environs](86dd5d55cf1f93f71738d441ba3dac5d) @ 2016-04-11T15:41:48Z
+- [No description provided](6bc42e9afdd00f8f65400670b24e151f) @ 2016-03-30T23:56:44Z
+- [No description provided](3730d766d0fd6e4bdbac) @ 2016-03-29T12:24:17Z
+- [Nuclear Explosions in D3](25128ed9893cf0d1d08c) @ 2016-03-28T02:33:37Z
+- [No description provided](626b1b3a3f4bf744b811) @ 2016-03-26T18:54:51Z
+- [No description provided](d91145aa8d7380ff73f8) @ 2016-03-26T14:25:26Z
+- [No description provided](d5c22db162ecc19b0fbc) @ 2016-03-26T12:47:23Z
+- [No description provided](a61991ebd8f4f49ce739) @ 2016-03-25T01:54:14Z
+- [No description provided](02687116d7697a9fe007) @ 2016-03-24T23:04:32Z
+- [No description provided](7c42b1659d476aebe091) @ 2016-03-23T22:51:12Z
+- [2015 Fortune 1000 List with industry & website](ae574201af3de035c684) @ 2016-03-23T16:02:12Z
+- [Nuclear Explosions](6ebc8476a44ca2ffc2d4) @ 2016-03-23T13:49:13Z
+- [Calling R's message() from C in a package without using Rcpp](cd6cc2975155852e22d5) @ 2016-03-22T12:51:44Z
+- [No description provided](e4a0cc2b3fc958a297ea) @ 2016-03-22T04:13:45Z
+- [No description provided](3daa349bcefc63041ff7) @ 2016-03-21T12:34:40Z
+- [apple watch ggplot](80685ea0cbdf9b4afbad) @ 2016-03-20T16:09:55Z
+- [No description provided](99608f5b87787c3b155d) @ 2016-03-19T11:27:01Z
+- [the data behind http://www.usatoday.com/story/news/2016/03/11/nearly-2000-water-systems-fail-lead-tests/81220466/](47c7a8d92ba066a8add7) @ 2016-03-18T23:45:45Z
+- [Stacking the deck against treemaps - http://rud.is/b/2016/03/18/stacking-the-deck-against-treemaps/](8094644863ba7ce3959c) @ 2016-03-18T18:19:30Z
+- [Supreme Annotations - moar splainin here: http://rud.is/b/2016/03/16/supreme-annotations/ - NOTE: this requires the github version of ggplot2](283850725519e502e70c) @ 2016-03-16T00:59:03Z
+- [No description provided](84c65834444c24192ebd) @ 2016-03-15T00:46:03Z
+- [No description provided](29e6ab86507d20beac01) @ 2016-03-15T00:44:48Z
+- [No description provided](c8c30bf0b94d5d0e157e) @ 2016-03-14T21:58:29Z
+- [No description provided](33c32e369daba38f9ef9) @ 2016-03-10T16:57:48Z
+- [No description provided](936fce53734251a9df52) @ 2016-03-10T11:45:59Z
+- [No description provided](96f7ff68e4fd6ffe154f) @ 2016-03-10T01:27:44Z
+- [No description provided](f7436224d6d32300e8ae) @ 2016-03-08T12:07:35Z
+- [No description provided](7a503faf51b74d15778a) @ 2016-03-07T20:20:23Z
+- [No description provided](73f4ad957314b5a847c1) @ 2016-03-07T15:25:02Z
+- [No description provided](25a53e2fcaee2aafa908) @ 2016-03-07T13:57:14Z
+- [No description provided](b650014f065923def9f9) @ 2016-03-06T20:45:54Z
+- [hack-ish way to get all the code examples from your package](80393a8c88c84b84f3ba) @ 2016-03-06T16:31:07Z
+- [AUS BOM R thing](9f09102fc3da283b707c) @ 2016-03-03T14:18:26Z
+- [via https://github.com/iingemar/pokegraphs](8e31d43afc7b0179e4df) @ 2016-03-02T15:44:33Z
+- [time series detail for the asn safe search thing](246cdaf81d0ad10e7c86) @ 2016-03-01T18:19:07Z
+- [Google Safe Search AS scanning data "API" wrapper](4a4ac735062b49ef8e1f) @ 2016-03-01T16:53:48Z
+- [No description provided](60672a352ded71e81643) @ 2016-03-01T03:00:51Z
+- [No description provided](7f9c4de02c08ddef4ac6) @ 2016-02-28T17:00:35Z
+- [No description provided](115997024fb0ec06612f) @ 2016-02-25T13:33:07Z
+- [No description provided](df646876b799b1dfd313) @ 2016-02-24T12:42:07Z
+- [benchmarking R line readers](c059d1fbda689aab111a) @ 2016-02-23T12:20:27Z
+- [No description provided](42480de78a3ee1ed39bb) @ 2016-02-18T04:59:18Z
+- [No description provided](fcf6d46d98f07a247d83) @ 2016-02-17T10:42:43Z
+- [No description provided](6251eb302d6945da682b) @ 2016-02-17T02:44:12Z
+- [Code for this post: ](696b124d0190bba15817) @ 2016-02-16T04:33:34Z
+- [No description provided](c10dae0230b11f9d1e82) @ 2016-02-15T23:59:16Z
+- [fanduel densities](3c0200feb8aca04ae767) @ 2016-02-14T19:56:49Z
+- [New R Logo as WKT](07d0ccf14c2ff109f55a) @ 2016-02-11T11:58:42Z
+- [Markers and request from - http://anasim.iet.unipi.it/moniqa/#home](dae86a8688058e4a5e46) @ 2016-02-09T21:29:33Z
+- [scraped PDF of latest (http://www.michigan.gov/documents/flintwater/January_29_2016_Test_Results_Flint_Sorted_by_Address_512511_7.pdf) water tests](a16d326ac3582eacfb08) @ 2016-02-07T02:13:57Z
+- [data from https://michiganradioweb.cartodb.com/viz/5ab5f036-c927-11e5-a7fc-0e5db1731f59/public_map](e6937f0eb7f7ee7ae6c0) @ 2016-02-05T20:00:38Z
+- [Notebook 1](fb5929355a948c62bded) @ 2016-02-03T20:43:01Z
+- [2016 Iowa Democratic Caucus #rstats](76eefde0019094e8d67d) @ 2016-02-02T02:37:13Z
+- [No description provided](7584745dfef5ddc1dc94) @ 2016-02-01T02:13:53Z
+- [Rmd & css for https://beta.rstudioconnect.com/hrbrmstr/ggiraphe/](5ee3123f7161580d4cdf) @ 2016-01-30T19:57:29Z
+- [Mass. Power Outages - RPub - http://rpubs.com/hrbrmstr/massoutages](97f87a794effe8e21185) @ 2016-01-23T22:15:58Z
+- [R:some tor things](30235f33a72df29c8432) @ 2016-01-21T18:53:24Z
+- [R: state adjacency list and state name/abbreviation metadata](ab3c0fe3c2b2a0655ebc) @ 2016-01-21T12:04:58Z
+- [R: geo stuff](07be58cdfd210b62435d) @ 2016-01-20T04:11:01Z
+- [R: use RStudio viewer to 'print' and 'cat' ](807e6f42199549aad35e) @ 2016-01-20T00:41:27Z
+- [R: find unique characters in a string (vectorized) using inline & Rcpp](436ee6fda8f866d92f2b) @ 2016-01-19T22:02:59Z
+- [bigstring](f80b157b383134b37fb3) @ 2016-01-19T11:07:48Z
+- [ipinfo.io API example in R](90906b18a5138fb9c3aa) @ 2016-01-18T03:07:10Z
+- [small choropleth example with the new ggplto2 ecosystem](62e4bc67639d6c429333) @ 2016-01-15T05:48:41Z
+- [No description provided](699c4669291577a57908) @ 2016-01-12T14:35:52Z
+- [possible programmatic xml viewer for RStudio](a5451a2d2dcedc831a9c) @ 2016-01-07T22:00:00Z
+- [Work with the data from http://www.healthmap.org/flutrends/ in R #rstats](435e75c5345efeec1dfc) @ 2016-01-07T14:30:05Z
+- [No description provided](b9704208856c07b3529d) @ 2016-01-06T17:10:33Z
+- [Single-source file for http://bit.ly/zellingenach](f3d2568ad0f27b2384d3) @ 2016-01-04T13:47:53Z
+- [RStudio snippet for manual figures (roxygen2) template](019744bf5d1ea9553efb) @ 2016-01-01T19:05:36Z
+- [R package skeleton maker](ab82f6566a5e177efb2b) @ 2015-12-27T17:56:06Z
+- [R + slopegraph makeover of: https://www.washingtonpost.com/news/the-fix/wp/2015/12/10/to-many-christian-terrorists-arent-true-christians-but-muslim-terrorists-are-true-muslims/](9bf4f93dffc1df48fe27) @ 2015-12-13T14:09:40Z
+- [No description provided](5956ba538e97605da77a) @ 2015-11-30T01:58:16Z
+- [An R and javascript color palette for Pluto based on NASA's image: https://www.nasa.gov/image-feature/psychedelic-pluto](1e03f3e6123e8c066998) @ 2015-11-13T13:25:09Z
+- [twitter mute word triggers ](c99ec8bbca9bbf2057b3) @ 2015-11-12T20:52:44Z
+- [monedblite + R + real world CSV stuffs](b2412444d2ad6eb5f789) @ 2015-11-11T15:31:06Z
+- [Data & code for http://rud.is/b/2015/11/08/visualizing_survey_data/](f7ab55e7ae1fc8569df3) @ 2015-11-08T17:44:56Z
+- [xml2::xml_to_data_frame thoughts](06fb8b6fffd455fdcb5f) @ 2015-11-06T17:08:39Z
+- [No description provided](81b2df8b5a3583c8638c) @ 2015-11-05T22:16:13Z
+- [No description provided](3b0051c94f7e20c3b0c7) @ 2015-11-02T15:40:16Z
+- [update to daylight](e435d4fa0c31b8e1a9d0) @ 2015-11-02T13:36:00Z
+- [Sample code for working with Apache Spark (v1.4), SparkR and ParquetFiles from RStudio](788a6fd4e2dc80d5d3db) @ 2015-10-26T11:00:52Z
+- [No description provided](d5b168b2ce29b9d430bc) @ 2015-10-25T12:49:49Z
+- [R+ggplot2 version of the "dumbbell" plot at  http://census.gov/content/dam/Census/newsroom/releases/2015/cb15-158_graphic_acs_metro.jpg](0d206070cea01bcb0118) @ 2015-10-23T14:58:34Z
+- [Multi-language Machinations in [R] Markdown](f8ea0f97dd62463531c0) @ 2015-10-22T16:29:55Z
+- [examples of visualizing distribution in R](8dc76c0d8284b3fb99f2) @ 2015-10-07T17:58:37Z
+- [Re-centered version of: http://rud.is/b/2015/10/04/replicating-natgeos-proper-earthquake-map-in-r/](7b779df95932752eae1d) @ 2015-10-05T17:52:46Z
+- [No description provided](f275207a93dadf6fa1d7) @ 2015-10-03T00:17:26Z
+- [No description provided](336e6dd38cbfdc010ab5) @ 2015-10-02T23:44:05Z
+- [get and set doc properties for Excel (xlsx) docs. prbly works for other Office docs too. not tested for anything but xlsx on Mac. ref: http://stackoverflow.com/questions/32904217/edit-author-of-xlsx/32907429#32907429](77a8b49680ee7b734632) @ 2015-10-02T17:11:54Z
+- [R version of https://github.com/fourkitchens/czdap-tools/blob/master/zonedata-download/download.py to grab zone data files from ICANN](c309c2a08e55030a003d) @ 2015-10-02T02:39:22Z
+- [example of scraping, munging & plotting in R](ad033ca2804bb0b41f33) @ 2015-10-01T18:02:19Z
+- [Plot Hurricane Joaquin spaghetti models](b1ec9bda96376cfe6c94) @ 2015-10-01T11:13:17Z
+- [No description provided](909b5ba3af63bdb7d37e) @ 2015-09-15T20:00:15Z
+- [No description provided](dd9d731748b22f11def2) @ 2015-09-15T18:18:17Z
+- [working with the Nest API in R - code for http://rud.is/b/2015/09/10/a-better-way-to-read-nest-data-into-r/](2da2312170a84340c14f) @ 2015-09-10T14:10:20Z
+- [notdevtools - both functions take a single Rmd as input and ignore code chunks. qdap::word_count has _tons_ of options. customize away!](e6d8b3bb3148e418a493) @ 2015-09-09T17:56:34Z
+- [testing out new ggplot2  new geom creation](270787f92e2f61dbca9a) @ 2015-09-08T04:43:18Z
+- [Read GapMinder data into R. ](dc39b38e630f7ca828f8) @ 2015-09-05T15:05:30Z
+- [work in progress](a29494368b576dace94b) @ 2015-09-04T19:31:15Z
+- [scrape tables from the Angular embedded JSON on the 502data.com site using R](a2e47a9d93a5f6d79b4b) @ 2015-09-04T16:28:44Z
+- [No description provided](3849e0e9e472b38a223f) @ 2015-09-04T00:48:23Z
+- [No description provided](43faff9c0505a478345c) @ 2015-09-01T14:03:14Z
+- [code for Rmd](70c82bb1ff8ed340847e) @ 2015-08-28T20:47:07Z
+- [specify smooth line color and confidence band line colors with smoothcol & confcol](737201879395bab11626) @ 2015-08-28T14:17:51Z
+- [nice straightforward D3 example from NPR](a860fdb6e149601d0c44) @ 2015-08-27T16:47:36Z
+- [Code for the accompanying blog post: http://rud.is/b/2015/08/27/coloring-and-drawing-outside-the-lines-in-ggplot/](83deb0baeabae0824389) @ 2015-08-27T14:29:07Z
+- [For RPubs post](bf238b72a23bf78eeef8) @ 2015-08-26T19:05:07Z
+- [dplyr mixing non-standard evaluation and standard evaluation](fd166fea561316229eed) @ 2015-08-25T01:04:49Z
+- [read tables from word docs in R](305dae4f31497799e8d1) @ 2015-08-23T14:59:39Z
+- [No description provided](6b119648739cd275a69e) @ 2015-08-23T04:22:16Z
+- [Simple websocket consumer for MHN honeymap data](5c498280b33ffb466b54) @ 2015-08-22T17:21:32Z
+- [ftp stuff in R/curl](daf4a0a651b7591e20ca) @ 2015-08-20T22:29:43Z
+- [Track Hurricane Danny (or any other Unisys-data-available-tropical storm)](e3253ddd353f1a489bb4) @ 2015-08-20T16:15:25Z
+- [asia geojson](94bdd47705d05a50f9cf) @ 2015-08-18T19:46:03Z
+- [No description provided](9c778dcb0d895bc60a69) @ 2015-08-18T01:31:17Z
+- [save html widgets to an image](b5e8ec60490b825ea889) @ 2015-08-16T10:39:44Z
+- [test for and/or remove byte order mark in R](be3bf6e2b7e8b06648fd) @ 2015-08-12T12:41:21Z
+- [For John](aaab054e3f8b1a5d4107) @ 2015-08-11T02:27:26Z
+- [No description provided](780f5646b951d8422d78) @ 2015-08-10T03:17:29Z
+- [viridis with colorRamp2](42c21f512fa4c4a81aa4) @ 2015-08-06T20:13:16Z
+- [ggplot2 is teh awesomez](2e265bc67a2db2c0c85c) @ 2015-08-06T14:56:23Z
+- [tree crowns to polys](e29cf9138e480db9e67d) @ 2015-08-05T15:13:40Z
+- [What goes in ~/.R/ ?](ffeb16a82eafeb1c87fe) @ 2015-08-05T01:54:22Z
+- [No description provided](472f548d8d4ac84b6eb4) @ 2015-08-01T19:13:35Z
+- [embedding htmwidgets](06977865d6a25213d122) @ 2015-07-31T18:45:50Z
+- [Immediate splunk search](7e9adebb30936994de36) @ 2015-07-29T21:54:32Z
+- [A small script to grab the latest RStudio daily build for OS X and install it.](15375ec7a873d17ea5e2) @ 2015-07-28T15:18:29Z
+- [bubbles](e7c98c7ca76a16e1032b) @ 2015-07-26T20:12:08Z
+- [Re-creating http://bl.ocks.org/mbostock/7608400 (somewhat) - ultimate goal is to have an "invisible" Voronoi layer on top of ggvis / leaflet / etc for better tooltip/popups](e3e8ef919cc08cc2630b) @ 2015-07-25T16:29:24Z
+- [GitHub Gist Comments Feed Generator in R (this is how much I hate Ruby)](0ad1ced217edd137de27) @ 2015-07-25T12:16:29Z
+- [parsing the feed thing](81fb340a0242a36b7ac8) @ 2015-07-24T21:37:31Z
+- [coord_proj - see the rpub : http://rpubs.com/hrbrmstr/coord-proj for examples and this blog post : http://rud.is/b/2015/07/24/a-path-towards-easier-map-projection-machinations-with-ggplot2/ for more 'splainin](363e33f74e2972c93ca7) @ 2015-07-23T22:14:01Z
+- [epsg coord_project](d9ca40a254fd66793676) @ 2015-07-23T17:46:54Z
+- [coord_proj!](78f1f43dcf3fbe2707e9) @ 2015-07-23T17:03:44Z
+- [Ref: http://rpubs.com/hrbrmstr/project-linework, grab pkg from https://github.com/hrbrmstr/lineworkmaps or shapefiles from http://www.projectlinework.org/](374fa507c99ad839321f) @ 2015-07-20T15:52:37Z
+- [viridis color/fill scales for ggplot2](f31899d067300d621baa) @ 2015-07-19T18:45:23Z
+- [hurricanes in july](59ba4651afe6d373991d) @ 2015-07-16T17:57:53Z
+- [No description provided](e451bbb3fc228aaafe29) @ 2015-07-11T17:58:34Z
+- [Slight optimizations to http://rpubs.com/walkerke/txlege](bf821a2e4b48151a8e96) @ 2015-07-11T14:12:41Z
+- [Faceted choropleth version of http://www.pewglobal.org/interactives/global-population-by-income/](5a9a0d93cbb54f8ce777) @ 2015-07-09T19:02:42Z
+- [No description provided](710ae9f790e015090f85) @ 2015-07-06T17:46:09Z
+- [testing out as_mjsplot and mjs_plot_](a13fd64f1aa20fe239b4) @ 2015-07-05T02:03:28Z
+- [sparkr gist copy](39529f314b8b3e9a8eb9) @ 2015-07-03T13:11:18Z
+- [No description provided](6993ad2a72431123d46a) @ 2015-06-29T18:55:28Z
+- [github search in rstudio viewer pane - source it and try it with ghelp("vapply")](32e9c140129d7d51db52) @ 2015-06-29T12:49:20Z
+- [short intro to parsing the horrid NVD XML](b10623148b149ae60672) @ 2015-06-27T23:23:49Z
+- [weblog for dds.ec blog post](186aec0f0db62347ea32) @ 2015-06-24T01:44:42Z
+- [Dominican Republic choropleth](4f5f5bfa24d6dc96decc) @ 2015-06-20T12:07:41Z
+- [Initialize everything (basically) necessary for a new (non-Rcpp) R package. Now with devtools goodness. You should setup DEV_HOME, AUTNAME, HANDLE and also set up those additions to your .Rprofile. NOTE that it also opens RStudio via "open" if on a Mac.  Run as "newpkg PKGNAME"](fd4103af960b8bd8fdb4) @ 2015-06-16T13:38:46Z
+- [No description provided](a1bed76ce9f756935e9e) @ 2015-06-16T11:10:45Z
+- [No description provided](cb7adde7de424ed555f4) @ 2015-06-16T11:09:46Z
+- [No description provided](f04a34f4e7ec1000ab79) @ 2015-06-13T21:06:49Z
+- [No description provided](038a31f8263f7bfe1b6c) @ 2015-06-10T14:56:32Z
+- [running go code chunks in R Markdown](9accf90e63d852337cb7) @ 2015-06-08T13:38:26Z
+- [No description provided](23efa470d60ad5a61177) @ 2015-06-05T15:38:46Z
+- [ggplot <-> rbokeh](a3a1be8132530b355bf9) @ 2015-05-26T21:57:13Z
+- [Redo of Figure 1-4 in Akamai's SOTU/S Q1 2015 report](614c20583126ffe831cf) @ 2015-05-19T15:22:31Z
+- [hexbin faceted choropleths in R](51f961198f65509ad863) @ 2015-05-15T12:16:01Z
+- [hexbin statebins in R via GeoJSON](4efedf3b24f7da4e24d1) @ 2015-05-14T18:51:18Z
+- [pertussis](7adf60610df11bcc20b8) @ 2015-04-01T00:45:48Z
+- [BLS Spending - Faceted version of https://twitter.com/BLS_gov/status/578306553146707968](43a6d52622825fbd9e3d) @ 2015-03-18T22:24:25Z
+- [swatch file to color palette](5cea0d24830edd9ff0b0) @ 2015-03-16T22:18:56Z
+- [simple lower 48 albers maps and local geocoding](485a92fb10ae5bdb98f0) @ 2015-03-15T12:48:27Z
+- [via http://cf.datawrapper.de/853ZN/3/](1078fb798e3ab17556d2) @ 2015-03-15T12:35:41Z
+- [allstate 2014 americas best drivers](4d02ab7286c8fda50b6e) @ 2015-03-15T12:16:17Z
+- [forso](e8853274fe4be0e1b00d) @ 2015-03-14T22:52:15Z
+- [Scraped & streamgraphed Crime data](e8b044b56fd42296ffe7) @ 2015-03-13T12:55:40Z
+- [state unemployment example for blog post](4e181ae045807ca3a858) @ 2015-03-13T01:36:17Z
+- [geocensus](89a85b60b7aa0f4f0d58) @ 2015-03-12T15:49:09Z
+- [m3](ad4a0dee360b0ce176a2) @ 2015-02-13T16:32:45Z
+- [shinyheaRstats - see blog post for details http://rud.is/b/2015/02/12/sweethearstats/](cf34f7230c88bd99b153) @ 2015-02-12T23:34:21Z
+- [how to make a percentage grid in R](475dae58deaf0754e1a8) @ 2015-02-05T15:14:24Z
+- [Guns per capital circa 2013 (US states)](5d2c2104e18e07d670c6) @ 2015-02-03T16:17:52Z
+- [animation for http://www.r-bloggers.com/dynamic-modeling-1-linear-difference-equations/](edcbb96e20cbee4fe4bc) @ 2015-01-25T17:39:33Z
+- [Example basic shinydashboard framework](e9e941ad4e3568f98faf) @ 2015-01-24T18:32:18Z
+- [Continents GeoJSON](91ea5cc9474286c72838) @ 2015-01-22T01:01:47Z
+- [IV MOOC Assignment 2 (temporal) ggplot code](3c75c362bba153290315) @ 2015-01-21T15:40:29Z
+- [For IV MOOC Assignment 02 - mesothelioma sdb search results (1000 records, CSV)](143cbd1b89121e43c373) @ 2015-01-19T13:57:04Z
+- [Pacific-centered world map (GeoJSON)](1caee1f5e95cc8fa70c2) @ 2015-01-18T16:15:30Z
+- [NASA GISS’s Annual Global Temperature Anomaly Trends](07ba10fb4c3fe9c9f3a0) @ 2015-01-18T14:25:15Z
+- [dplyr select_ examples](bee2e17e90be55ab555e) @ 2015-01-12T14:57:48Z
+- [No description provided](467640f8da38bc01ef35) @ 2015-01-12T12:01:45Z
+- [No description provided](7e5230be79a49804236c) @ 2015-01-12T00:48:08Z
+- [US City & State to lon/lat without using an API](36b243ad69434c1ec825) @ 2015-01-09T19:58:50Z
+- [No description provided](13cee15c91fdadb10fbc) @ 2015-01-08T12:51:22Z
+- [maine school closings scraper](b98e90af9256b3502fba) @ 2015-01-08T01:25:57Z
+- [lat/lon coordinates to country name (or any adm level given proper shapefile)](b6435c8c490e26b10839) @ 2015-01-05T10:03:11Z
+- [using tidyr expand to get all the levels, fill NA with 0 and make a heatmap with colors (and text that changes too)](88f7faa3f452d6d747a7) @ 2014-12-31T13:43:32Z
+- [Scraping gnarly sites with phantomjs & rvest](dc62bb2b35617e9badc5) @ 2014-12-29T15:29:48Z
+- [foralex](7ba57441dffac9a9126b) @ 2014-12-24T17:54:31Z
+- [.gov domains with no SOA](3341010795fabdd0f039) @ 2014-12-24T12:34:02Z
+- [Hadleyverse pipes version for part of ŷhat's post: http://blog.yhathq.com/posts/scraping-and-analyzing-baseball-data-with-r.html](6c66c3c0afcc3ddb2b83) @ 2014-12-24T00:11:03Z
+- [Scrape security conference data from Concise Courses](28d94c5b979f4c60f6dd) @ 2014-12-23T20:04:40Z
+- [SO Winkel Choro example](22c7ca41298427b846e0) @ 2014-12-07T17:03:22Z
+- [No description provided](7a0ddc5c0bb986314af3) @ 2014-12-07T16:25:28Z
+- [SO GIS thing](a9fbe6036bbe538cdc90) @ 2014-12-07T15:51:10Z
+- [Small script to help in creating one-click R+Shiny apps on OS X](90d7f303fccca46ef846) @ 2014-12-02T19:10:34Z
+- [Shiny Snowfall - http://rud.is/b/2014/11/26/visualizing-historical-most-likely-first-snowfall-dates-for-u-s-regions/](95ec24c1b0cb433a76a5) @ 2014-11-28T17:54:23Z
+- [No description provided](57fd03886fccd802bc00) @ 2014-11-08T23:48:09Z
+- [No description provided](37760f0e12a25ea20576) @ 2014-11-05T20:20:37Z
+- [gallup crime survey summary plots](09addc718c28c6813833) @ 2014-10-28T14:37:39Z
+- [DNS lookups in R via sourceCpp and using only standard libraries (non-vectorized)](f51cf8422738c01726db) @ 2014-10-26T01:47:41Z
+- [R per-capita riff of WaPo's : http://www.washingtonpost.com/wp-srv/special/investigative/asset-seizures/ : with an accompanying blog post : http://rud.is/b/2014/10/13/spending-seized-assets-a-state-by-state-per-capita-comparison-in-r/](27b8f44f573539dc2971) @ 2014-10-13T21:16:07Z
+- [Animated Hurricane Tracks](23bf06784e898871dd61) @ 2014-10-08T03:16:48Z
+- [County Circles (OK, Ovals) - R version of http://bl.ocks.org/mbostock/4206975](6c6ffda42a93e2f8b380) @ 2014-09-26T03:39:48Z
+- [Block Counties - R version of http://bl.ocks.org/mbostock/4206857](b7ffe6137c4ff6acd009) @ 2014-09-26T03:04:02Z
+- [Area Choropleth - R version of http://bl.ocks.org/mbostock/4206573](9bda23f79ce2a5776733) @ 2014-09-26T02:49:03Z
+- [No description provided](96b136bdfb74ffc258e2) @ 2014-09-23T14:30:13Z
+- [R sunrise/sunset query for - http://aa.usno.navy.mil/data/docs/RS_OneYear.php](f6d611170cec2be416bc) @ 2014-09-23T12:45:44Z
+- [a demotivating httr example - scrape quotes from http://www.despair.com/demotivators.html](f2e12b97db6f138cc78d) @ 2014-09-22T21:46:41Z
+- [Costa Rica - R version of http://bl.ocks.org/arce/9357998](08eab5535619daaa281e) @ 2014-09-20T19:40:12Z
+- [various themes](33baa3a79c5cfef0f6df) @ 2014-09-20T19:16:56Z
+- [Swiss Cantons - R version of http://bl.ocks.org/mbostock/4207744](e3d0dc87eaacf7bbece7) @ 2014-09-20T19:01:45Z
+- [More accurate Proclaimers geographical humor (in R)](c231d2df6bed6d8d7a7a) @ 2014-09-19T01:46:32Z
+- [rvsest example](94c2cacec9b2fe36f435) @ 2014-09-17T16:09:56Z
+- [Quick R function to get the Pantone "Color of the Day" color from https://www.pantone.com/pages/colorstrology/colorstrology.aspx](52a1971773e1dbfb1959) @ 2014-08-29T13:57:40Z
+- [statebins in R](5c9bff8d02753744c336) @ 2014-08-27T03:58:53Z
+- [Rcpp + Boost version of gethostbyname and gethostbyaddr](8c10e5ae313581dea023) @ 2014-08-04T03:00:27Z
+- [for kevin](ef1d03589eb16dc0f7a8) @ 2014-07-07T12:54:32Z
+- [No description provided](be2f2c14fd78cac24697) @ 2014-06-17T18:47:00Z
+- [Rmd reference from DDS Vectorization example part 2 - http://datadrivensecurity.info/blog/posts/2014/May/vectorizing-ipv4-address-conversions-part-2/](ae97ee7d27435d04fc4c) @ 2014-05-17T01:50:48Z
+- [Rmd reference from DDS Vectorization example part 1 - http://datadrivensecurity.info/blog/posts/2014/May/vectorizing-ipv4-address-conversions-part-1/](f2a97ed43750d5dd3461) @ 2014-05-16T12:53:14Z
+- [blog aggregation PoC - this is for pelican (though I suspect it'd work for jekyll or octopress with small changes). it creates individual markdown files (with proper metadata) for setting up a pelican-based re-blogging site or sub-site. the actual templates need to be adjusted (if you intend to keep the reblog content separate from your main blog). There needs to be more (any, rly) error handling if this were going to be a cron/launchd job.](4ace03b5d332f651643a) @ 2014-05-10T00:12:02Z
+- [Bar chart for Wordfence 404 project : http://www.wordfence.com/blog/2014/05/top-100-page-not-found-errors-for-wordpress/  :: All data Copyright (c) 2014 Wordfence | CC BY-NC](aa4816e8fdebf2e16561) @ 2014-05-06T17:03:10Z
+- [get the Qualys SSL Labs rating for a domain+cert](11387877) @ 2014-04-29T00:27:29Z
+- [for patton](875fec6de3af21062b0c) @ 2014-04-27T01:28:01Z
+- [for patton](92e80da886dfb0349199) @ 2014-04-27T01:26:25Z
+- [For dds.ec blog post "Making Better DNS TXT Record Lookups With Rcpp" - (all code MIT license)](11286662) @ 2014-04-25T11:41:51Z
+- [bad graph](19f3aff0db122a03cbc0) @ 2014-04-24T00:07:11Z
+- [SANS CRL list, CSV-ified](b466f9348b6369990c05) @ 2014-04-19T20:22:21Z
+- [Answer to http://stackoverflow.com/questions/22855197/how-do-you-get-geom-map-to-show-all-parts-of-a-map/22875922 since it's long-ish and easier to cut/paste from here than on SO](0a330b212b46517ffee9) @ 2014-04-06T11:59:29Z
+- [March 2014 California Earthquakes via ggmap/ggplot](9921419) @ 2014-04-01T19:37:04Z
+- [source for http://shiny.dds.ec/guardian-data](9570488) @ 2014-03-15T17:01:06Z
+- [sltl example for LinkedIn Question https://www.linkedin.com/groups/Display-print-resultant-data-from-4066593.S.5849394695301521411?view=&item=5849394695301521411&type=member&gid=4066593&trk=eml-b2_anet_digest-null-2-null&fromEmail=fromEmail&ut=0cW2SCxHqOHC81](9519227) @ 2014-03-12T23:55:37Z
+- [Using this to answer: https://www.linkedin.com/groups/Data-Generating-in-R-partitioning-4215605.S.5847663604005888002?view=&gid=4215605&type=member&item=5847663604005888002&trk=eml-anet_dig-b_nd-pst_ttle-cn](f2293e4e9e064c94e6ba) @ 2014-03-08T12:22:07Z
+- [sochi 2014 in R using google docs scraper & line+dot plot facets. see it in action at http://shiny.dds.ec/sochi2014 or run it locally via  "shiny::runGist(8949172)" which can be invoked directly from a command-prompt (on any operating system) thusly: "Rscript -e "shiny::runGist(8949172,launch.browser=TRUE)"](8949172) @ 2014-02-12T02:52:23Z
+- [for upcoming dds blog post
+](8500539) @ 2014-01-19T04:38:01Z
+- [Shiny app code for SolvoMediocris : http://shiny.dds.ec/solvomediocris/](8499598) @ 2014-01-19T02:16:46Z
+- [Get the amsmeteors.org observations <table> into CSV format (R version)](8394367) @ 2014-01-13T03:40:58Z
+- [Get the amsmeteors.org observations <table> into CSV format (Python version)](8394171) @ 2014-01-13T03:20:48Z
+- [script to process a file of hosts/domains into just TLDs using tldextract](8275775) @ 2014-01-05T23:47:58Z
+- [BHE county-level outage aggregation in R using point-in-polygon testing with county shapefiles. See this blog post for details: http://rud.is/b/2013/12/27/points-polygons-and-power-outages/ ‎](8148412) @ 2013-12-27T15:18:37Z
+- [D3 introduction](8004828) @ 2013-12-17T13:24:52Z
+- [Maine Weather Map (early version)](206ad31bd5646cafd0f7) @ 2013-12-13T13:04:50Z
+- [Responding to the following LinkedIn question : https://www.linkedin.com/groups/Read-data-in-R-Hello-4066593.S.5812033094177271812 : about how to read a semi-ugly and semi-large file into R](7707116) @ 2013-11-29T15:12:30Z
+- [Graphing Maine power outages with D3. The "meta refresh" is the sub-optimal way of updating every 5 minutes, but the fam was getting a bit irked that I was coding on Thanksgiving. See previous gists and http://rud.is/b entries for why I made this. UPDATE : 2013-12-23 : mouseover now shows historical graphs of outages; data table cleaned up and total added; scripts that maintain & generate historical data aded to gist. Live preview @ http://rud.is/outage ; UPDATE: 2013-12-24 : added towns choropleth after discovering the seekrit CMP JSON data feeds.UPDATE : 2013-12-26 : switched to a more useful "table" which now has hoverable and clickable sparklines vs plain text; also created an R script to make the time series much nicer and accounted for no power outages in the sparkline "table"](7700364) @ 2013-11-29T01:28:14Z
+- [Graphing Maine Power Outages With R/Shiny : Preview: http://162.243.111.4:3838/outages/](7681842) @ 2013-11-27T19:37:47Z
+- [No description provided](7664501) @ 2013-11-26T19:23:42Z
+- [SCADA map in R inspired by http://www.scadacs.org/iram.htmlI ](7615334) @ 2013-11-23T14:45:06Z
+- [seekrit task list](47c16ce54cb2457933ce) @ 2013-11-10T16:44:57Z
+- [github "timecard" heatmap in R](7311412) @ 2013-11-04T23:47:08Z
+- [Example of alternative to grouped bar chart of http://blogs.the451group.com/information_management/2013/10/01/nosql-linkedin-skills-index-september-2013/ per request by @dseverski](7159934) @ 2013-10-25T18:55:28Z
+- [Small python script to extract (print to stdout) HREFs from a web page.
+
+It fills in the base URL prefix for relative URLs and supports shoving as many URLs on the command line as your interpreter/python allows for command line args.
+
+Lightweight faking of user agent for more restrictive sites.](6650537) @ 2013-09-21T13:20:02Z
+- [See: http://rud.is/b/2013/09/19/animated-irl-pirate-attacks-in-r/ for more info.
+
+Animated pirate attacks!](6632353) @ 2013-09-20T01:50:54Z
+- [Random Walk The Plancks Constant! #RRRRRRRRRRRRRRRRRRRR](6625261) @ 2013-09-19T15:31:54Z
+- [Take a file with one IP address per line and convert the IP to a long int and output (to stdout) a paired list of IPSTRING,LONGIP (e.g. 1.163.160.100,27500644).
+
+I made this since it takes less than 3 seconds to process 4 million IP addresses in C vs the longer times in my other R code and longer times in general in interpreted code. Convert then analyze!](6586928) @ 2013-09-16T21:37:49Z
+- [Sample of how to extract and process US Bureau of Labor Statistics JSON API data : http://www.bls.gov/developers/](6566865) @ 2013-09-15T00:10:30Z
+- [Send OS X notifications from R (RStudio, R GUI or R console)](6545433) @ 2013-09-13T00:10:27Z
+- [Given a list of IP addresses, perform a reverse lookup and return the original IP address and the resolved FQDN (if any)](6503558) @ 2013-09-10T00:46:12Z
+- [Extract weekend days from a sequence/list/etc and make a data frame of just the weekend along with which day of the week each weekend day is (Saturday|Sunday)](6503449) @ 2013-09-10T00:30:55Z
+- [slopegraph.py gist](2828927) @ 2012-05-29T15:03:24Z

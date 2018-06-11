@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>D3 Dots</title>
+
+<script src="d3.v3.min.js" type="text/javascript" charset="utf8"></script>
+<script src="jquery-1.10.2.min.js" type="text/javascript" charset="utf8"></script>
+<script src="jquery-migrate-1.2.1.min.js" type="text/javascript" charset="utf8"></script>
+
+<style>
+
+#pgcontainer {
+	width:100%;
+}
+#visleft {
+	width:50%;
+}
+#visright {
+	width:50%;
+}
+#viscontainer {
+	width:360px;
+	margin:auto;
+}
+#visbuttons {
+	text-align:center;
+}
+
+</style>
+
+<script>
+
+var dots = [ { x:10, y:10 }, { x:50,  y:50  }, { x:100, y:100 }, 
+             { x:150, y:150 }, { x:200, y:200 }, 
+						 { x:250, y:250 }, { x:290, y:290 } ] ;
+									 
+// reverse Y coords (browser coord system is messed up/reversed)
+
+var yScale = d3.scale.linear()
+	                   .domain([0, 300])
+	                   .range([300, 0]);
+										 
+var dotScale = d3.scale.category10() ;	// use pretty colors					 
+
+// defaults
+
+var margin = { left:20, right:20, top:20, bottom:20 } ;
+var width = 300 ;
+var height = 300 ;
+var dotR = 4 ;
+var maxDots = 30 ; // needs to be > initial dots.length
+var minDots = 2 ; // shld be > 0
+
+
+// via: http://stackoverflow.com/questions/1985260/javascript-array-rotate
+Array.prototype.rotate = (function() {
+    // save references to array functions to make lookup faster
+    var push = Array.prototype.push,
+        splice = Array.prototype.splice;
+
+    return function(count) {
+        var len = this.length >>> 0, // convert to uint
+            count = count >> 0; // convert to int
+
+        // convert count to value in range [0, len[
+        count = ((count % len) + len) % len;
+
+        // use splice.call() instead of this.splice() to make function generic
+        push.apply(this, splice.call(this, 0, count));
+        return this;
+    };
+})();
+
+// functions to whack the vis data & call redraw()
+
+changeData = function() {
+	for (var i=0; i<dots.length; i++) {
+		dots[i] = { x:Math.floor((Math.random()*300)+1), y:Math.floor((Math.random()*300)+1)}  ;		
+	}	
+	redraw() ;
+}											
+
+addOne = function() {
+	if (dots.length < maxDots) {
+		dots.push({ x:Math.floor((Math.random()*300)+1), y:Math.floor((Math.random()*300)+1)}) ;		
+	}	
+	redraw() ;
+}				
+
+addMax = function() {
+	while(dots.length < maxDots) {
+		addOne();
+	}
+}
+
+rmOne = function() {
+	if (dots.length > minDots) {
+		var tmp = dots.pop() ;
+	}
+	redraw() ;
+}							
+
+rmMin = function() {
+	while(dots.length > minDots) {
+		mOne();
+	}
+}
+
+changeDataInPlace = function() {
+	dots = dots.rotate(1);
+ 	redraw() ;
+}											
+
+backInLine = function(first) {
+
+  // use "first" to determine if we actually show a transition 
+
+  first = typeof first !== 'undefined' ? first : false;
+	
+	dotR = 4 ;
+	dots = [ { x:10, y:10 }, { x:50,  y:50  }, { x:100, y:100 }, 
+	         { x:150, y:150 }, { x:200, y:200 }, 
+					 { x:250, y:250 }, { x:290, y:290 } ] ;
+					 
+ 	redraw(first) ;
+	
+}
+				 
+incDot = function() {
+	if (dotR < 10) {
+		dotR += 1;
+	}
+	redraw() ;
+}
+				 
+decDot = function() {
+	if (dotR > 3) {
+		dotR -= 1;
+	}
+	redraw() ;
+}
+
+changeMax = function() {
+	maxDots = +$("#maxInput").val() ;
+	while (maxDots < dots.length) {
+		rmOne();
+	}
+	redraw();
+}
+
+// use this to update vis
+
+redraw = function(first) {				
+
+  // use "first" to determine if we actually show a transition 
+
+  first = typeof first !== 'undefined' ? first : false;
+
+	// get the selection and reset the data element associated with it
+
+	v = v2.selectAll(".unique")
+		    .data(dots);
+	
+  // update existing ones
+
+	v.attr("r", dotR)
+ 		 .attr("class","unique")
+ 		 // insert a small delay so we can see the rearrange
+ 	   .transition()
+ 	   .duration(1000)
+		 // all the rest of this occurs on the circle after the transition/delay
+		 .attr("cx", function(d) { return(d.x); })
+		 .attr("cy", function(d) { return(yScale(d.y)); })
+		 .attr("fill", function(d, i) { // sets color by position
+			 return(dotScale(i));
+	   });	
+
+	// make new ones
+
+	v.enter()
+		 .append("circle")
+	 	 .attr("class","unique") 
+ 		 // create a small black circle
+		 .attr("r", 2)
+		 .attr("cx", function(d) { return(4); })
+		 .attr("cy", function(d) { return(yScale(d.y)); })
+		 .attr("fill", "black")
+ 		 // then transition it to the proper color/size
+		 .transition()
+		 .duration(first ? 0 : 1000) 
+		 // all the rest of this occurs on the circle after the transition/delay
+		 .attr("cx", function(d) { return(d.x); })
+		 .attr("r", dotR)
+		 .attr("fill", function(d, i) { // sets color by position
+			 return(dotScale(i));
+	   });	
+
+	 	// get rid of gone ones
+
+	 	v.exit()
+		 .transition()
+		 .duration(1000)
+		 .attr("cy", 3)
+		 .remove() ;
+
+};
+
+// setup the vis
+
+$(document).ready(function(){
+
+	vis = d3.select("#vis").append("svg")
+										     .attr("width", width + margin.left + margin.right)
+										     .attr("height", height + margin.top + margin.bottom);
+	vis.append("g")
+		 .append("rect")
+		 .attr("x", 0)
+		 .attr("y", 0)
+		 .attr("width", width + margin.left + margin.right)
+		 .attr("height", height + margin.top + margin.bottom)
+		 .attr("stroke", "black")
+		 .attr("stroke-opacity", 1)
+		 .attr("fill-opacity", 0)
+		 
+	v2 = vis.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+											 												 												 												 
+	backInLine(true); // this is the first "draw"
+		
+});
+
+</script>
+</head>
+<body>
+	<h2 style="text-align:center">D3 Dots</h2>
+	<!-- this "div" setup just centers the content on the page -->
+<div id="pgcontainer">
+	<div id="visleft"></div>
+	<div id="viscontainer">
+		<div id="vis"></div><br/>
+			<div id="visbuttons">
+				<button title="(up to min allowed #)" onclick="addOne();">Add a dot</button> 
+				<button title="(up to max allowed #)" onclick="addMax();">Add remaining dots</button><br/>
+				<button title="(down to min allowed #)" onclick="rmOne();">Remove a dot</button> 
+				<button title="(down to min allowed #)" onclick="rmMin();">Remove all dots</button><br/>
+				<button title="(up to max allowed size)" onclick="incDot();">Increment dot size</button> 
+				<button title="(down to min allowed size)" onclick="decDot();">Decrement dot size</button><br/>
+				<button onclick="changeData();">Randomize dot placement</button><br/>
+				<button title="(i.e. shift data array elements around)" onclick="changeDataInPlace();">Change order of existing dots</button><br/>
+				<button onclick="backInLine();">Reset dots to original #/position/size</button><br/>
+				Max dots: <input type="text" id="maxInput" onchange="changeMax();" value="30"/><br/>
+		  </div>
+		</div>
+	<div id="visright"></div>
+</div>
+</body>
+</html>

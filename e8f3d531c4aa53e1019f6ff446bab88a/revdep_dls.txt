@@ -1,0 +1,795 @@
+Content type 'application/x-gzip' length 87746 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/akima_0.6-2.tgz'
+Content type 'application/x-gzip' length 230454 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ape_4.1.tgz'
+Content type 'application/x-gzip' length 1493709 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/autoimage_1.2.tgz'
+Content type 'application/x-gzip' length 2002282 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/bayesm_3.0-2.tgz'
+Content type 'application/x-gzip' length 6368383 bytes (6.1 MB)
+==================================================
+downloaded 6.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RcppArmadillo_0.7.700.0.0.tgz'
+Content type 'application/x-gzip' length 1362791 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/BB_2014.10-1.tgz'
+Content type 'application/x-gzip' length 684380 bytes (668 KB)
+==================================================
+downloaded 668 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/BcDiag_1.0.10.tgz'
+Content type 'application/x-gzip' length 951489 bytes (929 KB)
+==================================================
+downloaded 929 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/BETS_0.0.98.tgz'
+Content type 'application/x-gzip' length 301529 bytes (294 KB)
+==================================================
+downloaded 294 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/dygraphs_1.1.1.4.tgz'
+Content type 'application/x-gzip' length 357401 bytes (349 KB)
+==================================================
+downloaded 349 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/FinTS_0.4-5.tgz'
+Content type 'application/x-gzip' length 3682519 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/forecast_8.0.tgz'
+Content type 'application/x-gzip' length 2079963 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/fracdiff_1.4-2.tgz'
+Content type 'application/x-gzip' length 96574 bytes (94 KB)
+==================================================
+downloaded 94 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/lmtest_0.9-35.tgz'
+Content type 'application/x-gzip' length 275365 bytes (268 KB)
+==================================================
+downloaded 268 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/tseries_0.10-38.tgz'
+Content type 'application/x-gzip' length 324362 bytes (316 KB)
+==================================================
+downloaded 316 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/fpp_0.5.tgz'
+Content type 'application/x-gzip' length 81604 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/expsmooth_2.3.tgz'
+Content type 'application/x-gzip' length 279421 bytes (272 KB)
+==================================================
+downloaded 272 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/fma_2.3.tgz'
+Content type 'application/x-gzip' length 155167 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/grnn_0.1.0.tgz'
+Content type 'application/x-gzip' length 13119 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/mFilter_0.1-3.tgz'
+Content type 'application/x-gzip' length 80472 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/normtest_1.1.tgz'
+Content type 'application/x-gzip' length 34590 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/rootSolve_1.7.tgz'
+Content type 'application/x-gzip' length 685367 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/rugarch_1.3-6.tgz'
+Content type 'application/x-gzip' length 3317502 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/ks_1.10.6.tgz'
+Content type 'application/x-gzip' length 535684 bytes (523 KB)
+==================================================
+downloaded 523 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/FNN_1.1.tgz'
+Content type 'application/x-gzip' length 103043 bytes (100 KB)
+==================================================
+downloaded 100 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/misc3d_0.8-4.tgz'
+Content type 'application/x-gzip' length 151817 bytes (148 KB)
+==================================================
+downloaded 148 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/multicool_0.1-10.tgz'
+Content type 'application/x-gzip' length 456467 bytes (445 KB)
+==================================================
+downloaded 445 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/mvtnorm_1.0-6.tgz'
+Content type 'application/x-gzip' length 222284 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/rgl_0.98.1.tgz'
+Content type 'application/x-gzip' length 4765203 bytes (4.5 MB)
+==================================================
+downloaded 4.5 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/Rsolnp_1.16.tgz'
+Content type 'application/x-gzip' length 170090 bytes (166 KB)
+==================================================
+downloaded 166 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/truncnorm_1.0-7.tgz'
+Content type 'application/x-gzip' length 31063 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/SkewHyperbolic_0.3-2.tgz'
+Content type 'application/x-gzip' length 121471 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/DistributionUtils_0.5-1.tgz'
+Content type 'application/x-gzip' length 132539 bytes (129 KB)
+==================================================
+downloaded 129 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RUnit_0.4.31.tgz'
+Content type 'application/x-gzip' length 225263 bytes (219 KB)
+==================================================
+downloaded 219 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/GeneralizedHyperbolic_0.8-1.tgz'
+Content type 'application/x-gzip' length 397369 bytes (388 KB)
+==================================================
+downloaded 388 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/spd_2.0-1.tgz'
+Content type 'application/x-gzip' length 94800 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/seasonal_1.5.1.tgz'
+Content type 'application/x-gzip' length 391557 bytes (382 KB)
+==================================================
+downloaded 382 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/x13binary_0.1.2.tgz'
+Content type 'application/x-gzip' length 1999517 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/sqldf_0.4-10.tgz'
+Content type 'application/x-gzip' length 69840 bytes (68 KB)
+==================================================
+downloaded 68 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/gsubfn_0.6-6.tgz'
+Content type 'application/x-gzip' length 344269 bytes (336 KB)
+==================================================
+downloaded 336 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RSQLite_1.1-2.tgz'
+Content type 'application/x-gzip' length 3084448 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/stringi_1.1.3.tgz'
+Content type 'application/x-gzip' length 12650278 bytes (12.1 MB)
+==================================================
+downloaded 12.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/TSA_1.01.tgz'
+Content type 'application/x-gzip' length 367476 bytes (358 KB)
+==================================================
+downloaded 358 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/urca_1.3-0.tgz'
+Content type 'application/x-gzip' length 909091 bytes (887 KB)
+==================================================
+downloaded 887 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/BiBitR_0.2.2.tgz'
+Content type 'application/x-gzip' length 570500 bytes (557 KB)
+==================================================
+downloaded 557 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/biclust_1.2.0.tgz'
+Content type 'application/x-gzip' length 1035224 bytes (1010 KB)
+==================================================
+downloaded 1010 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/flexclust_1.3-4.tgz'
+Content type 'application/x-gzip' length 362754 bytes (354 KB)
+==================================================
+downloaded 354 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/blackbox_1.0.18.tgz'
+Content type 'application/x-gzip' length 1357661 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/rcdd_1.1-11.tgz'
+Content type 'application/x-gzip' length 767661 bytes (749 KB)
+==================================================
+downloaded 749 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RcppEigen_0.3.2.9.1.tgz'
+Content type 'application/x-gzip' length 3937193 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/spaMM_1.10.0.tgz'
+Content type 'application/x-gzip' length 4056045 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/lpSolveAPI_5.5.2.0-17.tgz'
+Content type 'application/x-gzip' length 1311027 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/cdom_0.1.0.tgz'
+Content type 'application/x-gzip' length 125459 bytes (122 KB)
+==================================================
+downloaded 122 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/minpack.lm_1.2-1.tgz'
+Content type 'application/x-gzip' length 91614 bytes (89 KB)
+==================================================
+downloaded 89 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/circlize_0.3.10.tgz'
+Content type 'application/x-gzip' length 3788411 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/GlobalOptions_0.0.11.tgz'
+Content type 'application/x-gzip' length 64527 bytes (63 KB)
+==================================================
+downloaded 63 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/compositions_1.40-1.tgz'
+Content type 'application/x-gzip' length 1214004 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/energy_1.7-0.tgz'
+Content type 'application/x-gzip' length 360939 bytes (352 KB)
+==================================================
+downloaded 352 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/tensorA_0.36.tgz'
+Content type 'application/x-gzip' length 147473 bytes (144 KB)
+==================================================
+downloaded 144 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/corrplot_0.77.tgz'
+Content type 'application/x-gzip' length 3019945 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/d3heatmap_0.6.1.1.tgz'
+Content type 'application/x-gzip' length 490565 bytes (479 KB)
+==================================================
+downloaded 479 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/dendextend_1.4.0.tgz'
+Content type 'application/x-gzip' length 1834481 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/dendextendRcpp_0.6.1.tgz'
+Content type 'application/x-gzip' length 268277 bytes (261 KB)
+==================================================
+downloaded 261 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/DendSer_1.0.1.tgz'
+Content type 'application/x-gzip' length 48756 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/gclus_1.3.1.tgz'
+Content type 'application/x-gzip' length 94632 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/seriation_1.2-1.tgz'
+Content type 'application/x-gzip' length 943517 bytes (921 KB)
+==================================================
+downloaded 921 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/gplots_3.0.1.tgz'
+Content type 'application/x-gzip' length 511025 bytes (499 KB)
+==================================================
+downloaded 499 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/gdata_2.17.0.tgz'
+Content type 'application/x-gzip' length 1136842 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/qap_0.1-1.tgz'
+Content type 'application/x-gzip' length 486010 bytes (474 KB)
+==================================================
+downloaded 474 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/TSP_1.1-5.tgz'
+Content type 'application/x-gzip' length 686459 bytes (670 KB)
+==================================================
+downloaded 670 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/dfoptim_2016.7-1.tgz'
+Content type 'application/x-gzip' length 29702 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/dynamicTreeCut_1.63-1.tgz'
+Content type 'application/x-gzip' length 51029 bytes (49 KB)
+==================================================
+downloaded 49 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/earth_4.4.9.1.tgz'
+Content type 'application/x-gzip' length 1737265 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/eclust_0.1.0.tgz'
+Content type 'application/x-gzip' length 4444111 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/WGCNA_1.51.tgz'
+Content type 'application/x-gzip' length 1914047 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/fastcluster_1.1.22.tgz'
+Content type 'application/x-gzip' length 223054 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/matrixStats_0.51.0.tgz'
+Content type 'application/x-gzip' length 2057311 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/eemR_0.1.4.tgz'
+Content type 'application/x-gzip' length 1187317 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/readr_1.1.0.tgz'
+Content type 'application/x-gzip' length 2189265 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/evaluator_0.1.0.tgz'
+Content type 'application/x-gzip' length 2162190 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/mc2d_0.1-18.tgz'
+Content type 'application/x-gzip' length 1235828 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/psych_1.7.3.21.tgz'
+Content type 'application/x-gzip' length 4426621 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/factoextra_1.0.4.tgz'
+Content type 'application/x-gzip' length 252580 bytes (246 KB)
+==================================================
+downloaded 246 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/ggpubr_0.1.2.tgz'
+Content type 'application/x-gzip' length 1084509 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/ggsci_2.4.tgz'
+Content type 'application/x-gzip' length 2459503 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ff_2.2-13.tgz'
+Content type 'application/x-gzip' length 1381946 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ffbase_0.12.3.tgz'
+Content type 'application/x-gzip' length 232324 bytes (226 KB)
+==================================================
+downloaded 226 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/flexdashboard_0.5.tgz'
+Content type 'application/x-gzip' length 660542 bytes (645 KB)
+==================================================
+downloaded 645 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/gbm_2.1.3.tgz'
+Content type 'application/x-gzip' length 854212 bytes (834 KB)
+==================================================
+downloaded 834 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/gear_0.1.1.tgz'
+Content type 'application/x-gzip' length 136696 bytes (133 KB)
+==================================================
+downloaded 133 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/optimx_2013.8.7.tgz'
+Content type 'application/x-gzip' length 67695 bytes (66 KB)
+==================================================
+downloaded 66 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/Rcgmin_2013-2.21.tgz'
+Content type 'application/x-gzip' length 38492 bytes (37 KB)
+==================================================
+downloaded 37 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/Rvmmin_2013-11.12.tgz'
+Content type 'application/x-gzip' length 38073 bytes (37 KB)
+==================================================
+downloaded 37 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/optextras_2016-8.8.tgz'
+Content type 'application/x-gzip' length 76582 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/setRNG_2013.9-1.tgz'
+Content type 'application/x-gzip' length 79885 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/svUnit_0.7-12.tgz'
+Content type 'application/x-gzip' length 642640 bytes (627 KB)
+==================================================
+downloaded 627 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/ucminf_1.1-4.tgz'
+Content type 'application/x-gzip' length 174887 bytes (170 KB)
+==================================================
+downloaded 170 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ggraph_1.0.0.tgz'
+Content type 'application/x-gzip' length 3199310 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/glmnet_2.0-5.tgz'
+Content type 'application/x-gzip' length 1788514 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/gmp_0.5-13.1.tgz'
+Content type 'application/x-gzip' length 733499 bytes (716 KB)
+==================================================
+downloaded 716 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/grattan_1.4.1.2.tgz'
+Content type 'application/x-gzip' length 803060 bytes (784 KB)
+==================================================
+downloaded 784 KB
+
+
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/hdrcde_3.1.tgz'
+Content type 'application/x-gzip' length 107364 bytes (104 KB)
+==================================================
+downloaded 104 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/heatmaply_0.8.2.tgz'
+Content type 'application/x-gzip' length 1294586 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/IMIFA_1.1.0.tgz'
+Content type 'application/x-gzip' length 227952 bytes (222 KB)
+==================================================
+downloaded 222 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/matrixcalc_1.0-3.tgz'
+Content type 'application/x-gzip' length 165688 bytes (161 KB)
+==================================================
+downloaded 161 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/mclust_5.2.3.tgz'
+Content type 'application/x-gzip' length 3882037 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/mvnfast_0.2.0.tgz'
+Content type 'application/x-gzip' length 979326 bytes (956 KB)
+==================================================
+downloaded 956 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/Rfast_1.7.5.tgz'
+Content type 'application/x-gzip' length 3107768 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RcppZiggurat_0.1.3.tgz'
+Content type 'application/x-gzip' length 493541 bytes (481 KB)
+==================================================
+downloaded 481 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RcppGSL_0.3.2.tgz'
+Content type 'application/x-gzip' length 859054 bytes (838 KB)
+==================================================
+downloaded 838 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/Infusion_1.0.0.tgz'
+Content type 'application/x-gzip' length 151764 bytes (148 KB)
+==================================================
+downloaded 148 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/Rmixmod_2.1.1.tgz'
+Content type 'application/x-gzip' length 5100017 bytes (4.9 MB)
+==================================================
+downloaded 4.9 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ipred_0.9-6.tgz'
+Content type 'application/x-gzip' length 283354 bytes (276 KB)
+==================================================
+downloaded 276 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/prodlim_1.6.1.tgz'
+Content type 'application/x-gzip' length 231772 bytes (226 KB)
+==================================================
+downloaded 226 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/lava_1.5.tgz'
+Content type 'application/x-gzip' length 1776996 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/mfp_1.5.2.tgz'
+Content type 'application/x-gzip' length 255241 bytes (249 KB)
+==================================================
+downloaded 249 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/mice_2.30.tgz'
+Content type 'application/x-gzip' length 1058435 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/modeest_2.1.tgz'
+Content type 'application/x-gzip' length 154220 bytes (150 KB)
+==================================================
+downloaded 150 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/mptools_1.0.1.tgz'
+Content type 'application/x-gzip' length 2466827 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ncvreg_3.9-0.tgz'
+Content type 'application/x-gzip' length 268523 bytes (262 KB)
+==================================================
+downloaded 262 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/network_1.13.0.tgz'
+Content type 'application/x-gzip' length 653389 bytes (638 KB)
+==================================================
+downloaded 638 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/openair_2.0-0.tgz'
+Content type 'application/x-gzip' length 2689151 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/pbkrtest_0.4-7.tgz'
+Content type 'application/x-gzip' length 193056 bytes (188 KB)
+==================================================
+downloaded 188 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/pdp_0.5.2.tgz'
+Content type 'application/x-gzip' length 109240 bytes (106 KB)
+==================================================
+downloaded 106 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/phangorn_2.1.1.tgz'
+Content type 'application/x-gzip' length 2398262 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/pheatmap_1.0.8.tgz'
+Content type 'application/x-gzip' length 39380 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/platetools_0.0.2.tgz'
+Content type 'application/x-gzip' length 81613 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/plot3D_1.1.tgz'
+Content type 'application/x-gzip' length 3107997 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/polspline_1.1.12.tgz'
+Content type 'application/x-gzip' length 635021 bytes (620 KB)
+==================================================
+downloaded 620 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/polyclip_1.6-1.tgz'
+Content type 'application/x-gzip' length 403291 bytes (393 KB)
+==================================================
+downloaded 393 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/profdpm_3.3.tgz'
+Content type 'application/x-gzip' length 429764 bytes (419 KB)
+==================================================
+downloaded 419 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/protoclust_1.5.tgz'
+Content type 'application/x-gzip' length 36346 bytes (35 KB)
+==================================================
+downloaded 35 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/pvclust_2.0-0.tgz'
+Content type 'application/x-gzip' length 144627 bytes (141 KB)
+==================================================
+downloaded 141 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/R2HTML_2.3.2.tgz'
+Content type 'application/x-gzip' length 425235 bytes (415 KB)
+==================================================
+downloaded 415 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/radiomics_0.1.2.tgz'
+Content type 'application/x-gzip' length 375081 bytes (366 KB)
+==================================================
+downloaded 366 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ranger_0.6.0.tgz'
+Content type 'application/x-gzip' length 1457031 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/Rcmdr_2.3-2.tgz'
+Content type 'application/x-gzip' length 5666870 bytes (5.4 MB)
+==================================================
+downloaded 5.4 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/RcmdrMisc_1.0-5.tgz'
+Content type 'application/x-gzip' length 115639 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/tcltk2_1.2-11.tgz'
+Content type 'application/x-gzip' length 875870 bytes (855 KB)
+==================================================
+downloaded 855 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/RcmdrPlugin.BiclustGUI_1.1.0.tgz'
+Content type 'application/x-gzip' length 2518308 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/s4vd_1.1-1.tgz'
+Content type 'application/x-gzip' length 132037 bytes (128 KB)
+==================================================
+downloaded 128 KB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/superbiclust_1.1.tgz'
+Content type 'application/x-gzip' length 100719 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/rjags_4-6.tgz'
+Content type 'application/x-gzip' length 249529 bytes (243 KB)
+==================================================
+downloaded 243 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/rms_5.1-0.tgz'
+Content type 'application/x-gzip' length 1173157 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/SparseM_1.76.tgz'
+Content type 'application/x-gzip' length 945894 bytes (923 KB)
+==================================================
+downloaded 923 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ROCR_1.0-7.tgz'
+Content type 'application/x-gzip' length 150503 bytes (146 KB)
+==================================================
+downloaded 146 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/ropenaq_0.1.3.tgz'
+Content type 'application/x-gzip' length 371419 bytes (362 KB)
+==================================================
+downloaded 362 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/rsvg_1.1.tgz'
+Content type 'application/x-gzip' length 2750613 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/rwty_1.0.1.tgz'
+Content type 'application/x-gzip' length 3133312 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/SAGA_2.0.0.tgz'
+Content type 'application/x-gzip' length 198190 bytes (193 KB)
+==================================================
+downloaded 193 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/SIBER_2.1.2.tgz'
+Content type 'application/x-gzip' length 513452 bytes (501 KB)
+==================================================
+downloaded 501 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/simmr_0.3.tgz'
+Content type 'application/x-gzip' length 724668 bytes (707 KB)
+==================================================
+downloaded 707 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/stormwindmodel_0.1.0.tgz'
+Content type 'application/x-gzip' length 2220479 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'http://minicran.local./bin/macosx/mavericks/contrib/3.3/weathermetrics_1.2.2.tgz'
+Content type 'application/x-gzip' length 86722 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/tables_0.8.tgz'
+Content type 'application/x-gzip' length 417488 bytes (407 KB)
+==================================================
+downloaded 407 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/testit_0.6.tgz'
+Content type 'application/x-gzip' length 17648 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/VGAMdata_1.0-3.tgz'
+Content type 'application/x-gzip' length 1661408 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/VRPM_1.1.tgz'
+Content type 'application/x-gzip' length 651302 bytes (636 KB)
+==================================================
+downloaded 636 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/mavericks/contrib/3.3/xgboost_0.6-4.tgz'
+Content type 'application/x-gzip' length 3200042 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB

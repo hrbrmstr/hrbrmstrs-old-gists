@@ -1,0 +1,131 @@
+library(rvest)
+library(stringi)
+library(pluralize) # devtools::install_github("hrbrmstr/pluralize")
+library(hrbrthemes)
+library(tidyverse)
+
+#' Retrieve the Federal Register main EO page so we can get the links for each POTUS
+pg <- read_html("https://www.federalregister.gov/executive-orders") 
+
+#' Find the POTUS EO data nodes, excluding the one for "All"
+html_nodes(pg, "ul.bulk-files") %>% 
+  html_nodes(xpath = ".//li[span[a[contains(@href, 'json')]] and 
+                            not(span[contains(., 'All')])]") -> potus_nodes
+
+#' Turn the POTUS info into a data frame with the POTUS name and EO JSON link,
+#' then retrieve the JSON file and make a data frame of individual data elements
+data_frame(
+  potus = html_nodes(potus_nodes, "span:nth-of-type(1)") %>% html_text(),
+  eo_link = html_nodes(potus_nodes, "a[href *= 'json']") %>% 
+    html_attr("href") %>% 
+    sprintf("https://www.federalregister.gov%s", .)
+) %>% 
+  mutate(eo = map(eo_link, jsonlite::fromJSON)) %>% 
+  mutate(eo = map(eo, "results")) %>% 
+  unnest() -> eo_df
+
+glimpse(eo_df)
+## Observations: 887
+## Variables: 16
+## $ potus                  <chr> "Donald Trump", "Donald Trump", "Donald Trump", "Donald Trump", "Donald Trump", "D...
+## $ eo_link                <chr> "https://www.federalregister.gov/documents/search.json?conditions%5Bcorrection%5D=...
+## $ citation               <chr> "82 FR 8351", "82 FR 8657", "82 FR 8793", "82 FR 8799", "82 FR 8977", "82 FR 9333"...
+## $ document_number        <chr> "2017-01799", "2017-02029", "2017-02095", "2017-02102", "2017-02281", "2017-02450"...
+## $ end_page               <int> 8352, 8658, 8797, 8803, 8982, 9338, 9341, 9966, 10693, 10696, 10698, 10700, 12287,...
+## $ executive_order_notes  <chr> NA, "See: EO 13807, August 15, 2017", NA, NA, "See: EO 13780, March 6, 2017", "Sup...
+## $ executive_order_number <int> 13765, 13766, 13767, 13768, 13769, 13770, 13771, 13772, 13773, 13774, 13775, 13776...
+## $ html_url               <chr> "https://www.federalregister.gov/documents/2017/01/24/2017-01799/minimizing-the-ec...
+## $ pdf_url                <chr> "https://www.gpo.gov/fdsys/pkg/FR-2017-01-24/pdf/2017-01799.pdf", "https://www.gpo...
+## $ publication_date       <chr> "2017-01-24", "2017-01-30", "2017-01-30", "2017-01-30", "2017-02-01", "2017-02-03"...
+## $ signing_date           <chr> "2017-01-20", "2017-01-24", "2017-01-25", "2017-01-25", "2017-01-27", "2017-01-28"...
+## $ start_page             <int> 8351, 8657, 8793, 8799, 8977, 9333, 9339, 9965, 10691, 10695, 10697, 10699, 12285,...
+## $ title                  <chr> "Minimizing the Economic Burden of the Patient Protection and Affordable Care Act ...
+## $ full_text_xml_url      <chr> "https://www.federalregister.gov/documents/full_text/xml/2017/01/24/2017-01799.xml...
+## $ body_html_url          <chr> "https://www.federalregister.gov/documents/full_text/html/2017/01/24/2017-01799.ht...
+## $ json_url               <chr> "https://www.federalregister.gov/api/v1/documents/2017-01799.json", "https://www.f...
+
+#' Now, count by year and POTUS and see how many EOs were signed
+mutate(eo_df, year = lubridate::year(signing_date)) %>% 
+  mutate(year = as.Date(sprintf("%s-01-01", year))) %>% 
+  count(year, potus) %>%
+  mutate(
+    potus = factor(
+      potus, 
+      levels = c("Donald Trump", "Barack Obama", "George W. Bush", "William J. Clinton")
+    )
+  ) %>%
+  ggplot(aes(year, n, group=potus)) +
+  geom_col(position = "stack", aes(fill = potus)) +
+  scale_x_date(
+    name = NULL,
+    expand = c(0,0),
+    breaks = as.Date(c("1993-01-01", "2001-01-01", "2009-01-01", "2017-01-01")),
+    date_labels = "%Y",
+    limits = as.Date(c("1992-01-01", "2020-12-31"))
+  ) +
+  scale_y_comma(name = "# EOs") +
+  scale_fill_ipsum(name = NULL) +
+  labs(
+    title = "Number of Executive Orders Signed Per-Year, Per-POTUS",
+    subtitle = "1993-Present",
+    caption = "Source: Federal Register <https://www.federalregister.gov/executive-orders>"
+  ) +
+  theme_ipsum_rc(grid = "Y") +
+  theme(legend.position = "bottom")
+
+#' Famous first words?
+
+mutate(eo_df, year = lubridate::year(signing_date)) %>% 
+  mutate(year = as.Date(sprintf("%s-01-01", year))) %>%
+  mutate(first_word = stri_replace_first_regex(title, "^[[:digit:]]+\ *", "") %>% 
+           stri_replace_first_regex("^(To|The|A|White House) ", "") %>% 
+           stri_replace_first_fixed("Half-Day", "HalfDay") %>% 
+           stri_extract_first_words()) -> titles_df
+
+mutate(titles_df, first_word = singularize(first_word)) %>% 
+  count(first_word, sort=TRUE) %>% 
+  mutate(pct = n/sum(n)) %>% 
+  filter(!stri_detect_regex(first_word, "President|Federal|National"))
+
+#' Top 5 first words per POTUS
+mutate(titles_df, first_word = singularize(first_word)) %>% 
+  count(potus, first_word, sort=TRUE) %>% 
+  filter(!stri_detect_regex(first_word, "President|Federal|National")) %>%
+  mutate(first_word = stri_replace_all_fixed(first_word, "Establishment", "Establishing")) %>% 
+  mutate(first_word = stri_replace_all_fixed(first_word, "Amendment", "Amending")) -> first_words
+
+group_by(first_words, potus) %>% 
+    top_n(5) %>%  
+    ungroup() %>% 
+    distinct(first_word) %>% 
+    pull(first_word) -> all_first_words
+
+filter(first_words, first_word %in% all_first_words) %>% 
+  mutate(
+    potus = factor(
+      potus, 
+      levels = c("Donald Trump", "Barack Obama", "George W. Bush", "William J. Clinton")
+    )
+  ) %>% 
+  mutate(
+    first_word = factor(
+      first_word, 
+      levels = rev(sort(unique(first_word)))
+    )
+  ) -> first_df
+
+ggplot(first_df, aes(n, first_word)) +
+  geom_segment(aes(xend=0, yend=first_word, color=potus), size=4) +
+  scale_x_comma(limits=c(0,40)) +
+  scale_y_discrete(limits = sort(unique(first_df$first_word))) +
+  facet_wrap(~potus, scales = "free", ncol = 2) +
+  labs(
+    x = "# EOs",
+    y = NULL,
+    title = "Top 5 Executive Order 'First Words' by POTUS",
+    subtitle = "1993-Present",
+    caption = "Source: Federal Register <https://www.federalregister.gov/executive-orders>"
+  ) +
+  theme_ipsum_rc(grid="X", strip_text_face = "bold") +
+  theme(panel.spacing.x = unit(5, "lines")) +
+  theme(legend.position="none")

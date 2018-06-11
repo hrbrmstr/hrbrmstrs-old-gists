@@ -1,0 +1,105 @@
+html, body, div, p { font-family: 'Lato', Helvetica, sans-serif; font-weight: 300; }
+h1, h2, h3 { font-family: 'Lato', Helvetica, sans-serif; font-weight: 400; }
+table, tr, td { font-family: 'Lato', Helvetica, sans-serif; font-weight: 300; font-size:11px;}
+thead td { font-family: 'Lato', Helvetica, sans-serif; font-weight: 400; font-size:12px;}
+
+.county {
+	stroke:#7f7f7f; 
+	stroke-opacity:0.4;
+	stroke-width:0.75;
+}
+
+.county.Aroostook {}
+.county.Somerset {}
+.county.Piscataquis {} 
+.county.Penobscot {}
+.county.Washington {}
+.county.Franklin {} 
+.county.Oxford {}
+.county.Waldo {}
+.county.Kennebec {}
+.county.Androscoggin {}
+.county.Hancock {}
+.county.Knox {}
+.county.Lincoln {}
+.county.Cumberland {}
+.county.Sagadahoc {}
+.county.York {}
+
+.container {
+	padding-left: 30px;
+	vertical-align:top;
+	margin-left:20px;
+	width:850px;
+}
+.maplegend {
+  background-color: #fff;
+	margin-top:40px;
+  width: 120px;
+  height: 300px;
+  float:left;
+}
+.map {	
+	width:450px;
+	height:600px;
+	float:left;
+}
+.details {
+	margin-top:40px;
+	margin-left:0px;
+	padding-left:0px;
+	width:250px;
+	height:440px;
+	float:left;
+}
+
+#charts {
+	margin-left:0px;
+	padding-left:0px;	
+}
+.legText {
+	color:black;
+	font-family: font-family: 'Lato', Helvetica, sans-serif; font-weight: 300;
+	font-size:9pt;
+}
+
+.d3-tip {
+	font-size:9pt;
+  line-height: 1.1em;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.countychart {
+	height:20px;
+	width:250px;
+	margin:0px;
+	padding:0px;
+	padding-bottom:10px;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.0px;
+}

@@ -1,0 +1,22 @@
+{
+  "editor.fontFamily": "'Operator Mono Lig', Iosevka, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "r.rterm.mac" : "/usr/local/bin/rtichoke",
+  "r.rterm.option" : [],
+  "r.lintr.enabled": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.scrollback": 3000,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "right",
+  "rust-client.channel": "nightly-2017-12-01",
+  "workbench.colorCustomizations": {
+      "terminal.foreground": "#1bdf4c"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Monokai Italic",
+  "rust.mode": "rls"
+}

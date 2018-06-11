@@ -1,0 +1,82 @@
+---
+title: "Mass Shootings Are Horrifying Enough Without Fudging The Numbers"
+author: "Bob Rudis (@hrbrmstr)"
+date: "August 28, 2015"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.retina=2)
+```
+
+Businss Insider has a [piece](http://www.businessinsider.com/us-averages-one-mass-shooting-per-day-2015-8) titled _"We are now averaging more than one mass shooting per day in 2015"_, with a lead paragraph of:
+
+>As of August 26th, the US has had 247 mass shootings in the 238 days of 2015.
+
+They go on to say that the data they used in their analysis comes from the [Mass Shootings Tracker](http://shootingtracker.com/wiki/Mass_Shootings_in_2015). That site lists 249 incidents of mass shootings from January 1st to January 28th.
+
+The problem is you can't just use simple, inflamatory math to make the point about the shootings. A shooting did not occur every day. In fact, there were only 149 days with shootings. Let's take a look at the data.
+
+We'll first verify that we are working with the same data that's on the web site by actually grabbing the data from the web site:
+
+```{r shootings, error=FALSE, message=FALSE, warning=FALSE}
+library(rvest)
+library(dplyr)
+library(ggthemes)
+library(viridis)
+library(ggplot2)
+
+# Get the data ------------------------------------------------------------
+shootings <- html("http://shootingtracker.com/wiki/Mass_Shootings_in_2015")
+dat <- html_table(html_nodes(shootings, "table")[[1]], fill=TRUE)
+
+# We have to clean it up a bit
+dat <- dat[!is.na(dat$Date), 1:7]
+rownames(dat) <- NULL
+
+total_shootings <- nrow(dat)
+```
+
+There were *`r total_shootings` total shootings* which matches the Mass Shootings Tracker table as of 2015-08-28.
+
+Knowing we have the right data, let's find out how many days had shootings. We do this by talling up the # of shootings per day then merging that with all the days of the year to 2015-08-28:
+
+```{r merge}
+by_date <- count(dat, Date)
+all_dates <- data.frame(Date=sub("/0", "/", 
+                                 sub("(^0)", "", 
+                                     format(seq.Date(from=as.Date("2015-01-01"), 
+                                                     as.Date("2015-08-28"), "1 day"), 
+                                            "%m/%d/%Y"))),
+                        stringsAsFactors=FALSE)
+
+by_date <- mutate(left_join(all_dates, by_date, "Date"), 
+                  n=ifelse(is.na(n), 0, n))
+
+days_without_shootings <- nrow(filter(by_date, n == 0))
+```
+
+There were *`r days_without_shootings` days without shootings*. Quite a bit different story than the head-line grabbing numbers presented by Business Insider.
+
+The reason for this is they did a simple average. These incidents are tragic enough without resorting to twisted math. In fact, they could have more easily and impactfully shown that there are an egregious number days with multiple shootings:
+
+```{r multiple, warning=FALSE, error=FALSE, message=FALSE, fig.width=8, fig.height=4}
+gg <- ggplot(by_date, aes(factor(n)))
+gg <- gg + stat_bin(binwidth=1, fill=viridis(1), width=3/4)
+gg <- gg + stat_bin(binwidth=1, geom="text", 
+                    aes(label=sprintf("%d %s", ..count.., 
+                                      ifelse(..count..>1, "days", "day"))), 
+                    vjust=-1.5, size=4) 
+gg <- gg + scale_x_discrete(expand=c(0, 0))
+gg <- gg + scale_y_continuous(expand=c(0, 0), limit=c(0, 110))
+gg <- gg + labs(x="# Shootings", y=NULL)
+gg <- gg + theme_tufte(base_family="Lato")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(axis.text.y=element_blank())
+gg
+```
+
+But, relying on unsound averages to get headlines isn't going to help move the gun violence discussion forwared. But it probably sells ads.
+
+The code to generate this Rmd is in [this gist](https://gist.github.com/hrbrmstr/70c82bb1ff8ed340847e). `#reproducible`

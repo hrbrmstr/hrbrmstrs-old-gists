@@ -1,0 +1,211 @@
+idx,name,class,start,end,cost,col2,date,date2,mid,monday,year,display_name,label
+1,Hurricane Katrina,ind tropical-cyclone-ind,2005-08-25,2005-08-30,160,#397dc2,2005-08-25,2005-08-30,2005-08-27,2017-08-27,2005,Hurricane Katrina,1
+2,Hurricane Sandy,ind tropical-cyclone-ind,2012-10-30,2012-10-31,70.2,#397dc2,2012-10-30,2012-10-31,2012-10-30,2017-10-30,2012,Hurricane Sandy,1
+3,Hurricane Andrew,ind tropical-cyclone-ind,1992-08-23,1992-08-27,47.8,#397dc2,1992-08-23,1992-08-27,1992-08-25,2017-08-25,1992,Hurricane Andrew,1
+4,U.S. Drought/ Heatwave,ind drought-ind,1988-06-01,1988-08-31,42.4,#efba2b,1988-06-01,1988-08-31,1988-07-16,2017-07-16,1988,U.S. Drought/Heatwave,NA
+5,Midwest Flooding,ind flooding-ind,1993-06-27,1993-08-15,36.1,#699d8f,1993-06-27,1993-08-15,1993-07-21,2017-07-21,1993,Midwest Flooding,NA
+6,Hurricane Ike,ind tropical-cyclone-ind,2008-09-12,2008-09-14,34.8,#397dc2,2008-09-12,2008-09-14,2008-09-13,2017-09-13,2008,Hurricane Ike,1
+7,U.S. Drought/ Heatwave,ind drought-ind,2012-01-01,2012-12-31,32.4,#efba2b,2012-01-01,2012-12-31,2012-07-01,2017-07-01,2012,U.S. Drought/Heatwave,NA
+8,Central/ Eastern Drought/ Heatwave,ind drought-ind,1980-06-01,1980-11-30,31.6,#efba2b,1980-06-01,1980-11-30,1980-08-31,2017-08-31,1980,Central/Eastern Drought/Heatwave,NA
+9,Hurricane Ivan,ind tropical-cyclone-ind,2004-09-12,2004-09-21,27.1,#397dc2,2004-09-12,2004-09-21,2004-09-16,2017-09-16,2004,Hurricane Ivan,1
+10,Hurricane Wilma,ind tropical-cyclone-ind,2005-10-24,2005-10-24,24.3,#397dc2,2005-10-24,2005-10-24,2005-10-24,2017-10-24,2005,Hurricane Wilma,1
+11,Hurricane Rita,ind tropical-cyclone-ind,2005-09-20,2005-09-24,23.7,#397dc2,2005-09-20,2005-09-24,2005-09-22,2017-09-22,2005,Hurricane Rita,1
+12,Hurricane Charley,ind tropical-cyclone-ind,2004-08-13,2004-08-14,21.1,#397dc2,2004-08-13,2004-08-14,2004-08-13,2017-08-13,2004,Hurricane Charley,1
+13,Hurricane Hugo,ind tropical-cyclone-ind,1989-09-21,1989-09-22,18.2,#397dc2,1989-09-21,1989-09-22,1989-09-21,2017-09-21,1989,Hurricane Hugo,1
+14,Hurricane Irene,ind tropical-cyclone-ind,2011-08-26,2011-08-28,15,#397dc2,2011-08-26,2011-08-28,2011-08-27,2017-08-27,2011,Hurricane Irene,1
+15,Southern Plains/ Southwest Drought & Heat Wave,ind drought-ind,2011-03-01,2011-08-31,13.3,#efba2b,2011-03-01,2011-08-31,2011-05-31,2017-05-31,2011,Southern Plains/Southwest Drought & Heat Wave,NA
+16,Hurricane Frances,ind tropical-cyclone-ind,2004-09-03,2004-09-09,12.9,#397dc2,2004-09-03,2004-09-09,2004-09-06,2017-09-06,2004,Hurricane Frances,1
+17,U.S. Drought,ind drought-ind,2002-03-01,2002-11-30,12.4,#efba2b,2002-03-01,2002-11-30,2002-07-16,2017-07-16,2002,U.S. Drought,NA
+18,Tropical Storm Allison,ind tropical-cyclone-ind,2001-06-05,2001-06-17,11.9,#397dc2,2001-06-05,2001-06-17,2001-06-11,2017-06-11,2001,Tropical Storm Allison,1
+19,Midwest Flooding,ind flooding-ind,2008-04-01,2008-06-30,11.6,#699d8f,2008-04-01,2008-06-30,2008-05-16,2017-05-16,2008,Midwest Flooding,NA
+20,Southeast/ Ohio Valley/ Midwest Tornadoes,ind severe-storm-ind,2011-04-25,2011-04-28,11.3,#9d76b0,2011-04-25,2011-04-28,2011-04-26,2017-04-26,2011,Southeast/Ohio Valley/Midwest Tornadoes,NA
+21,Western/ Plains Drought/ Heatwave,ind drought-ind,2013-03-01,2013-11-30,11.1,#efba2b,2013-03-01,2013-11-30,2013-07-16,2017-07-16,2013,Western/Plains Drought/Heatwave,NA
+22,Louisiana Flooding,ind flooding-ind,2016-08-12,2016-08-15,10.3,#699d8f,2016-08-12,2016-08-15,2016-08-13,2017-08-13,2016,Louisiana Flooding,NA
+23,Hurricane Matthew,ind tropical-cyclone-ind,2016-10-08,2016-10-12,10.3,#397dc2,2016-10-08,2016-10-12,2016-10-10,2017-10-10,2016,Hurricane Matthew,1
+24,Midwest/ Southeast Tornadoes,ind severe-storm-ind,2011-05-22,2011-05-27,10.1,#9d76b0,2011-05-22,2011-05-27,2011-05-24,2017-05-24,2011,Midwest/Southeast Tornadoes,NA
+25,Hurricane Jeanne,ind tropical-cyclone-ind,2004-09-15,2004-09-29,9.9,#397dc2,2004-09-15,2004-09-29,2004-09-22,2017-09-22,2004,Hurricane Jeanne,1
+26,Hurricane Floyd,ind tropical-cyclone-ind,1999-09-14,1999-09-16,9.7,#397dc2,1999-09-14,1999-09-16,1999-09-15,2017-09-15,1999,Hurricane Floyd,1
+27,East Coast Blizzard and Severe Weather,ind winter-storm-ind,1993-03-11,1993-03-14,9.5,#61c6e2,1993-03-11,1993-03-14,1993-03-12,2017-03-12,1993,East Coast Blizzard and Severe Weather,NA
+28,Hurricane Georges,ind tropical-cyclone-ind,1998-09-20,1998-09-29,9.1,#397dc2,1998-09-20,1998-09-29,1998-09-24,2017-09-24,1998,Hurricane Georges,1
+29,South Plains Severe Weather,ind severe-storm-ind,1995-05-05,1995-05-07,8.9,#9d76b0,1995-05-05,1995-05-07,1995-05-06,2017-05-06,1995,South Plains Severe Weather,NA
+30,U.S. Drought,ind drought-ind,2008-01-01,2008-12-31,8.1,#efba2b,2008-01-01,2008-12-31,2008-07-01,2017-07-01,2008,U.S. Drought,NA
+31,Hurricane Fran,ind tropical-cyclone-ind,1996-09-05,1996-09-08,8,#397dc2,1996-09-05,1996-09-08,1996-09-06,2017-09-06,1996,Hurricane Fran,1
+32,Hurricane Opal,ind tropical-cyclone-ind,1995-10-04,1995-10-06,7.6,#397dc2,1995-10-04,1995-10-06,1995-10-05,2017-10-05,1995,Hurricane Opal,1
+33,Hurricane Alicia,ind tropical-cyclone-ind,1983-08-17,1983-08-20,7.5,#397dc2,1983-08-17,1983-08-20,1983-08-18,2017-08-18,1983,Hurricane Alicia,1
+34,Southeast Drought,ind drought-ind,1983-06-01,1983-08-31,7.4,#efba2b,1983-06-01,1983-08-31,1983-07-16,2017-07-16,1983,Southeast Drought,NA
+35,Midwest/ Plains/ Southeast Drought,ind drought-ind,2006-03-01,2006-08-31,7.4,#efba2b,2006-03-01,2006-08-31,2006-05-31,2017-05-31,2006,Midwest/Plains/Southeast Drought,NA
+36,Hurricane Isabel,ind tropical-cyclone-ind,2003-09-18,2003-09-19,7.4,#397dc2,2003-09-18,2003-09-19,2003-09-18,2017-09-18,2003,Hurricane Isabel,1
+37,Western/ Central/ Southeast Drought/ Heatwave,ind drought-ind,2000-03-01,2000-11-30,7.2,#efba2b,2000-03-01,2000-11-30,2000-07-16,2017-07-16,2000,Western/Central/Southeast Drought/Heatwave,NA
+38,Hurricane Gustav,ind tropical-cyclone-ind,2008-08-31,2008-09-03,7,#397dc2,2008-08-31,2008-09-03,2008-09-01,2017-09-01,2008,Hurricane Gustav,1
+39,Western/ Central Drought/ Heatwave,ind drought-ind,2003-03-01,2003-11-30,6.7,#efba2b,2003-03-01,2003-11-30,2003-07-16,2017-07-16,2003,Western/Central Drought/Heatwave,NA
+40,California Freeze,ind freeze-ind,1990-12-18,1990-12-25,6.5,#61c6e2,1990-12-18,1990-12-25,1990-12-21,2017-12-21,1990,California Freeze,NA
+41,Northern Plains Drought,ind drought-ind,1989-06-01,1989-11-30,6.1,#efba2b,1989-06-01,1989-11-30,1989-08-31,2017-08-31,1989,Northern Plains Drought,NA
+42,Oakland Firestorm,ind wildfire-ind,1991-10-01,1991-10-31,6,#9b0e11,1991-10-01,1991-10-31,1991-10-16,2017-10-16,1991,Oakland Firestorm,NA
+43,Northern Plains Flooding,ind flooding-ind,1997-02-03,1997-05-24,5.7,#699d8f,1997-02-03,1997-05-24,1997-03-30,2017-03-30,1997,Northern Plains Flooding,NA
+44,Severe Storms/ Tornadoes,ind severe-storm-ind,2003-05-03,2003-05-10,5.6,#9d76b0,2003-05-03,2003-05-10,2003-05-06,2017-05-06,2003,Severe Storms/Tornadoes,NA
+45,U.S. Drought,ind drought-ind,1991-03-01,1991-08-31,5.5,#efba2b,1991-03-01,1991-08-31,1991-05-31,2017-05-31,1991,U.S. Drought,NA
+46,Hurricane Iniki,ind tropical-cyclone-ind,1992-09-11,1992-09-12,5.5,#397dc2,1992-09-11,1992-09-12,1992-09-11,2017-09-11,1992,Hurricane Iniki,1
+47,Southern Drought/ Heat Wave,ind drought-ind,1998-06-01,1998-08-31,5.4,#efba2b,1998-06-01,1998-08-31,1998-07-16,2017-07-16,1998,Southern Drought/Heat Wave,NA
+48,California Wildfires,ind wildfire-ind,2003-09-01,2003-11-30,5.3,#9b0e11,2003-09-01,2003-11-30,2003-10-16,2017-10-16,2003,California Wildfires,NA
+49,Southeast Ice Storm,ind winter-storm-ind,1994-02-08,1994-02-13,5,#61c6e2,1994-02-08,1994-02-13,1994-02-10,2017-02-10,1994,Southeast Ice Storm,NA
+50,"Freeze, Cold Wave",ind freeze-ind,1983-12-15,1983-12-25,5,#61c6e2,1983-12-15,1983-12-25,1983-12-20,2017-12-20,1983,"Freeze, Cold Wave",NA
+51,Blizzard/ Floods,ind winter-storm-ind,1996-01-01,1996-01-31,4.8,#61c6e2,1996-01-01,1996-01-31,1996-01-16,2017-01-16,1996,Blizzard/Floods,NA
+52,Western Drought,ind drought-ind,2015-01-01,2015-12-31,4.7,#efba2b,2015-01-01,2015-12-31,2015-07-02,2017-07-02,2015,Western Drought,NA
+53,West Coast Flooding,ind flooding-ind,1997-01-01,1997-01-11,4.6,#699d8f,1997-01-01,1997-01-11,1997-01-06,2017-01-06,1997,West Coast Flooding,NA
+54,Northeast Winter Storm,ind winter-storm-ind,1992-12-10,1992-12-13,4.4,#61c6e2,1992-12-10,1992-12-13,1992-12-11,2017-12-11,1992,Northeast Winter Storm,NA
+55,Western/ Eastern Drought/ Heatwave,ind drought-ind,2007-06-01,2007-11-30,4.3,#efba2b,2007-06-01,2007-11-30,2007-08-31,2017-08-31,2007,Western/Eastern Drought/Heatwave,NA
+56,Midwest/ Ohio Valley Hail and Tornadoes,ind severe-storm-ind,2001-04-06,2001-04-11,4.3,#9d76b0,2001-04-06,2001-04-11,2001-04-08,2017-04-08,2001,Midwest/Ohio Valley Hail and Tornadoes,NA
+57,Arizona Severe Weather,ind severe-storm-ind,2010-10-05,2010-10-06,4.3,#9d76b0,2010-10-05,2010-10-06,2010-10-05,2017-10-05,2010,Arizona Severe Weather,NA
+58,Western Drought,ind drought-ind,2014-01-01,2014-12-31,4.2,#efba2b,2014-01-01,2014-12-31,2014-07-02,2017-07-02,2014,Western Drought,NA
+59,Southwest/ Great Plains Drought,ind drought-ind,2009-01-01,2009-12-31,4.1,#efba2b,2009-01-01,2009-12-31,2009-07-02,2017-07-02,2009,Southwest/Great Plains Drought,NA
+60,California Flooding,ind flooding-ind,1995-01-01,1995-03-31,4.1,#699d8f,1995-01-01,1995-03-31,1995-02-14,2017-02-14,1995,California Flooding,NA
+61,Southeast Drought/ Heatwave,ind drought-ind,1986-06-01,1986-08-31,4,#efba2b,1986-06-01,1986-08-31,1986-07-16,2017-07-16,1986,Southeast Drought/Heatwave,NA
+62,Florida Freeze,ind freeze-ind,1989-12-23,1989-12-25,4,#61c6e2,1989-12-23,1989-12-25,1989-12-24,2017-12-24,1989,Florida Freeze,NA
+63,Rockies/ Midwest/ Eastern Severe Weather,ind severe-storm-ind,2014-05-18,2014-05-23,3.9,#9d76b0,2014-05-18,2014-05-23,2014-05-20,2017-05-20,2014,Rockies/Midwest/Eastern Severe Weather,NA
+64,"Oklahoma, Kansas, and Texas Tornadoes and Severe Weather",ind severe-storm-ind,2010-05-10,2010-05-12,3.8,#9d76b0,2010-05-10,2010-05-12,2010-05-11,2017-05-11,2010,"Oklahoma, Kansas, and Texas Tornadoes and Severe Weather",NA
+65,Gulf States Storms and Flooding,ind flooding-ind,1982-12-01,1983-01-15,3.8,#699d8f,1982-12-01,1983-01-15,1982-12-23,2017-12-23,1982,Gulf States Storms and Flooding,NA
+66,California Freeze,ind freeze-ind,1998-12-20,1998-12-28,3.8,#61c6e2,1998-12-20,1998-12-28,1998-12-24,2017-12-24,1998,California Freeze,NA
+67,Western Storms & Flooding,ind flooding-ind,1982-12-13,1983-03-31,3.7,#699d8f,1982-12-13,1983-03-31,1983-02-05,2017-02-05,1983,Western Storms & Flooding,NA
+68,Eastern Drought/ Heatwave,ind drought-ind,1999-06-01,1999-08-31,3.7,#efba2b,1999-06-01,1999-08-31,1999-07-16,2017-07-16,1999,Eastern Drought/Heatwave,NA
+69,West/ Northeast/ Southeast Drought,ind drought-ind,2016-01-01,2016-12-31,3.6,#efba2b,2016-01-01,2016-12-31,2016-07-01,2017-07-01,2016,West/Northeast/Southeast Drought,NA
+70,North/ Central Texas Hail Storm,ind severe-storm-ind,2016-04-10,2016-04-12,3.6,#9d76b0,2016-04-10,2016-04-12,2016-04-11,2017-04-11,2016,North/Central Texas Hail Storm,NA
+71,Midwest/ Ohio Valley Severe Weather,ind severe-storm-ind,2012-04-28,2012-05-01,3.5,#9d76b0,2012-04-28,2012-05-01,2012-04-29,2017-04-29,2012,Midwest/Ohio Valley Severe Weather,NA
+72,Midwest Tornadoes and Severe Weather,ind severe-storm-ind,2008-05-22,2008-05-27,3.5,#9d76b0,2008-05-22,2008-05-27,2008-05-24,2017-05-24,2008,Midwest Tornadoes and Severe Weather,NA
+73,Hurricane Juan,ind tropical-cyclone-ind,1985-10-27,1985-10-31,3.5,#397dc2,1985-10-27,1985-10-31,1985-10-29,2017-10-29,1985,Hurricane Juan,1
+74,Southeast/ Ohio Valley Tornadoes,ind severe-storm-ind,2012-03-02,2012-03-03,3.4,#9d76b0,2012-03-02,2012-03-03,2012-03-02,2017-03-02,2012,Southeast/Ohio Valley Tornadoes,NA
+75,Hurricane Marilyn,ind tropical-cyclone-ind,1995-09-15,1995-09-17,3.4,#397dc2,1995-09-15,1995-09-17,1995-09-16,2017-09-16,1995,Hurricane Marilyn,1
+76,Western Wildfires,ind wildfire-ind,2007-06-01,2007-08-31,3.3,#9b0e11,2007-06-01,2007-08-31,2007-07-16,2017-07-16,2007,Western Wildfires,NA
+77,Mississippi River flooding,ind flooding-ind,2011-04-01,2011-05-31,3.3,#699d8f,2011-04-01,2011-05-31,2011-05-01,2017-05-01,2011,Mississippi River flooding,NA
+78,Western and Alaskan Wildfires,ind wildfire-ind,2015-06-01,2015-11-30,3.2,#9b0e11,2015-06-01,2015-11-30,2015-08-31,2017-08-31,2015,Western and Alaskan Wildfires,NA
+79,Hurricane Dennis,ind tropical-cyclone-ind,2005-07-09,2005-07-11,3.2,#397dc2,2005-07-09,2005-07-11,2005-07-10,2017-07-10,2005,Hurricane Dennis,1
+80,Plains/ East/ Northeast Severe Weather,ind severe-storm-ind,2012-06-29,2012-07-02,3.1,#9d76b0,2012-06-29,2012-07-02,2012-06-30,2017-06-30,2012,Plains/East/Northeast Severe Weather,NA
+81,Midwest/ Southeast Tornadoes,ind severe-storm-ind,2011-04-04,2011-04-05,3.1,#9d76b0,2011-04-04,2011-04-05,2011-04-04,2017-04-04,2011,Midwest/Southeast Tornadoes,NA
+82,"Central and Eastern Winter storm, Cold Wave",ind winter-storm-ind,2015-02-14,2015-02-20,3.1,#61c6e2,2015-02-14,2015-02-20,2015-02-17,2017-02-17,2015,"Central and Eastern Winter storm, Cold Wave",NA
+83,Oklahoma and Kansas Tornadoes,ind severe-storm-ind,1999-05-03,1999-05-06,3,#9d76b0,1999-05-03,1999-05-06,1999-05-04,2017-05-04,1999,Oklahoma and Kansas Tornadoes,NA
+84,Midwest Tornadoes,ind severe-storm-ind,2006-04-13,2006-04-16,3,#9d76b0,2006-04-13,2006-04-16,2006-04-14,2017-04-14,2006,Midwest Tornadoes,NA
+85,Hurricane Isaac,ind tropical-cyclone-ind,2012-08-26,2012-08-31,3,#397dc2,2012-08-26,2012-08-31,2012-08-28,2017-08-28,2012,Hurricane Isaac,1
+86,Hurricane Elena,ind tropical-cyclone-ind,1985-08-30,1985-09-03,3,#397dc2,1985-08-30,1985-09-03,1985-09-01,2017-09-01,1985,Hurricane Elena,1
+87,East/ South Severe Weather and Flooding,ind severe-storm-ind,2007-04-13,2007-04-17,3,#9d76b0,2007-04-13,2007-04-17,2007-04-15,2017-04-15,2007,East/South Severe Weather and Flooding,NA
+88,Severe Storms and Tornadoes,ind severe-storm-ind,2002-04-27,2002-04-28,2.9,#9d76b0,2002-04-27,2002-04-28,2002-04-27,2017-04-27,2002,Severe Storms and Tornadoes,NA
+89,Tropical Storm Lee,ind tropical-cyclone-ind,2011-09-01,2011-09-05,2.8,#397dc2,2011-09-01,2011-09-05,2011-09-03,2017-09-03,2011,Tropical Storm Lee,1
+90,Southern Plains Drought,ind drought-ind,1996-03-01,1996-08-31,2.8,#efba2b,1996-03-01,1996-08-31,1996-05-31,2017-05-31,1996,Southern Plains Drought,NA
+91,Rockies/ Southwest Severe Weather,ind severe-storm-ind,2012-06-06,2012-06-12,2.8,#9d76b0,2012-06-06,2012-06-12,2012-06-09,2017-06-09,2012,Rockies/Southwest Severe Weather,NA
+92,Houston Flooding,ind flooding-ind,2016-04-17,2016-04-18,2.8,#699d8f,2016-04-17,2016-04-18,2016-04-17,2017-04-17,2016,Houston Flooding,NA
+93,Florida Freeze,ind freeze-ind,1985-01-20,1985-01-22,2.8,#61c6e2,1985-01-20,1985-01-22,1985-01-21,2017-01-21,1985,Florida Freeze,NA
+94,Severe Storms/ Hail,ind severe-storm-ind,2003-04-04,2003-04-07,2.7,#9d76b0,2003-04-04,2003-04-07,2003-04-05,2017-04-05,2003,Severe Storms/Hail,NA
+95,Hurricane Bob,ind tropical-cyclone-ind,1991-08-18,1991-08-20,2.7,#397dc2,1991-08-18,1991-08-20,1991-08-19,2017-08-19,1991,Hurricane Bob,1
+96,Texas and Oklahoma Flooding and Severe Weather,ind flooding-ind,2015-05-23,2015-05-26,2.6,#699d8f,2015-05-23,2015-05-26,2015-05-24,2017-05-24,2015,Texas and Oklahoma Flooding and Severe Weather,NA
+97,East/ South Flooding and Severe Weather,ind flooding-ind,2010-04-30,2010-05-02,2.6,#699d8f,2010-04-30,2010-05-02,2010-05-01,2017-05-01,2010,East/South Flooding and Severe Weather,NA
+98,Western/ Southeast Wildfires,ind wildfire-ind,2016-06-01,2016-12-31,2.5,#9b0e11,2016-06-01,2016-12-31,2016-09-15,2017-09-15,2016,Western/Southeast Wildfires,NA
+99,Spring Freeze,ind freeze-ind,2007-04-04,2007-04-10,2.5,#61c6e2,2007-04-04,2007-04-10,2007-04-07,2017-04-07,2007,Spring Freeze,NA
+100,Southern Plains/ Midwest/ Northeast Severe Weather,ind severe-storm-ind,2012-05-25,2012-05-30,2.5,#9d76b0,2012-05-25,2012-05-30,2012-05-27,2017-05-27,2012,Southern Plains/Midwest/Northeast Severe Weather,NA
+101,South/ Southeast Tornadoes,ind severe-storm-ind,2016-04-26,2016-05-02,2.5,#9d76b0,2016-04-26,2016-05-02,2016-04-29,2017-04-29,2016,South/Southeast Tornadoes,NA
+102,Minnesota Severe Storms/ Hail,ind severe-storm-ind,1998-05-15,1998-05-15,2.5,#9d76b0,1998-05-15,1998-05-15,1998-05-15,2017-05-15,1998,Minnesota Severe Storms/Hail,NA
+103,Minnesota Hail Storm and Upper Midwest Severe Weather,ind severe-storm-ind,2017-06-09,2017-06-16,2.5,#9d76b0,2017-06-09,2017-06-16,2017-06-12,2017-06-12,2017,Minnesota Hail Storm and Upper Midwest Severe Weather,NA
+104,Midwest/ Plains/ East Tornadoes,ind severe-storm-ind,2013-05-18,2013-05-22,2.5,#9d76b0,2013-05-18,2013-05-22,2013-05-20,2017-05-20,2013,Midwest/Plains/East Tornadoes,NA
+105,Texas and Louisiana Flooding,ind flooding-ind,2016-03-08,2016-03-12,2.4,#699d8f,2016-03-08,2016-03-12,2016-03-10,2017-03-10,2016,Texas and Louisiana Flooding,NA
+106,Southeast/ Midwest Tornadoes,ind severe-storm-ind,2011-04-08,2011-04-11,2.4,#9d76b0,2011-04-08,2011-04-11,2011-04-09,2017-04-09,2011,Southeast/Midwest Tornadoes,NA
+107,California Wildfires,ind wildfire-ind,1993-09-01,1993-11-30,2.4,#9b0e11,1993-09-01,1993-11-30,1993-10-16,2017-10-16,1993,California Wildfires,NA
+108,Midwest/ Southeast/ Northeast Winter Storm,ind winter-storm-ind,2014-01-05,2014-01-08,2.3,#61c6e2,2014-01-05,2014-01-08,2014-01-06,2017-01-06,2014,Midwest/Southeast/Northeast Winter Storm,NA
+109,Midwest/ Southeast Tornadoes,ind severe-storm-ind,2011-04-14,2011-04-16,2.3,#9d76b0,2011-04-14,2011-04-16,2011-04-15,2017-04-15,2011,Midwest/Southeast Tornadoes,NA
+110,Southern Severe Storms and Flooding,ind flooding-ind,1980-04-10,1980-04-17,2.2,#699d8f,1980-04-10,1980-04-17,1980-04-13,2017-04-13,1980,Southern Severe Storms and Flooding,NA
+111,Southeast Drought/ Heat Wave,ind drought-ind,1993-06-01,1993-08-31,2.2,#efba2b,1993-06-01,1993-08-31,1993-07-16,2017-07-16,1993,Southeast Drought/Heat Wave,NA
+112,Missouri River flooding,ind flooding-ind,2011-05-01,2011-06-30,2.2,#699d8f,2011-05-01,2011-06-30,2011-05-31,2017-05-31,2011,Missouri River flooding,NA
+113,Colorado Hail Storm and Central Severe Weather,ind severe-storm-ind,2017-05-08,2017-05-11,2.2,#9d76b0,2017-05-08,2017-05-11,2017-05-09,2017-05-09,2017,Colorado Hail Storm and Central Severe Weather,NA
+114,Texas Tornadoes and Midwest Flooding,ind severe-storm-ind,2015-12-26,2015-12-29,2.1,#9d76b0,2015-12-26,2015-12-29,2015-12-27,2017-12-27,2015,Texas Tornadoes and Midwest Flooding,NA
+115,Southeast Severe Weather,ind severe-storm-ind,2013-03-18,2013-03-18,2.1,#9d76b0,2013-03-18,2013-03-18,2013-03-18,2017-03-18,2013,Southeast Severe Weather,NA
+116,South/ Southeast Severe Weather,ind severe-storm-ind,2017-03-26,2017-03-28,2.1,#9d76b0,2017-03-26,2017-03-28,2017-03-27,2017-03-27,2017,South/Southeast Severe Weather,NA
+117,South Carolina and East Coast Flooding,ind flooding-ind,2015-10-01,2015-10-05,2.1,#699d8f,2015-10-01,2015-10-05,2015-10-03,2017-10-03,2015,South Carolina and East Coast Flooding,NA
+118,Northeast Ice Storm,ind winter-storm-ind,1998-01-05,1998-01-09,2.1,#61c6e2,1998-01-05,1998-01-09,1998-01-07,2017-01-07,1998,Northeast Ice Storm,NA
+119,Northeast Flooding,ind flooding-ind,2010-03-01,2010-03-31,2.1,#699d8f,2010-03-01,2010-03-31,2010-03-16,2017-03-16,2010,Northeast Flooding,NA
+120,North Texas Hail Storm,ind severe-storm-ind,2016-03-23,2016-03-24,2.1,#9d76b0,2016-03-23,2016-03-24,2016-03-23,2017-03-23,2016,North Texas Hail Storm,NA
+121,Midwest Tornado Outbreak,ind severe-storm-ind,2017-03-06,2017-03-08,2.1,#9d76b0,2017-03-06,2017-03-08,2017-03-07,2017-03-07,2017,Midwest Tornado Outbreak,NA
+122,Hurricane Gloria,ind tropical-cyclone-ind,1985-09-26,1985-09-28,2,#397dc2,1985-09-26,1985-09-28,1985-09-27,2017-09-27,1985,Hurricane Gloria,1
+123,"Texas, New Mexico, Arizona Wildfires",ind wildfire-ind,2011-06-01,2011-11-30,2,#9b0e11,2011-06-01,2011-11-30,2011-08-31,2017-08-31,2011,"Texas, New Mexico, Arizona Wildfires",NA
+124,Southeast/ Ohio Valley Severe Weather,ind severe-storm-ind,2009-02-10,2009-02-11,2,#9d76b0,2009-02-10,2009-02-11,2009-02-10,2017-02-10,2009,Southeast/Ohio Valley Severe Weather,NA
+125,Rockies/ Central Plains Severe Weather,ind severe-storm-ind,2014-06-03,2014-06-05,2,#9d76b0,2014-06-03,2014-06-05,2014-06-04,2017-06-04,2014,Rockies/Central Plains Severe Weather,NA
+126,Midwest/ Southeast Tornadoes,ind severe-storm-ind,2006-04-06,2006-04-08,2,#9d76b0,2006-04-06,2006-04-08,2006-04-07,2017-04-07,2006,Midwest/Southeast Tornadoes,NA
+127,Groundhog Day Blizzard,ind winter-storm-ind,2011-02-01,2011-02-03,2,#61c6e2,2011-02-01,2011-02-03,2011-02-02,2017-02-02,2011,Groundhog Day Blizzard,NA
+128,"Winter Storm, Cold Wave",ind winter-storm-ind,1985-01-19,1985-01-22,1.9,#61c6e2,1985-01-19,1985-01-22,1985-01-20,2017-01-20,1985,"Winter Storm, Cold Wave",NA
+129,Hurricane Allen,ind tropical-cyclone-ind,1980-08-07,1980-08-11,1.9,#397dc2,1980-08-07,1980-08-11,1980-08-09,2017-08-09,1980,Hurricane Allen,1
+130,Western Wildfires,ind wildfire-ind,2012-06-01,2012-11-30,1.9,#9b0e11,2012-06-01,2012-11-30,2012-08-31,2017-08-31,2012,Western Wildfires,NA
+131,Southern Flooding,ind flooding-ind,1990-05-11,1990-05-19,1.9,#699d8f,1990-05-11,1990-05-19,1990-05-15,2017-05-15,1990,Southern Flooding,NA
+132,Northeast Flooding,ind flooding-ind,2006-06-25,2006-06-28,1.9,#699d8f,2006-06-25,2006-06-28,2006-06-26,2017-06-26,2006,Northeast Flooding,NA
+133,Midwest/ Southeast Tornadoes,ind severe-storm-ind,2009-03-25,2009-03-28,1.9,#9d76b0,2009-03-25,2009-03-28,2009-03-26,2017-03-26,2009,Midwest/Southeast Tornadoes,NA
+134,Midwest/ Plains/ Northeast Tornadoes,ind severe-storm-ind,2013-05-27,2013-05-31,1.9,#9d76b0,2013-05-27,2013-05-31,2013-05-29,2017-05-29,2013,Midwest/Plains/Northeast Tornadoes,NA
+135,Midwest/ Mid-Atlantic Severe Weather,ind severe-storm-ind,2008-06-06,2008-06-12,1.9,#9d76b0,2008-06-06,2008-06-12,2008-06-09,2017-06-09,2008,Midwest/Mid-Atlantic Severe Weather,NA
+136,Midwest Drought,ind drought-ind,2005-03-01,2005-08-31,1.9,#efba2b,2005-03-01,2005-08-31,2005-05-31,2017-05-31,2005,Midwest Drought,NA
+137,Western Fire Season,ind wildfire-ind,2002-09-01,2002-11-30,1.8,#9b0e11,2002-09-01,2002-11-30,2002-10-16,2017-10-16,2002,Western Fire Season,NA
+138,Plains Tornadoes and Central Severe Weather,ind severe-storm-ind,2016-05-08,2016-05-11,1.8,#9d76b0,2016-05-08,2016-05-11,2016-05-09,2017-05-09,2016,Plains Tornadoes and Central Severe Weather,NA
+139,Numerous Wildfires,ind wildfire-ind,2006-01-01,2006-12-31,1.8,#9b0e11,2006-01-01,2006-12-31,2006-07-02,2017-07-02,2006,Numerous Wildfires,NA
+140,Midwest/ Southeast/ Northeast Tornadoes and Flooding,ind severe-storm-ind,2014-04-27,2014-05-01,1.8,#9d76b0,2014-04-27,2014-05-01,2014-04-29,2017-04-29,2014,Midwest/Southeast/Northeast Tornadoes and Flooding,NA
+141,Central/ Southeast Tornado Outbreak,ind severe-storm-ind,2017-02-28,2017-03-01,1.8,#9d76b0,2017-02-28,2017-03-01,2017-02-28,2017-02-28,2017,Central/Southeast Tornado Outbreak,NA
+142,"Midwest/ Southeast/ Northeast Winter Storm, Cold Wave",ind winter-storm-ind,1982-01-08,1982-01-16,1.7,#61c6e2,1982-01-08,1982-01-16,1982-01-12,2017-01-12,1982,"Midwest/Southeast/Northeast Winter Storm, Cold Wave",NA
+143,"Winter Storm, Cold Wave",ind winter-storm-ind,1994-01-17,1994-01-20,1.7,#61c6e2,1994-01-17,1994-01-20,1994-01-18,2017-01-18,1994,"Winter Storm, Cold Wave",NA
+144,Tropical Storm Alberto,ind tropical-cyclone-ind,1994-07-07,1994-07-10,1.7,#397dc2,1994-07-07,1994-07-10,1994-07-08,2017-07-08,1994,Tropical Storm Alberto,1
+145,Texas Flooding,ind flooding-ind,1994-10-16,1994-10-25,1.7,#699d8f,1994-10-16,1994-10-25,1994-10-20,2017-10-20,1994,Texas Flooding,NA
+146,South/ Southeast Severe Weather & Tornadoes,ind severe-storm-ind,2009-04-09,2009-04-10,1.7,#9d76b0,2009-04-09,2009-04-10,2009-04-09,2017-04-09,2009,South/Southeast Severe Weather & Tornadoes,NA
+147,"Severe Storms, Tornadoes",ind severe-storm-ind,1998-05-30,1998-06-02,1.7,#9d76b0,1998-05-30,1998-06-02,1998-05-31,2017-05-31,1998,"Severe Storms, Tornadoes",NA
+148,Severe Storms and Tornadoes,ind severe-storm-ind,2006-03-08,2006-03-13,1.7,#9d76b0,2006-03-08,2006-03-13,2006-03-10,2017-03-10,2006,Severe Storms and Tornadoes,NA
+149,Missouri and Arkansas Flooding and Central Severe Weather,ind flooding-ind,2017-04-25,2017-05-07,1.7,#699d8f,2017-04-25,2017-05-07,2017-05-01,2017-05-01,2017,Missouri and Arkansas Flooding and Central Severe Weather,NA
+150,Midwest/ Southeast Tornadoes and Severe Weather,ind severe-storm-ind,2011-06-18,2011-06-22,1.7,#9d76b0,2011-06-18,2011-06-22,2011-06-20,2017-06-20,2011,Midwest/Southeast Tornadoes and Severe Weather,NA
+151,Midwest/ Plains Tornadoes,ind severe-storm-ind,1994-04-25,1994-04-27,1.7,#9d76b0,1994-04-25,1994-04-27,1994-04-26,2017-04-26,1994,Midwest/Plains Tornadoes,NA
+152,"Hail, Tornadoes",ind severe-storm-ind,1992-04-28,1992-04-29,1.7,#9d76b0,1992-04-28,1992-04-29,1992-04-28,2017-04-28,1992,"Hail, Tornadoes",NA
+153,California Freeze,ind freeze-ind,2007-01-11,2007-01-17,1.7,#61c6e2,2007-01-11,2007-01-17,2007-01-14,2017-01-14,2007,California Freeze,NA
+154,Colorado Hail Storm,ind severe-storm-ind,1990-07-11,1990-07-11,1.6,#9d76b0,1990-07-11,1990-07-11,1990-07-11,2017-07-11,1990,Colorado Hail Storm,NA
+155,Western Fire Season,ind wildfire-ind,2000-03-01,2000-08-31,1.6,#9b0e11,2000-03-01,2000-08-31,2000-05-31,2017-05-31,2000,Western Fire Season,NA
+156,Pacific Northwest Severe Flooding,ind flooding-ind,1996-02-07,1996-02-12,1.6,#699d8f,1996-02-07,1996-02-12,1996-02-09,2017-02-09,1996,Pacific Northwest Severe Flooding,NA
+157,Midwest/ Ohio Valley Severe Weather,ind severe-storm-ind,2015-04-07,2015-04-09,1.6,#9d76b0,2015-04-07,2015-04-09,2015-04-08,2017-04-08,2015,Midwest/Ohio Valley Severe Weather,NA
+158,Colorado Flooding,ind flooding-ind,2013-09-10,2013-09-16,1.6,#699d8f,2013-09-10,2013-09-16,2013-09-13,2017-09-13,2013,Colorado Flooding,NA
+159,Western/ Eastern Severe Weather and Flooding,ind severe-storm-ind,1997-12-01,1998-02-28,1.5,#9d76b0,1997-12-01,1998-02-28,1998-01-14,2017-01-14,1998,Western/Eastern Severe Weather and Flooding,NA
+160,Rockies/ Plains Severe Weather,ind severe-storm-ind,2014-09-29,2014-10-02,1.5,#9d76b0,2014-09-29,2014-10-02,2014-09-30,2017-09-30,2014,Rockies/Plains Severe Weather,NA
+161,Rockies and Northeast Severe Weather,ind severe-storm-ind,2016-07-28,2016-07-30,1.5,#9d76b0,2016-07-28,2016-07-30,2016-07-29,2017-07-29,2016,Rockies and Northeast Severe Weather,NA
+162,Plains Severe Weather,ind severe-storm-ind,2014-04-02,2014-04-03,1.5,#9d76b0,2014-04-02,2014-04-03,2014-04-02,2017-04-02,2014,Plains Severe Weather,NA
+163,Mississippi and Ohio Valley Severe Weather and Flooding,ind severe-storm-ind,1997-02-28,1997-03-05,1.5,#9d76b0,1997-02-28,1997-03-05,1997-03-02,2017-03-02,1997,Mississippi and Ohio Valley Severe Weather and Flooding,NA
+164,Midwest/ Plains Severe Weather,ind severe-storm-ind,2013-04-07,2013-04-11,1.5,#9d76b0,2013-04-07,2013-04-11,2013-04-09,2017-04-09,2013,Midwest/Plains Severe Weather,NA
+165,"Midwest, South and East Severe Weather",ind severe-storm-ind,2009-06-09,2009-06-12,1.5,#9d76b0,2009-06-09,2009-06-12,2009-06-10,2017-06-10,2009,"Midwest, South and East Severe Weather",NA
+166,Hurricane Lili,ind tropical-cyclone-ind,2002-08-01,2002-08-05,1.5,#397dc2,2002-08-01,2002-08-05,2002-08-03,2017-08-03,2002,Hurricane Lili,1
+167,Hurricane Dolly,ind tropical-cyclone-ind,2008-07-23,2008-07-25,1.5,#397dc2,2008-07-23,2008-07-25,2008-07-24,2017-07-24,2008,Hurricane Dolly,1
+168,Hurricane Bonnie,ind tropical-cyclone-ind,1998-08-27,1998-08-29,1.5,#397dc2,1998-08-27,1998-08-29,1998-08-28,2017-08-28,1998,Hurricane Bonnie,1
+169,Central and Eastern Winter Storm,ind winter-storm-ind,1999-01-01,1999-01-04,1.5,#61c6e2,1999-01-01,1999-01-04,1999-01-02,2017-01-02,1999,Central and Eastern Winter Storm,NA
+170,California Flooding,ind flooding-ind,2017-02-08,2017-02-22,1.5,#699d8f,2017-02-08,2017-02-22,2017-02-15,2017-02-15,2017,California Flooding,NA
+171,"Winter Storm, Cold Wave",ind winter-storm-ind,1989-12-21,1989-12-26,1.4,#61c6e2,1989-12-21,1989-12-26,1989-12-23,2017-12-23,1989,"Winter Storm, Cold Wave",NA
+172,"Tornadoes, Severe Storms, Floods",ind severe-storm-ind,1984-03-27,1984-04-07,1.4,#9d76b0,1984-03-27,1984-04-07,1984-04-01,2017-04-01,1984,"Tornadoes, Severe Storms, Floods",NA
+173,Texas Flooding,ind flooding-ind,1998-10-16,1998-10-24,1.4,#699d8f,1998-10-16,1998-10-24,1998-10-20,2017-10-20,1998,Texas Flooding,NA
+174,Severe Storms,ind severe-storm-ind,1992-03-24,1992-03-25,1.4,#9d76b0,1992-03-24,1992-03-25,1992-03-24,2017-03-24,1992,Severe Storms,NA
+175,U.S. Wildfires,ind wildfire-ind,2008-09-01,2008-11-30,1.4,#9b0e11,2008-09-01,2008-11-30,2008-10-16,2017-10-16,2008,U.S. Wildfires,NA
+176,Southeast Tornadoes and Severe Weather,ind severe-storm-ind,2008-02-05,2008-02-06,1.4,#9d76b0,2008-02-05,2008-02-06,2008-02-05,2017-02-05,2008,Southeast Tornadoes and Severe Weather,NA
+177,Severe Weather,ind severe-storm-ind,2003-07-21,2003-07-23,1.4,#9d76b0,2003-07-21,2003-07-23,2003-07-22,2017-07-22,2003,Severe Weather,NA
+178,Rockies and Midwest Severe Weather,ind severe-storm-ind,2011-07-10,2011-07-14,1.4,#9d76b0,2011-07-10,2011-07-14,2011-07-12,2017-07-12,2011,Rockies and Midwest Severe Weather,NA
+179,"Severe Storms, Hail",ind severe-storm-ind,1992-06-19,1992-06-20,1.3,#9d76b0,1992-06-19,1992-06-20,1992-06-19,2017-06-19,1992,"Severe Storms, Hail",NA
+180,Midwest/ Plains/ Southeast Tornadoes,ind severe-storm-ind,1982-04-02,1982-04-04,1.3,#9d76b0,1982-04-02,1982-04-04,1982-04-03,2017-04-03,1982,Midwest/Plains/Southeast Tornadoes,NA
+181,Central and Eastern Winter Storm,ind winter-storm-ind,1999-01-13,1999-01-16,1.3,#61c6e2,1999-01-13,1999-01-16,1999-01-14,2017-01-14,1999,Central and Eastern Winter Storm,NA
+182,Southern Plains Tornadoes,ind severe-storm-ind,2015-05-06,2015-05-10,1.3,#9d76b0,2015-05-06,2015-05-10,2015-05-08,2017-05-08,2015,Southern Plains Tornadoes,NA
+183,Southeast Tornadoes,ind severe-storm-ind,2008-03-14,2008-03-15,1.3,#9d76b0,2008-03-14,2008-03-15,2008-03-14,2017-03-14,2008,Southeast Tornadoes,NA
+184,South/ Southeast Severe Weather,ind severe-storm-ind,2015-04-18,2015-04-20,1.3,#9d76b0,2015-04-18,2015-04-20,2015-04-19,2017-04-19,2015,South/Southeast Severe Weather,NA
+185,"Severe Storms, Hail, Tornadoes",ind severe-storm-ind,2004-05-21,2004-05-27,1.3,#9d76b0,2004-05-21,2004-05-27,2004-05-24,2017-05-24,2004,"Severe Storms, Hail, Tornadoes",NA
+186,Midwest/ Southeast Severe Weather,ind severe-storm-ind,2011-08-17,2011-08-18,1.3,#9d76b0,2011-08-17,2011-08-18,2011-08-17,2017-08-17,2011,Midwest/Southeast Severe Weather,NA
+187,Western Severe Storms and Flooding,ind severe-storm-ind,1986-02-14,1986-02-16,1.2,#9d76b0,1986-02-14,1986-02-16,1986-02-15,2017-02-15,1986,Western Severe Storms and Flooding,NA
+188,Western Fire Season,ind wildfire-ind,1994-06-01,1994-11-30,1.2,#9b0e11,1994-06-01,1994-11-30,1994-08-31,2017-08-31,1994,Western Fire Season,NA
+189,"Severe Storms, Tornadoes",ind severe-storm-ind,1991-03-26,1991-03-29,1.2,#9d76b0,1991-03-26,1991-03-29,1991-03-27,2017-03-27,1991,"Severe Storms, Tornadoes",NA
+190,Severe storms,ind severe-storm-ind,1982-05-31,1982-06-10,1.2,#9d76b0,1982-05-31,1982-06-10,1982-06-05,2017-06-05,1982,Severe storms,NA
+191,Midwest/ Plains Severe Weather,ind severe-storm-ind,2003-07-04,2003-07-09,1.2,#9d76b0,2003-07-04,2003-07-09,2003-07-06,2017-07-06,2003,Midwest/Plains Severe Weather,NA
+192,Western Wildfires,ind wildfire-ind,2009-06-01,2009-11-30,1.2,#9b0e11,2009-06-01,2009-11-30,2009-08-31,2017-08-31,2009,Western Wildfires,NA
+193,Southern Severe Weather,ind severe-storm-ind,2016-03-17,2016-03-18,1.2,#9d76b0,2016-03-17,2016-03-18,2016-03-17,2017-03-17,2016,Southern Severe Weather,NA
+194,Southern Severe Weather,ind severe-storm-ind,2008-04-09,2008-04-11,1.2,#9d76b0,2008-04-09,2008-04-11,2008-04-10,2017-04-10,2008,Southern Severe Weather,NA
+195,Rockies/ Central Tornadoes and Severe Weather,ind severe-storm-ind,2016-05-21,2016-05-26,1.2,#9d76b0,2016-05-21,2016-05-26,2016-05-23,2017-05-23,2016,Rockies/Central Tornadoes and Severe Weather,NA
+196,Ohio Valley/ South Tornadoes,ind severe-storm-ind,2011-04-19,2011-04-20,1.2,#9d76b0,2011-04-19,2011-04-20,2011-04-19,2017-04-19,2011,Ohio Valley/South Tornadoes,NA
+197,Ohio Valley Tornadoes,ind severe-storm-ind,2013-11-17,2013-11-17,1.2,#9d76b0,2013-11-17,2013-11-17,2013-11-17,2017-11-17,2013,Ohio Valley Tornadoes,NA
+198,Midwest Tornadoes,ind severe-storm-ind,2012-04-13,2012-04-14,1.2,#9d76b0,2012-04-13,2012-04-14,2012-04-13,2017-04-13,2012,Midwest Tornadoes,NA
+199,Colorado Hail Storm,ind severe-storm-ind,2009-07-20,2009-07-20,1.2,#9d76b0,2009-07-20,2009-07-20,2009-07-20,2017-07-20,2009,Colorado Hail Storm,NA
+200,Central and Northeast Severe Weather,ind severe-storm-ind,2015-06-21,2015-06-25,1.2,#9d76b0,2015-06-21,2015-06-25,2015-06-23,2017-06-23,2015,Central and Northeast Severe Weather,NA
+201,"Severe Storms, Flash Floods, Hail, Tornadoes",ind severe-storm-ind,1981-05-05,1981-05-10,1.1,#9d76b0,1981-05-05,1981-05-10,1981-05-07,2017-05-07,1981,"Severe Storms, Flash Floods, Hail, Tornadoes",NA
+202,Severe Storms and Hail,ind severe-storm-ind,1984-06-13,1984-06-17,1.1,#9d76b0,1984-06-13,1984-06-17,1984-06-15,2017-06-15,1984,Severe Storms and Hail,NA
+203,Severe Storms,ind severe-storm-ind,1989-05-01,1989-05-06,1.1,#9d76b0,1989-05-01,1989-05-06,1989-05-03,2017-05-03,1989,Severe Storms,NA
+204,Midwest/ Northeast Severe Storms and Flooding,ind severe-storm-ind,2010-07-20,2010-07-23,1.1,#9d76b0,2010-07-20,2010-07-23,2010-07-21,2017-07-21,2010,Midwest/Northeast Severe Storms and Flooding,NA
+205,Texas Tornadoes,ind severe-storm-ind,2012-04-02,2012-04-03,1.1,#9d76b0,2012-04-02,2012-04-03,2012-04-02,2017-04-02,2012,Texas Tornadoes,NA
+206,Southern Tornado Outbreak and Western Storms,ind severe-storm-ind,2017-01-20,2017-01-22,1.1,#9d76b0,2017-01-20,2017-01-22,2017-01-21,2017-01-21,2017,Southern Tornado Outbreak and Western Storms,NA
+207,Southeast and Eastern Tornadoes,ind severe-storm-ind,2016-02-22,2016-02-24,1.1,#9d76b0,2016-02-22,2016-02-24,2016-02-23,2017-02-23,2016,Southeast and Eastern Tornadoes,NA
+208,Midwest Severe Weather,ind severe-storm-ind,2013-08-06,2013-08-07,1.1,#9d76b0,2013-08-06,2013-08-07,2013-08-06,2017-08-06,2013,Midwest Severe Weather,NA
+209,Michigan and Northeast Flooding,ind flooding-ind,2014-08-11,2014-08-13,1.1,#699d8f,2014-08-11,2014-08-13,2014-08-12,2017-08-12,2014,Michigan and Northeast Flooding,NA
+210,Illinois Flooding and Severe Weather,ind flooding-ind,2013-04-16,2013-04-19,1.1,#699d8f,2013-04-16,2013-04-19,2013-04-17,2017-04-17,2013,Illinois Flooding and Severe Weather,NA

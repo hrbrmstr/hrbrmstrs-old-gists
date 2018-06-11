@@ -1,0 +1,227 @@
+---
+title: 'Visualizing Survey Data : Comparison Between Observations'
+author: "Bob Rudis (@hrbrmstr)"
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+library(svglite)
+knitr::opts_chunk$set(echo=TRUE,
+                      message=FALSE,
+                      error=FALSE,
+                      warning=FALSE,
+                      fig.retina=2,
+                      dev='svglite',
+                      fig.width=10,
+                      fig.height=6,
+                      fig.ext="svg")
+```
+
+Cybersecurity is a domain that _really_ likes survey, or at the very least it has many folks within it that like to conduct and report on surveys. One recent [survey on threat intelligence](http://www.ponemon.org/blog/the-second-annual-study-on-exchanging-cyber-threat-intelligence-there-has-to-be-a-better-way) is in it's second year, so it sets about comparing answers across years. Rather than go ingo the _many_ technical/statistical issues with this survey, I'd like to focus on alternate ways to visualize the comparison across years.
+
+We'll use the data that makes up this chart (Figure 3 from the report):
+
+![](surveybars.png)
+
+since it's pretty representative of the remainder of the figures.
+
+Let's start by reproducing this figure with ggplot2:
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(scales)
+library(ggthemes)
+library(extrafont)
+```
+
+```{r cache=TRUE}
+loadfonts(quiet=TRUE)
+```
+
+```{r}
+read.csv("question.csv", stringsAsFactors=FALSE) %>%
+  gather(year, value, -belief) %>%
+  mutate(year=factor(sub("y", "", year)),
+         belief=str_wrap(belief, 40)) -> question
+
+beliefs <- unique(question$belief)
+question$belief <- factor(beliefs, levels=rev(beliefs[c(1,2,4,5,3,7,6)]))
+
+# basic dodged bars -------------------------------------------------------
+
+gg <- ggplot(question, aes(belief, value, group=year))
+gg <- gg + geom_bar(aes(fill=year), stat="identity", position="dodge",
+                    color="white", width=0.85)
+gg <- gg + geom_text(aes(label=percent(value)), hjust=-0.15,
+                     position=position_dodge(width=0.8), size=3)
+gg <- gg + scale_x_discrete(expand=c(0,0))
+gg <- gg + scale_y_continuous(expand=c(0,0), label=percent, limits=c(0,0.8))
+gg <- gg + scale_fill_tableau(name="")
+gg <- gg + coord_flip()
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+Now, survey does caveat the findings and talks about non-response bias, sampling-frame bias and self-reporting bias. However, nowhere does it talk about the margin of error or anything relating to uncertainty. Thankfully, both the 2014 and 2015 reports communicate population and sample sizes, so we can figure out the margin of error:
+
+```{r}
+library(samplesize4surveys)
+
+moe_2014 <- e4p(19915, 701, 0.5)
+
+moe_2015 <- e4p(18705, 692, 0.5)
+```
+
+They are both roughly `3.65%` so let's take a look at our dodged bar chart again with this new information:
+
+```{r}
+mutate(question, ymin=value-0.0365, ymax=value+0.0365) -> question
+
+gg <- ggplot(question, aes(belief, value, group=year))
+gg <- gg + geom_bar(aes(fill=year), stat="identity",
+                    position=position_dodge(0.85),
+                    color="white", width=0.85)
+gg <- gg + geom_linerange(aes(ymin=ymin, ymax=ymax),
+                         position=position_dodge(0.85),
+                         size=1.5, color="#bdbdbd")
+gg <- gg + scale_x_discrete(expand=c(0,0))
+gg <- gg + scale_y_continuous(expand=c(0,0), label=percent, limits=c(0,0.85))
+gg <- gg + scale_fill_tableau(name="")
+gg <- gg + coord_flip()
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+Hrm. There seems to be a _bit_ of overlap. Let's just focus on that:
+
+```{r}
+gg <- ggplot(question, aes(belief, value, group=year))
+gg <- gg + geom_pointrange(aes(ymin=ymin, ymax=ymax),
+                         position=position_dodge(0.25),
+                         size=1, color="#bdbdbd", fatten=1)
+gg <- gg + scale_x_discrete(expand=c(0,0))
+gg <- gg + scale_y_continuous(expand=c(0,0), label=percent, limits=c(0,1))
+gg <- gg + scale_fill_tableau(name="")
+gg <- gg + coord_flip()
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+The report actually makes hard claims based on the year-over-year change in the answers many of the questions (not just this chart). Most have these overlapping intervals. Now, I understand that when a paying customer says they want a report that they wouldn't be satisfied with a one-pager saying "See last years's report", but not communicating the uncertainty in these results seems like a significant omission.
+
+But, I digress. There are better ways than bars to show the comparison. One is a "dumbbell chart".
+
+```{r}
+question %>%
+  group_by(belief) %>%
+  mutate(line_col=ifelse(diff(value)<0, "2015", "2014"),
+         hjust=ifelse(diff(value)<0, -0.5, 1.5)) %>%
+  ungroup() -> question
+
+gg <- ggplot(question)
+gg <- gg + geom_path(aes(x=value, y=belief, group=belief, color=line_col))
+gg <- gg + geom_point(aes(x=value, y=belief, color=year))
+gg <- gg + geom_text(data=filter(question, year=="2015"),
+                     aes(x=value, y=belief, label=percent(value),
+                         hjust=hjust), size=2.5)
+gg <- gg + scale_x_continuous(expand=c(0,0), limits=c(0,0.8))
+gg <- gg + scale_color_tableau(name="")
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+I've used line color to indicate whether the 2015 value increased or decreased from 2014.
+
+But, we still have the issue of communicating the marign of error. One way I came up with (which is not perfect) is to superimpose the dot-plot on top of the entire margin of error interval. While it doesn't show the discrete start/end for each year it does help to show that making definitive statements on the value comparisons is not exactly a good idea:
+
+```{r}
+group_by(question, belief) %>%
+  summarize(xmin=min(ymin), xmax=max(ymax)) -> band
+
+gg <- ggplot(question)
+gg <- gg + geom_segment(data=band,
+                        aes(x=xmin, xend=xmax, y=belief, yend=belief),
+                        color="#bdbdbd", alpha=0.5, size=3)
+gg <- gg + geom_path(aes(x=value, y=belief, group=belief, color=line_col),
+                     show.legend=FALSE)
+gg <- gg + geom_point(aes(x=value, y=belief, color=year))
+gg <- gg + geom_text(data=filter(question, year=="2015"),
+                     aes(x=value, y=belief, label=percent(value),
+                         hjust=hjust), size=2.5)
+gg <- gg + scale_x_continuous(expand=c(0,0), limits=c(0,0.8))
+gg <- gg + scale_color_tableau(name="")
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg <- gg + theme(axis.ticks.y=element_blank())
+gg <- gg + theme(legend.position="bottom")
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+Finally, the year-to-year nature of the data was just _begging_ for a slopegraph:
+
+```{r}
+
+question %>% mutate(vjust=0.5) -> question
+question[(question$belief=="Makes threat data more actionable") &
+           (question$year=="2015"),]$vjust <- -1
+question[(question$belief=="Reduces the cost of detecting and\npreventing cyber attacks") &
+           (question$year=="2015"),]$vjust <- 1.5
+
+question$year <- factor(question$year, levels=c("2013", "2014", "2015", "2016", "2017", "2018"))
+
+gg <- ggplot(question)
+gg <- gg + geom_path(aes(x=year, y=value, group=belief, color=line_col))
+gg <- gg + geom_point(aes(x=year, y=value), shape=21, fill="black", color="white")
+gg <- gg + geom_text(data=filter(question, year=="2015"),
+                     aes(x=year, y=value,
+                         label=sprintf("\u2000%s %s", percent(value),
+                                       gsub("\n", " ", belief)),
+                         vjust=vjust), hjust=0, size=3)
+gg <- gg + geom_text(data=filter(question, year=="2014"),
+                     aes(x=year, y=value, label=percent(value)),
+                     hjust=1.3, size=3)
+gg <- gg + scale_x_discrete(expand=c(0,0.1), drop=FALSE)
+gg <- gg + scale_color_tableau(name="")
+gg <- gg + labs(x=NULL, y=NULL, title="Fig 3: Reasons for fully participating\n")
+gg <- gg + theme_tufte(base_family="Arial Narrow")
+gg <- gg + theme(axis.ticks=element_blank())
+gg <- gg + theme(axis.text=element_blank())
+gg <- gg + theme(legend.position="none")
+gg <- gg + theme(plot.title=element_text(hjust=0.5))
+gg <- gg + theme(plot.title=element_text(hjust=0))
+gg
+```
+
+It doesn't help communicate uncertainty but it's a nice alternative to bars. 

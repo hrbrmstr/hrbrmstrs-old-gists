@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  path.gems {
+    fill: white;
+    stroke: black;
+    stroke-width: 0.24;
+  }
+</style>
+<div id="viz"></div>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="textures.min.js"></script>
+<script>
+var width = 960,
+  height = 500;
+
+var svg = d3.select("#viz").append("svg")
+  .attr("width",width)
+  .attr("height",height)
+  .attr("id", "root")
+  .append("g")
+    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
+  .append("g");
+
+var text = d3.select("#root").append("text")
+  .text("Click on a municipality...")
+  .attr("id","legend")
+  .attr("transform","translate(10,15)");
+	  
+var path,
+    banenByID;
+    
+var tl = textures.lines()
+    .size(1.5)
+    .strokeWidth(0.8)
+    .background("white");
+
+svg.call(tl);
+
+var tc = textures.circles()
+    .size(2)
+    .radius(0.25)
+    .background("white");
+    
+svg.call(tc);
+  
+var colours = ["#fef0d9","#fdd49e","#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#990000", "#990000"];
+
+var heatmapColour = d3.scale.linear()
+  .domain(d3.range(0, 1, 1.0 / (colours.length - 1)))
+  .range(colours);
+  
+var c = d3.scale.linear().domain([0,10]).range([0,1]);  
+
+queue()
+  .defer(d3.json,"https://dl.dropboxusercontent.com/u/12712580/GIST/nlGem2012wgs.json")
+  .defer(d3.tsv,"https://dl.dropboxusercontent.com/u/12712580/GIST/nlGemForens2012.tsv")
+  .await(ready);
+  
+function ready(error, mapdata,_banen) {
+  
+  var gemIdByName = {};
+  mapdata.features.forEach(function(d) {
+    gemIdByName[d.properties.name] = d.properties.code;
+  });
+  
+  banenByID = {};
+  _banen.forEach(function(d) {
+    banenByID[d.gemcode] = d;
+  });
+  
+  var center = d3.geo.centroid(mapdata);
+  var scale = 100;
+  var offset = [width/2, height/2];
+  var projection = d3.geo.mercator()
+    .scale(scale)
+    .center(center)
+    .translate(offset);
+    
+    
+  path = d3.geo.path()
+    .projection(projection);
+    
+  var bounds  = path.bounds(mapdata);
+  var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]);
+  var vscale  = scale*height / (bounds[1][1] - bounds[0][1]);
+  var scale   = (hscale < vscale) ? hscale : vscale;
+  var offset  = [width - (bounds[0][0] + bounds[1][0])/2,
+    height -20 -(bounds[0][1] + bounds[1][1])/2];
+    
+  projection = d3.geo.mercator()
+    .center(center)
+    .scale(scale)
+    .translate(offset);
+    
+  path = path.projection(projection);
+  
+  var cont = svg.append("g");  
+  
+  var conts = cont.selectAll(".cont")
+    .data(mapdata.features)
+   .enter().append("path")
+    .attr("d", path)
+    .attr("class","cont")
+    .style("stroke","black")
+    .style("stroke-width",2)
+    .style("fill","white");
+    
+  var map = svg.append("g");  
+  
+  var gems = map.selectAll(".gems")
+    .data(mapdata.features)
+   .enter().append("path")
+    .attr("d", path)
+    .attr("class", function(d) {return "gems G"+pad(d.properties.GEMNR,4)})
+    .on("click",function(d){doIt(d)});
+    
+  var arrows = svg.selectAll("arrows")
+    .data(mapdata.features).enter()
+    .append("g")
+    .attr("transform", function (d) {
+      cx = path.centroid(d)[0];
+      cy = path.centroid(d)[1];
+      return "translate("+cx+","+cy+")"; });
+      
+  var arrow = arrows.append("g")
+    .attr("class","a")
+    .style("display", "none");
+    
+    
+  arrow.append("path")
+  	.attr("class",function (d) {return "arrow p" + d.properties.GEMNR})
+    .attr("d", "M6 0 L1 0.5 L-6 0.5 L-6 -0.5 L1 -0.5 Z")
+    .style("fill", "black");
+  
+};
+
+function doIt(d) {
+	  center = path.centroid(d);
+      code = "G"+pad(d.properties.GEMNR,4);
+      banen = banenByID[code];
+         
+      d3.selectAll(".gems")
+        .style("fill", function(d) {
+          co = "G"+pad(d.properties.GEMNR,4);
+          b = path.bounds(d);
+          v=banen[co];
+          if (co == code) { color = tl.url()}
+          else {color = (v=="" || v==0) ? "white":tc.url()};
+          return color});
+          
+      d3.selectAll(".a")
+        .style("display", function(d) {
+        	co = "G"+pad(d.properties.GEMNR,4);
+        	v=banen[co];
+        	disp = (v=="" || v==0 || co == code) ? "none":"inline";
+        	return disp})
+        .call(compassAngle, center, 2000)
+        .call(compassWidth,500);
+      d3.select("#legend")
+        .text(function() {return  "Commutes to "+d.properties.GEMNM})
+}
+
+function compassAngle(p, center, duration) {
+	p.transition("compassAngle")
+	  .duration(duration)
+	  .ease("elastic-in")
+	  .attr("transform", function(d) {return "rotate("+angleDeg(path.centroid(d),center)+")"});
+}
+
+function compassWidth(p, duration) {
+	p.selectAll(".arrow").transition("compassWidth")
+	  .duration(duration)
+	  //.style("stroke-width", function(d) {return banen["G"+pad(d.properties.GEMNR,4)]})
+	  .attr("transform", function(d) {
+	  	v = banen["G"+pad(d.properties.GEMNR,4)];
+	  	return "scale(1 " + v +")"});
+}
+
+function angleDeg(p1,p2) {
+	return Math.atan2(p2[1] - p1[1], p2[0] - p1[0]) * 180 / Math.PI;
+} 
+
+function pad(num, size) {
+    var s = num+"";
+    while (s.length < size) s = "0" + s;
+    return s;
+}
+
+function zoom() {
+  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+</script>

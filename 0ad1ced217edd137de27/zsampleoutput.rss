@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>user:hrbrmstr</id>
+  <title>hrbrmstr's gist comments</title>
+  <icon>https://assets-cdn.github.com/favicon.ico</icon>
+  <link href="https://github.com/hrbrmstr"/>
+  <updated>2015-07-25T13:55:04Z</updated>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-23T23:23:41Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1503378"/>
+    <title>Comment by ateucher</title>
+    <updated>2015-07-23T23:23:41Z</updated>
+    <author>
+      <name>ateucher</name>
+    </author>
+    <content type="html">Very nice! Regarding the extreme values, is truncating them back to maximum the right thing to do? Or should they &amp;quot;wrap&amp;quot; into the other half of the globe (eg, rather than converting -186.0 to -179.99999, should it actually be 174.0?)
+
+I ask this out of ignorance of the source of the errors...</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T12:55:57Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1506227"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-07-24T12:55:57Z</updated>
+    <author>
+      <name>hrbrmstr</name<name />
+    </author>
+    <content type="html">That&amp;apos;s a good question. I&amp;apos;m going to post this to the r-sig-geo list to get some feedback.</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T18:06:40Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1507414"/>
+    <title>Comment by ateucher</title>
+    <updated>2015-07-24T18:06:40Z</updated>
+    <author>
+      <name>ateucher</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T19:01:32Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1507609"/>
+    <title>Comment by ateucher</title>
+    <updated>2015-07-24T19:01:32Z</updated>
+    <author>
+      <name>ateucher</name>
+    </author>
+    <content type="html">So I don&amp;apos;t think that chopping it at 180 is the answer, as those values &amp;gt; 180 are actually &amp;apos;valid&amp;apos;, as Russia, Fiji, and Antarctica all cross the 180th meridian (https://en.wikipedia.org/wiki/180th_meridian). But I don&amp;apos;t know what the answer is - see the &amp;apos;software representation problems&amp;apos; in the Wikipedia article - we&amp;apos;re not alone :)
+
+library(ggplot2)
+library(maps)
+
+world &amp;lt;- map_data(&amp;quot;world&amp;quot;)
+gg &amp;lt;- ggplot()
+gg &amp;lt;- gg + geom_map(data=world, map=world,
+                    aes(x=long, y=lat, map_id=region))
+gg &amp;lt;- gg + xlim(c(170, 200)) + ylim(c(60, 70))
+gg</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T20:02:06Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1507834"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-07-24T20:02:06Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">As I posted on Twitter (adding it here just for folks who stumble on this via my blog post) i totally knew I was DESTROYING THE EARTH with that hack ;-) rworldmap::getMap() has a cleaner shapefile for the world that doesn&amp;apos;t impact this, but I do need  to do something about this before it becomes &amp;quot;a real thing&amp;quot; for folks. No replies from r-sig-geo yet but I&amp;apos;ll research over the weekend and see what I can come up with. It won&amp;apos;t be super-scary math, but i need to ensure I cover all the edge cases (no pun intended).</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T20:27:50Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1507926"/>
+    <title>Comment by hadley</title>
+    <updated>2015-07-24T20:27:50Z</updated>
+    <author>
+      <name>hadley</name>
+    </author>
+    <content type="html">There some good stuff on the general problem in http://bost.ocks.org/mike/example/</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T21:10:56Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1508014"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-07-24T21:10:56Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">heh. that site of Bostock&amp;apos;s always makes me dizzy. thx for that, tho. hopefully won&amp;apos;t be too hard to work around.</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-24T21:19:45Z</id>
+    <link href="https://gist.github.com/hrbrmstr/363e33f74e2972c93ca7#gistcomment-1508021"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-07-24T21:19:45Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">This comment is solely to see if the IFTTT action is working</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-07-12T18:32:08Z</id>
+    <link href="https://gist.github.com/hrbrmstr/bf821a2e4b48151a8e96#gistcomment-1491158"/>
+    <title>Comment by abresler</title>
+    <updated>2015-07-12T18:32:08Z</updated>
+    <author>
+      <name>abresler</name>
+    </author>
+    <content type="html">This code is so clean just wanted to say nice!!!</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-06-29T13:02:23Z</id>
+    <link href="https://gist.github.com/hrbrmstr/32e9c140129d7d51db52#gistcomment-1482541"/>
+    <title>Comment by bearloga</title>
+    <updated>2015-06-29T13:02:23Z</updated>
+    <author>
+      <name>bearloga</name>
+    </author>
+    <content type="html">Error in UseMethod(&amp;quot;html_nodes&amp;quot;) : 
+  no applicable method for &amp;apos;html_nodes&amp;apos; applied to an object of class &amp;quot;c(&amp;apos;xml_document&amp;apos;, &amp;apos;xml_node&amp;apos;)&amp;quot;
+
+
+:\ Have you seen that error?
+
+P.S. My machine has:
+
+    Package Version
+1      xml2   0.1.1
+2     rvest   0.2.0
+3 htmltools   0.2.6</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-06-29T13:22:38Z</id>
+    <link href="https://gist.github.com/hrbrmstr/32e9c140129d7d51db52#gistcomment-1482548"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-06-29T13:22:38Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">aye. i just made a note in the source.
+
+rvest      * 0.2.0.9000 2015-06-21 Github (hadley/rvest@9461bc4) is what I&amp;apos;m using. I think i can tweak this, tho.</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-06-29T13:38:22Z</id>
+    <link href="https://gist.github.com/hrbrmstr/32e9c140129d7d51db52#gistcomment-1482557"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-06-29T13:38:22Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">and, it should work on stable and github versions</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-06-29T13:48:55Z</id>
+    <link href="https://gist.github.com/hrbrmstr/32e9c140129d7d51db52#gistcomment-1482563"/>
+    <title>Comment by cpsievert</title>
+    <updated>2015-06-29T13:48:55Z</updated>
+    <author>
+      <name>cpsievert</name>
+    </author>
+    <content type="html">I think you want xml2, not xml</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-06-29T14:12:04Z</id>
+    <link href="https://gist.github.com/hrbrmstr/32e9c140129d7d51db52#gistcomment-1482570"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-06-29T14:12:04Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">aye. thxk @cpsievert. v1 was beautiful. v2+ has been coded whilst catching up from being on vacation and dealing with the morning routine.</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-05-17T14:45:01Z</id>
+    <link href="https://gist.github.com/hrbrmstr/51f961198f65509ad863#gistcomment-1455240"/>
+    <title>Comment by irichgreen</title>
+    <updated>2015-05-17T14:45:01Z</updated>
+    <author>
+      <name>irichgreen</name>
+    </author>
+    <content type="html">Hi,
+
+I&amp;apos;ve got an error message in the line number 9 code.
+
+&amp;quot;us &amp;lt;- readOGR(&amp;quot;us_states_hexgrid.geojson&amp;quot;, &amp;quot;OGRGeoJSON&amp;quot;)&amp;quot;
+
+Error in ogrInfo(dsn = dsn, layer = layer, encoding = encoding, use_iconv = use_iconv,  : 
+
+GDAL Error 3: Cannot open file &amp;apos;us_states_hexgrid.geojson&amp;apos;
+
+
+Could you please resolve it?</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-05-17T16:15:09Z</id>
+    <link href="https://gist.github.com/hrbrmstr/51f961198f65509ad863#gistcomment-1455260"/>
+    <title>Comment by bnjcbsn</title>
+    <updated>2015-05-17T16:15:09Z</updated>
+    <author>
+      <name>bnjcbsn</name>
+    </author>
+    <content type="html">Curious about this error as well. Interesting topic.</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-05-21T17:19:31Z</id>
+    <link href="https://gist.github.com/hrbrmstr/51f961198f65509ad863#gistcomment-1458397"/>
+    <title>Comment by hrbrmstr</title>
+    <updated>2015-05-21T17:19:31Z</updated>
+    <author>
+      <name>hrbrmstr</name>
+    </author>
+    <content type="html">I really need to figure out how to get notices abt comments on gists 
+You need the latest gdal library and the a fresh install of rgdal
+
+You need the shapefile referenced in the previous blog post. Here&amp;apos;s the link to said shapefile https://team.cartodb.com/u/andrew/tables/andrew.us_states_hexgrid/public/map
+
+I also added it here</content>
+  </entry>
+  <entry>
+    <id>gist:comment:hrbrmstr:2015-03-18T22:47:43Z</id>
+    <link href="https://gist.github.com/hrbrmstr/43a6d52622825fbd9e3d#gistcomment-1415781"/>
+    <title>Comment by timelyportfolio</title>
+    <updated>2015-03-18T22:47:43Z</updated>
+    <author>
+      <name>timelyportfolio</name>
+    </author>
+    <content type="html">freaking awesome</content>
+  </entry>
+</feed>

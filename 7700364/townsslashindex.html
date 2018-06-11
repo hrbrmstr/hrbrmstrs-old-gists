@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>CMP Outages (%) by Town</title>
+
+<link rel="stylesheet" type="text/css" href="../outage.css"  />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400" />
+
+<script src="../d3.v3.min.js" type="text/javascript" charset="utf8"></script>
+<script src="../topojson.v1.min.js" type="text/javascript" charset="utf8"></script>
+<script src="../jquery-1.10.2.min.js" type="text/javascript" charset="utf8"></script>
+<script src="../jquery-migrate-1.2.1.min.js" type="text/javascript" charset="utf8"></script>
+
+
+<script>
+
+// http://www.maine.gov/megis/catalog/shps/state/metwp24s.zip
+//
+// Maine gov uses transverse mercator so we need to re-project the shapefile to something sane
+// topojson --id-property TOWN -p name=TOWN -p COUNTY -o me_towns.json me_towns_geo.json
+//
+// topojson --simplify-proportion=0.25 --id-property TOWN -p name=TOWN -p COUNTY -o me_towns.json me_towns_geo.json
+
+var maineMap ;
+var width, height ;
+var meTowns ; 
+var me ;
+var centered ;
+								 
+function isEven(n) {
+  return isNumber(n) && (n % 2 == 0);
+}
+
+function isNumber(n) {
+ return n == parseFloat(n);
+}
+								 
+var centers = {} ;
+
+var townOuts = {};
+var q;
+var quantize ;
+var commasFormatter = d3.format(",.0f")
+								 
+$(document).ready(function(){
+
+	width = 700 ;
+  height = 600;
+
+	maineMap = d3.select("#map").append("svg")
+					    .attr("width", width)
+					    .attr("height", height);
+							
+	g = maineMap.append("g")
+	quantize = d3.scale.quantile()
+	             .domain([0, 100]).
+							 range(['rgb(252,197,192)','rgb(250,159,181)','rgb(247,104,161)',
+							        'rgb(221,52,151)','rgb(174,1,126)','rgb(122,1,119)']);
+	
+	// build the map
+	function redraw() { 
+
+		d3.json("/cmp/towns.json", function(error,json) { 
+
+		  q = json ; 
+
+			for (var i=0; i<json.features.length; i++) { 
+			  var a = json.features[i].attributes;
+			  townOuts[a.COUNTYNAME + "-" + a.TOWNNAME] = { numServed:+a.NUMSERVED, numOut:+a.NUMOUT, percentOut:+a.PERCENTOUT };
+		 
+			};
+	 
+		}) ;
+		
+		d3.json("me_towns.json", function(error, maine) {
+			
+			me = maine ;
+			
+			meTowns = topojson.feature(maine, maine.objects.me_towns_geo);
+	
+			// get the topojson features object
+	
+				var projection = d3.geo.mercator()
+											     .center([-69,45]) // rly close to the "center" of maine
+												   .scale(5000) // this seems to work well as a scale for this maine shapefile
+												   .translate([250,320]); // move it over so there's room for real data
+		
+				var path = d3.geo.path()
+				    .projection(projection);	
+
+				function clickme(d) {
+										
+				  var x, y, k;
+
+				  if (d && centered !== d) {
+				    var centroid = path.centroid(d);
+				    x = centroid[0];
+						y = centroid[1];
+				    k = 2.5; // good zoom for this use case
+				    centered = d;
+				  } else {
+				    x = width / 2;
+				    y = height / 2;
+				    k = 1;
+				    centered = null;
+				  }
+
+				  g.selectAll("path")
+				      .classed("active", centered && function(d) { return d === centered; });
+
+				  g.transition()
+				      .duration(500)
+				      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+				      .style("stroke-width", 0.75 / k + "px");
+				}	
+				
+				g.append("g")
+				  .selectAll(".town")
+					.data(meTowns.features)
+					.enter()
+					.append("path")
+					.attr("id", function(d) { return d.id; })
+					.attr("class", function(d) { 
+				    return "town " + d.properties.COUNTY  ; 	
+					})
+					.on("click", clickme)
+					.style("stroke", function(d) {
+						
+						var k =d.properties.COUNTY.toUpperCase() + "-" +  d.properties.name.toUpperCase();
+
+						if (k in townOuts) {
+							return("black") ;
+						} else {
+							return("#7f7f7f");
+						}
+
+					})
+					.style("stroke-width", "0.25")
+					.attr("fill",function(d,i) { 
+						
+						var k =d.properties.COUNTY.toUpperCase() + "-" +  d.properties.name.toUpperCase();
+						
+						if (k in townOuts) {
+							return(quantize(townOuts[k].percentOut)) ;
+						} else {
+							return("white");
+						}
+
+					})
+					.on("mouseover", function(d, i) {
+						var k =d.properties.COUNTY.toUpperCase() + "-" +  d.properties.name.toUpperCase();
+						if (k in townOuts) {
+						 $("#details").html("<center><b>" + d.properties.name + "<br/>" + d.properties.COUNTY + " County</b><br/>" + 
+		             "Total customers: " + commasFormatter(townOuts[k].numServed) + "<br/><b><span style='color:" + quantize(townOuts[k].percentOut) + "'>" + 
+								 commasFormatter(townOuts[k].numOut) + " (" + commasFormatter(townOuts[k].percentOut) + "%)</span></b> without power</center>") ;
+					  } else {
+ 						 $("#details").html(""); 
+					  }
+					})
+					.attr("d", path);
+											
+			});	
+			
+	};	
+	
+	redraw();
+		
+});
+
+</script>
+</head>
+<body>
+<center><h1>CMP Outages (%) by Town</h1></center>
+<center><div id="container" class="container">
+	<div id="maplegend" class="maplegend"></div>
+	<div id="map" class="map"></div>
+	<div id="details" class="details"></div></center>
+</div>
+<hr style="clear:both" noshade size="1">
+<center>By <a href="http://twitter.com/hrbrmstr">@hrbrmstr</a> | Powered by <a href="http://d3js.org/">d3</a> | Source at <a href="https://gist.github.com/hrbrmstr/7700364">github</a> | <a href="http://twitter.com/cmpco">@CMPCO</a>'s <a href="http://outagemap.cmpco.com/maine/?style=maine#">Interactive ESRI Map</a></center>
+</body>
+</html>

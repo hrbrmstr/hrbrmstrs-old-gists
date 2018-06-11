@@ -1,0 +1,56 @@
+library(rgdal)
+library(rgeos)
+library(ggplot2)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(grid)
+
+us <- readOGR("us_states_hexgrid.geojson", "OGRGeoJSON")
+
+centers <- cbind.data.frame(data.frame(gCentroid(us, byid=TRUE), id=us@data$iso3166_2))
+
+us_map <- fortify(us, region="iso3166_2")
+
+intensity <- c(D0="Abnormally Dry", D1="Moderate Drought", D2="Severe Drought",
+               D3="Extreme Drought", D4="Exceptional Drought")
+
+today <- format(Sys.Date(), "%Y%m%d")
+
+read_csv(sprintf("http://droughtmonitor.unl.edu/USDMStatistics.ashx/?mode=table&aoi=state&date=%s", today)) %>%
+  gather(drought_level, value, D0, D1, D2, D3, D4) %>%
+  mutate(intensity=factor(intensity[drought_level],
+                          levels=as.character(intensity), ordered=TRUE)) -> drought
+
+gg <- ggplot()
+gg <- gg + geom_map(data=us_map, map=us_map,
+                    aes(x=long, y=lat, map_id=id),
+                    color="white", size=0.5)
+gg <- gg + geom_map(data=drought, map=us_map,
+                    aes(fill=value, map_id=State))
+gg <- gg + geom_map(data=drought, map=us_map,
+                    aes(map_id=State),
+                    fill="#ffffff", alpha=0, color="white",
+                    show_guide=FALSE)
+gg <- gg + geom_text(data=centers, aes(label=id, x=x, y=y), color="white", size=4)
+gg <- gg + scale_fill_distiller(name="State\nDrought\nCoverage", palette="RdPu", na.value="#7f7f7f",
+                                labels=sprintf("%d%%", c(0, 25, 50, 75, 100)))
+gg <- gg + coord_map()
+gg <- gg + facet_wrap(~intensity, ncol=2)
+gg <- gg + labs(x=NULL, y=NULL, title=sprintf("U.S. Drought Conditions as of %s\n", Sys.Date()))
+gg <- gg + theme_bw()
+gg <- gg + theme(plot.title=element_text(face="bold", hjust=0, size=24))
+gg <- gg + theme(panel.border=element_blank())
+gg <- gg + theme(panel.margin=unit(3, "lines"))
+gg <- gg + theme(panel.grid=element_blank())
+gg <- gg + theme(axis.ticks=element_blank())
+gg <- gg + theme(axis.text=element_blank())
+gg <- gg + theme(strip.background=element_blank())
+gg <- gg + theme(strip.text=element_text(face="bold", hjust=0, size=14))
+gg <- gg + theme(legend.position=c(0.75, 0.15))
+gg <- gg + theme(legend.direction="horizontal")
+gg <- gg + theme(legend.title.align=1)
+
+png(sprintf("%s.png", today), width=800, height=800)
+print(gg)
+dev.off()

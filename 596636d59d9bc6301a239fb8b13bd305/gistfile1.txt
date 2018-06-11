@@ -1,0 +1,19 @@
+dat <- readLines("http://data210g.github.io/web/dl/access.log")
+
+ips <- substr(dat, 1, 15)
+ips <- gsub(" - - ", "", ips)
+ips <- gsub(" - -", "", ips)
+ips <- gsub(" - ", "", ips)
+ips <- gsub(" -", "", ips)
+ips <- gsub(" ", "", ips)
+
+pct <- (sort(table(ips)) / 10000) * 100
+
+summary(as.numeric(table(ips)))
+
+boxplot(as.numeric(table(ips)))
+
+part1 <- gsub("^[[:digit:]\\.[:alpha:]: -/\\[]*", "", dat)
+part2 <- gsub('" .*$', "", part1)
+part3 <- gsub('^] "GET ', "", part2)
+part4 <- gsub(" HTTP.*$", "", part3)

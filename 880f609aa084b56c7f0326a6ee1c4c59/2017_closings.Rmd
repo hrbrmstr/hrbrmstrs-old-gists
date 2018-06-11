@@ -1,0 +1,197 @@
+---
+title: "Exploring 2017 Retail Store Closings with R"
+output:
+  html_document:
+    code_download: true
+    keep_md: true
+    theme: flatly
+    highlight: tango
+editor_options: 
+  chunk_output_type: console
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, dev="png", fig.retina=2)
+```
+
+```{css}
+code {
+  font-family: Iosevka, "Fira Code", "Source Code Pro", monospace;
+}
+```
+
+A story about one of the retail chains (J.C. Penny) releasing the list of stores closing in 2017 [crossed paths](https://www.yahoo.com/news/jc-penney-releases-full-list-103403009.html) with my Feedly reading list today and jogged my memory that there were a number of chains closing many of their doors this year and I wanted to see the impact that might have on various states.
+
+```{r setup}
+library(httr)
+library(rvest)
+library(knitr)
+library(kableExtra)
+library(ggalt)
+library(statebins)
+library(hrbrthemes)
+library(epidata)
+library(tidyverse)
+
+options(knitr.table.format = "html")
+update_geom_font_defaults(font_rc_light, size = 2.75)
+```
+
+"Closing" lists of four major retailers — K-Mart, Sears, Macy's and J.C. Penny — abound (HTML formatting a list seems to be the "easy way out" story-wise for many blogs and newspapers). We can dig a bit deeper than just a plain set of lists, but first we need the data.
+
+The Boston Globe has a nice, predictable, mostly-uniform pattern to their list-closing "stories", so we'll use that data. Site content can change quickly, so it makes sense to try to cache content whenever possible as we scrape it. To that end, we'll use `httr::GET` vs `xml2::read_html` since `GET` preserves all of the original request and response information and `read_html` returns an external pointer that has no current support for serialization without extra work.
+
+```{r data}
+closings <- list(
+  kmart = "https://www.bostonglobe.com/metro/2017/01/05/the-full-list-kmart-stores-closing-around/4kJ0YVofUWHy5QJXuPBAuM/story.html",
+  sears = "https://www.bostonglobe.com/metro/2017/01/05/the-full-list-sears-stores-closing-around/yHaP6nV2C4gYw7KLhuWuFN/story.html",
+  macys = "https://www.bostonglobe.com/metro/2017/01/05/the-full-list-macy-stores-closing-around/6TY8a3vy7yneKV1nYcwY7K/story.html",
+    jcp = "https://www.bostonglobe.com/business/2017/03/17/the-full-list-penney-stores-closing-around/vhoHjI3k75k2pSuQt2mZpO/story.html"
+)
+
+saved_pgs <- "saved_store_urls.rds"
+
+if (file.exists(saved_pgs)) {
+  pgs <- read_rds(saved_pgs)
+} else {
+  pgs <- map(closings, GET)
+  write_rds(pgs, saved_pgs)
+}
+```
+
+This is what we get from that scraping effort:
+
+```{r show}
+map(pgs, content) %>%
+  map(html_table) %>%
+  walk(~glimpse(.[[1]]))
+```
+
+We now need to normalize the content of the lists.
+
+```{r munging}
+map(pgs, content) %>%
+  map(html_table) %>%
+  map(~.[[1]]) %>%
+  map_df(select, abb=3, .id = "store") -> closings
+```
+
+We're ultimately just looking for city/state for this simple exercise, but one could do more precise geolocation (perhaps with [`rgeocodio`](https://github.com/hrbrmstr/rgeocodio)) and combine that with local population data, job loss estimates, current unemployment levels, etc. to make a _real_ story out of the closings vs just do the easy thing and publish a list of stores.
+
+```{r tabulation}
+count(closings, abb) %>%
+  left_join(data_frame(name = state.name, abb = state.abb)) %>%
+  left_join(usmap::statepop, by = c("abb"="abbr")) %>%
+  mutate(per_capita = (n/pop_2015) * 1000000) %>%
+  select(name, n, per_capita) -> closings_by_state
+```
+
+## 2017 Retail Stores (Combined) Closing {.tabset .tabset-fade .tabset-pills}
+
+Sears, J.C. Penny, K-Mart and Macy's are all shutting down retail locations across the U.S.
+
+### Sorted by closigs per-capita (1MM)
+
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"><tr><td>
+
+```{r sb1, echo=FALSE, fig.width=7, fig.height=5}
+statebins_continuous(closings_by_state, state_col="name", value_col="per_capita", 
+          legend_title = "Closings per-capita (1MM)")
+```
+
+</td></tr></table>
+
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"><tr><td>
+
+```{r chart1, echo=FALSE, fig.width=7, fig.height=8}
+arrange(closings_by_state, per_capita) %>%
+  mutate(name = factor(name, name)) %>%
+  ggplot(aes(per_capita, name)) +
+  geom_lollipop(horizontal = TRUE) +
+  scale_x_continuous(name="Closings per capita (1MM)", expand=c(0,0), limits=c(0,7.5)) +
+  geom_label(aes(label=sprintf("%1.2f (n=%d)", per_capita, n)),
+             hjust=0, nudge_x=0.1, label.size=0) +
+  labs(y=NULL) +
+  theme_ipsum_rc(grid="X") +
+  theme(axis.text.x=element_blank())
+```
+
+</td></tr></table>
+
+```{r table1, echo=FALSE}
+arrange(closings_by_state, desc(per_capita)) %>%
+  select(State=name, `Total Stores Closing`=n, `Per Capita (1MM)`=per_capita) %>%
+  kable(align = "lrr", caption="Retail Stores Closing (sorted by per-capita)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = "condensed")
+```
+
+### Sorted by total stores closing
+
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"><tr><td>
+
+```{r sb2, echo=FALSE, fig.width=7, fig.height=5}
+statebins_continuous(closings_by_state, state_col="name", value_col="n", 
+          legend_title = "Total closings per-state")
+```
+
+</td></tr></table>
+
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"><tr><td>
+
+```{r chart2, echo=FALSE, fig.width=7, fig.height=8}
+arrange(closings_by_state, n) %>%
+  mutate(name = factor(name, name)) %>%
+  ggplot(aes(n, name)) +
+  geom_lollipop(horizontal = TRUE) +
+  scale_x_continuous(name="Total closings", expand=c(0,0), limits=c(0,30)) +
+  geom_label(aes(label=n), hjust=0, nudge_x=0.25, label.size=0) +
+  labs(y=NULL) +
+  theme_ipsum_rc(grid="X") +
+  theme(axis.text.x=element_blank())
+```
+
+</td></tr></table>
+
+```{r table2, echo=FALSE}
+arrange(closings_by_state, desc(n)) %>%
+  select(State=name, `Total Stores Closing`=n, `Per Capita (1MM)`=per_capita) %>%
+  kable(align = "lrr", caption="Retail Stores Closing (sorted by total stores)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = "condensed")
+```
+
+### Sorted by state name
+
+```{r table3, echo=FALSE}
+arrange(closings_by_state, name) %>%
+  select(State=name, `Total Stores Closing`=n, `Per Capita (1MM)`=per_capita) %>%
+  kable(align = "lrr", caption="Retail Stores Closing (sorted by state name)") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = "condensed")
+```
+
+## Compared to unemployment
+
+I'd have used the [`epidata`](https://cran.rstudio.com/web/packages/epidata/) to get the current state unemployment data but it's not current, so we can either use a package to get data from the Bureau of Labor Statistics or just scrape it. We'll use the U-6 rate since that is an expanded definition including _"total unemployed, plus all marginally attached workers, plus total employed part time for economic reasons, as a percent of the civilian labor force plus all marginally attached workers"_ and is likely to more representative for the populations working at retail chains.
+
+```{r bls, fig.width=8, fig.height=7}
+pg <- read_html("https://www.bls.gov/lau/stalt16q4.htm")
+
+html_nodes(pg, "table#alternmeas16\\:IV") %>% 
+  html_table(header = TRUE, fill = TRUE) %>%
+  .[[1]] %>% 
+  docxtractr::assign_colnames(1) %>% 
+  rename(name=State) %>% 
+  as_data_frame() %>% 
+  slice(2:52) %>% 
+  type_convert() %>% 
+  left_join(closings_by_state, by="name") %>% 
+  filter(!is.na(n)) -> with_unemp
+
+ggplot(with_unemp, aes(per_capita, `U-6`)) +
+  geom_label(aes(label=name), fill="#8c96c6", color="white", size=3.5, family=font_rc) +
+  scale_x_continuous(limits=c(-0.125, 6.75)) +
+  labs(x="Closings per-capita (1MM)", 
+       y="BLS Labor Underutilization (U-6 rate)",
+       title="Per-capita store closings compared to current BLS U-6 Rate") +
+  theme_ipsum_rc(grid="XY")
+```
+
+If I were a reporter, I think I'd be digging a bit deeper on the impact of these (and the half-dozen or so other) retailers closing locations in New Mexico, Nevada, West Virginia, Wyoming, (mebbe Maine, though I'm super-b ased :-), North Dakota & South Dakota.

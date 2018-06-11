@@ -1,0 +1,1 @@
+You'll need to make 2 plots and use `grid.arrange` if you want more uniform spacing in 8.1 and 8.2. You can add a fill to `strip.background` to extend the background colors and rotate the text with `strip.text`

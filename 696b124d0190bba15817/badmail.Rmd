@@ -1,0 +1,166 @@
+---
+title: "Visualizing the Clinton Email Network in R"
+author: "hrbrmstr"
+date: "`r Sys.Date()`"
+output: html_document
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(
+  collapse=TRUE,
+  comment="#>",
+  fig.retina=2,
+  message=FALSE,
+  warning=FALSE
+)
+```
+
+This isn't a post about politics. I do have opinions about the now infamous e-mail server (which will no doubt come out here), but when the WSJ folks [made it possible to search the Clinton email releases](http://graphics.wsj.com/hillary-clinton-email-documents/) I though it would be fun to get the data into R to show how well the `igraph` and `ggnetwork` packages could work together, and also show how to use `svgPanZoom` to make it a bit easier to poke around the resulting hairball network.
+
+NOTE: There are a couple "**Assignment**" blocks in here. My _Elements of Data Science_ students are no doubt following the blog by now so those are meant for you :-) Other intrepid readers can ignore them.
+
+We'll need some packages:
+
+```{r}
+library(jsonlite)      # read in the JSON data from the API
+library(dplyr)         # data munging
+library(igraph)        # work with graphs in R
+library(ggnetwork)     # devtools::install_github("briatte/ggnetwork")
+library(intergraph)    # ggnetwork needs this to wield igraph things
+library(ggrepel)       # fancy, non-ovelapping labels
+library(svgPanZoom)    # zoom, zoom
+library(SVGAnnotation) # to help svgPanZoom; it's a bioconductor package
+library(DT)            # pretty tables
+```
+
+There's an API backing the WSJ web app. It's not advertised, but it's not hidden either. They were kind enough to actually make this resource available to the public to help them make up their minds as to whether this was a horrible, awful, terrible, inexcusable breach of national security through conceit, hubris and naïvety (see, I have opines :-) -- or not -- and we really shouldn't constantly hit their API just because we want to work with the data on our own. 
+
+To that end, we grab the data from the API and save the R object off so we can work with the local copy whenever we want to.
+
+```{r cache=TRUE}
+if (!file.exists("clinton_emails.rda")) {
+  clinton_emails <- fromJSON("http://graphics.wsj.com/hillary-clinton-email-documents/api/search.php?subject=&text=&to=&from=&start=&end=&sort=docDate&order=desc&docid=&limit=27159&offset=0")$rows
+  save(clinton_emails, file="clinton_emails.rda")
+}
+
+load("clinton_emails.rda")
+```
+
+There are some from/to paris with multipe recipients (~140). We can munge those into shape, but I'm just going to get rid of them since this is just a post about visualizing the network. `strsplit` and `tidyr::unnest` can help if you want to preserve those small number of emails.
+
+```{r}
+clinton_emails %>% 
+  mutate(from=trimws(from),
+         to=trimws(to)) %>% 
+  filter(from != "") %>% 
+  filter(to != "") %>% 
+  filter(!grepl(";", from)) %>% 
+  filter(!grepl(";", to)) -> clinton_emails
+```
+
+>**Assignment:** Reduce the number of `filter()` statements in that code block.
+
+Data with "from" and "to" characteristics lend themselves to graphs. Graphs (in yet another opinion of mine) are inherently objects designed for computation and this could be a fun data set to use to learn some basic graph theory. Let's make a graph first:
+
+```{r}
+gr <- graph_from_data_frame(clinton_emails[,c("from", "to")], directed=FALSE)
+```
+
+Aye, that was all we needed to do. Just tell `igraph` where the "from" and "to" bits are and it does the rest. You can add extra data to nodes & edges, but this will do just fine for this post. 
+
+First, we'll take a look at the [degree centrality](http://www.analytictech.com/mb119/chapter5.htm) so we can properly size the nodes for the final vis.
+
+```{r}
+V(gr)$size <- centralization.degree(gr)$res
+
+datatable(arrange(data_frame(person=V(gr)$name, centrality_degree=V(gr)$size), desc(centrality_degree)))
+```
+
+The names with higher degrees shouldn't be a shocker. This is all about former Secretary Clinton and if you google a bit (or just follow politics like some folks follow $SPORTSBALL) you'll grok why the others are so high on the e-mail frequency list.
+
+Note that this is a bit different than just doing a simple crosstab count: 
+
+```{r}
+datatable(arrange(ungroup(count(clinton_emails, from, to)), desc(n)))
+```
+
+>**Assigment**: "pipify" that code block.
+
+That does show that there are a large number of redundant edges. We'll combine them by simplifying the graph and stroring the sum of the edge connections (it will be stored in the `weight` attribute as long as there is an existing `weight` attribute).
+
+```{r}
+E(gr)$weight <- 1
+g <- simplify(gr, edge.attr.comb="sum")
+```
+
+You can use that `weight` computationally or to size the line connections between vertices. That will be an exercise left to the reader.
+
+Since we're just going to visualize the network, we'll pick a layout and one of my favs is Fruchterman–Reingold. Here's where we'll use `ggnetwork`. 
+
+First, we set a random seed since you'll get a different orientation each time if you don't (the graph algorithm starts at a random point). Then we tell `ggnetwork` to use the FR algorithm to do it's work.
+
+```{r}
+set.seed(1492)
+
+dat <- ggnetwork(g, layout="fruchtermanreingold", arrow.gap=0, cell.jitter=0)
+```
+
+What do `arrow.gap` and `cell.jitter` do? _Be curious_! Hit up `help` and play with the settings.
+
+### Making the vis
+
+It's astonishingly easy to get this graph into ggplot2 now (thanks to `ggnetwork`). `geom_edges` + `geom_nodes` understand the attribute data associated with those graph components, so you can play with how you want various aesthetics mapped.
+
+I add a "repelling label" to the nodes with higher centrality so it's easier to see who the "top talkers" are.
+
+Finally, I pass the `ggplot` object to `svgPlot` and `svgPanZoom` to make it easier to generate a huge graph but still make it explorable.
+
+It may look tiny, but pan/zoom like you would a google map to navigate the graph.
+
+
+```{r}
+ggplot() +
+  geom_edges(data=dat, 
+             aes(x=x, y=y, xend=xend, yend=yend),
+             color="grey50", curvature=0.1, size=0.15, alpha=1/2) +
+  geom_nodes(data=dat,
+             aes(x=x, y=y, xend=xend, yend=yend, size=sqrt(size)),
+             alpha=1/3) +
+  geom_label_repel(data=unique(dat[dat$size>50,c(1,2,5)]),
+                   aes(x=x, y=y, label=vertex.names), 
+                   size=2, color="#8856a7") +
+  theme_blank() +
+  theme(legend.position="none") -> gg
+
+```
+```{r eval=FALSE}
+svgPanZoom(svgPlot(show(gg), height=15, width=15), 
+           width="960px",
+           controlIconsEnabled=TRUE)
+```
+
+<div style="width:100%; max-width:100%">
+
+```{r eval=TRUE, echo=FALSE}
+svgPanZoom(svgPlot(show(gg), height=15, width=15), 
+           width="100%",
+           controlIconsEnabled=TRUE)
+```
+
+</div>
+
+What are those tiny pairs of disconnected mini-graphs doing in there? It's doubtful those folks had e-mail accounts on this illegal, mismanaged server so I'm positing that they are parsing errors by the WSJ. Take a look for yourself:
+
+```{r}
+clinton_emails %>% 
+  filter(from != "Hillary Clinton" & to != "Hillary Clinton") %>% 
+  datatable()
+```
+
+The WSJ also has thd PDFs available. They (thankfully) appear to all contain text vs images (various U.S. government offices have a reputation for giving image PDFs vs text content PDFs to make it harder to work with them, especially with FOIA requests).
+
+If time permits, future posts will expand on the graph component (from the algorithmic side) and do a bit of text mining & visualization on the subjects and PDF text.
+
+```{r bib, include=FALSE}
+# KEEP THIS AT THE END OF THE DOCUMENT TO GENERATE A LOCAL bib FILE FOR PKGS USED
+knitr::write_bib(sub("^package:", "", grep("package", search(), value=TRUE)), file='skeleton.bib')
+```

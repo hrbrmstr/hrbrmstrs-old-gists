@@ -1,0 +1,60 @@
+---
+title: "Vectorize() Vectorization Example"
+author: "Bob Rudis (@hrbrmstr)"
+date: "May 16, 2014"
+output: md_document
+---
+```{r echo=FALSE, message=FALSE, error=FALSE, warning=FALSE}
+library(Rcpp)
+
+# We need this to ensure knitr+Rcpp can link to the boost library 
+Sys.setenv("PKG_LIBS"="-lboost_system")
+
+# We want full integers, not scientific notation
+options(digits = 15)
+```
+
+```{r iputilsCpp, engine='Rcpp'}
+#include <Rcpp.h> 
+#include <boost/asio/ip/address_v4.hpp>
+
+using namespace Rcpp; 
+using namespace boost::asio::ip;
+
+// [[Rcpp::export]]
+unsigned long rinet_pton (CharacterVector ip) { 
+  return(address_v4::from_string(ip[0]).to_ulong());
+}
+
+// [[Rcpp::export]]
+CharacterVector rinet_ntop (unsigned long addr) {
+  return(address_v4(addr).to_string());
+}
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, dependson='iputilsCpp'}
+ip_to_long <- Vectorize(rinet_pton, USE.NAMES=FALSE)
+long_to_ip <- Vectorize(rinet_ntop, USE.NAMES=FALSE)
+```
+
+```{r}
+# try a single IP address first
+  
+ip_to_long("10.0.0.0")
+long_to_ip(167772160)
+```
+
+```{r}
+# now with multiple element vectors
+
+srcIp <- c("146.178.58.99", "174.5.172.152", "146.178.58.99", "213.186.42.8", 
+          "146.178.58.99", "170.138.152.142", "170.138.152.142", "174.5.172.152", 
+          "146.178.58.99", "213.186.42.8")
+
+srcInt <- c(2461153891, 2919607448, 2461153891, 3585747464, 2461153891, 
+            2861209742, 2861209742, 2919607448, 2461153891, 3585747464)
+
+
+ip_to_long(srcIp)
+long_to_ip(srcInt)
+```

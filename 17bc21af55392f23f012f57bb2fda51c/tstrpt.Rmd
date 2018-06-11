@@ -1,0 +1,9 @@
+---
+title: Test Report
+output: html_document
+params:
+  some_var: "default"
+  some_date: !r as.Date("2015-01-01")
+---
+
+Report for `r params$some_var` run on `r params$some_date`

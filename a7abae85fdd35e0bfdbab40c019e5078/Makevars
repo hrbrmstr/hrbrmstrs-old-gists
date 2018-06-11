@@ -1,0 +1,10 @@
+F77=/usr/local/gfortran/bin/gfortran
+FC=/usr/local/gfortran/bin/gfortran
+FLIBS=-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin15/6.1.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm
+CC=ccache /usr/local/opt/gcc/bin/gcc-6 -Wunused-argument
+CXX=ccache /usr/local/opt/gcc/bin/g++-6 -Wunused-argument
+CXX1X=ccache /usr/local/opt/gcc/bin/g++-6
+SHLIB_CXXLD=ccache /usr/local/opt/gcc/bin/g++-6
+CCACHE_CPP=yes
+CCACHE_CPP2=yes
+MAKE=make -j8

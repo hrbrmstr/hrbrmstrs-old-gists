@@ -1,0 +1,184 @@
+---
+title: "Rcpp Vectorization Example"
+author: "Bob Rudis (@hrbrmstr)"
+date: "May 17, 2014"
+output: md_document
+---
+```{r echo=FALSE, message=FALSE, error=FALSE, warning=FALSE}
+library(Rcpp)
+library(bitops)
+library(scales)
+library(xtable)
+library(microbenchmark)
+
+# We need this to ensure knitr+Rcpp can link to the boost library 
+Sys.setenv("PKG_LIBS"="-lboost_system")
+
+# We want full integers, not scientific notation
+options(digits = 5)
+```
+
+The [previous post](http://datadrivensecurity.info/blog/posts/2014/May/vectorizing-ipv4-address-conversions-part-1/) looked at using the `Vectorize()` function to, well, *vectorize*, our [Rcpp IPv4 functions](http://datadrivensecurity.info/blog/posts/2014/May/speeding-up-ipv4-address-conversion-in-r/). While this is a completely acceptable practice, we can perform the vectorization 100% in `Rcpp`/C++. We've included both the original `Rcpp` IPv4 functions and the new `Rcpp`-vectorized functions together to show the minimal differences between them:
+
+```{r iputilsCpp, engine='Rcpp'}
+#include <Rcpp.h> 
+#include <boost/asio/ip/address_v4.hpp>
+
+using namespace Rcpp; 
+using namespace boost::asio::ip;
+
+// Rcpp/C++ vectorized routines
+
+// [[Rcpp::export]]
+NumericVector rcpp_rinet_pton (CharacterVector ip) { 
+
+  int ipCt = ip.size(); // how many elements in vector
+
+  NumericVector ipInt(ipCt); // allocate new numeric vector
+
+  // CONVERT ALL THE THINGS!
+  for (int i=0; i<ipCt; i++) {
+    ipInt[i] = address_v4::from_string(ip[i]).to_ulong();
+  }
+
+  return(ipInt);
+}
+
+// [[Rcpp::export]]
+CharacterVector rcpp_rinet_ntop (NumericVector ip) {
+  
+  int ipCt = ip.size();
+
+  CharacterVector ipStr(ipCt); // allocate new character vector
+  // CONVERT ALL THE THINGS!
+  for (int i=0; i<ipCt; i++) {
+    ipStr[i] = address_v4(ip[i]).to_string();
+  }
+  
+  return(ipStr);
+  
+}
+
+// orignial single-element vector routines we'll vectorize with Vectorize()
+
+// [[Rcpp::export]]
+unsigned long rinet_pton (CharacterVector ip) { 
+  return(boost::asio::ip::address_v4::from_string(ip[0]).to_ulong());
+}
+
+// [[Rcpp::export]]
+CharacterVector rinet_ntop (unsigned long addr) {
+  return(boost::asio::ip::address_v4(addr).to_string());
+}
+```
+
+We've merely wrapped a `for` loop around the original code and built the result vectors in `Rcpp`, relying on the object-oriented nature of C++ for proper value conversion+assignment. The pure-R+`Vectorize()`'d code (from the examples in the [book](http://dds.ec/amzn)) is below, since we're going to pit all three in a head-to-head performance competition.
+
+```{r}
+# Vectorize() the single-element vector routines
+v_rinet_pton <- Vectorize(rinet_pton, USE.NAMES=FALSE)
+v_rinet_ntop <- Vectorize(rinet_ntop, USE.NAMES=FALSE)
+
+# pure R version with Vectorize()
+ip2long <- Vectorize(function(ip) {
+  ips <- unlist(strsplit(ip, '.', fixed=TRUE))
+  octet <- function(x,y) bitOr(bitShiftL(x, 8), y)
+  Reduce(octet, as.integer(ips))
+}, USE.NAMES=FALSE)
+
+long2ip <- Vectorize(function(longip) {
+  octet <- function(nbits) bitAnd(bitShiftR(longip, nbits), 0xFF)
+  paste(Map(octet, c(24,16,8,0)), sep="", collapse=".")
+}, USE.NAMES=FALSE)
+```
+
+Now, we'll read in a file of ~8,000 IPv4 addresses, make them into integers and then use the `microbenchmark` package to profile the to/from conversion of all three versions of the routines.
+
+```{r cache=TRUE}
+# read in ~8K IP address strings & make ints for our benchmark
+ips <- read.table("data/ips.dat", header=FALSE, stringsAsFactors=FALSE)
+ints <- rcpp_rinet_pton(ips$V1)
+
+# run a benchmark 100 times per routine, giving plenty of "ramp up" time
+mb <- microbenchmark(rcpp_ints <- rcpp_rinet_pton(ips$V1), 
+                     rcpp_chars <- rcpp_rinet_ntop(ints),
+                     v_ints <- v_rinet_pton(ips$V1),
+                     v_chars <- v_rinet_ntop(ints), 
+                     r_ints <- ip2long(ips$V1),
+                     r_chars <- long2ip(ints),
+                     control=list(warmup=20),
+                     times=100, unit="s")
+```
+
+Then, we'll take a look at the results (all times are in seconds):
+
+```{r echo=FALSE, results="asis", fig.align='center'}
+df <- data.frame(summary(mb))
+cat("<center><style>td { font-family:monospace; padding:5px} table { margin-bottom:12px;}</style>")
+df$Version <- c("Rcpp-toInt", "Rcpp-toChar", "Rcpp+V()-toInt", "Rcpp+V()-toChar", "Pure R-toInt", "Pure R-toChar")
+print(xtable(df[,c(8,2:6)], digits=10), type="html", include.rownames=FALSE)
+cat("</center>")
+```
+
+If we just look at the median values, we can see that the conversion *to* integer takes:
+
+```{r echo=FALSE, results="asis"}
+cat("<center>")
+print(xtable(df[c(1,3,5), c(8,4)], digits=10), type='html', include.rownames=FALSE)
+cat("</center>")
+```
+
+and, the conversion *to* character takes:
+
+```{r echo=FALSE, results="asis"}
+cat("<center>")
+print(xtable(df[c(2,4,6), c(8,4)], digits=10), type='html', include.rownames=FALSE)
+cat("</center>")
+```
+
+But, a visualization is (often) worth a dozen tables, so we'll take the test results and make a violin plot (which is just a more granular boxplot). Note that the plot is on a **log scale**, so the differences between each set of comparisons are actually much larger than your eye will initially comprehend (hence the inclusion of the above tables).
+
+```{r violin, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.height=6, fig.width=10}
+gg <- ggplot(data=mb, aes(y=time*1.0e-9, fill=expr, x=expr))
+gg <- gg + geom_violin(size=0.25, weight=0.25)
+gg <- gg + scale_fill_manual(values=c("#c2a5cf", "#c2a5cf", "#a6dba0", "#a6dba0", "#abd9e9", "#abd9e9"))
+gg <- gg + scale_y_log10(labels=comma)
+gg <- gg + scale_x_discrete(labels=df$Version)
+gg <- gg + labs(x="", y="seconds (log scale)", title="Time to convert 8,000 IP addresses")
+gg <- gg + theme_bw()
+gg <- gg + coord_flip()
+gg <- gg + theme(legend.position="none")
+gg 
+```
+
+It's often difficult for us to grok fractional seconds, so let's do some basic math to see how long each method would take to process **1 billion** IP addresses. We'll use the median values from above and compare the results in a simple bar chart:
+
+```{r billion, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', fig.height=5, fig.width=4}
+bn <- df[, c(8,4)]
+bn$median <- bn$median/7718 * 1000000000 / 60 / 60
+colnames(bn) <- c("Version", "Hours")
+bn$Version <- gsub("-.*$", "", bn$Version)
+bn$to <- c("to Int", "to Char", "to Int", "to Char", "to Int", "to Char")
+bn <- melt(bn)
+
+bn$hjust <- ifelse(bn$Version == "Pure R", 1.1, -0.1)
+
+gg <- ggplot(bn, aes(x=reorder(Version, value), y=value))
+gg <- gg + geom_bar(aes(fill=Version), stat="identity", width=0.5)
+gg <- gg + geom_text(aes(label=sprintf("%4.2f hrs", value), hjust=hjust), color="black", size=4)
+gg <- gg + scale_fill_manual(values=c("#abd9e9", "#c2a5cf", "#a6dba0"))
+gg <- gg + facet_wrap(~to, ncol=1)
+gg <- gg + coord_flip()
+gg <- gg + labs(x="", y="", title="Time to convert 1 billion IPv4 Addresses (hrs)")
+gg <- gg + theme_bw()
+gg <- gg + theme(legend.position="none")
+gg <- gg + theme(strip.background=element_blank())
+gg <- gg + theme(strip.text=element_text(face="bold"))
+gg <- gg + theme(panel.grid=element_blank())
+gg <- gg + theme(panel.border=element_blank())
+gg <- gg + theme(axis.ticks.x=element_blank())
+gg <- gg + theme(axis.text.x=element_blank())
+gg
+```
+
+The fully vectorized `Rcpp` versions are the clear "winners" and will let us scale our IPv4 address conversions to millions, billions or trillions of operations without having to rely on other scripting languages. We can use this base as foundation for a complete IP address `S4` class that we'll cover in future posts.

@@ -1,0 +1,10 @@
+R:
+  install.packages("Rcpp")
+
+Linux:
+  sudo apt-get install libldns-dev libbsd-dev
+
+OS X: 
+  brew install ldns
+
+Windows: o_O

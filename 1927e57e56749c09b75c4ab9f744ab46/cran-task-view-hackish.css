@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+*, html, body, div, span, p {
+  font-family: "Cabin";
+}
+
+body {
+  margin: 4em;
+}
+
+p {
+  font-size: 1.0em;
+  line-height: 1.4em;
+}
+
+p > strong {
+  font-size:1.2em;
+  line-height: 1.8em;
+}
+
+table, tr, td {
+  font-size:0.80em;
+}
+
+td:nth-child(1) {  
+  text-align: right;
+}
+
+td:nth-child(2) {  
+  text-align: left;
+  padding-left:0.5em;
+}
+
+
+h1, h2, h3, h4, table, tbody, tr, td {
+  font-family: "Droid Sans";
+}
+
+h2 {
+  float: right;
+  display: table;
+  font-size:28pt
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div:first-of-type {  
+  margin:5em;
+}
+
+.ul_flush, .ol_flush {
+  list-style: none;
+  padding-left: 0;
+  display: table;
+}
+li:after {
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  content: "";
+  margin-bottom: 0.5em;
+}
+
+li {
+  display: table-row;
+}
+
+li:before {
+  content: "⦿";
+  display: table-cell;
+  padding-right: 0.4em;
+}
+
+li:after {
+  padding-bottom: 0.8em;
+}
